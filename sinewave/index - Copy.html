@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta content="Martin Fido" name="author">
+<title>sine wave example</title>
+<link rel="SHORTCUT ICON" href="/favicon.ico"/>
+<style type="text/css">
+body { background-color:#e6e6e6; }
+#topNav { height:17px; width:100%; border-bottom:2px solid #fc0; margin-top:20px; font-size:11px; line-height:17px }
+#topNav a { color:#630; text-decoration:none }
+#topNav .tab { height:17px; display:inline; float:left; position:relative; padding-left:5px; padding-right:5px; background-color:#fff4c8; border-right:1px solid #fc0 }
+#topNav .tab:hover { background-color:#fc0; color:#974; }
+#topNav .on { background-color:#fc0; font-weight:700 }
+line { stroke:black; }
+path { stroke:blue; fill:none; }
+</style>
+</head>
+<body>
+<div id="topNav">
+  <div onclick="JavaScript:document.location.href='http://fidolab.org';" class="tab on"><a href="http://fidolab.org">Fido Lab</a></div>
+  <div onclick="JavaScript:document.location.href='http://fidolab.org';" class="tab"><a href="http://fidolab.org/blog">Blog</a></div>
+</div>
+<h1>Sine Wave Example</h1>
+<p>This little example was born from a conversation I had, trying to explain the differences between musical temperaments. When two (or more) musical notes are played together we hear <a href="http://en.wikipedia.org/wiki/Consonance_and_dissonance">dissonance</a> if the notes aren't a perfect ratio. The bottom sine wave is stable (consonant) when a pure ratio is entered and erratic (dissonant) otherwise, as the waves move in and out of phase. Our 12 tone Western Tuning commonly known as "Equal Temperament" favours the major fifth while Meantone Temperaments have better major (and minor) thirds.</p>
+<p>The default frequency of 55Hz is note A in "concert pitch", two octaves below middle C.</p>
+<p>
+  First frequency: <input id="freq1" type="number" value="55" size="7" onchange="select_preset_freq()"/> Hz
+</p>
+<p>
+  Second frequency: <input id="freq2" type="number" value="82.5" size="7" onchange="select_freq2()"/> Hz&nbsp;
+  <select id="f2-note" onchange="select_preset_freq()">
+    <option value="majorfifth" selected="selected">Major Fifth</option>
+    <option value="majorthird">Major Third</option>
+    <option value="custom">custom</option>
+  </select>
+  <select id="f2-temperament" onchange="select_preset_freq()">
+    <option value="pure">Pure Intonation</option>
+    <option value="12equal" selected="selected">12 Tone Equal Temperament</option>
+    <option value="14meantone">1/4 Syntonic Comma Meantone</option>
+    <option value="16meantone">1/6 Syntonic Comma Meantone</option>
+  </select>
+</p>
+<p>
+  Scale: <input id="scale" type="number" value="0.5" size="4" onchange="select_scale()"/> Seconds
+</p>
+<p>
+  Display Update: <input id="fps" type="number" value="30" size="3" maxlength="3" onchange="select_fps()"/> Hz&nbsp;
+  <!-- <select id="timing" onchange="select_timing()">
+    <option value="0">accurate timing</option>
+    <option value="1" selected="selected">inaccurate but smoother</option>
+  </select> -->
+</p>
+<p>
+  <input type="button" id="updatebutton" value="update" onclick="select_update()"/>
+</p>
+<noscript>
+  <p id="noscript-warning" style="font-weight:bold; color:red;">Sorry, this page only works with JavaScript enabled.</p>
+</noscript>
+<svg id="wave" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="500" height="400"></svg>
+<script>
+// constants
+var PI2 = Math.PI * 2;
+
+// user settings
+var fps; // frames per second
+var scale; // seconds shown in each graph
+var timing;
+
+var now = 0;
+var interval = null;
+var graph;
+var wave1;
+var wave2;
+var wave3;
+
+var addEvent = function(elem, type, eventHandle) {
+    if (elem == null || elem == undefined) return;
+    if ( elem.addEventListener ) {
+        elem.addEventListener( type, eventHandle, false );
+    } else if ( elem.attachEvent ) {
+        elem.attachEvent( "on" + type, eventHandle );
+    } else {
+        elem["on"+type]=eventHandle;
+    }
+};
+
+function Svg(elem)
+{
+  if (elem == null || elem == undefined) {
+    // TODO
+    this.elem = null;
+  }
+  else {
+    this.elem = document.getElementById(elem);
+  }
+
+  this.w = +this.elem.getAttribute("width");
+  this.h = +this.elem.getAttribute("height");
+
+  this.rect = function(x, y, w, h, colour)
+  {
+    var rect = document.createElementNS("http://www.w3.org/2000/svg", "rect");
+    rect.setAttribute("x", x);
+    rect.setAttribute("y", y);
+    rect.setAttribute("width", w);
+    rect.setAttribute("height", h);
+    if (colour != null) {
+      rect.setAttribute("fill", colour);
+    }
+    this.elem.appendChild(rect);
+  };
+
+  this.line = function(x1, y1, x2, y2, width, colour)
+  {
+    var line = document.createElementNS("http://www.w3.org/2000/svg", "line");
+    line.setAttribute("x1", x1);
+    line.setAttribute("y1", y1);
+    line.setAttribute("x2", x2);
+    line.setAttribute("y2", y2);
+    if (width != null) {
+      line.setAttribute("stroke-width", width);
+    }
+    if (colour != null) {
+      line.setAttribute("stroke", colour);
+    }
+    this.elem.appendChild(line);
+  };
+
+  this.graph1 = function(x, y, w, h)
+  {
+    this.line(x, y, x, y+h, 1);
+    this.line(x, y+h/2, x+w, y+h/2, 1);
+
+    var path = document.createElementNS("http://www.w3.org/2000/svg", "path");
+    path.setAttribute('d', "");
+    this.elem.appendChild(path);
+    return { svg:this, x:x, y:y, w:w, h:h, yoffset:y+h/2, path:path };
+  };
+
+  return this;
+};
+
+function svg_line(svg, x1, y1, x2, y2, width, colour)
+{
+  var line = document.createElementNS("http://www.w3.org/2000/svg", "line");
+  line.setAttribute("x1", x1);
+  line.setAttribute("y1", y1);
+  line.setAttribute("x2", x2);
+  line.setAttribute("y2", y2);
+  if (width != null) {
+    line.setAttribute("stroke-width", width);
+  }
+  if (colour != null) {
+    line.setAttribute("stroke", colour);
+  }
+  svg.appendChild(line);
+}
+
+function svg_graph_init(svg, x, y, w, h)
+{
+  svg_line(svg, x, y, x, y+h, 1);
+  svg_line(svg, x, y+h/2, x+w, y+h/2, 1);
+
+  var path = document.createElementNS("http://www.w3.org/2000/svg", "path");
+  path.setAttribute('d', "");
+  svg.appendChild(path);
+  return { x:x, y:y, w:w, h:h, yoffset:y+h/2, path:path };
+}
+
+function sine_wave_update()
+{
+  if (timing == 0) {
+    now = +new Date() / 1000;
+  }
+  else {
+    now += 1 / fps;
+  }
+
+  var x = graph.x;
+  var m = now * PI2;
+  var y1 = Math.sin(wave1.freq * m) * 25;
+  var y2 = Math.sin(wave2.freq * m) * 25;
+
+  var l = 'M' + x + ',';
+  var path1 = l + (wave1.yoffset + y1);
+  var path2 = l + (wave2.yoffset + y2);
+  var path3 = l + (wave3.yoffset + y1 + y2);
+
+  for (; x <= graph.x2; x += 1) {
+    m = (now + x * scale / graph.w) * PI2;
+    y1 = Math.sin(wave1.freq * m) * 25;
+    y2 = Math.sin(wave2.freq * m) * 25;
+
+    l = 'L' + x + ',';
+    path1 += l + (wave1.yoffset + y1);
+    path2 += l + (wave2.yoffset + y2);
+    path3 += l + (wave3.yoffset + y1 + y2);
+  }
+
+  wave1.path.setAttribute('d', path1);
+  wave2.path.setAttribute('d', path2);
+  wave3.path.setAttribute('d', path3);
+}
+
+function select_fps()
+{
+  fps = document.getElementById("fps").value;
+
+  if (interval) {
+    clearInterval(interval);
+  }
+
+  interval = setInterval(sine_wave_update, 1000/fps);
+}
+
+function select_scale()
+{
+  scale = document.getElementById("scale").value;
+}
+
+function select_timing()
+{
+  timing = 0; //+document.getElementById("timing").value;
+}
+
+function select_preset_freq()
+{
+  var note = document.getElementById("f2-note").value;
+
+  wave1.freq = document.getElementById("freq1").value;
+
+  if (note === "custom") {
+    document.getElementById("f2-temperament").disabled = true;
+  }
+  else
+  {
+    document.getElementById("f2-temperament").disabled = false;
+    var temperament = document.getElementById("f2-temperament").value;
+
+    var pure_ratios = { majorfifth:3/2, majorfourth:4/3, majorthird:5/4 };
+    var note_number = { majorfifth:7, majorthird:4 };
+
+    var multiplier = 0;
+
+    switch (temperament) {
+      case "pure":
+        multiplier = note in pure_ratios ? pure_ratios[note] : 0;
+        break;
+
+      case "12equal":
+        multiplier = Math.exp((note_number[note]/12) / Math.LOG2E);
+        break;
+
+      case "14mean":
+        var major_fifth = (3/2) / Math.pow(81/80, 1/4);
+
+        multiplier = (3/2) / Math.pow(81/80, 1/4);
+        multiplier = Math.pow(major_fifth, 4) / 4;
+        break;
+      case "16mean":
+        multiplier = (3/2) / Math.pow(81/80, 1/6);
+
+        var major_fifth = (3/2) / Math.pow(81/80, 1/6);
+        multiplier = Math.pow(major_fifth, 4) / 4;
+        break;
+
+      default:
+        break;
+    }
+
+    if (multiplier > 0) {
+      wave2.freq = wave1.freq * multiplier;
+      // TODO - remove trailing zeros (switch between toFixed/toString?)
+      document.getElementById("freq2").value = wave2.freq.toFixed(3);
+    }
+  }
+}
+
+function select_freq2()
+{
+  document.getElementById("f2-note").value = "custom";
+  document.getElementById("f2-temperament").disabled = true;
+  wave2.freq = document.getElementById("freq2").value;
+}
+
+function select_update()
+{
+  select_preset_freq();
+  select_scale();
+  select_fps();
+}
+
+window.onload = function()
+{
+  var obj = Svg("wave");
+
+  // first sine wave, frequency 1
+  obj.rect(0, 0, obj.w, obj.h, "white");
+  graph = { x:10, y:10, w:obj.w-20, h:100, x2:10+obj.w-20 };
+  wave1 = obj.graph1(graph.x, graph.y, graph.w, graph.h);
+
+  // plus symbol
+  graph.y += 120;
+  obj.line(obj.w/2-10, graph.y, obj.w/2+10, graph.y, 3);
+  obj.line(obj.w/2, graph.y-10, obj.w/2, graph.y+10, 3);
+
+  // second sine wave, frequency 2
+  graph.y += 20;
+  wave2 = obj.graph1(graph.x, graph.y, graph.w, graph.h);
+
+  // equals symbol
+  graph.y += 120;
+  obj.line(obj.w/2-10, graph.y-4, obj.w/2+10, graph.y-4, 3);
+  obj.line(obj.w/2-10, graph.y+4, obj.w/2+10, graph.y+4, 3);
+
+  // third sine wave, frequency 1+2
+  graph.y += 20;
+  wave3 = obj.graph1(graph.x, graph.y, graph.w, graph.h);
+
+  select_preset_freq();
+  select_scale();
+  select_timing();
+  select_fps();
+}
+</script>
+</body>
+</html>
