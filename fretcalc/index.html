@@ -14,12 +14,9 @@ th, td { padding: 2px; }
 td { text-align: right; }
 </style>
 <script type="text/javascript">
-//<!--
-
 const pythagorean_comma = Math.pow(3, 12) / Math.pow(2, 19);
 const syntonic_comma = 81 / 80;
 
-// � ♯ ♮ ♭ �
 class Note {
   constructor(name, ratio, cents) {
     this.name = name;
@@ -27,21 +24,39 @@ class Note {
     this.cents = cents;
   }
 
-  static ratio(name, ratio, normalize) {
+  static ofRatio(name, ratio, normalize) {
     if (normalize) {
       while (ratio < 1) { ratio *= 2; }
       while (ratio >= 2) { ratio /= 2; }
     }
-    let cents = 1200 * Math.log(ratio) / Math.LN2;
+    let cents = Math.log(ratio) * (1200 / Math.LN2);
     return new Note(name, ratio, cents);
   }
 
-  static cents(name, cents, normalize) {
+  static ofCents(name, cents, normalize) {
     if (normalize) {
       cents %= 1200; // check this works for negative numbers
     }
     let ratio = Math.exp(cents / (1200 * Math.LOG2E));
     return new Note(name, ratio, cents);
+  }
+
+  static parse(str) {
+    let name = str;
+    let parts = str.split(":");
+    if (parts.length === 2) {
+      name = parts[0];
+      str = parts[1];
+    }
+    let fraction = str.split("/");
+    if ((fraction.length === 2) && !isNaN(fraction[0]) && !isNaN(fraction[1])) {
+      return Note.ofRatio(name, fraction[0] / fraction[1], true);
+    }
+    let num = Number(str);
+    if (!Number.isNaN(num)) {
+      return Note.ofCents(name, num, true);
+    }
+    return null;
   }
 
   ratio_str() {
@@ -64,7 +79,7 @@ class Note {
 function equal_temperament(notes_per_octave) {
   var notes = [];
   for (var i = 0; i < notes_per_octave; i++) {
-    notes.push(Note.cents(i, 1200 * i / notes_per_octave));
+    notes.push(Note.ofCents(i, 1200 * i / notes_per_octave));
   }
   return notes;
 }
@@ -72,10 +87,10 @@ function equal_temperament(notes_per_octave) {
 function meantone(comma, division) {
   let major_fifth = (3 / 2) / Math.pow(comma, division);
   let whole_tone = major_fifth * major_fifth / 2;
-  let major_third = whole_tone * whole_tone;
-  let major_fourth = major_fifth / whole_tone;
-  let major_sixth = major_fifth * whole_tone;
-  let major_seventh = major_sixth * whole_tone;
+  let major_third = whole_tone * whole_tone; // major_sixth * major_fifth / 2
+  let major_fourth = 2 / major_fifth; // major_fifth / whole_tone;
+  let major_sixth = whole_tone * major_fifth;
+  let major_seventh = major_third * major_fifth; // major_sixth * whole_tone;
   let diatonic_semitone = 2 / major_seventh;
   let chromatic_semitone = whole_tone / diatonic_semitone;
 
@@ -84,9 +99,9 @@ function meantone(comma, division) {
   let notes = [];
 
   function add(name, ratio) {
-    notes.push(Note.ratio(name, ratio));
-    notes.push(Note.ratio(name + '♯', ratio * chromatic_semitone));
-    notes.push(Note.ratio(name + '♭', ratio / chromatic_semitone, true));
+    notes.push(Note.ofRatio(name, ratio));
+    notes.push(Note.ofRatio(name + '♯', ratio * chromatic_semitone));
+    notes.push(Note.ofRatio(name + '♭', ratio / chromatic_semitone, true));
   }
 
   add(names[0], 1);
@@ -98,7 +113,6 @@ function meantone(comma, division) {
   add(names[6], major_seventh);
 
   notes.sort(function(a, b) { return a.ratio - b.ratio; });
-
   return notes;
 }
 
@@ -109,150 +123,36 @@ function bach_lehman_1722() {
   const names = [ 'C', 'C♯', 'D', 'E♭', 'E', 'F', 'F♯', 'G', 'G♯', 'A', 'B♭', 'B' ];
 
   let notes = [];
-  let i = 5; // F
+  let i = 5; // start on the major fourth
   let ratio = 1 / narrow_fifth;
 
   for (; i < (5 * 7); i += 7) {
-    notes.push(Note.ratio(names[i % 12], ratio, true));
+    notes.push(Note.ofRatio(names[i % 12], ratio, true));
     ratio *= narrow_fifth;
   }
   for (; i < (8 * 7); i += 7) {
-    notes.push(Note.ratio(names[i % 12], ratio, true));
+    notes.push(Note.ofRatio(names[i % 12], ratio, true));
     ratio *= pure_fifth;
   }
   for (; i < (12 * 7); i += 7) {
-    notes.push(Note.ratio(names[i % 12], ratio, true));
+    notes.push(Note.ofRatio(names[i % 12], ratio, true));
     ratio *= half_narrow_fifth;
   }
 
-  let a = {};
-  for (let n of notes) {
-    if (![ 'D', 'A', 'F♯' ].includes(n.name)) continue;
-    console.log(n.name);
-    for (let m of notes) {
-      let c = m.cents - n.cents;
-      while (c < 0) c += 1200;
-      while (c > 1200) c -= 1200;
-      c = c.toFixed(3);
-      if (!(c in a)) a[c] = [];
-      a[c].push(n.name + ' ' + m.name);
-    }
-  }
-  console.log(a);
-
   notes.sort(function(a, b) { return a.ratio - b.ratio; });
 
-  
   return notes;
 }
 
-function pure_intonation() {
-  let r = [
-    [ 1, 1, 'tonic' ],
-    [ 32805, 32768, 'schisma (3 to the 8th/2 to the 12th x 5/8)' ],
-    [ 81, 80, 'syntonic comma' ],
-    [ 531441, 524288, 'Pythagorean comma (3 to the 12th/2 to the 19th)' ],
-    [ 56, 55, 'Ptolemy\'s enharmonic' ],
-    [ 46, 45, 'inferior quarter-tone (Ptolemy)' ],
-    [ 128, 125, 'diminished second / diesis (16/15 x 24/25)' ],
-    [ 525, 512, 'enharmonic diesis (Avicenna)' ],
-    [ 39, 38, 'superior quarter-tone (Eratosthenes)' ],
-    [ 36, 35, 'superior quarter-tone (Archytas)' ],
-    [ 33, 32, '' ],
-    [ 32, 31, 'inferior quarter-tone (Didymus)' ],
-    [ 31, 30, 'superior quarter-tone (Didymus)' ],
-    [ 28, 27, 'inferior quarter-tone (Archytas)' ],
-    [ 26, 25, '1/3-tone (Avicenna)' ],
-    [ 25, 24, 'minor 5-limit half-step / chromatic semitone' ],
-    [ 22, 21, 'hard 1/2-step (Ptolemy, Avicenna, Safiud)' ],
-    [ 21, 20, '' ],
-    [ 256, 243, 'Pythagorean half-step / Pythagorean minor semitone' ],
-    [ 135, 128, 'limma ascendant / major limma' ],
-    [ 17, 16, 'overtone half-step' ],
-    [ 16, 15, 'major 5-limit half-step / diatonic semitone' ],
-    [ 15, 14, 'Cowell just half-step' ],
-    [ 27, 25, 'alternate Renaissance half-step / large limma neutral-second' ],
-    [ 13, 12, '3/4-tone (Avicenna)' ],
-    [ 12, 11, 'undecimal "median" 1/2-step' ],
-    [ 11, 10, '' ],
-    [ 10, 9, 'minor whole-tone' ],
-    [ 9, 8, 'major whole-tone' ],
-    [ 8, 7, 'septimal whole-tone' ],
-    [ 144, 125, 'diminished third (6/5 x 24/25)' ],
-    [ 196, 169, 'consonant interval (Avicenna)' ],
-    [ 7, 6, 'septimal minor third' ],
-    [ 75, 64, 'augmented second (9/8 x 25/24)' ],
-    [ 32, 27, 'Pythagorean minor third / semiditone' ],
-    [ 19, 16, 'overtone minor third' ],
-    [ 6, 5, '5-limit minor third' ],
-    [ 11, 9, 'undecimal "median" third' ],
-    [ 8192, 6561, 'Pythagorean "schismatic" third' ],
-    [ 5, 4, '5-limit major third' ],
-    [ 81, 64, 'Pythagorean major third / ditone' ],
-    [ 14, 11, '' ],
-    [ 32, 25, 'diminished fourth' ],
-    [ 9, 7, 'septimal major third' ],
-    [ 125, 96, 'augmented third (5/4 x 25/24)' ],
-    [ 21, 16, 'septimal fourth' ],
-    [ 4, 3, 'perfect fourth' ],
-    [ 27, 20, 'acute fourth' ],
-    [ 512, 375, 'double diminished fifth' ],
-    [ 11, 8, 'undecimal tritone (11th harmonic)' ],
-    [ 25, 18, 'augmented fourth / classic tritone (4/3 x 25/24)' ],
-    [ 7, 5, 'septimal tritone' ],
-    [ 1024, 729, 'low Pythagorean tritone' ],
-    [ 45, 32, 'high 5-limit tritone / diatonic tritone' ],
-    [ 64, 45, 'low 5-limit tritone' ],
-    [ 729, 512, 'high Pythagorean tritone' ],
-    [ 10, 7, 'septimal tritone' ],
-    [ 16, 11, '' ],
-    [ 36, 25, 'diminished fifth (3/2 x 24/25)' ],
-    [ 40, 27, 'dissonant "wolf" 5-limit fifth' ],
-    [ 3, 2, 'perfect fifth' ],
-    [ 32, 21, '' ],
-    [ 192, 125, 'diminished sixth (8/5 x 24/25)' ],
-    [ 14, 9, 'septimal minor sixth' ],
-    [ 25, 16, 'augmented fifth' ],
-    [ 11, 7, 'undecimal minor sixth' ],
-    [ 128, 81, 'Pythagorean minor sixth' ],
-    [ 8, 5, '5-limit minor sixth' ],
-    [ 6561, 4096, 'Pythagorean "schismatic" sixth' ],
-    [ 13, 8, 'overtone sixth' ],
-    [ 18, 11, 'undecimal "median" sixth' ],
-    [ 5, 3, '5-limit major sixth' ],
-    [ 27, 16, 'Pythagorean major sixth' ],
-    [ 128, 75, 'diminished seventh (16/9 x 24/25)' ],
-    [ 12, 7, 'septimal major sixth' ],
-    [ 125, 72, 'augmented sixth (5/3 x 25/24)' ],
-    [ 7, 4, 'septimal minor seventh' ],
-    [ 16, 9, 'Pythagorean small min. seventh' ],
-    [ 9, 5, '5-limit large minor seventh' ],
-    [ 11, 6, 'undecimal "median" seventh' ],
-    [ 15, 8, '5-limit major seventh' ],
-    [ 243, 128, 'Pythagorean major seventh' ],
-    [ 40, 21, '' ],
-    [ 27, 14, 'septimal major seventh' ],
-    [ 64, 33, '' ],
-    [ 125, 64, 'augmented seventh (15/8 x 25/24)' ],
-    [ 160, 81, '' ],
-    [ 15, 11, 'undecimal augmented fourth' ],
-    [ 320, 243, 'grave fourth' ],
-    [ 13, 10, 'tridecimal augmented third' ],
-    [ 100, 81, 'grave major third' ],
-    [ 243, 300, 'acute minor third' ],
-    [ 254, 225, 'diminshed third' ],
-    [ 800, 729, 'grave wholetone neutral-second' ],
-    [ 2187, 2048, 'Pythagorean major semitone' ]
-  ];
-
+function custom_temperament(note_list) {
   let notes = [];
-  for (let i = 0; i < r.length; i++) {
-    let n = r[i];
-    notes.push(Note.ratio(n[0] + '/' + n[1] + ' ' + n[2], n[0] / n[1]));
+  for (let str of note_list.split(" ")) {
+    let note = Note.parse(str);
+    if (note) {
+      notes.push(note);
+    }
   }
-
   notes.sort(function(a, b) { return a.ratio - b.ratio; });
-
   return notes;
 }
 
@@ -288,7 +188,8 @@ function update_scale() {
       break;
     }
     default: {
-      notes = pure_intonation();
+      let note_list = document.getElementById('cs').value;
+      notes = custom_temperament(note_list);
       break;
     }
   }
@@ -325,8 +226,9 @@ function update_scale() {
 
 function select_scale() {
   let sel = document.getElementById('temperament').value;
-  document.getElementById('equalparam').style.display = (sel == 'equal') ? 'block' : 'none';
-  document.getElementById('meantoneparam').style.display = (sel == 'meantone') ? 'block' : 'none';
+  document.getElementById('equalparam').style.display = (sel === 'equal') ? 'block' : 'none';
+  document.getElementById('meantoneparam').style.display = (sel === 'meantone') ? 'block' : 'none';
+  document.getElementById('customparam').style.display = (sel === 'custom') ? 'block' : 'none';
   update_scale();
 }
 
@@ -373,27 +275,26 @@ window.onload = function() {
 
   select_scale();
 }
-// -->
 </script>
 </head>
 <body>
-This is a fret position calculator to help locate fret slots when building stringed instruments. A variety of temperaments are supported including meantone and pure intonation. The majority of pure ratios are taken from Kyle Gann's <a href="http://www.kylegann.com/octave.html">Anatomy of an octave</a> page.
+This is a fret position calculator to help locate fret slots when building stringed instruments. A variety of temperaments are supported including meantone and pure intonation.
 <p>Temperament:
 <select id="temperament" onchange="select_scale()">
-  <option value="equal">Equal Temperament / division</option>
+  <option value="equal">Equal Temperament / Division</option>
   <option value="meantone">Meantone</option>
-  <option value="lehman">Bach Lehman 1722</option>
-  <option value="pure">Pure Intonation</option>
+  <option value="lehman">Bach Lehman 1722 (larips.com)</option>
+  <option value="custom">Custom (Pure Intonation)</option>
 </select></p>
 <p id="equalparam">
-  notes per octave: <input id="npo" type="number" name="notes per octave" value="12" onchange="got_input()">
+  Notes per Octave: <input id="npo" type="number" name="Notes per Octave" value="12" onchange="got_input()">
 </p>
 <p id="meantoneparam">
-  comma: <select id="comma" onchange="got_input()">
+  Comma: <select id="comma" onchange="got_input()">
   <option value="s" selected="selected">Syntonic</option>
   <option value="p">Pythagorean</option>
   </select>&nbsp;&nbsp;
-  division: <select id="division" onchange="got_input()">
+  Division: <select id="division" onchange="got_input()">
   <option value="3">1/3</option>
   <option value="3.5">2/7</option>
   <option value="4" selected="selected">1/4</option>
@@ -401,19 +302,22 @@ This is a fret position calculator to help locate fret slots when building strin
   <option value="6">1/6</option>
   </select>
 </p>
+<p id="customparam">
+  Notes: <input id="cs" type="text" name="custom temperament" size="80" value="C:1/1 C♯:25/24 10/9 D:9/8 32/27 E♭:6/5 E:5/4 F:4/3 25/18 F♯:45/32 G:3/2 G♯:25/16 A:5/3 16/9 B♭:9/5 B:15/8" onchange="got_input()">
+</p>
 <p>
-  Scale length: <input id="sl" type="number" name="scale length" min="0.01" value="25.5" step="0.01" onchange="got_input()">
+  Scale Length: <input id="sl" type="number" name="scale length" min="0.01" value="25.5" step="0.01" onchange="got_input()">
 </p>
 <p>
   <input type="button" id="updatebutton" value="update" onclick="update_pressed()">
   <input type="checkbox" id="a" value="auto" onclick="got_input()"> automatic
 </p>
 <noscript>
-  <p id="noscript-warning" style="font-weight:bold; color:red;">Sorry, the calculator only works on modern browsers with JavaScript enabled.</p>
+  <p id="noscript-warning" style="font-weight:bold; color:red;">Sorry, this calculator only works on modern browsers with JavaScript enabled.</p>
 </noscript>
 <table id="frets">
-  <tr><th rowspan="2">Fret</th><th rowspan="2">ratio</th><th rowspan="2">cents</th><th rowspan="2">Cent Offset</th><th colspan="3">Distance from nut</th><th colspan="3">Frequency</th></tr>
-  <tr><th>First octave</th><th>Second octave</th><th>Third octave</th><th>First octave</th><th>Second octave</th><th>Third octave</th></tr>
+  <tr><th rowspan="2">Fret</th><th rowspan="2">Ratio</th><th rowspan="2" colspan="2">Cents</th><th colspan="3">Distance from Nut</th><th colspan="3">Frequency</th></tr>
+  <tr><th>First Octave</th><th>Second Octave</th><th>Third Octave</th><th>First Octave</th><th>Second Octave</th><th>Third Octave</th></tr>
 </tr>
 </table>
 </body>
