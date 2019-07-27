@@ -7,10 +7,9 @@
 <meta name="description" content="A calculator to provide fret position measurements when building stringed instruments" />
 <link rel="SHORTCUT ICON" href="/favicon.ico" />
 <style type="text/css">
-body { background-color:#e6e6e6; }
-table { border-collapse:collapse; }
-table, th, td { border: 1px solid black; }
-th, td { padding: 2px; }
+body { background-color: #e6e6e6; }
+table { border-collapse: collapse; border: 1px solid black; }
+th, td { border: 1px solid black; padding: 3px; }
 td { text-align: right; }
 </style>
 <script type="text/javascript">
@@ -77,19 +76,21 @@ class Note {
     return hundreds + ((offset >= 0) ? '+' : '') + offset.toFixed(3);
   }
 
-  static almostInt(num) {
-    // TODO optimise this
-    // num % 1 then check if close to 0 or close to 1?
-    let fix = num.toFixed(13)
-    let rnd = fix.replace(/\.0+$/, '');
-    //console.log(num + ' -> ' + res);
-    return (fix.length !== rnd.length) ? rnd : null;
+  static approxInt(num) {
+    let mod = num % 1;
+    if ((mod > 0.0000000000001) && (mod < 0.9999999999999)) {
+      return null;
+    }
+    return num.toFixed(13).replace(/\.0+$/, '');
+    //let fix = num.toFixed(13)
+    //let rnd = fix.replace(/\.0+$/, '');
+    //return (fix.length !== rnd.length) ? rnd : null;
   }
 
   fraction_str() {
     let re = new RegExp('\.0+$', 'i');
     for (let bot = 1; bot < 50; bot++) {
-      let top = Note.almostInt(this.ratio * bot);
+      let top = Note.approxInt(this.ratio * bot);
       if (top) {
         return top + '/' + bot; 
       }
@@ -100,88 +101,85 @@ class Note {
 
 class Temperament {
 
-}
-
-// Scale create functions
-
-function equal_temperament(notes_per_octave) {
-  var notes = [];
-  for (var i = 0; i < notes_per_octave; i++) {
-    notes.push(Note.ofCents(i, 1200 * i / notes_per_octave));
-  }
-  return notes;
-}
-
-function meantone(comma, division) {
-  let major_fifth = (3 / 2) / Math.pow(comma, division);
-  let whole_tone = major_fifth * major_fifth / 2;
-  let major_third = whole_tone * whole_tone; // major_sixth * major_fifth / 2
-  let major_fourth = 2 / major_fifth; // major_fifth / whole_tone;
-  let major_sixth = whole_tone * major_fifth;
-  let major_seventh = major_third * major_fifth; // major_sixth * whole_tone;
-  let diatonic_semitone = 2 / major_seventh;
-  let chromatic_semitone = whole_tone / diatonic_semitone;
-
-  //let names = [ 'C', 'D', 'E', 'F', 'G', 'A', 'B' ];
-  let names = [ '1', '2', '3', '4', '5', '6', '7' ];
-  let notes = [];
-
-  function add(name, ratio) {
-    notes.push(Note.ofRatio(name, ratio));
-    notes.push(Note.ofRatio(name + '♯', ratio * chromatic_semitone));
-    notes.push(Note.ofRatio(name + '♭', ratio / chromatic_semitone, true));
-  }
-
-  add(names[0], 1);
-  add(names[1], whole_tone);
-  add(names[2], major_third);
-  add(names[3], major_fourth);
-  add(names[4], major_fifth);
-  add(names[5], major_sixth);
-  add(names[6], major_seventh);
-
-  notes.sort(function(a, b) { return a.ratio - b.ratio; });
-  return notes;
-}
-
-function bach_lehman_1722() {
-  const pure_fifth = 3 / 2;
-  const narrow_fifth = pure_fifth / Math.pow(pythagorean_comma, 1 / 6);
-  const half_narrow_fifth = pure_fifth / Math.pow(pythagorean_comma, 1 / 12);
-  const names = [ 'C', 'C♯', 'D', 'E♭', 'E', 'F', 'F♯', 'G', 'G♯', 'A', 'B♭', 'B' ];
-
-  let notes = [];
-  let i = 5; // start on the major fourth
-  let ratio = 1 / narrow_fifth;
-
-  for (; i < (5 * 7); i += 7) {
-    notes.push(Note.ofRatio(names[i % 12], ratio, true));
-    ratio *= narrow_fifth;
-  }
-  for (; i < (8 * 7); i += 7) {
-    notes.push(Note.ofRatio(names[i % 12], ratio, true));
-    ratio *= pure_fifth;
-  }
-  for (; i < (12 * 7); i += 7) {
-    notes.push(Note.ofRatio(names[i % 12], ratio, true));
-    ratio *= half_narrow_fifth;
-  }
-
-  notes.sort(function(a, b) { return a.ratio - b.ratio; });
-
-  return notes;
-}
-
-function custom_temperament(note_list) {
-  let notes = [];
-  for (let str of note_list.split(" ")) {
-    let note = Note.parse(str);
-    if (note) {
-      notes.push(note);
+  static equal(notes_per_octave) {
+    var notes = [];
+    for (var i = 0; i < notes_per_octave; i++) {
+      notes.push(Note.ofCents(i, 1200 * i / notes_per_octave));
     }
+    return notes;
   }
-  notes.sort(function(a, b) { return a.ratio - b.ratio; });
-  return notes;
+
+  static meantone(comma, division) {
+    let major_fifth = (3 / 2) / Math.pow(comma, division);
+    let whole_tone = major_fifth * major_fifth / 2;
+    let major_third = whole_tone * whole_tone; // major_sixth * major_fifth / 2
+    let major_fourth = 2 / major_fifth; // major_fifth / whole_tone;
+    let major_sixth = whole_tone * major_fifth;
+    let major_seventh = major_third * major_fifth; // major_sixth * whole_tone;
+    let diatonic_semitone = 2 / major_seventh;
+    let chromatic_semitone = whole_tone / diatonic_semitone;
+
+    //let names = [ 'C', 'D', 'E', 'F', 'G', 'A', 'B' ];
+    let names = ['1', '2', '3', '4', '5', '6', '7'];
+    let notes = [];
+
+    function add(name, ratio) {
+      notes.push(Note.ofRatio(name, ratio));
+      notes.push(Note.ofRatio(name + '♯', ratio * chromatic_semitone));
+      notes.push(Note.ofRatio(name + '♭', ratio / chromatic_semitone, true));
+    }
+
+    add(names[0], 1);
+    add(names[1], whole_tone);
+    add(names[2], major_third);
+    add(names[3], major_fourth);
+    add(names[4], major_fifth);
+    add(names[5], major_sixth);
+    add(names[6], major_seventh);
+
+    notes.sort(function (a, b) { return a.ratio - b.ratio; });
+    return notes;
+  }
+
+  static bach_lehman_1722() {
+    const pure_fifth = 3 / 2;
+    const narrow_fifth = pure_fifth / Math.pow(pythagorean_comma, 1 / 6);
+    const half_narrow_fifth = pure_fifth / Math.pow(pythagorean_comma, 1 / 12);
+    const names = ['C', 'C♯', 'D', 'E♭', 'E', 'F', 'F♯', 'G', 'G♯', 'A', 'B♭', 'B'];
+
+    let notes = [];
+    let i = 5; // start on the major fourth
+    let ratio = 1 / narrow_fifth;
+
+    for (; i < (5 * 7); i += 7) {
+      notes.push(Note.ofRatio(names[i % 12], ratio, true));
+      ratio *= narrow_fifth;
+    }
+    for (; i < (8 * 7); i += 7) {
+      notes.push(Note.ofRatio(names[i % 12], ratio, true));
+      ratio *= pure_fifth;
+    }
+    for (; i < (12 * 7); i += 7) {
+      notes.push(Note.ofRatio(names[i % 12], ratio, true));
+      ratio *= half_narrow_fifth;
+    }
+
+    notes.sort(function (a, b) { return a.ratio - b.ratio; });
+
+    return notes;
+  }
+
+  static custom(note_list) {
+    let notes = [];
+    for (let str of note_list.split(" ")) {
+      let note = Note.parse(str);
+      if (note) {
+        notes.push(note);
+      }
+    }
+    notes.sort(function (a, b) { return a.ratio - b.ratio; });
+    return notes;
+  }
 }
 
 // Fret table functions
@@ -202,22 +200,22 @@ function update_scale() {
       if (isNaN(notes_per_octave) || (notes_per_octave < 1)) {
         return null;
       }
-      notes = equal_temperament(notes_per_octave);
+      notes = Temperament.equal(notes_per_octave);
       break;
     }
     case 'meantone': {
       let comma = document.getElementById('comma').value == 's' ? syntonic_comma : pythagorean_comma;
       let division = 1 / document.getElementById('division').value;
-      notes = meantone(comma, division);
+      notes = Temperament.meantone(comma, division);
       break;
     }
     case 'lehman': {
-      notes = bach_lehman_1722();
+      notes = Temperament.bach_lehman_1722();
       break;
     }
     default: {
       let note_list = document.getElementById('cs').value;
-      notes = custom_temperament(note_list);
+      notes = Temperament.custom(note_list);
       break;
     }
   }
@@ -347,11 +345,13 @@ temperaments are supported including meantone and pure intonation.
   </select>
 </p>
 <p id="customparam">
-  Notes: <input id="cs" type="text" name="custom temperament" size="80" value="C:1/1 C♯:25/24 10/9 D:9/8 32/27 E♭:6/5 E:5/4 F:4/3 25/18 F♯:45/32 G:3/2 G♯:25/16 A:5/3 16/9 B♭:9/5 B:15/8" onchange="got_input()">
+  <input id="cs" type="text" name="custom temperament" size="80" value="C:1/1 C♯:25/24 10/9 D:9/8 32/27 E♭:6/5 E:5/4 F:4/3 25/18 F♯:45/32 G:3/2 G♯:25/16 A:5/3 16/9 B♭:9/5 B:15/8" onchange="got_input()">
 </p>
 <p>
-  Root Frequency: <input id="rf" type="text" name="root frequency" value="110" onchange="got_input()">Hz&nbsp;&nbsp;
   Root Note: <select id="rn" onchange="got_input()"></select>
+</p>
+<p>
+  Root Frequency: <input id="rf" type="text" name="root frequency" value="110" onchange="got_input()">Hz
 </p>
 <p>
   Scale Length: <input id="sl" type="text" name="scale length" value="25.5" onchange="got_input()">
@@ -363,15 +363,17 @@ temperaments are supported including meantone and pure intonation.
 <table id="frets">
   <tr>
     <th rowspan="2">Fret / Name</th>
-    <th rowspan="2" colspan="2">Ratio</th>
-    <th rowspan="2" colspan="2">Cents</th>
+    <th rowspan="2">Ratio<br/><small>(fraction)</small></th>
+    <th rowspan="2">Ratio<br/><small>(decimal)</small></th>
+    <th rowspan="2">Cents</th>
+    <th rowspan="2">Cents<br/><small>(offset)</small></th>
     <th rowspan="2">Frequency</th>
     <th colspan="3">Distance from Nut</th>
   </tr>
   <tr>
-    <th>First Octave</th>
-    <th>Second Octave</th>
-    <th>Third Octave</th>
+    <th><small>first octave</small></th>
+    <th><small>second octave</small></th>
+    <th><small>third octave</small></th>
   </tr>
 </tr>
 </table>
