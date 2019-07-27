@@ -17,8 +17,6 @@ td { text-align: right; }
 const pythagorean_comma = Math.pow(3, 12) / Math.pow(2, 19);
 const syntonic_comma = 81 / 80;
 
-const biggest_denom = 131072;
-
 class Note {
   constructor(name, ratio, cents) {
     this.name = name;
@@ -37,7 +35,7 @@ class Note {
 
   static ofCents(name, cents, normalize) {
     if (normalize) {
-      cents %= 1200; // check this works for negative numbers
+      cents %= 1200; // TODO check this works for negative numbers
     }
     let ratio = Math.exp(cents / (1200 * Math.LOG2E));
     return new Note(name, ratio, cents);
@@ -88,8 +86,8 @@ class Note {
   }
 
   fraction_str() {
-    let re = new RegExp('\.0+$', 'i');
-    for (let bot = 1; bot < 50; bot++) {
+    const biggest_denom = 131072;
+    for (let bot = 1; bot < biggest_denom; bot++) {
       let top = Note.approxInt(this.ratio * bot);
       if (top) {
         return top + '/' + bot; 
@@ -119,8 +117,8 @@ class Temperament {
     let diatonic_semitone = 2 / major_seventh;
     let chromatic_semitone = whole_tone / diatonic_semitone;
 
-    //let names = [ 'C', 'D', 'E', 'F', 'G', 'A', 'B' ];
-    let names = ['1', '2', '3', '4', '5', '6', '7'];
+    let names = [ 'C', 'D', 'E', 'F', 'G', 'A', 'B' ];
+    //let names = ['1', '2', '3', '4', '5', '6', '7'];
     let notes = [];
 
     function add(name, ratio) {
@@ -141,6 +139,7 @@ class Temperament {
     return notes;
   }
 
+  // larips.com
   static bach_lehman_1722() {
     const pure_fifth = 3 / 2;
     const narrow_fifth = pure_fifth / Math.pow(pythagorean_comma, 1 / 6);
@@ -167,6 +166,23 @@ class Temperament {
     notes.sort(function (a, b) { return a.ratio - b.ratio; });
 
     return notes;
+  }
+
+  static werckmeister3() {
+    return [
+      Note.ofRatio('C', 1),
+      Note.ofRatio('C♯', 256/243),
+      Note.ofRatio('D', 64/81 * Math.sqrt(2)),
+      Note.ofRatio('E♭', 32/27),
+      Note.ofRatio('E', 256/243 * Math.pow(2, 1/4)),
+      Note.ofRatio('F', 4/3),
+      Note.ofRatio('F♯', 1024/729),
+      Note.ofRatio('G', 8/9 * Math.pow(8, 1/4)),
+      Note.ofRatio('G♯', 128/81),
+      Note.ofRatio('A', 1024/729 * Math.pow(2, 1/4)),
+      Note.ofRatio('A♯', 16/9),
+      Note.ofRatio('B', 128/81 * Math.pow(2, 1/4))
+    ];
   }
 
   static custom(note_list) {
@@ -212,6 +228,24 @@ function update_scale() {
     case 'lehman': {
       notes = Temperament.bach_lehman_1722();
       break;
+    }
+    case 'w3': {
+      notes = Temperament.werckmeister3();
+      break;
+    }
+    case 'yg': {
+      notes = Temperament.custom("C:0 C♯:93.9 D:195.8 E♭:297.8 E:391.7 F:499.9 F♯:591.9 G:697.9 G♯:795.8 A:893.8 A♯:999.8 B:1091.8");
+    }
+    case 'tf1': {
+      notes = Temperament.custom("A:0 B♭:96 B:199 C:302 C♯:396 D:502 E♭:596 E:698 F:800 F♯:896 G:1004 G♯:1096");
+      break;
+    }
+    case 'rv': {
+      notes = Temperament.custom("F:1/1 F♯:63/64 G:9/8 G♯:567/512 A:81/64 B♭:21/16 B:729/512 C:3/2 C♯:189/128 D:27/16 E♭:7/4 E:243/128");
+      break;
+    }
+    case 'py': {
+      notes = Temperament.custom("C:1/1 C♯:2187/2048 D:9/8 E♭:32/27 E:81/64 F:4/3 F♯:729/512 G:3/2 G♯:128/81 A:27/16 A♯:16/9 B:243/128");
     }
     default: {
       let note_list = document.getElementById('cs').value;
@@ -326,7 +360,12 @@ temperaments are supported including meantone and pure intonation.
   <option value="equal">Equal Temperament / Division</option>
   <option value="meantone">Meantone</option>
   <option value="lehman">Bach Lehman 1722 (larips.com)</option>
-  <option value="custom">Custom (Pure Intonation)</option>
+  <option value="w3">Werckmeister III</option>
+  <option value="yg">Young</option>
+  <option value="tf1">Thidell Formula 1 (truetemperament.com)</option>
+  <option value="rv">Revelation Tuning (michaelharrison.com)</option>
+  <option value="py">Pythagorean</option>
+  <option value="custom">Custom</option>
 </select></p>
 <p id="equalparam">
   Notes per Octave: <input id="npo" type="number" name="Notes per Octave" value="12" onchange="got_input()">
@@ -345,7 +384,7 @@ temperaments are supported including meantone and pure intonation.
   </select>
 </p>
 <p id="customparam">
-  <input id="cs" type="text" name="custom temperament" size="80" value="C:1/1 C♯:25/24 10/9 D:9/8 32/27 E♭:6/5 E:5/4 F:4/3 25/18 F♯:45/32 G:3/2 G♯:25/16 A:5/3 16/9 B♭:9/5 B:15/8" onchange="got_input()">
+  <input id="cs" type="text" name="custom temperament" size="80" value="C:1/1 C♯:25/24 D:9/8 E♭:6/5 E:5/4 F:4/3 F♯:45/32 G:3/2 G♯:25/16 A:5/3 B♭:9/5 B:15/8" onchange="got_input()">
 </p>
 <p>
   Root Note: <select id="rn" onchange="got_input()"></select>
