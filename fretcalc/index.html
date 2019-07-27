@@ -79,8 +79,8 @@ class Note {
     if ((mod > 0.0000000000001) && (mod < 0.9999999999999)) {
       return null;
     }
-    return num.toFixed(13).replace(/\.0+$/, '');
-    //let fix = num.toFixed(13)
+    return num.toFixed(12).replace(/\.0+$/, '');
+    //let fix = num.toFixed(12);
     //let rnd = fix.replace(/\.0+$/, '');
     //return (fix.length !== rnd.length) ? rnd : null;
   }
