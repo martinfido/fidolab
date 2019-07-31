@@ -1,251 +1,312 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+
 <head>
-<meta charset="UTF-8" />
-<title>Fret position Calculator | Fido Lab</title>
-<meta name="author" content="Martin Fido" />
-<meta name="description" content="A calculator to provide fret position measurements when building stringed instruments" />
-<link rel="SHORTCUT ICON" href="/favicon.ico" />
-<style type="text/css">
-body { background-color: #e6e6e6; }
-table { border-collapse: collapse; border: 1px solid black; }
-th, td { border: 1px solid black; padding: 3px; }
-td { text-align: right; }
-</style>
-<script type="text/javascript" src="temperament.js"></script>
-<script type="text/javascript">
+  <meta charset="UTF-8" />
+  <title>Fret position Calculator | Fido Lab</title>
+  <meta name="author" content="Martin Fido" />
+  <meta name="description"
+    content="A temperament calculator and fret position calculator for stringed instruments" />
+  <link rel="SHORTCUT ICON" href="/favicon.ico" />
+  <style type="text/css">
+    body {
+      background-color: #e6e6e6;
+      font-family: Verdana, Geneva, Tahoma, sans-serif
+    }
+    noscript div {
+      border: 10px solid red;
+      background-color: black;
+      color: red;
+      font-family: monospace;
+      text-align: center;
+    }
+    noscript a {
+      color: red;
+    }
+    .fl ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+    .fl li {
+      font-weight: bold;
+      background-color: #404040;
+      float: left;
+    }
+    .fl li a {
+      display: inline-block;
+      color: #e6e6e6;
+      text-align: center;
+      text-decoration: none;
+      padding: 7px 7px;
+    }
+    table {
+      border-collapse: collapse;
+      border: 1px solid black;
+    }
+    th,td {
+      border: 1px solid black;
+      padding: 3px;
+    }
+    td {
+      text-align: right;
+    }
+  </style>
+  <script type="text/javascript" src="temperament.js"></script>
+  <script type="text/javascript">
 
-function to_map(list, separator) {
-  let obj = {};
-  for (let param of list) {
-    let parts = param.split(separator);
-    if (parts.length !== 2) continue;
-    obj[parts[0]] = parts[1];
-  }
-  return obj;
-}
-
-function query_params() {
-  let str = decodeURIComponent(window.location.search);
-  if (str.startsWith('?')) {
-    str = str.substr(1);
-  }
-  return to_map(str.split('&'), '=');
-}
-
-function perma_query(params) {
-  let query = '';
-  for (let i in params) {
-    let p = params[i];
-    let element = document.getElementById(p);
-    if (element.parentElement.style.display === 'none') continue;
-    if (query !== '') query += '&';
-    query += p + '=' + element.value;
-  }
-  return query;
-}
-
-function get_notes() {
-  let temperament = document.getElementById('tm').value;
-  switch (temperament) {
-    case 'equal': {
-      let notes_per_octave = document.getElementById('npo').value;
-      if (isNaN(notes_per_octave) || (notes_per_octave < 1)) {
-        return [];
+    function to_map(list, separator) {
+      let obj = {};
+      for (let param of list) {
+        let parts = param.split(separator);
+        if (parts.length !== 2) continue;
+        obj[parts[0]] = parts[1];
       }
-      return Temperament.equal(notes_per_octave);
-    }
-    case 'meantone': {
-      let comma = document.getElementById('comma').value == 's' ? syntonic_comma : pythagorean_comma;
-      let division = 1 / document.getElementById('division').value;
-      return Temperament.meantone(comma, division);
-    }
-    case 'lehman': {
-      return Temperament.bach_lehman_1722();
-    }
-    case 'w3': {
-      return Temperament.werckmeister_3();
-    }
-    case 'yg': {
-      return Temperament.young();
-    }
-    case 'tf1': {
-      return Temperament.thidell_formula_1();
-    }
-    case 'rv': {
-      return Temperament.revelation();
-    }
-    case 'py': {
-      return Temperament.pythagorean();
-    }
-    default: {
-      let notes_str = document.getElementById('cs').value;
-      return Temperament.custom(notes_str);
-    }
-  }
-}
-
-function update_table() {
-  let notes = get_notes();
-  let scale_length = document.getElementById('sl').value;
-  let root_note = document.getElementById('rn').value;
-  let root_frequency = document.getElementById('rf').value;
-  let table = document.getElementById('frets');
-
-    // remove all but the table header
-  while (table.rows.length > 2) {
-    table.deleteRow(-1);
-  }
-
-  for (let fret_number = 0; fret_number < notes.length; fret_number++) {
-    let note = notes[fret_number];
-    let row = table.insertRow();
-
-    let col = 0;
-    let cell = row.insertCell(col++);
-    cell.innerHTML = note.name;
-    cell.style.textAlign = 'left';
-
-    row.insertCell(col++).innerHTML = note.fraction_str();
-    row.insertCell(col++).innerHTML = note.ratio_str();
-    row.insertCell(col++).innerHTML = note.cent_str();
-    row.insertCell(col++).innerHTML = note.cent_offset_str();
-
-    if (root_frequency) {
-      row.insertCell(col++).innerHTML = (note.ratio * root_frequency).toFixed(3);
-    } else {
-      row.insertCell(col++).innerHTML = null;
+      return obj;
     }
 
-    if (scale_length) {
-      for (let octave = 0; octave < 3; octave++) {
-        let position = scale_length - (scale_length / (note.ratio * Math.pow(2, octave)));
-        row.insertCell(col++).innerHTML = position.toFixed(5);
+    function query_params() {
+      let str = decodeURIComponent(window.location.search);
+      if (str.startsWith('?')) {
+        str = str.substr(1);
       }
-    } else {
-      for (let octave = 0; octave < 3; octave++) {
-        row.insertCell(col++).innerHTML = null;
+      return to_map(str.split('&'), '=');
+    }
+
+    function perma_query(params) {
+      let query = '';
+      for (let i in params) {
+        let p = params[i];
+        let element = document.getElementById(p);
+        if (element.parentElement.style.display === 'none') continue;
+        if (query !== '') query += '&';
+        query += p + '=' + element.value;
+      }
+      return query;
+    }
+
+    function get_notes() {
+      let temperament = document.getElementById('tm').value;
+      switch (temperament) {
+        case 'equal': {
+          let notes_per_octave = document.getElementById('npo').value;
+          if (isNaN(notes_per_octave) || (notes_per_octave < 1)) {
+            return [];
+          }
+          return Temperament.equal(notes_per_octave);
+        }
+        case 'meantone': {
+          let comma = document.getElementById('comma').value == 's' ? syntonic_comma : pythagorean_comma;
+          let division = 1 / document.getElementById('division').value;
+          return Temperament.meantone(comma, division);
+        }
+        case 'lehman': {
+          return Temperament.bach_lehman_1722();
+        }
+        case 'w3': {
+          return Temperament.werckmeister_3();
+        }
+        case 'yg': {
+          return Temperament.young();
+        }
+        case 'tf1': {
+          return Temperament.thidell_formula_1();
+        }
+        case 'rv': {
+          return Temperament.revelation();
+        }
+        case 'py': {
+          return Temperament.pythagorean();
+        }
+        default: {
+          let notes_str = document.getElementById('cs').value;
+          return Temperament.custom(notes_str);
+        }
       }
     }
-  }
-}
 
-const perma_params = [ 'tm', 'npo', 'cs', 'rn', 'rf', 'sl' ];
+    function update_table() {
+      let notes = get_notes();
+      let scale_length = document.getElementById('sl').value;
+      let root_note = document.getElementById('rn').value;
+      let root_frequency = document.getElementById('rf').value;
+      let table = document.getElementById('frets');
 
-function on_temperament() {
-  let sel = document.getElementById('tm').value;
-  document.getElementById('ep').style.display = (sel === 'equal') ? 'block' : 'none';
-  document.getElementById('mp').style.display = (sel === 'meantone') ? 'block' : 'none';
-  document.getElementById('cp').style.display = (sel === 'custom') ? 'block' : 'none';
-  //if (document.getElementById('a').checked) {
-    update_table();
-  //}
-}
+      // remove all but the table header
+      while (table.rows.length > 2) {
+        table.deleteRow(-1);
+      }
 
-function on_input() {
-  //if (document.getElementById('a').checked) {
-    update_table();
-  //}
-}
+      for (let fret_number = 0; fret_number < notes.length; fret_number++) {
+        let note = notes[fret_number];
+        let row = table.insertRow();
 
-function on_update() {
-  if (window.history.replaceState) {
-    // TODO add a separate permalink button
-    //window.history.replaceState({}, null, '?' + perma_query(perma_params));
-  }
-  update_table();
-}
+        let col = 0;
+        let cell = row.insertCell(col++);
+        cell.innerHTML = note.name;
+        cell.style.textAlign = 'left';
 
-window.onload = function() {
-  let query = query_params();
-  for (let i in perma_params) {
-    let key = perma_params[i];
-    let val = query[key];
-    if ((val !== undefined) && (val !== null) && (val !== '')) {
-      document.getElementById(key).value = val;
+        row.insertCell(col++).innerHTML = note.fraction_str();
+        row.insertCell(col++).innerHTML = note.ratio_str();
+        row.insertCell(col++).innerHTML = note.cent_str();
+        row.insertCell(col++).innerHTML = note.cent_offset_str();
+
+        if (root_frequency) {
+          row.insertCell(col++).innerHTML = (note.ratio * root_frequency).toFixed(3);
+        } else {
+          row.insertCell(col++).innerHTML = null;
+        }
+
+        if (scale_length) {
+          for (let octave = 0; octave < 3; octave++) {
+            let position = scale_length - (scale_length / (note.ratio * Math.pow(2, octave)));
+            row.insertCell(col++).innerHTML = position.toFixed(5);
+          }
+        } else {
+          for (let octave = 0; octave < 3; octave++) {
+            row.insertCell(col++).innerHTML = null;
+          }
+        }
+      }
     }
-  }
 
-  update_table();
-}
-</script>
+    const perma_params = ['tm', 'npo', 'cs', 'rn', 'rf', 'sl'];
+
+    function on_temperament() {
+      let sel = document.getElementById('tm').value;
+      document.getElementById('ep').style.display = (sel === 'equal') ? 'block' : 'none';
+      document.getElementById('mp').style.display = (sel === 'meantone') ? 'block' : 'none';
+      document.getElementById('cp').style.display = (sel === 'custom') ? 'block' : 'none';
+      //if (document.getElementById('a').checked) {
+      update_table();
+      //}
+    }
+
+    function on_input() {
+      //if (document.getElementById('a').checked) {
+      update_table();
+      //}
+    }
+
+    function on_update() {
+      if (window.history.replaceState) {
+        // TODO add a separate permalink button
+        //window.history.replaceState({}, null, '?' + perma_query(perma_params));
+      }
+      update_table();
+    }
+
+    window.onload = function () {
+      let query = query_params();
+      for (let i in perma_params) {
+        let key = perma_params[i];
+        let val = query[key];
+        if ((val !== undefined) && (val !== null) && (val !== '')) {
+          document.getElementById(key).value = val;
+        }
+      }
+
+      on_temperament();
+    }
+  </script>
 </head>
+
 <body>
-  <header>
-    <a href="/">Fido Lab</a>
+  <header class="fl">
+    <ul>
+      <li><a href="/">Fido Lab</a></li>
+    </ul>
   </header>
-</br>
-<noscript>
-  <div id="noscript-warning" style="border: 10px solid red; background-color: black; color: red; font-family: monospace; text-align: center;">
-    <strong><p>Sorry, this page only works on modern browsers with JavaScript enabled.</p>
-    <p>If you need a new browser, you might like to try <a href="https://www.mozilla.org/firefox/">Mozilla Firefox</a>.</p>
-    <p>If you have disabled JavaScript due to security or privacy concerns, feel free to audit the source. It's quite small.</p></strong>
-  </div>
-  </br>
-</noscript>
-This is a fret position calculator to help locate fret slots when building stringed instruments. A variety of
-temperaments are supported including meantone and pure intonation.
-<p>
-  Temperament: <select id="tm" onchange="on_temperament()">
-    <option value="equal">Equal Temperament / Division</option>
-    <option value="meantone">Meantone</option>
-    <option value="lehman">Bach Lehman 1722 (larips.com)</option>
-    <option value="w3">Werckmeister III</option>
-    <option value="yg">Young</option>
-    <option value="tf1">Thidell Formula 1 (truetemperament.com)</option>
-    <option value="rv">Revelation Tuning (michaelharrison.com)</option>
-    <option value="py">Pythagorean</option>
-    <option value="custom">Custom</option>
-  </select>
-</p>
-<p id="ep">
-  Notes per Octave: <input id="npo" type="number" name="Notes per Octave" value="12" onchange="on_input()">
-</p>
-<p id="mp" style="display: none;">
-  Comma: <select id="comma" onchange="on_input()">
-  <option value="s" selected="selected">Syntonic</option>
-  <option value="p">Pythagorean</option>
-  </select>&nbsp;&nbsp;
-  Division: <select id="division" onchange="on_input()">
-  <option value="3">1/3</option>
-  <option value="3.5">2/7</option>
-  <option value="4" selected="selected">1/4</option>
-  <option value="5">1/5</option>
-  <option value="6">1/6</option>
-  </select>
-</p>
-<p id="cp" style="display: none;">
-  <input id="cs" type="text" name="custom temperament" size="80" value="C:1/1 C♯:25/24 D:9/8 E♭:6/5 E:5/4 F:4/3 F♯:45/32 G:3/2 G♯:25/16 A:5/3 B♭:9/5 B:15/8" onchange="on_input()">
-</p>
-<p>
-  Root Note: <select id="rn" onchange="on_input()"></select>
-</p>
-<p>
-  Root Frequency: <input id="rf" type="text" name="root frequency" value="110" onchange="on_input()">Hz
-</p>
-<p>
-  Scale Length: <input id="sl" type="text" name="scale length" value="25.5" onchange="on_input()">
-</p>
-<p>
-  <input type="button" id="updatebutton" name="update" value="update" onclick="on_update()">
-  <!--<input type="checkbox" id="a" name="automatically update" value="auto" onclick="on_input()"> auto update-->
-</p>
-<table id="frets">
-  <tr>
-    <th rowspan="2">Fret / Name</th>
-    <th rowspan="2">Ratio<br/><small>(fraction)</small></th>
-    <th rowspan="2">Ratio<br/><small>(decimal)</small></th>
-    <th rowspan="2">Cents</th>
-    <th rowspan="2">Cents<br/><small>(offset)</small></th>
-    <th rowspan="2">Frequency</th>
-    <th colspan="3">Distance from Nut</th>
-  </tr>
-  <tr>
-    <th><small>first octave</small></th>
-    <th><small>second octave</small></th>
-    <th><small>third octave</small></th>
-  </tr>
-</tr>
-</table>
+  <noscript>
+    <br />
+    <div id="noscript-warning">
+      <strong>
+        <p>
+          Sorry, this page only works on modern browsers with JavaScript enabled.
+        </p>
+        <p>
+          If you need a new browser, you might like to try <a href="https://www.mozilla.org/firefox/">Mozilla
+            Firefox</a>.
+        </p>
+        <p>
+          If you have disabled JavaScript due to security or privacy concerns, feel free to audit my source. It's quite
+          small.
+        </p>
+      </strong>
+    </div>
+  </noscript>
+  <p>
+    This is a temperament calculator for converting musical units (ratios, cents, frequencies) and to help
+    position frets on stringed instruments.
+  </p>
+  <p>
+    To specify your own temperament select "Custom" from the menu. Separate notes with spaces. Write e.g. "3/1" or
+    "A:3/1" for ratios, and "70.6" or "D:70.6" for cents.
+  </p>
+  <p>
+    Temperament:
+    <select id="tm" onchange="on_temperament()">
+      <option value="equal">Equal Temperament / Division</option>
+      <option value="meantone">Meantone</option>
+      <option value="lehman">Bach Lehman 1722 (larips.com)</option>
+      <option value="w3">Werckmeister III</option>
+      <option value="yg">Young</option>
+      <option value="tf1">Thidell Formula 1 (truetemperament.com)</option>
+      <option value="rv">Revelation Tuning (michaelharrison.com)</option>
+      <option value="py">Pythagorean</option>
+      <option value="custom">Custom</option>
+    </select></p>
+  <p id="ep">
+    Notes per Octave: <input id="npo" type="number" name="Notes per Octave" value="12" onchange="on_input()">
+  </p>
+  <p id="mp" style="display: none;">
+    Comma: <select id="comma" onchange="on_input()">
+      <option value="s" selected="selected">Syntonic</option>
+      <option value="p">Pythagorean</option>
+    </select>&nbsp;&nbsp;
+    Division: <select id="division" onchange="on_input()">
+      <option value="3">1/3</option>
+      <option value="3.5">2/7</option>
+      <option value="4" selected="selected">1/4</option>
+      <option value="5">1/5</option>
+      <option value="6">1/6</option>
+    </select>
+  </p>
+  <p id="cp" style="display: none;">
+    <input id="cs" type="text" name="custom temperament" size="80"
+      value="C:1/1 C♯:25/24 D:9/8 E♭:6/5 E:5/4 F:4/3 F♯:45/32 G:3/2 G♯:25/16 A:5/3 B♭:9/5 B:15/8" onchange="on_input()">
+  </p>
+  <p>
+    Root Note: <select id="rn" onchange="on_input()"></select>
+  </p>
+  <p>
+    Root Frequency: <input id="rf" type="text" name="root frequency" value="110" onchange="on_input()">Hz
+  </p>
+  <p>
+    Scale Length: <input id="sl" type="text" name="scale length" value="25.5" onchange="on_input()">
+  </p>
+  <p>
+    <input type="button" id="updatebutton" name="update" value="update" onclick="on_update()">
+    <!--<input type="checkbox" id="a" name="automatically update" value="auto" onclick="on_input()"> auto update-->
+  </p>
+  <table id="frets">
+    <tr>
+      <th rowspan="2">Fret / Name</th>
+      <th rowspan="2">Ratio<br /><small>(fraction)</small></th>
+      <th rowspan="2">Ratio<br /><small>(decimal)</small></th>
+      <th rowspan="2">Cents</th>
+      <th rowspan="2">Cents<br /><small>(offset)</small></th>
+      <th rowspan="2">Frequency</th>
+      <th colspan="3">Distance from Nut</th>
+    </tr>
+    <tr>
+      <th><small>first octave</small></th>
+      <th><small>second octave</small></th>
+      <th><small>third octave</small></th>
+    </tr>
+    </tr>
+  </table>
 </body>
+
 </html>
