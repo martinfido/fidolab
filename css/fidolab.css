@@ -21,14 +21,9 @@ body {
     padding: 7px 7px;
   }
   noscript div {
-    border: 10px solid red;
-    background-color: black;
-    color: red;
+    border: 10px solid #404040;
     font-family: monospace;
     text-align: center;
-  }
-  noscript a {
-    color: red;
   }
   table {
     border-collapse: collapse;
