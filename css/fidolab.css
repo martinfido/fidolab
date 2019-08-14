@@ -1,0 +1,46 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+  }
+  .fl ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  .fl li {
+    font-weight: bold;
+    background-color: #404040;
+    float: left;
+  }
+  .fl li a {
+    display: inline-block;
+    color: #f0f0f0;
+    text-align: center;
+    text-decoration: none;
+    padding: 7px 7px;
+  }
+  noscript div {
+    border: 10px solid red;
+    background-color: black;
+    color: red;
+    font-family: monospace;
+    text-align: center;
+  }
+  noscript a {
+    color: red;
+  }
+  table {
+    border-collapse: collapse;
+  }
+  th,td {
+    border: 1px solid #404040;
+    padding: 3px;
+  }
+  th {
+    background-color: #cce6ff;
+  }
+  td {
+    text-align: right;
+    background-color:#ffffcc;
+  }

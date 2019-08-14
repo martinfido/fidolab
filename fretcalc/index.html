@@ -7,84 +7,11 @@
   <meta name="author" content="Martin Fido" />
   <meta name="description"
     content="A temperament calculator and fret position calculator for stringed instruments" />
-  <link rel="SHORTCUT ICON" href="/favicon.ico" />
-  <style type="text/css">
-    body {
-      background-color: #e6e6e6;
-      font-family: Verdana, Geneva, Tahoma, sans-serif
-    }
-    noscript div {
-      border: 10px solid red;
-      background-color: black;
-      color: red;
-      font-family: monospace;
-      text-align: center;
-    }
-    noscript a {
-      color: red;
-    }
-    .fl ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      overflow: hidden;
-    }
-    .fl li {
-      font-weight: bold;
-      background-color: #404040;
-      float: left;
-    }
-    .fl li a {
-      display: inline-block;
-      color: #e6e6e6;
-      text-align: center;
-      text-decoration: none;
-      padding: 7px 7px;
-    }
-    table {
-      border-collapse: collapse;
-      border: 1px solid black;
-    }
-    th,td {
-      border: 1px solid black;
-      padding: 3px;
-    }
-    td {
-      text-align: right;
-    }
-  </style>
-  <script type="text/javascript" src="temperament.js"></script>
+  <link rel="SHORTCUT ICON" href="../favicon.ico" />
+  <link rel="stylesheet" type="text/css" href="../css/fidolab.css">
+  <script type="text/javascript" src="../js/util.js"></script>
+  <script type="text/javascript" src="../js/temperament.js"></script>
   <script type="text/javascript">
-
-    function to_map(list, separator) {
-      let obj = {};
-      for (let param of list) {
-        let parts = param.split(separator);
-        if (parts.length !== 2) continue;
-        obj[parts[0]] = parts[1];
-      }
-      return obj;
-    }
-
-    function query_params() {
-      let str = decodeURIComponent(window.location.search);
-      if (str.startsWith('?')) {
-        str = str.substr(1);
-      }
-      return to_map(str.split('&'), '=');
-    }
-
-    function perma_query(params) {
-      let query = '';
-      for (let i in params) {
-        let p = params[i];
-        let element = document.getElementById(p);
-        if (element.parentElement.style.display === 'none') continue;
-        if (query !== '') query += '&';
-        query += p + '=' + element.value;
-      }
-      return query;
-    }
 
     function get_notes() {
       let temperament = document.getElementById('tm').value;
@@ -141,32 +68,30 @@
       for (let fret_number = 0; fret_number < notes.length; fret_number++) {
         let note = notes[fret_number];
         let row = table.insertRow();
+        update_row(row, note, root_frequency, scale_length);
+      }
+    }
 
-        let col = 0;
-        let cell = row.insertCell(col++);
-        cell.innerHTML = note.name;
-        cell.style.textAlign = 'left';
+    function update_row(row, note, root_frequency, scale_length) {
+      let cell = row.insertCell();
+      cell.innerHTML = note.name;
+      cell.style.textAlign = 'left';
 
-        row.insertCell(col++).innerHTML = note.fraction_str();
-        row.insertCell(col++).innerHTML = note.ratio_str();
-        row.insertCell(col++).innerHTML = note.cent_str();
-        row.insertCell(col++).innerHTML = note.cent_offset_str();
+      row.insertCell().innerHTML = note.fraction_str() || '-';
+      row.insertCell().innerHTML = note.ratio_str();
+      row.insertCell().innerHTML = note.cent_str();
+      row.insertCell().innerHTML = note.cent_offset_str();
 
-        if (root_frequency) {
-          row.insertCell(col++).innerHTML = (note.ratio * root_frequency).toFixed(3);
-        } else {
-          row.insertCell(col++).innerHTML = null;
-        }
+      cell = row.insertCell();
+      if (root_frequency && !isNaN(root_frequency)) {
+        cell.innerHTML = (note.ratio * root_frequency).toFixed(3);
+      }
 
-        if (scale_length) {
-          for (let octave = 0; octave < 3; octave++) {
-            let position = scale_length - (scale_length / (note.ratio * Math.pow(2, octave)));
-            row.insertCell(col++).innerHTML = position.toFixed(5);
-          }
-        } else {
-          for (let octave = 0; octave < 3; octave++) {
-            row.insertCell(col++).innerHTML = null;
-          }
+      for (let octave = 0; octave < 3; octave++) {
+        cell = row.insertCell();
+        if (scale_length && !isNaN(scale_length)) {
+          let position = scale_length - (scale_length / (note.ratio * Math.pow(2, octave)));
+          cell.innerHTML = position.toFixed(5);
         }
       }
     }
@@ -215,7 +140,7 @@
 <body>
   <header class="fl">
     <ul>
-      <li><a href="/">Fido Lab</a></li>
+      <li><a href="../">Fido Lab</a></li>
     </ul>
   </header>
   <noscript>
@@ -244,6 +169,12 @@
     To specify your own temperament select "Custom" from the menu. Separate notes with spaces. Write e.g. "3/1" or
     "A:3/1" for ratios, and "70.6" or "D:70.6" for cents.
   </p>
+  <!--<ul>
+  <li>cents &equals; 1200 &times; log<sub>2</sub>(ratio)</li>
+  <li>ratio &equals;2<sup>cents &divide; 1200</sup></li>
+  <li>frequency &equals; root frequency &times; ratio</li>
+  <li>distance from nut &equals; scale length &minus; (scale length &divide; ratio)</li>
+  </ul>-->
   <p>
     Temperament:
     <select id="tm" onchange="on_temperament()">

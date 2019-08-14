@@ -74,9 +74,7 @@ class Note {
     const biggest_denom = 131072;
     for (let bot = 1; bot < biggest_denom; bot++) {
       let top = Note.approxInt(this.ratio * bot);
-      if (top) {
-        return top + '/' + bot;
-      }
+      if (top) return top + '/' + bot;
     }
     return null;
   }
