@@ -16,41 +16,35 @@
     function get_notes() {
       let temperament = document.getElementById('tm').value;
       switch (temperament) {
-        case 'equal': {
-          let notes_per_octave = document.getElementById('npo').value;
-          if (isNaN(notes_per_octave) || (notes_per_octave < 1)) {
-            return [];
-          }
-          return Temperament.equal(notes_per_octave);
-        }
-        case 'meantone': {
-          let comma = document.getElementById('comma').value == 's' ? syntonic_comma : pythagorean_comma;
-          let division = 1 / document.getElementById('division').value;
-          return Temperament.meantone(comma, division);
-        }
-        case 'lehman': {
-          return Temperament.bach_lehman_1722();
-        }
-        case 'w3': {
-          return Temperament.werckmeister_3();
-        }
-        case 'yg': {
-          return Temperament.young();
-        }
-        case 'tf1': {
-          return Temperament.thidell_formula_1();
-        }
-        case 'rv': {
-          return Temperament.revelation();
-        }
-        case 'py': {
-          return Temperament.pythagorean();
-        }
-        default: {
-          let notes_str = document.getElementById('cs').value;
-          return Temperament.custom(notes_str);
-        }
+        case 'equ': return equal_temperament();
+        case 'mea': return meantone_temperament();
+        case 'leh': return Temperament.bach_lehman_1722();
+        case 'we3': return Temperament.werckmeister_3();
+        case 'you': return Temperament.young();
+        case 'tf1': return Temperament.thidell_formula_1();
+        case 'rev': return Temperament.revelation();
+        case 'pyt': return Temperament.pythagorean();
+        default: return custom_temperament();
       }
+    }
+
+    function meantone_temperament() {
+      let comma = document.getElementById('comma').value == 's' ? syntonic_comma : pythagorean_comma;
+      let division = 1 / document.getElementById('division').value;
+      return Temperament.meantone(comma, division);
+    }
+
+    function equal_temperament() {
+      let notes_per_octave = document.getElementById('npo').value;
+      if (isNaN(notes_per_octave) || (notes_per_octave < 1)) {
+        return [];
+      }
+      return Temperament.equal(notes_per_octave);
+    }
+
+    function custom_temperament() {
+      let notes_str = document.getElementById('cs').value;
+      return Temperament.custom(notes_str);
     }
 
     function update_table() {
@@ -100,9 +94,9 @@
 
     function on_temperament() {
       let sel = document.getElementById('tm').value;
-      document.getElementById('ep').style.display = (sel === 'equal') ? 'block' : 'none';
-      document.getElementById('mp').style.display = (sel === 'meantone') ? 'block' : 'none';
-      document.getElementById('cp').style.display = (sel === 'custom') ? 'block' : 'none';
+      document.getElementById('ep').style.display = (sel === 'equ') ? 'block' : 'none';
+      document.getElementById('mp').style.display = (sel === 'mea') ? 'block' : 'none';
+      document.getElementById('cp').style.display = (sel === 'cus') ? 'block' : 'none';
       //if (document.getElementById('a').checked) {
       update_table();
       //}
@@ -178,15 +172,15 @@
   <p>
     Temperament:
     <select id="tm" onchange="on_temperament()">
-      <option value="equal">Equal Temperament / Division</option>
-      <option value="meantone">Meantone</option>
-      <option value="lehman">Bach Lehman 1722 (larips.com)</option>
-      <option value="w3">Werckmeister III</option>
-      <option value="yg">Young</option>
+      <option value="equ">Equal Temperament / Division</option>
+      <option value="mea">Meantone</option>
+      <option value="leh">Bach Lehman 1722 (larips.com)</option>
+      <option value="we3">Werckmeister III</option>
+      <option value="you">Young</option>
       <option value="tf1">Thidell Formula 1 (truetemperament.com)</option>
-      <option value="rv">Revelation Tuning (michaelharrison.com)</option>
-      <option value="py">Pythagorean</option>
-      <option value="custom">Custom</option>
+      <option value="rev">Revelation Tuning (michaelharrison.com)</option>
+      <option value="pyt">Pythagorean</option>
+      <option value="cus">Custom</option>
     </select></p>
   <p id="ep">
     Notes per Octave: <input id="npo" type="number" name="Notes per Octave" value="12" onchange="on_input()">
