@@ -1,5 +1,10 @@
+
+// TODO leaky globals, move them into Temperament
 const pythagorean_comma = Math.pow(3, 12) / Math.pow(2, 19);
 const syntonic_comma = 81 / 80;
+const pure_fifth = 3 / 2;
+const narrow_fifth = pure_fifth / Math.pow(pythagorean_comma, 1 / 6);
+const half_narrow_fifth = pure_fifth / Math.pow(pythagorean_comma, 1 / 12);
 
 class Note {
 
@@ -59,17 +64,6 @@ class Note {
     return hundreds + ((offset >= 0) ? '+' : '') + offset.toFixed(3);
   }
 
-  static approxInt(num) {
-    let mod = num % 1;
-    if ((mod > 0.0000000000001) && (mod < 0.9999999999999)) {
-      return null;
-    }
-    return num.toFixed(12).replace(/\.0+$/, '');
-    //let fix = num.toFixed(12);
-    //let rnd = fix.replace(/\.0+$/, '');
-    //return (fix.length !== rnd.length) ? rnd : null;
-  }
-
   fraction_str() {
     const biggest_denom = 131072;
     for (let bot = 1; bot < biggest_denom; bot++) {
@@ -77,6 +71,17 @@ class Note {
       if (top) return top + '/' + bot;
     }
     return null;
+  }
+
+  static approxInt(num) {
+    let mod = num % 1;
+    if ((mod > 0.0000000000001) && (mod < 0.9999999999999)) {
+      return null;
+    }
+    return num.toFixed(12).replace(/\.0+$/, '');
+    //let fixed = num.toFixed(12);
+    //let round = fixed.replace(/\.0+$/, '');
+    //return (fixed.length !== round.length) ? round : null;
   }
 }
 
@@ -122,33 +127,46 @@ class Temperament {
     return notes;
   }
 
-  // larips.com
-  static bach_lehman_1722() {
-    const pure_fifth = 3 / 2;
-    const narrow_fifth = pure_fifth / Math.pow(pythagorean_comma, 1 / 6);
-    const half_narrow_fifth = pure_fifth / Math.pow(pythagorean_comma, 1 / 12);
-    const names = ['C', 'C♯', 'D', 'E♭', 'E', 'F', 'F♯', 'G', 'G♯', 'A', 'B♭', 'B'];
-
+  static of_names_ratios(names_ratios) {
+    let ratio = 1;
     let notes = [];
-    let i = 5; // start on the major fourth
-    let ratio = 1 / narrow_fifth;
 
-    for (; i < (5 * 7); i += 7) {
-      notes.push(Note.ofRatio(names[i % 12], ratio, true));
-      ratio *= narrow_fifth;
-    }
-    for (; i < (8 * 7); i += 7) {
-      notes.push(Note.ofRatio(names[i % 12], ratio, true));
-      ratio *= pure_fifth;
-    }
-    for (; i < (12 * 7); i += 7) {
-      notes.push(Note.ofRatio(names[i % 12], ratio, true));
-      ratio *= half_narrow_fifth;
+    for (let nr of names_ratios) {
+      if (typeof nr === 'number') {
+        ratio *= nr;
+      } else {
+        notes.push(Note.ofRatio(nr, ratio, true));
+      }
     }
 
     notes.sort(function (a, b) { return a.ratio - b.ratio; });
-
     return notes;
+  }
+
+  // larips.com
+  static bach_lehman_1722() {
+    return Temperament.of_names_ratios([
+      1 / narrow_fifth,
+      'F', narrow_fifth, 'C', narrow_fifth, 'G', narrow_fifth, 'D', narrow_fifth, 'A', narrow_fifth, 'E', pure_fifth,
+      'B', pure_fifth, 'F♯', pure_fifth, 'C♯', half_narrow_fifth, 'G♯', half_narrow_fifth, 'E♭', half_narrow_fifth, 'B♭'
+    ]);
+  }
+
+  // casfaculty.case.edu/ross-duffin/why-i-hate-vallotti-or-is-it-young
+  static vallotti() {
+    return Temperament.of_names_ratios([
+      1 / narrow_fifth,
+      'F', narrow_fifth, 'C', narrow_fifth, 'G', narrow_fifth, 'D', narrow_fifth, 'A', narrow_fifth, 'E', narrow_fifth,
+      'B', pure_fifth, 'F♯', pure_fifth, 'C♯', pure_fifth, 'G♯', pure_fifth, 'E♭', pure_fifth, 'B♭'
+    ]);
+  }
+
+  // casfaculty.case.edu/ross-duffin/why-i-hate-vallotti-or-is-it-young
+  static young() {
+    return Temperament.of_names_ratios([
+      'C', narrow_fifth, 'G', narrow_fifth, 'D', narrow_fifth, 'A', narrow_fifth, 'E', narrow_fifth, 'B', narrow_fifth,
+      'F♯', pure_fifth, 'C♯', pure_fifth, 'G♯', pure_fifth, 'E♭', pure_fifth, 'B♭', pure_fifth, 'F'
+    ]);
   }
 
   // en.wikipedia.org/wiki/Werckmeister_temperament
@@ -167,11 +185,6 @@ class Temperament {
       Note.ofRatio('A♯', 16/9),
       Note.ofRatio('B', 128/81 * Math.pow(2, 1/4))
     ];
-  }
-
-  static young() {
-    // TODO find more accurate source
-    return Temperament.custom("C:0 C♯:93.9 D:195.8 E♭:297.8 E:391.7 F:499.9 F♯:591.9 G:697.9 G♯:795.8 A:893.8 A♯:999.8 B:1091.8");
   }
 
   // michaelharrison.com

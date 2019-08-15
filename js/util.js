@@ -12,6 +12,18 @@ function to_map(list, separator) {
     return obj;
 }
 
+Array.prototype.splitToObject = function(separator) {
+    let obj = {};
+    for (let param of this) {
+        let i = param.indexOf(separator);
+        if (i === -1) continue;
+        let parts = param.split(separator);
+        if (parts.length !== 2) continue;
+        obj[parts[0]] = parts[1];
+    }
+    return obj;
+}
+
 function query_params() {
     let str = decodeURIComponent(window.location.search);
     if (str.startsWith('?')) {

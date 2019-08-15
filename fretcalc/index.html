@@ -18,9 +18,10 @@
       switch (temperament) {
         case 'equ': return equal_temperament();
         case 'mea': return meantone_temperament();
+        case 'val': return Temperament.vallotti();
+        case 'you': return Temperament.young();
         case 'leh': return Temperament.bach_lehman_1722();
         case 'we3': return Temperament.werckmeister_3();
-        case 'you': return Temperament.young();
         case 'tf1': return Temperament.thidell_formula_1();
         case 'rev': return Temperament.revelation();
         case 'pyt': return Temperament.pythagorean();
@@ -174,9 +175,10 @@
     <select id="tm" onchange="on_temperament()">
       <option value="equ">Equal Temperament / Division</option>
       <option value="mea">Meantone</option>
-      <option value="leh">Bach Lehman 1722 (larips.com)</option>
-      <option value="we3">Werckmeister III</option>
+      <option value="val">Vallotti</option>
       <option value="you">Young</option>
+      <option value="leh">Bach / Lehman 1722 (larips.com)</option>
+      <option value="we3">Werckmeister III</option>
       <option value="tf1">Thidell Formula 1 (truetemperament.com)</option>
       <option value="rev">Revelation Tuning (michaelharrison.com)</option>
       <option value="pyt">Pythagorean</option>
