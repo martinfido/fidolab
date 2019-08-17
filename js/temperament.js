@@ -1,11 +1,4 @@
 
-// TODO leaky globals, move them into Temperament
-const pythagorean_comma = Math.pow(3, 12) / Math.pow(2, 19);
-const syntonic_comma = 81 / 80;
-const pure_fifth = 3 / 2;
-const narrow_fifth = pure_fifth / Math.pow(pythagorean_comma, 1 / 6);
-const half_narrow_fifth = pure_fifth / Math.pow(pythagorean_comma, 1 / 12);
-
 class Note {
 
   constructor(name, ratio, cents) {
@@ -85,9 +78,15 @@ class Note {
   }
 }
 
+Note.pythagorean_comma = Math.pow(3, 12) / Math.pow(2, 19);
+Note.syntonic_comma = 81 / 80;
+
 class Temperament {
 
   static equal(notes_per_octave) {
+    const names = {
+      12: [ 'C', 'C#/Db', 'D', 'D#/Eb', 'E', 'F', 'F#/Gb', 'G', 'G#/Ab', 'A', 'A#/Bb', 'B' ]
+    };
     var notes = [];
     for (var i = 0; i < notes_per_octave; i++) {
       notes.push(Note.ofCents(i, 1200 * i / notes_per_octave));
@@ -145,27 +144,51 @@ class Temperament {
 
   // larips.com
   static bach_lehman_1722() {
+    const pure = 3 / 2;
+    const narrow = pure / Math.pow(Note.pythagorean_comma, 1 / 6);
+    const half = pure / Math.pow(Note.pythagorean_comma, 1 / 12);
+
     return Temperament.of_names_ratios([
-      1 / narrow_fifth,
-      'F', narrow_fifth, 'C', narrow_fifth, 'G', narrow_fifth, 'D', narrow_fifth, 'A', narrow_fifth, 'E', pure_fifth,
-      'B', pure_fifth, 'F♯', pure_fifth, 'C♯', half_narrow_fifth, 'G♯', half_narrow_fifth, 'E♭', half_narrow_fifth, 'B♭'
+      1 / narrow,
+      'F', narrow, 'C', narrow, 'G', narrow, 'D', narrow, 'A', narrow,
+      'E', pure, 'B', pure, 'F♯', pure,
+      'C♯', half, 'G♯', half, 'E♭', half, 'B♭'
     ]);
   }
 
   // casfaculty.case.edu/ross-duffin/why-i-hate-vallotti-or-is-it-young
   static vallotti() {
+    const pure = 3 / 2;
+    const narrow = pure / Math.pow(Note.pythagorean_comma, 1 / 6);
+
     return Temperament.of_names_ratios([
-      1 / narrow_fifth,
-      'F', narrow_fifth, 'C', narrow_fifth, 'G', narrow_fifth, 'D', narrow_fifth, 'A', narrow_fifth, 'E', narrow_fifth,
-      'B', pure_fifth, 'F♯', pure_fifth, 'C♯', pure_fifth, 'G♯', pure_fifth, 'E♭', pure_fifth, 'B♭'
+      'C', narrow, 'G', narrow, 'D', narrow, 'A', narrow, 'E', narrow,
+      'B', pure, 'F♯', pure, 'C♯', pure, 'G♯', pure, 'E♭', pure, 'B♭', pure, 'F'
+    ]);
+  }
+
+  // en.wikipedia.org/wiki/Young_temperament
+  static young_1() {
+    const pure = 3 / 2;
+    const narrow = pure / Math.pow(Note.syntonic_comma, 3 / 16);
+    const half = pure / (Math.pow(Note.pythagorean_comma, 1 / 4) / Math.pow(Note.syntonic_comma, 3 / 16));
+
+    return Temperament.of_names_ratios([
+      'C', narrow, 'G', narrow, 'D', narrow, 'A', narrow,
+      'E', half, 'B', half,
+      'F♯', pure, 'C♯', pure, 'G♯', pure, 'E♭', pure,
+      'B♭', half, 'F'
     ]);
   }
 
   // casfaculty.case.edu/ross-duffin/why-i-hate-vallotti-or-is-it-young
-  static young() {
+  static young_2() {
+    const pure = 3 / 2;
+    const narrow = pure / Math.pow(Note.pythagorean_comma, 1 / 6);
+
     return Temperament.of_names_ratios([
-      'C', narrow_fifth, 'G', narrow_fifth, 'D', narrow_fifth, 'A', narrow_fifth, 'E', narrow_fifth, 'B', narrow_fifth,
-      'F♯', pure_fifth, 'C♯', pure_fifth, 'G♯', pure_fifth, 'E♭', pure_fifth, 'B♭', pure_fifth, 'F'
+      'C', narrow, 'G', narrow, 'D', narrow, 'A', narrow, 'E', narrow, 'B', narrow,
+      'F♯', pure, 'C♯', pure, 'G♯', pure, 'E♭', pure, 'B♭', pure, 'F'
     ]);
   }
 
