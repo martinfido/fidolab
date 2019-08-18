@@ -49,11 +49,53 @@
       return Temperament.custom(notes_str);
     }
 
-    function update_table() {
-      let notes = get_notes();
+    // TODO move to Temperament
+    function shift_notes(notes, first_name) {
+      let first_index = find_note_index(notes, first_name);
+      if (first_index <= 0) return notes;
+      let offset = notes[first_index].ratio;
+      let shifted = [];
+      for (let i = first_index; i < notes.length; i++) {
+        shifted.push(notes[i].subtract_ratio(offset));
+      }
+      for (let i = 0; i < first_index; i++) {
+        shifted.push(notes[i].subtract_ratio(offset));
+      }
+      return shifted;
+    }
+
+    function find_note_index(notes, name) {
+      for (let i = 0; i < notes.length; i++) {
+        let note = notes[i];
+        if (note.name === name) return i;
+      }
+      return -1;
+    }
+
+    function find_note(notes, name) {
+      for (let note of notes) {
+        if (note.name === name) return note;
+      }
+      return null;
+    }
+
+    function update_table(notes) {
+      let root_name = document.getElementById('rn').value;
+
+      notes = shift_notes(notes, root_name);
+
+      let cent_offset_note = find_note(notes, document.getElementById('cn').value);
+      let cent_offset = document.getElementById('co').value - cent_offset_note.cents;
+
+      let frequency_note = find_note(notes, document.getElementById('fn').value);
+      let root_frequency = document.getElementById('rf').value / frequency_note.ratio;
+
       let scale_length = document.getElementById('sl').value;
-      let root_note = document.getElementById('rn').value;
-      let root_frequency = document.getElementById('rf').value;
+
+      update_rows(notes, root_frequency, cent_offset, scale_length);
+    }
+
+    function update_rows(notes, root_frequency, cent_offset, scale_length) {
       let table = document.getElementById('frets');
 
       // remove all but the table header
@@ -61,22 +103,21 @@
         table.deleteRow(-1);
       }
 
-      for (let fret_number = 0; fret_number < notes.length; fret_number++) {
-        let note = notes[fret_number];
+      for (let note of notes) {
         let row = table.insertRow();
-        update_row(row, note, root_frequency, scale_length);
+        update_row(row, note, root_frequency, cent_offset, scale_length);
       }
     }
 
-    function update_row(row, note, root_frequency, scale_length) {
+    function update_row(row, note, root_frequency, cent_offset, scale_length) {
       let cell = row.insertCell();
       cell.innerHTML = note.name;
       cell.style.textAlign = 'left';
 
       row.insertCell().innerHTML = note.fraction_str() || '-';
       row.insertCell().innerHTML = note.ratio_str();
-      row.insertCell().innerHTML = note.cent_str();
-      row.insertCell().innerHTML = note.cent_offset_str();
+      row.insertCell().innerHTML = note.cent_str(cent_offset);
+      row.insertCell().innerHTML = note.cent_offset_str(cent_offset);
 
       cell = row.insertCell();
       if (root_frequency && !isNaN(root_frequency)) {
@@ -99,15 +140,39 @@
       document.getElementById('ep').style.display = (sel === 'equ') ? 'block' : 'none';
       document.getElementById('mp').style.display = (sel === 'mea') ? 'block' : 'none';
       document.getElementById('cp').style.display = (sel === 'cus') ? 'block' : 'none';
+
+      on_notes();
+    }
+
+    function on_notes() {
+      let notes = get_notes();
+
+      for (let id of [ 'rn', 'cn', 'fn' ]) {
+        let fns = document.getElementById(id);
+        while (fns.firstChild) {
+          fns.firstChild.remove();
+        }
+
+        for (let i = 0; i < notes.length; i++) {
+          let note = notes[i];
+          let option = document.createElement("option");
+          option.value = note.name;
+          option.text = note.name;
+          if ((id === 'fn') && (note.name === 'A')) {
+            option.selected = 'selected';
+          }
+          fns.add(option);
+        }
+      }
+
       //if (document.getElementById('a').checked) {
-      update_table();
+      update_table(notes);
       //}
     }
 
-    function on_input() {
-      //if (document.getElementById('a').checked) {
-      update_table();
-      //}
+    function on_roots() {
+      let notes = get_notes();
+      update_table(notes);
     }
 
     function on_update() {
@@ -115,7 +180,7 @@
         // TODO add a separate permalink button
         //window.history.replaceState({}, null, '?' + perma_query(perma_params));
       }
-      update_table();
+      on_notes();
     }
 
     window.onload = function () {
@@ -176,7 +241,7 @@
     <select id="tm" onchange="on_temperament()">
       <option value="leh">Bach / Lehman 1722 (larips.com)</option>
       <option value="equ">Equal Temperament / Division</option>
-      <option value="mea">Meantone</option>
+      <option value="mea" selected="selected">Meantone</option>
       <option value="pyt">Pythagorean</option>
       <option value="rev">Revelation Tuning (michaelharrison.com)</option>
       <option value="tf1">Thidell Formula 1 (truetemperament.com)</option>
@@ -187,14 +252,14 @@
       <option value="cus">Custom</option>
     </select></p>
   <p id="ep">
-    Notes per Octave: <input id="npo" type="number" name="Notes per Octave" value="12" onchange="on_input()">
+    Notes per Octave: <input id="npo" type="number" name="Notes per Octave" value="12" onchange="on_notes()">
   </p>
   <p id="mp" style="display: none;">
-    Comma: <select id="comma" onchange="on_input()">
+    Comma: <select id="comma" onchange="on_notes()">
       <option value="s" selected="selected">Syntonic</option>
       <option value="p">Pythagorean</option>
     </select>&nbsp;&nbsp;
-    Division: <select id="division" onchange="on_input()">
+    Division: <select id="division" onchange="on_notes()">
       <option value="3">1/3</option>
       <option value="3.5">2/7</option>
       <option value="4" selected="selected">1/4</option>
@@ -204,20 +269,23 @@
   </p>
   <p id="cp" style="display: none;">
     <input id="cs" type="text" name="custom temperament" size="80"
-      value="C:1/1 C♯:25/24 D:9/8 E♭:6/5 E:5/4 F:4/3 F♯:45/32 G:3/2 G♯:25/16 A:5/3 B♭:9/5 B:15/8" onchange="on_input()">
+      value="C:1/1 C♯:25/24 D:9/8 E♭:6/5 E:5/4 F:4/3 F♯:45/32 G:3/2 G♯:25/16 A:5/3 B♭:9/5 B:15/8" onchange="on_notes()">
   </p>
   <p>
-    Root Note: <select id="rn" onchange="on_input()"></select>
+    Key / Root Note: <select id="rn" onchange="on_roots()"></select>
   </p>
   <p>
-    Root Frequency: <input id="rf" type="text" name="root frequency" value="110" onchange="on_input()">Hz
+    Cent Offset: <select id="cn" onchange="on_roots()"></select> is <input id="co" type="text" name="cent offset" value="0" onchange="on_roots()"> cents
   </p>
   <p>
-    Scale Length: <input id="sl" type="text" name="scale length" value="25.5" onchange="on_input()">
+    Frequency: <select id="fn" onchange="on_roots()"></select> is <input id="rf" type="text" name="root frequency" value="440" onchange="on_roots()"> Hz
+  </p>
+  <p>
+    Scale Length: <input id="sl" type="text" name="scale length" value="25.5" onchange="on_roots()">
   </p>
   <p>
     <input type="button" id="updatebutton" name="update" value="update" onclick="on_update()">
-    <!--<input type="checkbox" id="a" name="automatically update" value="auto" onclick="on_input()"> auto update-->
+    <!--<input type="checkbox" id="a" name="automatically update" value="auto" onclick="on_update()"> auto update-->
   </p>
   <table id="frets">
     <tr>

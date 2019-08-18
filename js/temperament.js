@@ -18,7 +18,7 @@ class Note {
 
   static ofCents(name, cents, normalize) {
     if (normalize) {
-      cents %= 1200; // TODO check this works for negative numbers
+      cents = ((cents % 1200) + 1200) % 1200;
     }
     let ratio = Math.exp(cents / (1200 * Math.LOG2E));
     return new Note(name, ratio, cents);
@@ -43,17 +43,25 @@ class Note {
     return null;
   }
 
+  subtract_ratio(ratio) {
+    return Note.ofRatio(this.name, this.ratio / ratio, true);
+  }
+
   ratio_str() {
     return this.ratio.toFixed(13).replace(/\.?0+$/, '');
   }
 
-  cent_str() {
-    return this.cents.toFixed(3);
+  cent_str(offset) {
+    let cents = this.cents + offset;
+    cents = ((cents % 1200) + 1200) % 1200;
+    return cents.toFixed(3);
   }
 
-  cent_offset_str() {
-    var hundreds = Math.round(this.cents / 100) * 100;
-    var offset = this.cents - hundreds;
+  cent_offset_str(shift_by) {
+    let cents = this.cents + shift_by;
+    cents = ((cents % 1200) + 1200) % 1200;
+    var hundreds = Math.round(cents / 100) * 100;
+    var offset = cents - hundreds;
     return hundreds + ((offset >= 0) ? '+' : '') + offset.toFixed(3);
   }
 
@@ -89,7 +97,7 @@ class Temperament {
     };
     var notes = [];
     for (var i = 0; i < notes_per_octave; i++) {
-      notes.push(Note.ofCents(i, 1200 * i / notes_per_octave));
+      notes.push(Note.ofCents('' + i, 1200 * i / notes_per_octave));
     }
     return notes;
   }
