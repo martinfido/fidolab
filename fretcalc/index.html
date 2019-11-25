@@ -25,6 +25,7 @@
         case 'we3': return Temperament.werckmeister_3();
         case 'tf1': return Temperament.thidell_formula_1();
         case 'rev': return Temperament.revelation();
+        case 'wtp': return Temperament.welltunedpiano();
         case 'pyt': return Temperament.pythagorean();
         default: return custom_temperament();
       }
@@ -85,17 +86,24 @@
       notes = shift_notes(notes, root_name);
 
       let cent_offset_note = find_note(notes, document.getElementById('cn').value);
-      let cent_offset = document.getElementById('co').value - cent_offset_note.cents;
+      let cent_shift = document.getElementById('co').value - cent_offset_note.cents;
 
-      let frequency_note = find_note(notes, document.getElementById('fn').value);
-      let root_frequency = document.getElementById('rf').value / frequency_note.ratio;
+      let root_cents = notes[0].cents + cent_shift;
+      let root_hundreds = Note.nearest_hundred(root_cents);
+
+      // TODO handle error
+      let frequency_str = document.getElementById('fn').value;
+      let frequency_note = Note.parse(frequency_str);
+      let root_frequency;
+      if (frequency_str.includes('/')) {
+        root_frequency = document.getElementById('rf').value / frequency_note.ratio;
+      } else {
+        let shift_note = Note.ofCents('', cent_shift, true);
+        root_frequency = document.getElementById('rf').value / frequency_note.ratio * shift_note.ratio;
+      }
 
       let scale_length = document.getElementById('sl').value;
 
-      update_rows(notes, root_frequency, cent_offset, scale_length);
-    }
-
-    function update_rows(notes, root_frequency, cent_offset, scale_length) {
       let table = document.getElementById('frets');
 
       // remove all but the table header
@@ -103,32 +111,37 @@
         table.deleteRow(-1);
       }
 
-      for (let note of notes) {
+      for (let i = 0; i < notes.length; i++) {
+        let note = notes[i];
         let row = table.insertRow();
-        update_row(row, note, root_frequency, cent_offset, scale_length);
-      }
-    }
+        
+        let cell = row.insertCell();
+        cell.innerHTML = note.name;
+        cell.style.textAlign = 'left';
 
-    function update_row(row, note, root_frequency, cent_offset, scale_length) {
-      let cell = row.insertCell();
-      cell.innerHTML = note.name;
-      cell.style.textAlign = 'left';
+        row.insertCell().innerHTML = note.fraction_str() || '-';
+        row.insertCell().innerHTML = note.ratio_str();
 
-      row.insertCell().innerHTML = note.fraction_str() || '-';
-      row.insertCell().innerHTML = note.ratio_str();
-      row.insertCell().innerHTML = note.cent_str(cent_offset);
-      row.insertCell().innerHTML = note.cent_offset_str(cent_offset);
+        let cents = note.cents + cent_shift;
+        row.insertCell().innerHTML = note.cent_str(cent_shift);
+        if (notes.length === 12) {
+          row.insertCell().innerHTML = Note.cent_offset_str(cents, Note.nearest_hundred(root_hundreds + (i * 100)));
+        } else {
+          row.insertCell().innerHTML = Note.cent_offset_str(cents);
+        }
 
-      cell = row.insertCell();
-      if (root_frequency && !isNaN(root_frequency)) {
-        cell.innerHTML = (note.ratio * root_frequency).toFixed(3);
-      }
-
-      for (let octave = 0; octave < 3; octave++) {
+        // TODO account for cent_shift
         cell = row.insertCell();
-        if (scale_length && !isNaN(scale_length)) {
-          let position = scale_length - (scale_length / (note.ratio * Math.pow(2, octave)));
-          cell.innerHTML = position.toFixed(5);
+        if (root_frequency && !isNaN(root_frequency)) {
+          cell.innerHTML = (note.ratio * root_frequency).toFixed(3);
+        }
+
+        for (let octave = 0; octave < 3; octave++) {
+          cell = row.insertCell();
+          if (scale_length && !isNaN(scale_length)) {
+            let position = scale_length - (scale_length / (note.ratio * Math.pow(2, octave)));
+            cell.innerHTML = position.toFixed(5);
+          }
         }
       }
     }
@@ -147,7 +160,7 @@
     function on_notes() {
       let notes = get_notes();
 
-      for (let id of [ 'rn', 'cn', 'fn' ]) {
+      for (let id of [ 'rn', 'cn' ]) {
         let fns = document.getElementById(id);
         while (fns.firstChild) {
           fns.firstChild.remove();
@@ -158,9 +171,9 @@
           let option = document.createElement("option");
           option.value = note.name;
           option.text = note.name;
-          if ((id === 'fn') && (note.name === 'A')) {
-            option.selected = 'selected';
-          }
+          //if ((id === 'fn') && (note.name === 'A')) {
+          //  option.selected = 'selected';
+          //}
           fns.add(option);
         }
       }
@@ -239,17 +252,18 @@
   <p>
     Temperament:
     <select id="tm" onchange="on_temperament()">
+      <option value="cus">Custom</option>
       <option value="leh">Bach / Lehman 1722 (larips.com)</option>
       <option value="equ">Equal Temperament / Division</option>
       <option value="mea" selected="selected">Meantone</option>
       <option value="pyt">Pythagorean</option>
       <option value="rev">Revelation Tuning (michaelharrison.com)</option>
+      <option value="wtp">La Monte Young's Well Tuned Piano (kylegann.com)</option>
       <option value="tf1">Thidell Formula 1 (truetemperament.com)</option>
       <option value="val">Vallotti</option>
       <option value="we3">Werckmeister III</option>
-      <option value="yo1">Young's first temperament</option>
-      <option value="yo2">Young's second temperament</option>
-      <option value="cus">Custom</option>
+      <option value="yo1">(Thomas) Young's first temperament</option>
+      <option value="yo2">(Thomas) Young's second temperament</option>
     </select></p>
   <p id="ep">
     Notes per Octave: <input id="npo" type="number" name="Notes per Octave" value="12" onchange="on_notes()">
@@ -272,13 +286,13 @@
       value="C:1/1 C♯:25/24 D:9/8 E♭:6/5 E:5/4 F:4/3 F♯:45/32 G:3/2 G♯:25/16 A:5/3 B♭:9/5 B:15/8" onchange="on_notes()">
   </p>
   <p>
-    Key / Root: <select id="rn" onchange="on_roots()"></select> is 1/1
+    Ratio: <select id="rn" onchange="on_roots()"></select> is 1/1
   </p>
   <p>
-    Cent Offset: <select id="cn" onchange="on_roots()"></select> is <input id="co" type="text" name="cent offset" value="0" onchange="on_roots()"> cents
+    Cents: <select id="cn" onchange="on_roots()"></select> is <input id="co" type="text" name="cent offset" value="0" onchange="on_roots()"> cents
   </p>
   <p>
-    Frequency: <select id="fn" onchange="on_roots()"></select> is <input id="rf" type="text" name="root frequency" value="440" onchange="on_roots()"> Hz
+    Frequency: <input id="fn" type="text" name="frequency note" value="900" onchange="on_roots()"> cents / ratio is <input id="rf" type="text" name="root frequency" value="440" onchange="on_roots()"> Hz
   </p>
   <p>
     Scale Length: <input id="sl" type="text" name="scale length" value="25.5" onchange="on_roots()">
@@ -289,7 +303,7 @@
   </p>
   <table id="frets">
     <tr>
-      <th rowspan="2">Fret / Name</th>
+      <th rowspan="2">Name</th>
       <th rowspan="2">Ratio<br /><small>(fraction)</small></th>
       <th rowspan="2">Ratio<br /><small>(decimal)</small></th>
       <th rowspan="2">Cents</th>
