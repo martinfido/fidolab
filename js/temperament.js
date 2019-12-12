@@ -18,7 +18,7 @@ class Note {
 
   static ofCents(name, cents, normalize) {
     if (normalize) {
-      cents %= 1200; // TODO check this works for negative numbers
+      cents = ((cents % 1200) + 1200) % 1200;
     }
     let ratio = Math.exp(cents / (1200 * Math.LOG2E));
     return new Note(name, ratio, cents);
@@ -43,18 +43,18 @@ class Note {
     return null;
   }
 
+  subtract_ratio(ratio) {
+    return Note.ofRatio(this.name, this.ratio / ratio, true);
+  }
+
   ratio_str() {
     return this.ratio.toFixed(13).replace(/\.?0+$/, '');
   }
 
-  cent_str() {
-    return this.cents.toFixed(3);
-  }
-
-  cent_offset_str() {
-    var hundreds = Math.round(this.cents / 100) * 100;
-    var offset = this.cents - hundreds;
-    return hundreds + ((offset >= 0) ? '+' : '') + offset.toFixed(3);
+  cent_str(offset) {
+    let cents = this.cents + offset;
+    cents = ((cents % 1200) + 1200) % 1200;
+    return cents.toFixed(3);
   }
 
   fraction_str() {
@@ -64,6 +64,23 @@ class Note {
       if (top) return top + '/' + bot;
     }
     return null;
+  }
+
+  static cent_offset_str(cents, hundreds) {
+    cents = ((cents % 1200) + 1200) % 1200;
+    if (isNaN(hundreds)) {
+        hundreds = Math.round(cents / 100) * 100;
+    }
+    var offset = cents - hundreds;
+    while (offset < -600) offset += 1200;
+    while (offset > 600) offset -= 1200;
+    return hundreds + ((offset >= 0) ? '+' : '') + offset.toFixed(3);
+  }
+
+  static nearest_hundred(cents) {
+    let hundreds = Math.round(cents / 100) * 100;
+    hundreds = ((hundreds % 1200) + 1200) % 1200;
+    return hundreds;
   }
 
   static approxInt(num) {
@@ -89,7 +106,7 @@ class Temperament {
     };
     var notes = [];
     for (var i = 0; i < notes_per_octave; i++) {
-      notes.push(Note.ofCents(i, 1200 * i / notes_per_octave));
+      notes.push(Note.ofCents('' + i, 1200 * i / notes_per_octave));
     }
     return notes;
   }
@@ -215,6 +232,10 @@ class Temperament {
     return Temperament.custom("F:1/1 F♯:63/64 G:9/8 G♯:567/512 A:81/64 B♭:21/16 B:729/512 C:3/2 C♯:189/128 D:27/16 E♭:7/4 E:243/128");
   }
 
+  static welltunedpiano() {
+    return Temperament.custom('E♭:1/1 E:567/512 F:9/8 F♯:147/128 G:21/16 G♯:1323/1024 A:189/128 B♭:3/2 B:49/32 C:7/4 C♯:441/256 D:63/32');
+  }
+
   static pythagorean() {
     return Temperament.custom("C:1/1 C♯:2187/2048 D:9/8 E♭:32/27 E:81/64 F:4/3 F♯:729/512 G:3/2 G♯:128/81 A:27/16 A♯:16/9 B:243/128");
   }
@@ -231,7 +252,7 @@ class Temperament {
         notes.push(note);
       }
     }
-    notes.sort(function (a, b) { return a.ratio - b.ratio; });
+    //notes.sort(function (a, b) { return a.ratio - b.ratio; });
     return notes;
   }
 }
