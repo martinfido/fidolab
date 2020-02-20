@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-width="720" height="1318"
+width="735" height="1318"
 >
 <g style="font-family: Times New Roman;">
-<text font-size="36" text-anchor="middle" x="360" y="36">Michael Harrison's Revelation Temperament</text>
+<text font-size="36" text-anchor="middle" x="367.5" y="36">Michael Harrison's Revelation Temperament</text>
 <g transform="translate(100 72)">
 <g stroke="black" stroke-width="1">
 <path d="M20 0 V1200"/>
@@ -321,195 +321,195 @@ width="720" height="1318"
 </g>
 </g>
 <g transform="translate(125 72)">
-<line stroke="black" stroke-width="3" x1="0" x2="370" y1="0" y2="0"/>
+<line stroke="black" stroke-width="3" x1="0" x2="385" y1="0" y2="0"/>
 
-<g transform="translate(374,6.67)"><text  fill="black" font-size="20" text-anchor="start">1/1 tonic</text></g>
+<g transform="translate(389,6.67)"><text  fill="black" font-size="20" text-anchor="start">1/1 tonic</text></g>
 
-<line stroke="black" stroke-width="1" x1="0" x2="370" y1="21.51" y2="21.51"/>
+<line stroke="black" stroke-width="1" x1="0" x2="385" y1="21.51" y2="21.51"/>
 
-<g transform="translate(374,25.51)"><text  fill="black" font-size="12" text-anchor="start">81/80 syntonic comma</text></g>
+<g transform="translate(389,25.51)"><text  fill="black" font-size="12" text-anchor="start">81/80 syntonic comma</text></g>
 
-<line stroke="black" stroke-width="1" x1="0" x2="370" y1="41.06" y2="41.06"/>
+<line stroke="black" stroke-width="1" x1="0" x2="385" y1="41.06" y2="41.06"/>
 
-<g transform="translate(374,45.06)"><text  fill="black" font-size="12" text-anchor="start">128/125 diminished 2nd</text></g>
+<g transform="translate(389,45.06)"><text  fill="black" font-size="12" text-anchor="start">128/125 diminished 2nd</text></g>
 
-<line stroke="black" stroke-width="1" x1="0" x2="370" y1="70.67" y2="70.67"/>
+<line stroke="black" stroke-width="1" x1="0" x2="385" y1="70.67" y2="70.67"/>
 
-<g transform="translate(374,74.67)"><text  fill="black" font-size="12" text-anchor="start">25/24 chromatic semitone</text></g>
+<g transform="translate(389,74.67)"><text  fill="black" font-size="12" text-anchor="start">25/24 chromatic semitone</text></g>
 
-<line stroke="black" stroke-width="1" x1="0" x2="370" y1="92.18" y2="92.18"/>
+<line stroke="black" stroke-width="1" x1="0" x2="385" y1="92.18" y2="92.18"/>
 
-<g transform="translate(374,96.18)"><text  fill="black" font-size="12" text-anchor="start">135/128</text></g>
+<g transform="translate(389,96.18)"><text  fill="black" font-size="12" text-anchor="start">135/128</text></g>
 
-<line stroke="black" stroke-width="1" x1="0" x2="370" y1="111.73" y2="111.73"/>
+<line stroke="black" stroke-width="1" x1="0" x2="385" y1="111.73" y2="111.73"/>
 
-<g transform="translate(374,115.73)"><text  fill="black" font-size="12" text-anchor="start">16/15 diatonic semitone</text></g>
+<g transform="translate(389,115.73)"><text  fill="black" font-size="12" text-anchor="start">16/15 diatonic semitone</text></g>
 
-<line stroke="black" stroke-width="1" x1="0" x2="370" y1="133.24" y2="133.24"/>
+<line stroke="black" stroke-width="1" x1="0" x2="385" y1="133.24" y2="133.24"/>
 
-<g transform="translate(374,137.24)"><text  fill="black" font-size="12" text-anchor="start">27/25</text></g>
+<g transform="translate(389,137.24)"><text  fill="black" font-size="12" text-anchor="start">27/25</text></g>
 
-<line stroke="black" stroke-width="2" x1="0" x2="370" y1="182.4" y2="182.4"/>
+<line stroke="black" stroke-width="2" x1="0" x2="385" y1="182.4" y2="182.4"/>
 
-<g transform="translate(374,187.4)"><text  fill="black" font-size="15" text-anchor="start">10/9 minor 2nd</text></g>
+<g transform="translate(389,187.4)"><text  fill="black" font-size="15" text-anchor="start">10/9 minor 2nd</text></g>
 
-<line stroke="black" stroke-width="2" x1="0" x2="370" y1="203.91" y2="203.91"/>
+<line stroke="black" stroke-width="2" x1="0" x2="385" y1="203.91" y2="203.91"/>
 
-<g transform="translate(374,208.91)"><text  fill="black" font-size="15" text-anchor="start">9/8 major 2nd</text></g>
+<g transform="translate(389,208.91)"><text  fill="black" font-size="15" text-anchor="start">9/8 major 2nd</text></g>
 
-<line stroke="black" stroke-width="2" x1="0" x2="370" y1="231.17" y2="231.17"/>
+<line stroke="black" stroke-width="2" x1="0" x2="385" y1="231.17" y2="231.17"/>
 
-<g transform="translate(374,236.84)"><text  fill="black" font-size="17" text-anchor="start">8/7 septimal major 2nd</text></g>
+<g transform="translate(389,236.84)"><text  fill="black" font-size="17" text-anchor="start">8/7 septimal major 2nd</text></g>
 
-<line stroke="black" stroke-width="2" x1="0" x2="370" y1="266.87" y2="266.87"/>
+<line stroke="black" stroke-width="2" x1="0" x2="385" y1="266.87" y2="266.87"/>
 
-<g transform="translate(374,272.54)"><text  fill="black" font-size="17" text-anchor="start">7/6 septimal minor 3rd</text></g>
+<g transform="translate(389,272.54)"><text  fill="black" font-size="17" text-anchor="start">7/6 septimal minor 3rd</text></g>
 
-<line stroke="black" stroke-width="1" x1="0" x2="370" y1="294.13" y2="294.13"/>
+<line stroke="black" stroke-width="1" x1="0" x2="385" y1="294.13" y2="294.13"/>
 
-<g transform="translate(374,298.13)"><text  fill="black" font-size="12" text-anchor="start">32/27 Pythagorean minor 3rd</text></g>
+<g transform="translate(389,298.13)"><text  fill="black" font-size="12" text-anchor="start">32/27 Pythagorean minor 3rd</text></g>
 
-<line stroke="black" stroke-width="3" x1="0" x2="370" y1="315.64" y2="315.64"/>
+<line stroke="black" stroke-width="3" x1="0" x2="385" y1="315.64" y2="315.64"/>
 
-<g transform="translate(374,322.31)"><text  fill="black" font-size="20" text-anchor="start">6/5 minor 3rd</text></g>
+<g transform="translate(389,322.31)"><text  fill="black" font-size="20" text-anchor="start">6/5 minor 3rd</text></g>
 
-<line stroke="black" stroke-width="3" x1="0" x2="370" y1="386.31" y2="386.31"/>
+<line stroke="black" stroke-width="3" x1="0" x2="385" y1="386.31" y2="386.31"/>
 
-<g transform="translate(374,392.98)"><text  fill="black" font-size="20" text-anchor="start">5/4 major 3rd</text></g>
+<g transform="translate(389,392.98)"><text  fill="black" font-size="20" text-anchor="start">5/4 major 3rd</text></g>
 
-<line stroke="black" stroke-width="1" x1="0" x2="368.58" y1="407.82" y2="407.82"/>
+<line stroke="black" stroke-width="1" x1="0" x2="383.58" y1="407.82" y2="407.82"/>
 
-<line stroke="black" stroke-width="1" x1="368.58" x2="370" y1="407.82" y2="404.98"/>
+<line stroke="black" stroke-width="1" x1="383.58" x2="385" y1="407.82" y2="404.98"/>
 
-<g transform="translate(374,408.98)"><text  fill="black" font-size="12" text-anchor="start">81/64 ditone</text></g>
+<g transform="translate(389,408.98)"><text  fill="black" font-size="12" text-anchor="start">81/64 ditone</text></g>
 
-<line stroke="black" stroke-width="1" x1="0" x2="366.8" y1="427.37" y2="427.37"/>
+<line stroke="black" stroke-width="1" x1="0" x2="381.8" y1="427.37" y2="427.37"/>
 
-<line stroke="black" stroke-width="1" x1="366.8" x2="370" y1="427.37" y2="420.98"/>
+<line stroke="black" stroke-width="1" x1="381.8" x2="385" y1="427.37" y2="420.98"/>
 
-<g transform="translate(374,424.98)"><text  fill="black" font-size="12" text-anchor="start">32/25 diminished 4th</text></g>
+<g transform="translate(389,424.98)"><text  fill="black" font-size="12" text-anchor="start">32/25 diminished 4th</text></g>
 
-<line stroke="black" stroke-width="2" x1="0" x2="368.55" y1="435.08" y2="435.08"/>
+<line stroke="black" stroke-width="2" x1="0" x2="383.55" y1="435.08" y2="435.08"/>
 
-<line stroke="black" stroke-width="2" x1="368.55" x2="370" y1="435.08" y2="437.98"/>
+<line stroke="black" stroke-width="2" x1="383.55" x2="385" y1="435.08" y2="437.98"/>
 
-<g transform="translate(374,442.98)"><text  fill="black" font-size="15" text-anchor="start">9/7 septimal major 3rd</text></g>
+<g transform="translate(389,442.98)"><text  fill="black" font-size="15" text-anchor="start">9/7 septimal major 3rd</text></g>
 
-<line stroke="black" stroke-width="1" x1="0" x2="370" y1="456.99" y2="456.99"/>
+<line stroke="black" stroke-width="1" x1="0" x2="385" y1="456.99" y2="456.99"/>
 
-<g transform="translate(374,460.99)"><text  fill="black" font-size="12" text-anchor="start">125/96 augmented 3rd</text></g>
+<g transform="translate(389,460.99)"><text  fill="black" font-size="12" text-anchor="start">125/96 augmented 3rd</text></g>
 
-<line stroke="black" stroke-width="3" x1="0" x2="370" y1="498.04" y2="498.04"/>
+<line stroke="black" stroke-width="3" x1="0" x2="385" y1="498.04" y2="498.04"/>
 
-<g transform="translate(374,504.71)"><text  fill="black" font-size="20" text-anchor="start">4/3 major 4th</text></g>
+<g transform="translate(389,504.71)"><text  fill="black" font-size="20" text-anchor="start">4/3 major 4th</text></g>
 
-<line stroke="black" stroke-width="1" x1="0" x2="363" y1="568.72" y2="568.72"/>
+<line stroke="black" stroke-width="1" x1="0" x2="378" y1="568.72" y2="568.72"/>
 
-<line stroke="black" stroke-width="1" x1="363" x2="370" y1="568.72" y2="554.72"/>
+<line stroke="black" stroke-width="1" x1="378" x2="385" y1="568.72" y2="554.72"/>
 
-<g transform="translate(374,558.72)"><text  fill="black" font-size="12" text-anchor="start">25/18 augmented 4th </text></g>
+<g transform="translate(389,558.72)"><text  fill="black" font-size="12" text-anchor="start">25/18 augmented 4th </text></g>
 
-<line stroke="black" stroke-width="2" x1="0" x2="364.94" y1="582.51" y2="582.51"/>
+<line stroke="black" stroke-width="2" x1="0" x2="379.94" y1="582.51" y2="582.51"/>
 
-<line stroke="black" stroke-width="2" x1="364.94" x2="370" y1="582.51" y2="572.38"/>
+<line stroke="black" stroke-width="2" x1="379.94" x2="385" y1="582.51" y2="572.38"/>
 
-<g transform="translate(374,578.05)"><text  fill="black" font-size="17" text-anchor="start">7/5 septimal tritone</text></g>
+<g transform="translate(389,578.05)"><text  fill="black" font-size="17" text-anchor="start">7/5 septimal tritone</text></g>
 
-<line stroke="black" stroke-width="1" x1="0" x2="370" y1="590.22" y2="590.22"/>
+<line stroke="black" stroke-width="1" x1="0" x2="385" y1="590.22" y2="590.22"/>
 
-<g transform="translate(374,594.22)"><text  fill="black" font-size="12" text-anchor="start">45/32 high / diatonic tritone</text></g>
+<g transform="translate(389,594.22)"><text  fill="black" font-size="12" text-anchor="start">45/32 high / diatonic tritone</text></g>
 
-<line stroke="black" stroke-width="1" x1="0" x2="370" y1="609.78" y2="609.78"/>
+<line stroke="black" stroke-width="1" x1="0" x2="385" y1="609.78" y2="609.78"/>
 
-<g transform="translate(374,613.78)"><text  fill="black" font-size="12" text-anchor="start">64/45 low tritone</text></g>
+<g transform="translate(389,613.78)"><text  fill="black" font-size="12" text-anchor="start">64/45 low tritone</text></g>
 
-<line stroke="black" stroke-width="2" x1="0" x2="365.02" y1="617.49" y2="617.49"/>
+<line stroke="black" stroke-width="2" x1="0" x2="380.02" y1="617.49" y2="617.49"/>
 
-<line stroke="black" stroke-width="2" x1="365.02" x2="370" y1="617.49" y2="627.44"/>
+<line stroke="black" stroke-width="2" x1="380.02" x2="385" y1="617.49" y2="627.44"/>
 
-<g transform="translate(374,633.11)"><text  fill="black" font-size="17" text-anchor="start">10/7 septimal tritone</text></g>
+<g transform="translate(389,633.11)"><text  fill="black" font-size="17" text-anchor="start">10/7 septimal tritone</text></g>
 
-<line stroke="black" stroke-width="1" x1="0" x2="363.09" y1="631.28" y2="631.28"/>
+<line stroke="black" stroke-width="1" x1="0" x2="378.09" y1="631.28" y2="631.28"/>
 
-<line stroke="black" stroke-width="1" x1="363.09" x2="370" y1="631.28" y2="645.11"/>
+<line stroke="black" stroke-width="1" x1="378.09" x2="385" y1="631.28" y2="645.11"/>
 
-<g transform="translate(374,649.11)"><text  fill="black" font-size="12" text-anchor="start">36/25 diminished 5th</text></g>
+<g transform="translate(389,649.11)"><text  fill="black" font-size="12" text-anchor="start">36/25 diminished 5th</text></g>
 
-<line stroke="black" stroke-width="1" x1="0" x2="370" y1="680.45" y2="680.45"/>
+<line stroke="black" stroke-width="1" x1="0" x2="385" y1="680.45" y2="680.45"/>
 
-<g transform="translate(374,684.45)"><text  fill="black" font-size="12" text-anchor="start">40/27 dissonant "wolf" 5th</text></g>
+<g transform="translate(389,684.45)"><text  fill="black" font-size="12" text-anchor="start">40/27 dissonant "wolf" 5th</text></g>
 
-<line stroke="black" stroke-width="3" x1="0" x2="370" y1="701.96" y2="701.96"/>
+<line stroke="black" stroke-width="3" x1="0" x2="385" y1="701.96" y2="701.96"/>
 
-<g transform="translate(374,708.62)"><text  fill="black" font-size="20" text-anchor="start">3/2 perfect 5th</text></g>
+<g transform="translate(389,708.62)"><text  fill="black" font-size="20" text-anchor="start">3/2 perfect 5th</text></g>
 
-<line stroke="black" stroke-width="1" x1="0" x2="370" y1="743.01" y2="743.01"/>
+<line stroke="black" stroke-width="1" x1="0" x2="385" y1="743.01" y2="743.01"/>
 
-<g transform="translate(374,747.01)"><text  fill="black" font-size="12" text-anchor="start">192/125 diminished 6th</text></g>
+<g transform="translate(389,747.01)"><text  fill="black" font-size="12" text-anchor="start">192/125 diminished 6th</text></g>
 
-<line stroke="black" stroke-width="1" x1="0" x2="370" y1="772.63" y2="772.63"/>
+<line stroke="black" stroke-width="1" x1="0" x2="385" y1="772.63" y2="772.63"/>
 
-<g transform="translate(374,776.63)"><text  fill="black" font-size="12" text-anchor="start">25/16 augmented 5th</text></g>
+<g transform="translate(389,776.63)"><text  fill="black" font-size="12" text-anchor="start">25/16 augmented 5th</text></g>
 
-<line stroke="black" stroke-width="1" x1="0" x2="370" y1="792.18" y2="792.18"/>
+<line stroke="black" stroke-width="1" x1="0" x2="385" y1="792.18" y2="792.18"/>
 
-<g transform="translate(374,796.18)"><text  fill="black" font-size="12" text-anchor="start">128/81 Pythagorean minor 6th</text></g>
+<g transform="translate(389,796.18)"><text  fill="black" font-size="12" text-anchor="start">128/81 Pythagorean minor 6th</text></g>
 
-<line stroke="black" stroke-width="3" x1="0" x2="370" y1="813.69" y2="813.69"/>
+<line stroke="black" stroke-width="3" x1="0" x2="385" y1="813.69" y2="813.69"/>
 
-<g transform="translate(374,820.35)"><text  fill="black" font-size="20" text-anchor="start">8/5 minor 6th</text></g>
+<g transform="translate(389,820.35)"><text  fill="black" font-size="20" text-anchor="start">8/5 minor 6th</text></g>
 
-<line stroke="black" stroke-width="1" x1="0" x2="370" y1="840.53" y2="840.53"/>
+<line stroke="black" stroke-width="1" x1="0" x2="385" y1="840.53" y2="840.53"/>
 
-<g transform="translate(374,844.53)"><text  fill="black" font-size="12" text-anchor="start">13/8 overtone 6th</text></g>
+<g transform="translate(389,844.53)"><text  fill="black" font-size="12" text-anchor="start">13/8 overtone 6th</text></g>
 
-<line stroke="black" stroke-width="3" x1="0" x2="370" y1="884.36" y2="884.36"/>
+<line stroke="black" stroke-width="3" x1="0" x2="385" y1="884.36" y2="884.36"/>
 
-<g transform="translate(374,891.03)"><text  fill="black" font-size="20" text-anchor="start">5/3 major 6th</text></g>
+<g transform="translate(389,891.03)"><text  fill="black" font-size="20" text-anchor="start">5/3 major 6th</text></g>
 
-<line stroke="black" stroke-width="1" x1="0" x2="370" y1="905.87" y2="905.87"/>
+<line stroke="black" stroke-width="1" x1="0" x2="385" y1="905.87" y2="905.87"/>
 
-<g transform="translate(374,909.87)"><text  fill="black" font-size="12" text-anchor="start">27/16 Pythagorean major 6th</text></g>
+<g transform="translate(389,909.87)"><text  fill="black" font-size="12" text-anchor="start">27/16 Pythagorean major 6th</text></g>
 
-<line stroke="black" stroke-width="2" x1="0" x2="370" y1="933.13" y2="933.13"/>
+<line stroke="black" stroke-width="2" x1="0" x2="385" y1="933.13" y2="933.13"/>
 
-<g transform="translate(374,938.8)"><text  fill="black" font-size="17" text-anchor="start">12/7 septimal major 6th</text></g>
+<g transform="translate(389,938.8)"><text  fill="black" font-size="17" text-anchor="start">12/7 septimal major 6th</text></g>
 
-<line stroke="black" stroke-width="2" x1="0" x2="370" y1="968.83" y2="968.83"/>
+<line stroke="black" stroke-width="2" x1="0" x2="385" y1="968.83" y2="968.83"/>
 
-<g transform="translate(374,974.49)"><text  fill="black" font-size="17" text-anchor="start">7/4 septimal minor 7th</text></g>
+<g transform="translate(389,974.49)"><text  fill="black" font-size="17" text-anchor="start">7/4 septimal minor 7th</text></g>
 
-<line stroke="black" stroke-width="2" x1="0" x2="370" y1="996.09" y2="996.09"/>
+<line stroke="black" stroke-width="2" x1="0" x2="385" y1="996.09" y2="996.09"/>
 
-<g transform="translate(374,1001.09)"><text  fill="black" font-size="15" text-anchor="start">16/9 Pythagorean small min. 7th</text></g>
+<g transform="translate(389,1001.09)"><text  fill="black" font-size="15" text-anchor="start">16/9 Pythagorean small min. 7th</text></g>
 
-<line stroke="black" stroke-width="2" x1="0" x2="370" y1="1017.6" y2="1017.6"/>
+<line stroke="black" stroke-width="2" x1="0" x2="385" y1="1017.6" y2="1017.6"/>
 
-<g transform="translate(374,1022.6)"><text  fill="black" font-size="15" text-anchor="start">9/5 large minor 7th</text></g>
+<g transform="translate(389,1022.6)"><text  fill="black" font-size="15" text-anchor="start">9/5 large minor 7th</text></g>
 
-<line stroke="black" stroke-width="1" x1="0" x2="370" y1="1049.36" y2="1049.36"/>
+<line stroke="black" stroke-width="1" x1="0" x2="385" y1="1049.36" y2="1049.36"/>
 
-<g transform="translate(374,1053.36)"><text  fill="black" font-size="12" text-anchor="start">11/6 undecimal "median" 7th</text></g>
+<g transform="translate(389,1053.36)"><text  fill="black" font-size="12" text-anchor="start">11/6 undecimal "median" 7th</text></g>
 
-<line stroke="black" stroke-width="1" x1="0" x2="370" y1="1088.27" y2="1088.27"/>
+<line stroke="black" stroke-width="1" x1="0" x2="385" y1="1088.27" y2="1088.27"/>
 
-<g transform="translate(374,1092.27)"><text  fill="black" font-size="12" text-anchor="start">15/8 major 7th</text></g>
+<g transform="translate(389,1092.27)"><text  fill="black" font-size="12" text-anchor="start">15/8 major 7th</text></g>
 
-<line stroke="black" stroke-width="1" x1="0" x2="370" y1="1109.78" y2="1109.78"/>
+<line stroke="black" stroke-width="1" x1="0" x2="385" y1="1109.78" y2="1109.78"/>
 
-<g transform="translate(374,1113.78)"><text  fill="black" font-size="12" text-anchor="start">243/128 Pythagorean major 7th</text></g>
+<g transform="translate(389,1113.78)"><text  fill="black" font-size="12" text-anchor="start">243/128 Pythagorean major 7th</text></g>
 
-<line stroke="black" stroke-width="1" x1="0" x2="370" y1="1137.04" y2="1137.04"/>
+<line stroke="black" stroke-width="1" x1="0" x2="385" y1="1137.04" y2="1137.04"/>
 
-<g transform="translate(374,1141.04)"><text  fill="black" font-size="12" text-anchor="start">27/14 septimal major 7th</text></g>
+<g transform="translate(389,1141.04)"><text  fill="black" font-size="12" text-anchor="start">27/14 septimal major 7th</text></g>
 
-<line stroke="black" stroke-width="1" x1="0" x2="370" y1="1158.94" y2="1158.94"/>
+<line stroke="black" stroke-width="1" x1="0" x2="385" y1="1158.94" y2="1158.94"/>
 
-<g transform="translate(374,1162.94)"><text  fill="black" font-size="12" text-anchor="start">125/64 augmented 7th</text></g>
+<g transform="translate(389,1162.94)"><text  fill="black" font-size="12" text-anchor="start">125/64 augmented 7th</text></g>
 
-<line stroke="black" stroke-width="3" x1="0" x2="370" y1="1200" y2="1200"/>
+<line stroke="black" stroke-width="3" x1="0" x2="385" y1="1200" y2="1200"/>
 
-<g transform="translate(374,1206.67)"><text  fill="black" font-size="20" text-anchor="start">2/1 octave</text></g>
+<g transform="translate(389,1206.67)"><text  fill="black" font-size="20" text-anchor="start">2/1 octave</text></g>
 
 </g>
 <g font-size="20" text-anchor="left" transform="translate(150 52) rotate(270)">
@@ -522,11 +522,11 @@ width="720" height="1318"
 <path d="M120 0 V1200"/>
 <path d="M150 0 V1200"/>
 <path d="M180 0 V1200"/>
-<path d="M210 0 V1200"/>
-<path d="M240 0 V1200"/>
-<path d="M270 0 V1200"/>
-<path d="M300 0 V1200"/>
-<path d="M330 0 V1200"/>
+<path d="M225 0 V1200"/>
+<path d="M255 0 V1200"/>
+<path d="M285 0 V1200"/>
+<path d="M315 0 V1200"/>
+<path d="M345 0 V1200"/>
 </g>
 <g fill="black">
 <g transform="translate(145 72)">
@@ -543,19 +543,68 @@ width="720" height="1318"
 </g>
 <g transform="translate(325 72)">
 </g>
-<g transform="translate(355 72)">
+<g transform="translate(370 72)">
 </g>
-<g transform="translate(385 72)">
+<g transform="translate(400 72)">
 </g>
-<g transform="translate(415 72)">
+<g transform="translate(430 72)">
 </g>
-<g transform="translate(445 72)">
+<g transform="translate(460 72)">
 </g>
-<g transform="translate(475 72)">
+<g transform="translate(490 72)">
 </g>
 </g>
 <g fill="#404040">
 <g transform="translate(145 72)">
+<circle cy="1172.74" r="11.5"/>
+<circle cy="176.65" r="11.5"/>
+<circle cy="470.78" r="11.5"/>
+<circle cy="674.69" r="11.5"/>
+<circle cy="968.83" r="11.5"/>
+</g>
+<g transform="translate(175 72)">
+<circle cy="470.78" r="11.5"/>
+<circle cy="674.69" r="11.5"/>
+<circle cy="968.83" r="11.5"/>
+<circle cy="1172.74" r="11.5"/>
+<circle cy="266.87" r="11.5"/>
+</g>
+<g transform="translate(205 72)">
+<circle cy="968.83" r="11.5"/>
+<circle cy="1172.74" r="11.5"/>
+<circle cy="266.87" r="11.5"/>
+<circle cy="470.78" r="11.5"/>
+<circle cy="764.92" r="11.5"/>
+</g>
+<g transform="translate(235 72)">
+<circle cy="266.87" r="11.5"/>
+<circle cy="470.78" r="11.5"/>
+<circle cy="764.92" r="11.5"/>
+<circle cy="968.83" r="11.5"/>
+<circle cy="62.96" r="11.5"/>
+</g>
+<g transform="translate(265 72)">
+<circle cy="764.92" r="11.5"/>
+<circle cy="968.83" r="11.5"/>
+<circle cy="62.96" r="11.5"/>
+<circle cy="266.87" r="11.5"/>
+<circle cy="561.01" r="11.5"/>
+</g>
+<g transform="translate(295 72)">
+<circle cy="62.96" r="11.5"/>
+<circle cy="266.87" r="11.5"/>
+<circle cy="561.01" r="11.5"/>
+<circle cy="764.92" r="11.5"/>
+<circle cy="1059.05" r="11.5"/>
+</g>
+<g transform="translate(325 72)">
+<circle cy="561.01" r="11.5"/>
+<circle cy="764.92" r="11.5"/>
+<circle cy="1059.05" r="11.5"/>
+<circle cy="62.96" r="11.5"/>
+<circle cy="357.1" r="11.5"/>
+</g>
+<g transform="translate(370 72)">
 <circle cy="203.91" r="11.5"/>
 <circle cy="407.82" r="11.5"/>
 <circle cy="701.96" r="11.5"/>
@@ -563,7 +612,7 @@ width="720" height="1318"
 <circle cy="0" r="11.5"/>
 <circle cy="1200" r="11.5"/>
 </g>
-<g transform="translate(175 72)">
+<g transform="translate(400 72)">
 <circle cy="701.96" r="11.5"/>
 <circle cy="905.87" r="11.5"/>
 <circle cy="0" r="11.5"/>
@@ -571,56 +620,7 @@ width="720" height="1318"
 <circle cy="203.91" r="11.5"/>
 <circle cy="498.04" r="11.5"/>
 </g>
-<g transform="translate(205 72)">
-<circle cy="1172.74" r="11.5"/>
-<circle cy="176.65" r="11.5"/>
-<circle cy="470.78" r="11.5"/>
-<circle cy="674.69" r="11.5"/>
-<circle cy="968.83" r="11.5"/>
-</g>
-<g transform="translate(235 72)">
-<circle cy="470.78" r="11.5"/>
-<circle cy="674.69" r="11.5"/>
-<circle cy="968.83" r="11.5"/>
-<circle cy="1172.74" r="11.5"/>
-<circle cy="266.87" r="11.5"/>
-</g>
-<g transform="translate(265 72)">
-<circle cy="968.83" r="11.5"/>
-<circle cy="1172.74" r="11.5"/>
-<circle cy="266.87" r="11.5"/>
-<circle cy="470.78" r="11.5"/>
-<circle cy="764.92" r="11.5"/>
-</g>
-<g transform="translate(295 72)">
-<circle cy="266.87" r="11.5"/>
-<circle cy="470.78" r="11.5"/>
-<circle cy="764.92" r="11.5"/>
-<circle cy="968.83" r="11.5"/>
-<circle cy="62.96" r="11.5"/>
-</g>
-<g transform="translate(325 72)">
-<circle cy="764.92" r="11.5"/>
-<circle cy="968.83" r="11.5"/>
-<circle cy="62.96" r="11.5"/>
-<circle cy="266.87" r="11.5"/>
-<circle cy="561.01" r="11.5"/>
-</g>
-<g transform="translate(355 72)">
-<circle cy="62.96" r="11.5"/>
-<circle cy="266.87" r="11.5"/>
-<circle cy="561.01" r="11.5"/>
-<circle cy="764.92" r="11.5"/>
-<circle cy="1059.05" r="11.5"/>
-</g>
-<g transform="translate(385 72)">
-<circle cy="561.01" r="11.5"/>
-<circle cy="764.92" r="11.5"/>
-<circle cy="1059.05" r="11.5"/>
-<circle cy="62.96" r="11.5"/>
-<circle cy="357.1" r="11.5"/>
-</g>
-<g transform="translate(415 72)">
+<g transform="translate(430 72)">
 <circle cy="0" r="11.5"/>
 <circle cy="1200" r="11.5"/>
 <circle cy="203.91" r="11.5"/>
@@ -628,7 +628,7 @@ width="720" height="1318"
 <circle cy="701.96" r="11.5"/>
 <circle cy="996.09" r="11.5"/>
 </g>
-<g transform="translate(445 72)">
+<g transform="translate(460 72)">
 <circle cy="498.04" r="11.5"/>
 <circle cy="701.96" r="11.5"/>
 <circle cy="996.09" r="11.5"/>
@@ -636,7 +636,7 @@ width="720" height="1318"
 <circle cy="1200" r="11.5"/>
 <circle cy="294.13" r="11.5"/>
 </g>
-<g transform="translate(475 72)">
+<g transform="translate(490 72)">
 <circle cy="996.09" r="11.5"/>
 <circle cy="0" r="11.5"/>
 <circle cy="1200" r="11.5"/>
@@ -647,24 +647,6 @@ width="720" height="1318"
 </g>
 <g fill="blue">
 <g transform="translate(145 72)">
-<circle cy="231.17" r="11.5"/>
-<circle cy="435.08" r="11.5"/>
-<circle cy="638.99" r="11.5"/>
-<circle cy="842.9" r="11.5"/>
-<circle cy="933.13" r="11.5"/>
-<circle cy="1137.04" r="11.5"/>
-<circle cy="140.95" r="11.5"/>
-</g>
-<g transform="translate(175 72)">
-<circle cy="729.22" r="11.5"/>
-<circle cy="933.13" r="11.5"/>
-<circle cy="1137.04" r="11.5"/>
-<circle cy="140.95" r="11.5"/>
-<circle cy="231.17" r="11.5"/>
-<circle cy="435.08" r="11.5"/>
-<circle cy="638.99" r="11.5"/>
-</g>
-<g transform="translate(205 72)">
 <circle cy="0" r="11.5"/>
 <circle cy="1200" r="11.5"/>
 <circle cy="203.91" r="11.5"/>
@@ -674,7 +656,7 @@ width="720" height="1318"
 <circle cy="905.87" r="11.5"/>
 <circle cy="1109.78" r="11.5"/>
 </g>
-<g transform="translate(235 72)">
+<g transform="translate(175 72)">
 <circle cy="498.04" r="11.5"/>
 <circle cy="701.96" r="11.5"/>
 <circle cy="905.87" r="11.5"/>
@@ -684,7 +666,7 @@ width="720" height="1318"
 <circle cy="203.91" r="11.5"/>
 <circle cy="407.82" r="11.5"/>
 </g>
-<g transform="translate(265 72)">
+<g transform="translate(205 72)">
 <circle cy="996.09" r="11.5"/>
 <circle cy="0" r="11.5"/>
 <circle cy="1200" r="11.5"/>
@@ -694,7 +676,7 @@ width="720" height="1318"
 <circle cy="701.96" r="11.5"/>
 <circle cy="905.87" r="11.5"/>
 </g>
-<g transform="translate(295 72)">
+<g transform="translate(235 72)">
 <circle cy="294.13" r="11.5"/>
 <circle cy="498.04" r="11.5"/>
 <circle cy="701.96" r="11.5"/>
@@ -704,7 +686,7 @@ width="720" height="1318"
 <circle cy="1200" r="11.5"/>
 <circle cy="203.91" r="11.5"/>
 </g>
-<g transform="translate(325 72)">
+<g transform="translate(265 72)">
 <circle cy="792.18" r="11.5"/>
 <circle cy="996.09" r="11.5"/>
 <circle cy="0" r="11.5"/>
@@ -714,7 +696,7 @@ width="720" height="1318"
 <circle cy="498.04" r="11.5"/>
 <circle cy="701.96" r="11.5"/>
 </g>
-<g transform="translate(355 72)">
+<g transform="translate(295 72)">
 <circle cy="90.22" r="11.5"/>
 <circle cy="294.13" r="11.5"/>
 <circle cy="498.04" r="11.5"/>
@@ -724,7 +706,7 @@ width="720" height="1318"
 <circle cy="0" r="11.5"/>
 <circle cy="1200" r="11.5"/>
 </g>
-<g transform="translate(385 72)">
+<g transform="translate(325 72)">
 <circle cy="588.27" r="11.5"/>
 <circle cy="792.18" r="11.5"/>
 <circle cy="996.09" r="11.5"/>
@@ -734,7 +716,25 @@ width="720" height="1318"
 <circle cy="294.13" r="11.5"/>
 <circle cy="498.04" r="11.5"/>
 </g>
-<g transform="translate(415 72)">
+<g transform="translate(370 72)">
+<circle cy="231.17" r="11.5"/>
+<circle cy="435.08" r="11.5"/>
+<circle cy="638.99" r="11.5"/>
+<circle cy="842.9" r="11.5"/>
+<circle cy="933.13" r="11.5"/>
+<circle cy="1137.04" r="11.5"/>
+<circle cy="140.95" r="11.5"/>
+</g>
+<g transform="translate(400 72)">
+<circle cy="729.22" r="11.5"/>
+<circle cy="933.13" r="11.5"/>
+<circle cy="1137.04" r="11.5"/>
+<circle cy="140.95" r="11.5"/>
+<circle cy="231.17" r="11.5"/>
+<circle cy="435.08" r="11.5"/>
+<circle cy="638.99" r="11.5"/>
+</g>
+<g transform="translate(430 72)">
 <circle cy="27.26" r="11.5"/>
 <circle cy="231.17" r="11.5"/>
 <circle cy="435.08" r="11.5"/>
@@ -743,7 +743,7 @@ width="720" height="1318"
 <circle cy="933.13" r="11.5"/>
 <circle cy="1137.04" r="11.5"/>
 </g>
-<g transform="translate(445 72)">
+<g transform="translate(460 72)">
 <circle cy="525.31" r="11.5"/>
 <circle cy="729.22" r="11.5"/>
 <circle cy="933.13" r="11.5"/>
@@ -752,7 +752,7 @@ width="720" height="1318"
 <circle cy="231.17" r="11.5"/>
 <circle cy="435.08" r="11.5"/>
 </g>
-<g transform="translate(475 72)">
+<g transform="translate(490 72)">
 <circle cy="1023.35" r="11.5"/>
 <circle cy="27.26" r="11.5"/>
 <circle cy="231.17" r="11.5"/>
@@ -764,36 +764,6 @@ width="720" height="1318"
 </g>
 <g fill="white" text-anchor="middle">
 <g transform="translate(145 72)">
-<text font-size="14" y="235.84">F</text>
-<text font-size="12" y="207.91">F♯</text>
-<text font-size="14" y="439.75">G</text>
-<text font-size="12" y="411.82">G♯</text>
-<text font-size="14" y="643.66">A</text>
-<text font-size="12" y="705.96">B♭</text>
-<text font-size="14" y="847.57">B</text>
-<text font-size="14" y="937.8">C</text>
-<text font-size="12" y="909.87">C♯</text>
-<text font-size="14" y="1141.71">D</text>
-<text font-size="12" y="4">E♭</text>
-<text font-size="12" y="1204">E♭</text>
-<text font-size="14" y="145.62">E</text>
-</g>
-<g transform="translate(175 72)">
-<text font-size="14" y="733.89">F</text>
-<text font-size="12" y="705.96">F♯</text>
-<text font-size="14" y="937.8">G</text>
-<text font-size="12" y="909.87">G♯</text>
-<text font-size="14" y="1141.71">A</text>
-<text font-size="12" y="4">B♭</text>
-<text font-size="12" y="1204">B♭</text>
-<text font-size="14" y="145.62">B</text>
-<text font-size="14" y="235.84">C</text>
-<text font-size="12" y="207.91">C♯</text>
-<text font-size="14" y="439.75">D</text>
-<text font-size="12" y="502.04">E♭</text>
-<text font-size="14" y="643.66">E</text>
-</g>
-<g transform="translate(205 72)">
 <text font-size="14" y="4.67">F</text>
 <text font-size="14" y="1204.67">F</text>
 <text font-size="12" y="1176.74">F♯</text>
@@ -808,7 +778,7 @@ width="720" height="1318"
 <text font-size="12" y="972.83">E♭</text>
 <text font-size="14" y="1114.44">E</text>
 </g>
-<g transform="translate(235 72)">
+<g transform="translate(175 72)">
 <text font-size="14" y="502.71">F</text>
 <text font-size="12" y="474.78">F♯</text>
 <text font-size="14" y="706.62">G</text>
@@ -823,7 +793,7 @@ width="720" height="1318"
 <text font-size="12" y="270.87">E♭</text>
 <text font-size="14" y="412.49">E</text>
 </g>
-<g transform="translate(265 72)">
+<g transform="translate(205 72)">
 <text font-size="14" y="1000.76">F</text>
 <text font-size="12" y="972.83">F♯</text>
 <text font-size="14" y="4.67">G</text>
@@ -838,7 +808,7 @@ width="720" height="1318"
 <text font-size="12" y="768.92">E♭</text>
 <text font-size="14" y="910.53">E</text>
 </g>
-<g transform="translate(295 72)">
+<g transform="translate(235 72)">
 <text font-size="14" y="298.8">F</text>
 <text font-size="12" y="270.87">F♯</text>
 <text font-size="14" y="502.71">G</text>
@@ -853,7 +823,7 @@ width="720" height="1318"
 <text font-size="12" y="66.96">E♭</text>
 <text font-size="14" y="208.58">E</text>
 </g>
-<g transform="translate(325 72)">
+<g transform="translate(265 72)">
 <text font-size="14" y="796.85">F</text>
 <text font-size="12" y="768.92">F♯</text>
 <text font-size="14" y="1000.76">G</text>
@@ -868,7 +838,7 @@ width="720" height="1318"
 <text font-size="12" y="565.01">E♭</text>
 <text font-size="14" y="706.62">E</text>
 </g>
-<g transform="translate(355 72)">
+<g transform="translate(295 72)">
 <text font-size="14" y="94.89">F</text>
 <text font-size="12" y="66.96">F♯</text>
 <text font-size="14" y="298.8">G</text>
@@ -883,7 +853,7 @@ width="720" height="1318"
 <text font-size="14" y="4.67">E</text>
 <text font-size="14" y="1204.67">E</text>
 </g>
-<g transform="translate(385 72)">
+<g transform="translate(325 72)">
 <text font-size="14" y="592.94">F</text>
 <text font-size="12" y="565.01">F♯</text>
 <text font-size="14" y="796.85">G</text>
@@ -898,7 +868,37 @@ width="720" height="1318"
 <text font-size="12" y="361.1">E♭</text>
 <text font-size="14" y="502.71">E</text>
 </g>
-<g transform="translate(415 72)">
+<g transform="translate(370 72)">
+<text font-size="14" y="235.84">F</text>
+<text font-size="12" y="207.91">F♯</text>
+<text font-size="14" y="439.75">G</text>
+<text font-size="12" y="411.82">G♯</text>
+<text font-size="14" y="643.66">A</text>
+<text font-size="12" y="705.96">B♭</text>
+<text font-size="14" y="847.57">B</text>
+<text font-size="14" y="937.8">C</text>
+<text font-size="12" y="909.87">C♯</text>
+<text font-size="14" y="1141.71">D</text>
+<text font-size="12" y="4">E♭</text>
+<text font-size="12" y="1204">E♭</text>
+<text font-size="14" y="145.62">E</text>
+</g>
+<g transform="translate(400 72)">
+<text font-size="14" y="733.89">F</text>
+<text font-size="12" y="705.96">F♯</text>
+<text font-size="14" y="937.8">G</text>
+<text font-size="12" y="909.87">G♯</text>
+<text font-size="14" y="1141.71">A</text>
+<text font-size="12" y="4">B♭</text>
+<text font-size="12" y="1204">B♭</text>
+<text font-size="14" y="145.62">B</text>
+<text font-size="14" y="235.84">C</text>
+<text font-size="12" y="207.91">C♯</text>
+<text font-size="14" y="439.75">D</text>
+<text font-size="12" y="502.04">E♭</text>
+<text font-size="14" y="643.66">E</text>
+</g>
+<g transform="translate(430 72)">
 <text font-size="14" y="31.93">F</text>
 <text font-size="12" y="4">F♯</text>
 <text font-size="12" y="1204">F♯</text>
@@ -913,7 +913,7 @@ width="720" height="1318"
 <text font-size="12" y="1000.09">E♭</text>
 <text font-size="14" y="1141.71">E</text>
 </g>
-<g transform="translate(445 72)">
+<g transform="translate(460 72)">
 <text font-size="14" y="529.98">F</text>
 <text font-size="12" y="502.04">F♯</text>
 <text font-size="14" y="733.89">G</text>
@@ -928,7 +928,7 @@ width="720" height="1318"
 <text font-size="12" y="298.13">E♭</text>
 <text font-size="14" y="439.75">E</text>
 </g>
-<g transform="translate(475 72)">
+<g transform="translate(490 72)">
 <text font-size="14" y="1028.02">F</text>
 <text font-size="12" y="1000.09">F♯</text>
 <text font-size="14" y="31.93">G</text>
@@ -945,7 +945,7 @@ width="720" height="1318"
 </g>
 </g>
 <a href="https://www.fidolab.org">
-<text fill="grey" font-size="20" font-style="italic" text-anchor="middle" x="382.5" y="1312">www.FidoLab.org</text>
+<text fill="grey" font-size="20" font-style="italic" text-anchor="middle" x="390" y="1312">www.FidoLab.org</text>
 </a>
 </g>
 </svg>
