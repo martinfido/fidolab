@@ -1,0 +1,6787 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1680" height="1318">
+<g style="font-family: Times New Roman;">
+<text font-size="36" text-anchor="middle" x="840" y="36">Harry Partch's 43 Tone Scale</text>
+<g transform="translate(100 72)">
+<g fill="transparent" stroke="black" stroke-width="1">
+<path d="M0 0 H20 V1200 H0"/>
+<path d="M0 100 H20"/>
+<path d="M0 200 H20"/>
+<path d="M0 300 H20"/>
+<path d="M0 400 H20"/>
+<path d="M0 500 H20"/>
+<path d="M0 600 H20"/>
+<path d="M0 700 H20"/>
+<path d="M0 800 H20"/>
+<path d="M0 900 H20"/>
+<path d="M0 1000 H20"/>
+<path d="M0 1100 H20"/>
+<g transform="translate(7 0)">
+<path d="M0 10 H13"/>
+<path d="M0 20 H13"/>
+<path d="M0 30 H13"/>
+<path d="M0 40 H13"/>
+<path d="M0 50 H13"/>
+<path d="M0 60 H13"/>
+<path d="M0 70 H13"/>
+<path d="M0 80 H13"/>
+<path d="M0 90 H13"/>
+<path d="M0 110 H13"/>
+<path d="M0 120 H13"/>
+<path d="M0 130 H13"/>
+<path d="M0 140 H13"/>
+<path d="M0 150 H13"/>
+<path d="M0 160 H13"/>
+<path d="M0 170 H13"/>
+<path d="M0 180 H13"/>
+<path d="M0 190 H13"/>
+<path d="M0 210 H13"/>
+<path d="M0 220 H13"/>
+<path d="M0 230 H13"/>
+<path d="M0 240 H13"/>
+<path d="M0 250 H13"/>
+<path d="M0 260 H13"/>
+<path d="M0 270 H13"/>
+<path d="M0 280 H13"/>
+<path d="M0 290 H13"/>
+<path d="M0 310 H13"/>
+<path d="M0 320 H13"/>
+<path d="M0 330 H13"/>
+<path d="M0 340 H13"/>
+<path d="M0 350 H13"/>
+<path d="M0 360 H13"/>
+<path d="M0 370 H13"/>
+<path d="M0 380 H13"/>
+<path d="M0 390 H13"/>
+<path d="M0 410 H13"/>
+<path d="M0 420 H13"/>
+<path d="M0 430 H13"/>
+<path d="M0 440 H13"/>
+<path d="M0 450 H13"/>
+<path d="M0 460 H13"/>
+<path d="M0 470 H13"/>
+<path d="M0 480 H13"/>
+<path d="M0 490 H13"/>
+<path d="M0 510 H13"/>
+<path d="M0 520 H13"/>
+<path d="M0 530 H13"/>
+<path d="M0 540 H13"/>
+<path d="M0 550 H13"/>
+<path d="M0 560 H13"/>
+<path d="M0 570 H13"/>
+<path d="M0 580 H13"/>
+<path d="M0 590 H13"/>
+<path d="M0 610 H13"/>
+<path d="M0 620 H13"/>
+<path d="M0 630 H13"/>
+<path d="M0 640 H13"/>
+<path d="M0 650 H13"/>
+<path d="M0 660 H13"/>
+<path d="M0 670 H13"/>
+<path d="M0 680 H13"/>
+<path d="M0 690 H13"/>
+<path d="M0 710 H13"/>
+<path d="M0 720 H13"/>
+<path d="M0 730 H13"/>
+<path d="M0 740 H13"/>
+<path d="M0 750 H13"/>
+<path d="M0 760 H13"/>
+<path d="M0 770 H13"/>
+<path d="M0 780 H13"/>
+<path d="M0 790 H13"/>
+<path d="M0 810 H13"/>
+<path d="M0 820 H13"/>
+<path d="M0 830 H13"/>
+<path d="M0 840 H13"/>
+<path d="M0 850 H13"/>
+<path d="M0 860 H13"/>
+<path d="M0 870 H13"/>
+<path d="M0 880 H13"/>
+<path d="M0 890 H13"/>
+<path d="M0 910 H13"/>
+<path d="M0 920 H13"/>
+<path d="M0 930 H13"/>
+<path d="M0 940 H13"/>
+<path d="M0 950 H13"/>
+<path d="M0 960 H13"/>
+<path d="M0 970 H13"/>
+<path d="M0 980 H13"/>
+<path d="M0 990 H13"/>
+<path d="M0 1010 H13"/>
+<path d="M0 1020 H13"/>
+<path d="M0 1030 H13"/>
+<path d="M0 1040 H13"/>
+<path d="M0 1050 H13"/>
+<path d="M0 1060 H13"/>
+<path d="M0 1070 H13"/>
+<path d="M0 1080 H13"/>
+<path d="M0 1090 H13"/>
+<path d="M0 1110 H13"/>
+<path d="M0 1120 H13"/>
+<path d="M0 1130 H13"/>
+<path d="M0 1140 H13"/>
+<path d="M0 1150 H13"/>
+<path d="M0 1160 H13"/>
+<path d="M0 1170 H13"/>
+<path d="M0 1180 H13"/>
+<path d="M0 1190 H13"/>
+</g>
+<g transform="translate(13 0)">
+<path d="M0 5 H7"/>
+<path d="M0 15 H7"/>
+<path d="M0 25 H7"/>
+<path d="M0 35 H7"/>
+<path d="M0 45 H7"/>
+<path d="M0 55 H7"/>
+<path d="M0 65 H7"/>
+<path d="M0 75 H7"/>
+<path d="M0 85 H7"/>
+<path d="M0 95 H7"/>
+<path d="M0 105 H7"/>
+<path d="M0 115 H7"/>
+<path d="M0 125 H7"/>
+<path d="M0 135 H7"/>
+<path d="M0 145 H7"/>
+<path d="M0 155 H7"/>
+<path d="M0 165 H7"/>
+<path d="M0 175 H7"/>
+<path d="M0 185 H7"/>
+<path d="M0 195 H7"/>
+<path d="M0 205 H7"/>
+<path d="M0 215 H7"/>
+<path d="M0 225 H7"/>
+<path d="M0 235 H7"/>
+<path d="M0 245 H7"/>
+<path d="M0 255 H7"/>
+<path d="M0 265 H7"/>
+<path d="M0 275 H7"/>
+<path d="M0 285 H7"/>
+<path d="M0 295 H7"/>
+<path d="M0 305 H7"/>
+<path d="M0 315 H7"/>
+<path d="M0 325 H7"/>
+<path d="M0 335 H7"/>
+<path d="M0 345 H7"/>
+<path d="M0 355 H7"/>
+<path d="M0 365 H7"/>
+<path d="M0 375 H7"/>
+<path d="M0 385 H7"/>
+<path d="M0 395 H7"/>
+<path d="M0 405 H7"/>
+<path d="M0 415 H7"/>
+<path d="M0 425 H7"/>
+<path d="M0 435 H7"/>
+<path d="M0 445 H7"/>
+<path d="M0 455 H7"/>
+<path d="M0 465 H7"/>
+<path d="M0 475 H7"/>
+<path d="M0 485 H7"/>
+<path d="M0 495 H7"/>
+<path d="M0 505 H7"/>
+<path d="M0 515 H7"/>
+<path d="M0 525 H7"/>
+<path d="M0 535 H7"/>
+<path d="M0 545 H7"/>
+<path d="M0 555 H7"/>
+<path d="M0 565 H7"/>
+<path d="M0 575 H7"/>
+<path d="M0 585 H7"/>
+<path d="M0 595 H7"/>
+<path d="M0 605 H7"/>
+<path d="M0 615 H7"/>
+<path d="M0 625 H7"/>
+<path d="M0 635 H7"/>
+<path d="M0 645 H7"/>
+<path d="M0 655 H7"/>
+<path d="M0 665 H7"/>
+<path d="M0 675 H7"/>
+<path d="M0 685 H7"/>
+<path d="M0 695 H7"/>
+<path d="M0 705 H7"/>
+<path d="M0 715 H7"/>
+<path d="M0 725 H7"/>
+<path d="M0 735 H7"/>
+<path d="M0 745 H7"/>
+<path d="M0 755 H7"/>
+<path d="M0 765 H7"/>
+<path d="M0 775 H7"/>
+<path d="M0 785 H7"/>
+<path d="M0 795 H7"/>
+<path d="M0 805 H7"/>
+<path d="M0 815 H7"/>
+<path d="M0 825 H7"/>
+<path d="M0 835 H7"/>
+<path d="M0 845 H7"/>
+<path d="M0 855 H7"/>
+<path d="M0 865 H7"/>
+<path d="M0 875 H7"/>
+<path d="M0 885 H7"/>
+<path d="M0 895 H7"/>
+<path d="M0 905 H7"/>
+<path d="M0 915 H7"/>
+<path d="M0 925 H7"/>
+<path d="M0 935 H7"/>
+<path d="M0 945 H7"/>
+<path d="M0 955 H7"/>
+<path d="M0 965 H7"/>
+<path d="M0 975 H7"/>
+<path d="M0 985 H7"/>
+<path d="M0 995 H7"/>
+<path d="M0 1005 H7"/>
+<path d="M0 1015 H7"/>
+<path d="M0 1025 H7"/>
+<path d="M0 1035 H7"/>
+<path d="M0 1045 H7"/>
+<path d="M0 1055 H7"/>
+<path d="M0 1065 H7"/>
+<path d="M0 1075 H7"/>
+<path d="M0 1085 H7"/>
+<path d="M0 1095 H7"/>
+<path d="M0 1105 H7"/>
+<path d="M0 1115 H7"/>
+<path d="M0 1125 H7"/>
+<path d="M0 1135 H7"/>
+<path d="M0 1145 H7"/>
+<path d="M0 1155 H7"/>
+<path d="M0 1165 H7"/>
+<path d="M0 1175 H7"/>
+<path d="M0 1185 H7"/>
+<path d="M0 1195 H7"/>
+</g>
+</g>
+<g fill="black" font-size="20" text-anchor="end" transform="translate(-5 6.7)">
+<text y="0">0</text>
+<text y="100">100</text>
+<text y="200">200</text>
+<text y="300">300</text>
+<text y="400">400</text>
+<text y="500">500</text>
+<text y="600">600</text>
+<text y="700">700</text>
+<text y="800">800</text>
+<text y="900">900</text>
+<text y="1000">1000</text>
+<text y="1100">1100</text>
+<text y="1200">1200</text>
+</g>
+<g fill="black" font-size="13" text-anchor="end" transform="translate(2 4.3)">
+<text y="20">20</text>
+<text y="40">40</text>
+<text y="60">60</text>
+<text y="80">80</text>
+<text y="120">120</text>
+<text y="140">140</text>
+<text y="160">160</text>
+<text y="180">180</text>
+<text y="220">220</text>
+<text y="240">240</text>
+<text y="260">260</text>
+<text y="280">280</text>
+<text y="320">320</text>
+<text y="340">340</text>
+<text y="360">360</text>
+<text y="380">380</text>
+<text y="420">420</text>
+<text y="440">440</text>
+<text y="460">460</text>
+<text y="480">480</text>
+<text y="520">520</text>
+<text y="540">540</text>
+<text y="560">560</text>
+<text y="580">580</text>
+<text y="620">620</text>
+<text y="640">640</text>
+<text y="660">660</text>
+<text y="680">680</text>
+<text y="720">720</text>
+<text y="740">740</text>
+<text y="760">760</text>
+<text y="780">780</text>
+<text y="820">820</text>
+<text y="840">840</text>
+<text y="860">860</text>
+<text y="880">880</text>
+<text y="920">920</text>
+<text y="940">940</text>
+<text y="960">960</text>
+<text y="980">980</text>
+<text y="1020">1020</text>
+<text y="1040">1040</text>
+<text y="1060">1060</text>
+<text y="1080">1080</text>
+<text y="1120">1120</text>
+<text y="1140">1140</text>
+<text y="1160">1160</text>
+<text y="1180">1180</text>
+</g>
+</g>
+<g transform="translate(125 72)">
+<g fill="transparent" stroke="black">
+<g stroke-width="1">
+<path d="M0 21.51 H1330"/>
+<path d="M0 41.06 H1330"/>
+<path d="M0 70.67 H1330"/>
+<path d="M0 92.18 H1330"/>
+<path d="M0 111.73 H1330"/>
+<path d="M0 133.24 H1330"/>
+<path d="M0 294.13 H1330"/>
+<path d="M0 407.82 H1328.58 L1330 404.98"/>
+<path d="M0 427.37 H1326.8 L1330 420.98"/>
+<path d="M0 456.99 H1330"/>
+<path d="M0 568.72 H1323 L1330 554.72"/>
+<path d="M0 590.22 H1330"/>
+<path d="M0 609.78 H1330"/>
+<path d="M0 631.28 H1323.09 L1330 645.11"/>
+<path d="M0 680.45 H1330"/>
+<path d="M0 743.01 H1330"/>
+<path d="M0 772.63 H1330"/>
+<path d="M0 792.18 H1330"/>
+<path d="M0 840.53 H1330"/>
+<path d="M0 905.87 H1330"/>
+<path d="M0 1049.36 H1330"/>
+<path d="M0 1088.27 H1330"/>
+<path d="M0 1109.78 H1330"/>
+<path d="M0 1137.04 H1330"/>
+<path d="M0 1158.94 H1330"/>
+</g>
+<g stroke-width="2">
+<path d="M0 182.4 H1330"/>
+<path d="M0 203.91 H1330"/>
+<path d="M0 231.17 H1330"/>
+<path d="M0 266.87 H1330"/>
+<path d="M0 435.08 H1328.55 L1330 437.98"/>
+<path d="M0 582.51 H1324.94 L1330 572.38"/>
+<path d="M0 617.49 H1325.02 L1330 627.44"/>
+<path d="M0 933.13 H1330"/>
+<path d="M0 968.83 H1330"/>
+<path d="M0 996.09 H1330"/>
+<path d="M0 1017.6 H1330"/>
+</g>
+<g stroke-width="3">
+<path d="M0 0 H1330"/>
+<path d="M0 315.64 H1330"/>
+<path d="M0 386.31 H1330"/>
+<path d="M0 498.04 H1330"/>
+<path d="M0 701.96 H1330"/>
+<path d="M0 813.69 H1330"/>
+<path d="M0 884.36 H1330"/>
+<path d="M0 1200 H1330"/>
+</g>
+</g>
+<g transform="translate(1334 0)">
+<g font-size="12">
+<text y="25.51">81/80 syntonic comma</text>
+<text y="45.06">128/125 diminished 2nd</text>
+<text y="74.67">25/24 chromatic semitone</text>
+<text y="96.18">135/128</text>
+<text y="115.73">16/15 diatonic semitone</text>
+<text y="137.24">27/25</text>
+<text y="298.13">32/27 Pythagorean minor 3rd</text>
+<text y="408.98">81/64 ditone</text>
+<text y="424.98">32/25 diminished 4th</text>
+<text y="460.99">125/96 augmented 3rd</text>
+<text y="558.72">25/18 augmented 4th </text>
+<text y="594.22">45/32 high / diatonic tritone</text>
+<text y="613.78">64/45 low tritone</text>
+<text y="649.11">36/25 diminished 5th</text>
+<text y="684.45">40/27 dissonant "wolf" 5th</text>
+<text y="747.01">192/125 diminished 6th</text>
+<text y="776.63">25/16 augmented 5th</text>
+<text y="796.18">128/81 Pythagorean minor 6th</text>
+<text y="844.53">13/8 overtone 6th</text>
+<text y="909.87">27/16 Pythagorean major 6th</text>
+<text y="1053.36">11/6 undecimal "median" 7th</text>
+<text y="1092.27">15/8 major 7th</text>
+<text y="1113.78">243/128 Pythagorean major 7th</text>
+<text y="1141.04">27/14 septimal major 7th</text>
+<text y="1162.94">125/64 augmented 7th</text>
+</g>
+<g font-size="15">
+<text y="187.4">10/9 minor 2nd</text>
+<text y="208.91">9/8 major 2nd</text>
+<text y="442.98">9/7 septimal major 3rd</text>
+<text y="1001.09">16/9 Pythagorean small min. 7th</text>
+<text y="1022.6">9/5 large minor 7th</text>
+</g>
+<g font-size="17">
+<text y="236.84">8/7 septimal major 2nd</text>
+<text y="272.54">7/6 septimal minor 3rd</text>
+<text y="578.05">7/5 septimal tritone</text>
+<text y="633.11">10/7 septimal tritone</text>
+<text y="938.8">12/7 septimal major 6th</text>
+<text y="974.49">7/4 septimal minor 7th</text>
+</g>
+<g font-size="20">
+<text y="6.67">1/1 tonic</text>
+<text y="322.31">6/5 minor 3rd</text>
+<text y="392.98">5/4 major 3rd</text>
+<text y="504.71">4/3 major 4th</text>
+<text y="708.62">3/2 perfect 5th</text>
+<text y="820.35">8/5 minor 6th</text>
+<text y="891.03">5/3 major 6th</text>
+<text y="1206.67">2/1 octave</text>
+</g>
+</g>
+<g stroke="lightgrey" stroke-dasharray="3 3">
+<path d="M0 100 H1330"/>
+<path d="M0 200 H1330"/>
+<path d="M0 300 H1330"/>
+<path d="M0 400 H1330"/>
+<path d="M0 500 H1330"/>
+<path d="M0 600 H1330"/>
+<path d="M0 700 H1330"/>
+<path d="M0 800 H1330"/>
+<path d="M0 900 H1330"/>
+<path d="M0 1000 H1330"/>
+<path d="M0 1100 H1330"/>
+</g>
+</g>
+<g font-size="20" text-anchor="left" transform="translate(150 52) rotate(270)">
+</g>
+<g transform="translate(145 72)">
+<g stroke="grey">
+<path d="M0 0 V1200"/>
+<path d="M30 0 V1200"/>
+<path d="M60 0 V1200"/>
+<path d="M90 0 V1200"/>
+<path d="M120 0 V1200"/>
+<path d="M150 0 V1200"/>
+<path d="M180 0 V1200"/>
+<path d="M210 0 V1200"/>
+<path d="M240 0 V1200"/>
+<path d="M270 0 V1200"/>
+<path d="M300 0 V1200"/>
+<path d="M330 0 V1200"/>
+<path d="M360 0 V1200"/>
+<path d="M390 0 V1200"/>
+<path d="M420 0 V1200"/>
+<path d="M450 0 V1200"/>
+<path d="M480 0 V1200"/>
+<path d="M510 0 V1200"/>
+<path d="M540 0 V1200"/>
+<path d="M570 0 V1200"/>
+<path d="M600 0 V1200"/>
+<path d="M630 0 V1200"/>
+<path d="M660 0 V1200"/>
+<path d="M690 0 V1200"/>
+<path d="M720 0 V1200"/>
+<path d="M750 0 V1200"/>
+<path d="M780 0 V1200"/>
+<path d="M810 0 V1200"/>
+<path d="M840 0 V1200"/>
+<path d="M870 0 V1200"/>
+<path d="M900 0 V1200"/>
+<path d="M930 0 V1200"/>
+<path d="M960 0 V1200"/>
+<path d="M990 0 V1200"/>
+<path d="M1020 0 V1200"/>
+<path d="M1050 0 V1200"/>
+<path d="M1080 0 V1200"/>
+<path d="M1110 0 V1200"/>
+<path d="M1140 0 V1200"/>
+<path d="M1170 0 V1200"/>
+<path d="M1200 0 V1200"/>
+<path d="M1230 0 V1200"/>
+<path d="M1260 0 V1200"/>
+<path d="M1290 0 V1200"/>
+</g>
+<g fill="#2020ff">
+<circle cy="0" r="11.5"/>
+<circle cy="1200" r="11.5"/>
+<circle cy="21.51" r="11.5"/>
+<circle cy="53.27" r="11.5"/>
+<circle cy="84.47" r="11.5"/>
+<circle cy="111.73" r="11.5"/>
+<circle cy="150.64" r="11.5"/>
+<circle cy="165" r="11.5"/>
+<circle cy="182.4" r="11.5"/>
+<circle cy="203.91" r="11.5"/>
+<circle cy="231.17" r="11.5"/>
+<circle cy="266.87" r="11.5"/>
+<circle cy="294.13" r="11.5"/>
+<circle cy="315.64" r="11.5"/>
+<circle cy="347.41" r="11.5"/>
+<circle cy="386.31" r="11.5"/>
+<circle cy="417.51" r="11.5"/>
+<circle cy="435.08" r="11.5"/>
+<circle cy="470.78" r="11.5"/>
+<circle cy="498.04" r="11.5"/>
+<circle cy="519.55" r="11.5"/>
+<circle cy="551.32" r="11.5"/>
+<circle cy="582.51" r="11.5"/>
+<circle cy="617.49" r="11.5"/>
+<circle cy="648.68" r="11.5"/>
+<circle cy="680.45" r="11.5"/>
+<circle cy="701.96" r="11.5"/>
+<circle cy="729.22" r="11.5"/>
+<circle cy="764.92" r="11.5"/>
+<circle cy="782.49" r="11.5"/>
+<circle cy="813.69" r="11.5"/>
+<circle cy="852.59" r="11.5"/>
+<circle cy="884.36" r="11.5"/>
+<circle cy="905.87" r="11.5"/>
+<circle cy="933.13" r="11.5"/>
+<circle cy="968.83" r="11.5"/>
+<circle cy="996.09" r="11.5"/>
+<circle cy="1017.6" r="11.5"/>
+<circle cy="1035" r="11.5"/>
+<circle cy="1049.36" r="11.5"/>
+<circle cy="1088.27" r="11.5"/>
+<circle cy="1115.53" r="11.5"/>
+<circle cy="1146.73" r="11.5"/>
+<circle cy="1178.49" r="11.5"/>
+<circle cy="1200" r="11.5"/>
+</g>
+<g transform="translate(30 0)">
+<g fill="#2020ff">
+<circle cy="1178.49" r="11.5"/>
+<circle cy="0" r="11.5"/>
+<circle cy="1200" r="11.5"/>
+<circle cy="31.77" r="11.5"/>
+<circle cy="62.96" r="11.5"/>
+<circle cy="90.22" r="11.5"/>
+<circle cy="129.13" r="11.5"/>
+<circle cy="143.5" r="11.5"/>
+<circle cy="160.9" r="11.5"/>
+<circle cy="182.4" r="11.5"/>
+<circle cy="209.67" r="11.5"/>
+<circle cy="245.36" r="11.5"/>
+<circle cy="272.63" r="11.5"/>
+<circle cy="294.13" r="11.5"/>
+<circle cy="325.9" r="11.5"/>
+<circle cy="364.81" r="11.5"/>
+<circle cy="396" r="11.5"/>
+<circle cy="413.58" r="11.5"/>
+<circle cy="449.27" r="11.5"/>
+<circle cy="476.54" r="11.5"/>
+<circle cy="498.04" r="11.5"/>
+<circle cy="529.81" r="11.5"/>
+<circle cy="561.01" r="11.5"/>
+<circle cy="595.98" r="11.5"/>
+<circle cy="627.18" r="11.5"/>
+<circle cy="658.94" r="11.5"/>
+<circle cy="680.45" r="11.5"/>
+<circle cy="707.71" r="11.5"/>
+<circle cy="743.41" r="11.5"/>
+<circle cy="760.99" r="11.5"/>
+<circle cy="792.18" r="11.5"/>
+<circle cy="831.09" r="11.5"/>
+<circle cy="862.85" r="11.5"/>
+<circle cy="884.36" r="11.5"/>
+<circle cy="911.62" r="11.5"/>
+<circle cy="947.32" r="11.5"/>
+<circle cy="974.58" r="11.5"/>
+<circle cy="996.09" r="11.5"/>
+<circle cy="1013.49" r="11.5"/>
+<circle cy="1027.86" r="11.5"/>
+<circle cy="1066.76" r="11.5"/>
+<circle cy="1094.03" r="11.5"/>
+<circle cy="1125.22" r="11.5"/>
+<circle cy="1156.99" r="11.5"/>
+<circle cy="1178.49" r="11.5"/>
+</g>
+</g>
+<g transform="translate(60 0)">
+<g fill="#2020ff">
+<circle cy="1146.73" r="11.5"/>
+<circle cy="1168.23" r="11.5"/>
+<circle cy="0" r="11.5"/>
+<circle cy="1200" r="11.5"/>
+<circle cy="31.19" r="11.5"/>
+<circle cy="58.46" r="11.5"/>
+<circle cy="97.36" r="11.5"/>
+<circle cy="111.73" r="11.5"/>
+<circle cy="129.13" r="11.5"/>
+<circle cy="150.64" r="11.5"/>
+<circle cy="177.9" r="11.5"/>
+<circle cy="213.6" r="11.5"/>
+<circle cy="240.86" r="11.5"/>
+<circle cy="262.37" r="11.5"/>
+<circle cy="294.13" r="11.5"/>
+<circle cy="333.04" r="11.5"/>
+<circle cy="364.24" r="11.5"/>
+<circle cy="381.81" r="11.5"/>
+<circle cy="417.51" r="11.5"/>
+<circle cy="444.77" r="11.5"/>
+<circle cy="466.28" r="11.5"/>
+<circle cy="498.04" r="11.5"/>
+<circle cy="529.24" r="11.5"/>
+<circle cy="564.21" r="11.5"/>
+<circle cy="595.41" r="11.5"/>
+<circle cy="627.18" r="11.5"/>
+<circle cy="648.68" r="11.5"/>
+<circle cy="675.95" r="11.5"/>
+<circle cy="711.64" r="11.5"/>
+<circle cy="729.22" r="11.5"/>
+<circle cy="760.41" r="11.5"/>
+<circle cy="799.32" r="11.5"/>
+<circle cy="831.09" r="11.5"/>
+<circle cy="852.59" r="11.5"/>
+<circle cy="879.86" r="11.5"/>
+<circle cy="915.55" r="11.5"/>
+<circle cy="942.82" r="11.5"/>
+<circle cy="964.32" r="11.5"/>
+<circle cy="981.72" r="11.5"/>
+<circle cy="996.09" r="11.5"/>
+<circle cy="1035" r="11.5"/>
+<circle cy="1062.26" r="11.5"/>
+<circle cy="1093.45" r="11.5"/>
+<circle cy="1125.22" r="11.5"/>
+<circle cy="1146.73" r="11.5"/>
+</g>
+</g>
+<g transform="translate(90 0)">
+<g fill="#2020ff">
+<circle cy="1115.53" r="11.5"/>
+<circle cy="1137.04" r="11.5"/>
+<circle cy="1168.81" r="11.5"/>
+<circle cy="0" r="11.5"/>
+<circle cy="1200" r="11.5"/>
+<circle cy="27.26" r="11.5"/>
+<circle cy="66.17" r="11.5"/>
+<circle cy="80.54" r="11.5"/>
+<circle cy="97.94" r="11.5"/>
+<circle cy="119.44" r="11.5"/>
+<circle cy="146.71" r="11.5"/>
+<circle cy="182.4" r="11.5"/>
+<circle cy="209.67" r="11.5"/>
+<circle cy="231.17" r="11.5"/>
+<circle cy="262.94" r="11.5"/>
+<circle cy="301.85" r="11.5"/>
+<circle cy="333.04" r="11.5"/>
+<circle cy="350.62" r="11.5"/>
+<circle cy="386.31" r="11.5"/>
+<circle cy="413.58" r="11.5"/>
+<circle cy="435.08" r="11.5"/>
+<circle cy="466.85" r="11.5"/>
+<circle cy="498.04" r="11.5"/>
+<circle cy="533.02" r="11.5"/>
+<circle cy="564.21" r="11.5"/>
+<circle cy="595.98" r="11.5"/>
+<circle cy="617.49" r="11.5"/>
+<circle cy="644.75" r="11.5"/>
+<circle cy="680.45" r="11.5"/>
+<circle cy="698.02" r="11.5"/>
+<circle cy="729.22" r="11.5"/>
+<circle cy="768.12" r="11.5"/>
+<circle cy="799.89" r="11.5"/>
+<circle cy="821.4" r="11.5"/>
+<circle cy="848.66" r="11.5"/>
+<circle cy="884.36" r="11.5"/>
+<circle cy="911.62" r="11.5"/>
+<circle cy="933.13" r="11.5"/>
+<circle cy="950.53" r="11.5"/>
+<circle cy="964.9" r="11.5"/>
+<circle cy="1003.8" r="11.5"/>
+<circle cy="1031.07" r="11.5"/>
+<circle cy="1062.26" r="11.5"/>
+<circle cy="1094.03" r="11.5"/>
+<circle cy="1115.53" r="11.5"/>
+</g>
+</g>
+<g transform="translate(120 0)">
+<g fill="#2020ff">
+<circle cy="1088.27" r="11.5"/>
+<circle cy="1109.78" r="11.5"/>
+<circle cy="1141.54" r="11.5"/>
+<circle cy="1172.74" r="11.5"/>
+<circle cy="0" r="11.5"/>
+<circle cy="1200" r="11.5"/>
+<circle cy="38.91" r="11.5"/>
+<circle cy="53.27" r="11.5"/>
+<circle cy="70.67" r="11.5"/>
+<circle cy="92.18" r="11.5"/>
+<circle cy="119.44" r="11.5"/>
+<circle cy="155.14" r="11.5"/>
+<circle cy="182.4" r="11.5"/>
+<circle cy="203.91" r="11.5"/>
+<circle cy="235.68" r="11.5"/>
+<circle cy="274.58" r="11.5"/>
+<circle cy="305.78" r="11.5"/>
+<circle cy="323.35" r="11.5"/>
+<circle cy="359.05" r="11.5"/>
+<circle cy="386.31" r="11.5"/>
+<circle cy="407.82" r="11.5"/>
+<circle cy="439.59" r="11.5"/>
+<circle cy="470.78" r="11.5"/>
+<circle cy="505.76" r="11.5"/>
+<circle cy="536.95" r="11.5"/>
+<circle cy="568.72" r="11.5"/>
+<circle cy="590.22" r="11.5"/>
+<circle cy="617.49" r="11.5"/>
+<circle cy="653.18" r="11.5"/>
+<circle cy="670.76" r="11.5"/>
+<circle cy="701.96" r="11.5"/>
+<circle cy="740.86" r="11.5"/>
+<circle cy="772.63" r="11.5"/>
+<circle cy="794.13" r="11.5"/>
+<circle cy="821.4" r="11.5"/>
+<circle cy="857.09" r="11.5"/>
+<circle cy="884.36" r="11.5"/>
+<circle cy="905.87" r="11.5"/>
+<circle cy="923.26" r="11.5"/>
+<circle cy="937.63" r="11.5"/>
+<circle cy="976.54" r="11.5"/>
+<circle cy="1003.8" r="11.5"/>
+<circle cy="1035" r="11.5"/>
+<circle cy="1066.76" r="11.5"/>
+<circle cy="1088.27" r="11.5"/>
+</g>
+</g>
+<g transform="translate(150 0)">
+<g fill="#2020ff">
+<circle cy="1049.36" r="11.5"/>
+<circle cy="1070.87" r="11.5"/>
+<circle cy="1102.64" r="11.5"/>
+<circle cy="1133.83" r="11.5"/>
+<circle cy="1161.09" r="11.5"/>
+<circle cy="0" r="11.5"/>
+<circle cy="1200" r="11.5"/>
+<circle cy="14.37" r="11.5"/>
+<circle cy="31.77" r="11.5"/>
+<circle cy="53.27" r="11.5"/>
+<circle cy="80.54" r="11.5"/>
+<circle cy="116.23" r="11.5"/>
+<circle cy="143.5" r="11.5"/>
+<circle cy="165" r="11.5"/>
+<circle cy="196.77" r="11.5"/>
+<circle cy="235.68" r="11.5"/>
+<circle cy="266.87" r="11.5"/>
+<circle cy="284.45" r="11.5"/>
+<circle cy="320.14" r="11.5"/>
+<circle cy="347.41" r="11.5"/>
+<circle cy="368.91" r="11.5"/>
+<circle cy="400.68" r="11.5"/>
+<circle cy="431.88" r="11.5"/>
+<circle cy="466.85" r="11.5"/>
+<circle cy="498.04" r="11.5"/>
+<circle cy="529.81" r="11.5"/>
+<circle cy="551.32" r="11.5"/>
+<circle cy="578.58" r="11.5"/>
+<circle cy="614.28" r="11.5"/>
+<circle cy="631.85" r="11.5"/>
+<circle cy="663.05" r="11.5"/>
+<circle cy="701.96" r="11.5"/>
+<circle cy="733.72" r="11.5"/>
+<circle cy="755.23" r="11.5"/>
+<circle cy="782.49" r="11.5"/>
+<circle cy="818.19" r="11.5"/>
+<circle cy="845.45" r="11.5"/>
+<circle cy="866.96" r="11.5"/>
+<circle cy="884.36" r="11.5"/>
+<circle cy="898.73" r="11.5"/>
+<circle cy="937.63" r="11.5"/>
+<circle cy="964.9" r="11.5"/>
+<circle cy="996.09" r="11.5"/>
+<circle cy="1027.86" r="11.5"/>
+<circle cy="1049.36" r="11.5"/>
+</g>
+</g>
+<g transform="translate(180 0)">
+<g fill="#2020ff">
+<circle cy="1035" r="11.5"/>
+<circle cy="1056.5" r="11.5"/>
+<circle cy="1088.27" r="11.5"/>
+<circle cy="1119.46" r="11.5"/>
+<circle cy="1146.73" r="11.5"/>
+<circle cy="1185.63" r="11.5"/>
+<circle cy="0" r="11.5"/>
+<circle cy="1200" r="11.5"/>
+<circle cy="17.4" r="11.5"/>
+<circle cy="38.91" r="11.5"/>
+<circle cy="66.17" r="11.5"/>
+<circle cy="101.87" r="11.5"/>
+<circle cy="129.13" r="11.5"/>
+<circle cy="150.64" r="11.5"/>
+<circle cy="182.4" r="11.5"/>
+<circle cy="221.31" r="11.5"/>
+<circle cy="252.5" r="11.5"/>
+<circle cy="270.08" r="11.5"/>
+<circle cy="305.78" r="11.5"/>
+<circle cy="333.04" r="11.5"/>
+<circle cy="354.55" r="11.5"/>
+<circle cy="386.31" r="11.5"/>
+<circle cy="417.51" r="11.5"/>
+<circle cy="452.48" r="11.5"/>
+<circle cy="483.68" r="11.5"/>
+<circle cy="515.44" r="11.5"/>
+<circle cy="536.95" r="11.5"/>
+<circle cy="564.21" r="11.5"/>
+<circle cy="599.91" r="11.5"/>
+<circle cy="617.49" r="11.5"/>
+<circle cy="648.68" r="11.5"/>
+<circle cy="687.59" r="11.5"/>
+<circle cy="719.35" r="11.5"/>
+<circle cy="740.86" r="11.5"/>
+<circle cy="768.12" r="11.5"/>
+<circle cy="803.82" r="11.5"/>
+<circle cy="831.09" r="11.5"/>
+<circle cy="852.59" r="11.5"/>
+<circle cy="869.99" r="11.5"/>
+<circle cy="884.36" r="11.5"/>
+<circle cy="923.26" r="11.5"/>
+<circle cy="950.53" r="11.5"/>
+<circle cy="981.72" r="11.5"/>
+<circle cy="1013.49" r="11.5"/>
+<circle cy="1035" r="11.5"/>
+</g>
+</g>
+<g transform="translate(210 0)">
+<g fill="#2020ff">
+<circle cy="1017.6" r="11.5"/>
+<circle cy="1039.1" r="11.5"/>
+<circle cy="1070.87" r="11.5"/>
+<circle cy="1102.06" r="11.5"/>
+<circle cy="1129.33" r="11.5"/>
+<circle cy="1168.23" r="11.5"/>
+<circle cy="1182.6" r="11.5"/>
+<circle cy="0" r="11.5"/>
+<circle cy="1200" r="11.5"/>
+<circle cy="21.51" r="11.5"/>
+<circle cy="48.77" r="11.5"/>
+<circle cy="84.47" r="11.5"/>
+<circle cy="111.73" r="11.5"/>
+<circle cy="133.24" r="11.5"/>
+<circle cy="165" r="11.5"/>
+<circle cy="203.91" r="11.5"/>
+<circle cy="235.1" r="11.5"/>
+<circle cy="252.68" r="11.5"/>
+<circle cy="288.38" r="11.5"/>
+<circle cy="315.64" r="11.5"/>
+<circle cy="337.15" r="11.5"/>
+<circle cy="368.91" r="11.5"/>
+<circle cy="400.11" r="11.5"/>
+<circle cy="435.08" r="11.5"/>
+<circle cy="466.28" r="11.5"/>
+<circle cy="498.04" r="11.5"/>
+<circle cy="519.55" r="11.5"/>
+<circle cy="546.82" r="11.5"/>
+<circle cy="582.51" r="11.5"/>
+<circle cy="600.09" r="11.5"/>
+<circle cy="631.28" r="11.5"/>
+<circle cy="670.19" r="11.5"/>
+<circle cy="701.96" r="11.5"/>
+<circle cy="723.46" r="11.5"/>
+<circle cy="750.73" r="11.5"/>
+<circle cy="786.42" r="11.5"/>
+<circle cy="813.69" r="11.5"/>
+<circle cy="835.19" r="11.5"/>
+<circle cy="852.59" r="11.5"/>
+<circle cy="866.96" r="11.5"/>
+<circle cy="905.87" r="11.5"/>
+<circle cy="933.13" r="11.5"/>
+<circle cy="964.32" r="11.5"/>
+<circle cy="996.09" r="11.5"/>
+<circle cy="1017.6" r="11.5"/>
+</g>
+</g>
+<g transform="translate(240 0)">
+<g fill="#2020ff">
+<circle cy="996.09" r="11.5"/>
+<circle cy="1017.6" r="11.5"/>
+<circle cy="1049.36" r="11.5"/>
+<circle cy="1080.56" r="11.5"/>
+<circle cy="1107.82" r="11.5"/>
+<circle cy="1146.73" r="11.5"/>
+<circle cy="1161.09" r="11.5"/>
+<circle cy="1178.49" r="11.5"/>
+<circle cy="0" r="11.5"/>
+<circle cy="1200" r="11.5"/>
+<circle cy="27.26" r="11.5"/>
+<circle cy="62.96" r="11.5"/>
+<circle cy="90.22" r="11.5"/>
+<circle cy="111.73" r="11.5"/>
+<circle cy="143.5" r="11.5"/>
+<circle cy="182.4" r="11.5"/>
+<circle cy="213.6" r="11.5"/>
+<circle cy="231.17" r="11.5"/>
+<circle cy="266.87" r="11.5"/>
+<circle cy="294.13" r="11.5"/>
+<circle cy="315.64" r="11.5"/>
+<circle cy="347.41" r="11.5"/>
+<circle cy="378.6" r="11.5"/>
+<circle cy="413.58" r="11.5"/>
+<circle cy="444.77" r="11.5"/>
+<circle cy="476.54" r="11.5"/>
+<circle cy="498.04" r="11.5"/>
+<circle cy="525.31" r="11.5"/>
+<circle cy="561.01" r="11.5"/>
+<circle cy="578.58" r="11.5"/>
+<circle cy="609.78" r="11.5"/>
+<circle cy="648.68" r="11.5"/>
+<circle cy="680.45" r="11.5"/>
+<circle cy="701.96" r="11.5"/>
+<circle cy="729.22" r="11.5"/>
+<circle cy="764.92" r="11.5"/>
+<circle cy="792.18" r="11.5"/>
+<circle cy="813.69" r="11.5"/>
+<circle cy="831.09" r="11.5"/>
+<circle cy="845.45" r="11.5"/>
+<circle cy="884.36" r="11.5"/>
+<circle cy="911.62" r="11.5"/>
+<circle cy="942.82" r="11.5"/>
+<circle cy="974.58" r="11.5"/>
+<circle cy="996.09" r="11.5"/>
+</g>
+</g>
+<g transform="translate(270 0)">
+<g fill="#2020ff">
+<circle cy="968.83" r="11.5"/>
+<circle cy="990.33" r="11.5"/>
+<circle cy="1022.1" r="11.5"/>
+<circle cy="1053.29" r="11.5"/>
+<circle cy="1080.56" r="11.5"/>
+<circle cy="1119.46" r="11.5"/>
+<circle cy="1133.83" r="11.5"/>
+<circle cy="1151.23" r="11.5"/>
+<circle cy="1172.74" r="11.5"/>
+<circle cy="0" r="11.5"/>
+<circle cy="1200" r="11.5"/>
+<circle cy="35.7" r="11.5"/>
+<circle cy="62.96" r="11.5"/>
+<circle cy="84.47" r="11.5"/>
+<circle cy="116.23" r="11.5"/>
+<circle cy="155.14" r="11.5"/>
+<circle cy="186.33" r="11.5"/>
+<circle cy="203.91" r="11.5"/>
+<circle cy="239.61" r="11.5"/>
+<circle cy="266.87" r="11.5"/>
+<circle cy="288.38" r="11.5"/>
+<circle cy="320.14" r="11.5"/>
+<circle cy="351.34" r="11.5"/>
+<circle cy="386.31" r="11.5"/>
+<circle cy="417.51" r="11.5"/>
+<circle cy="449.27" r="11.5"/>
+<circle cy="470.78" r="11.5"/>
+<circle cy="498.04" r="11.5"/>
+<circle cy="533.74" r="11.5"/>
+<circle cy="551.32" r="11.5"/>
+<circle cy="582.51" r="11.5"/>
+<circle cy="621.42" r="11.5"/>
+<circle cy="653.18" r="11.5"/>
+<circle cy="674.69" r="11.5"/>
+<circle cy="701.96" r="11.5"/>
+<circle cy="737.65" r="11.5"/>
+<circle cy="764.92" r="11.5"/>
+<circle cy="786.42" r="11.5"/>
+<circle cy="803.82" r="11.5"/>
+<circle cy="818.19" r="11.5"/>
+<circle cy="857.09" r="11.5"/>
+<circle cy="884.36" r="11.5"/>
+<circle cy="915.55" r="11.5"/>
+<circle cy="947.32" r="11.5"/>
+<circle cy="968.83" r="11.5"/>
+</g>
+</g>
+<g transform="translate(300 0)">
+<g fill="#2020ff">
+<circle cy="933.13" r="11.5"/>
+<circle cy="954.64" r="11.5"/>
+<circle cy="986.4" r="11.5"/>
+<circle cy="1017.6" r="11.5"/>
+<circle cy="1044.86" r="11.5"/>
+<circle cy="1083.77" r="11.5"/>
+<circle cy="1098.13" r="11.5"/>
+<circle cy="1115.53" r="11.5"/>
+<circle cy="1137.04" r="11.5"/>
+<circle cy="1164.3" r="11.5"/>
+<circle cy="0" r="11.5"/>
+<circle cy="1200" r="11.5"/>
+<circle cy="27.26" r="11.5"/>
+<circle cy="48.77" r="11.5"/>
+<circle cy="80.54" r="11.5"/>
+<circle cy="119.44" r="11.5"/>
+<circle cy="150.64" r="11.5"/>
+<circle cy="168.21" r="11.5"/>
+<circle cy="203.91" r="11.5"/>
+<circle cy="231.17" r="11.5"/>
+<circle cy="252.68" r="11.5"/>
+<circle cy="284.45" r="11.5"/>
+<circle cy="315.64" r="11.5"/>
+<circle cy="350.62" r="11.5"/>
+<circle cy="381.81" r="11.5"/>
+<circle cy="413.58" r="11.5"/>
+<circle cy="435.08" r="11.5"/>
+<circle cy="462.35" r="11.5"/>
+<circle cy="498.04" r="11.5"/>
+<circle cy="515.62" r="11.5"/>
+<circle cy="546.82" r="11.5"/>
+<circle cy="585.72" r="11.5"/>
+<circle cy="617.49" r="11.5"/>
+<circle cy="638.99" r="11.5"/>
+<circle cy="666.26" r="11.5"/>
+<circle cy="701.96" r="11.5"/>
+<circle cy="729.22" r="11.5"/>
+<circle cy="750.73" r="11.5"/>
+<circle cy="768.12" r="11.5"/>
+<circle cy="782.49" r="11.5"/>
+<circle cy="821.4" r="11.5"/>
+<circle cy="848.66" r="11.5"/>
+<circle cy="879.86" r="11.5"/>
+<circle cy="911.62" r="11.5"/>
+<circle cy="933.13" r="11.5"/>
+</g>
+</g>
+<g transform="translate(330 0)">
+<g fill="#2020ff">
+<circle cy="905.87" r="11.5"/>
+<circle cy="927.37" r="11.5"/>
+<circle cy="959.14" r="11.5"/>
+<circle cy="990.33" r="11.5"/>
+<circle cy="1017.6" r="11.5"/>
+<circle cy="1056.5" r="11.5"/>
+<circle cy="1070.87" r="11.5"/>
+<circle cy="1088.27" r="11.5"/>
+<circle cy="1109.78" r="11.5"/>
+<circle cy="1137.04" r="11.5"/>
+<circle cy="1172.74" r="11.5"/>
+<circle cy="0" r="11.5"/>
+<circle cy="1200" r="11.5"/>
+<circle cy="21.51" r="11.5"/>
+<circle cy="53.27" r="11.5"/>
+<circle cy="92.18" r="11.5"/>
+<circle cy="123.37" r="11.5"/>
+<circle cy="140.95" r="11.5"/>
+<circle cy="176.65" r="11.5"/>
+<circle cy="203.91" r="11.5"/>
+<circle cy="225.42" r="11.5"/>
+<circle cy="257.18" r="11.5"/>
+<circle cy="288.38" r="11.5"/>
+<circle cy="323.35" r="11.5"/>
+<circle cy="354.55" r="11.5"/>
+<circle cy="386.31" r="11.5"/>
+<circle cy="407.82" r="11.5"/>
+<circle cy="435.08" r="11.5"/>
+<circle cy="470.78" r="11.5"/>
+<circle cy="488.36" r="11.5"/>
+<circle cy="519.55" r="11.5"/>
+<circle cy="558.46" r="11.5"/>
+<circle cy="590.22" r="11.5"/>
+<circle cy="611.73" r="11.5"/>
+<circle cy="638.99" r="11.5"/>
+<circle cy="674.69" r="11.5"/>
+<circle cy="701.96" r="11.5"/>
+<circle cy="723.46" r="11.5"/>
+<circle cy="740.86" r="11.5"/>
+<circle cy="755.23" r="11.5"/>
+<circle cy="794.13" r="11.5"/>
+<circle cy="821.4" r="11.5"/>
+<circle cy="852.59" r="11.5"/>
+<circle cy="884.36" r="11.5"/>
+<circle cy="905.87" r="11.5"/>
+</g>
+</g>
+<g transform="translate(360 0)">
+<g fill="#2020ff">
+<circle cy="884.36" r="11.5"/>
+<circle cy="905.87" r="11.5"/>
+<circle cy="937.63" r="11.5"/>
+<circle cy="968.83" r="11.5"/>
+<circle cy="996.09" r="11.5"/>
+<circle cy="1035" r="11.5"/>
+<circle cy="1049.36" r="11.5"/>
+<circle cy="1066.76" r="11.5"/>
+<circle cy="1088.27" r="11.5"/>
+<circle cy="1115.53" r="11.5"/>
+<circle cy="1151.23" r="11.5"/>
+<circle cy="1178.49" r="11.5"/>
+<circle cy="0" r="11.5"/>
+<circle cy="1200" r="11.5"/>
+<circle cy="31.77" r="11.5"/>
+<circle cy="70.67" r="11.5"/>
+<circle cy="101.87" r="11.5"/>
+<circle cy="119.44" r="11.5"/>
+<circle cy="155.14" r="11.5"/>
+<circle cy="182.4" r="11.5"/>
+<circle cy="203.91" r="11.5"/>
+<circle cy="235.68" r="11.5"/>
+<circle cy="266.87" r="11.5"/>
+<circle cy="301.85" r="11.5"/>
+<circle cy="333.04" r="11.5"/>
+<circle cy="364.81" r="11.5"/>
+<circle cy="386.31" r="11.5"/>
+<circle cy="413.58" r="11.5"/>
+<circle cy="449.27" r="11.5"/>
+<circle cy="466.85" r="11.5"/>
+<circle cy="498.04" r="11.5"/>
+<circle cy="536.95" r="11.5"/>
+<circle cy="568.72" r="11.5"/>
+<circle cy="590.22" r="11.5"/>
+<circle cy="617.49" r="11.5"/>
+<circle cy="653.18" r="11.5"/>
+<circle cy="680.45" r="11.5"/>
+<circle cy="701.96" r="11.5"/>
+<circle cy="719.35" r="11.5"/>
+<circle cy="733.72" r="11.5"/>
+<circle cy="772.63" r="11.5"/>
+<circle cy="799.89" r="11.5"/>
+<circle cy="831.09" r="11.5"/>
+<circle cy="862.85" r="11.5"/>
+<circle cy="884.36" r="11.5"/>
+</g>
+</g>
+<g transform="translate(390 0)">
+<g fill="#2020ff">
+<circle cy="852.59" r="11.5"/>
+<circle cy="874.1" r="11.5"/>
+<circle cy="905.87" r="11.5"/>
+<circle cy="937.06" r="11.5"/>
+<circle cy="964.32" r="11.5"/>
+<circle cy="1003.23" r="11.5"/>
+<circle cy="1017.6" r="11.5"/>
+<circle cy="1035" r="11.5"/>
+<circle cy="1056.5" r="11.5"/>
+<circle cy="1083.77" r="11.5"/>
+<circle cy="1119.46" r="11.5"/>
+<circle cy="1146.73" r="11.5"/>
+<circle cy="1168.23" r="11.5"/>
+<circle cy="0" r="11.5"/>
+<circle cy="1200" r="11.5"/>
+<circle cy="38.91" r="11.5"/>
+<circle cy="70.1" r="11.5"/>
+<circle cy="87.68" r="11.5"/>
+<circle cy="123.37" r="11.5"/>
+<circle cy="150.64" r="11.5"/>
+<circle cy="172.14" r="11.5"/>
+<circle cy="203.91" r="11.5"/>
+<circle cy="235.1" r="11.5"/>
+<circle cy="270.08" r="11.5"/>
+<circle cy="301.27" r="11.5"/>
+<circle cy="333.04" r="11.5"/>
+<circle cy="354.55" r="11.5"/>
+<circle cy="381.81" r="11.5"/>
+<circle cy="417.51" r="11.5"/>
+<circle cy="435.08" r="11.5"/>
+<circle cy="466.28" r="11.5"/>
+<circle cy="505.18" r="11.5"/>
+<circle cy="536.95" r="11.5"/>
+<circle cy="558.46" r="11.5"/>
+<circle cy="585.72" r="11.5"/>
+<circle cy="621.42" r="11.5"/>
+<circle cy="648.68" r="11.5"/>
+<circle cy="670.19" r="11.5"/>
+<circle cy="687.59" r="11.5"/>
+<circle cy="701.96" r="11.5"/>
+<circle cy="740.86" r="11.5"/>
+<circle cy="768.12" r="11.5"/>
+<circle cy="799.32" r="11.5"/>
+<circle cy="831.09" r="11.5"/>
+<circle cy="852.59" r="11.5"/>
+</g>
+</g>
+<g transform="translate(420 0)">
+<g fill="#2020ff">
+<circle cy="813.69" r="11.5"/>
+<circle cy="835.19" r="11.5"/>
+<circle cy="866.96" r="11.5"/>
+<circle cy="898.15" r="11.5"/>
+<circle cy="925.42" r="11.5"/>
+<circle cy="964.32" r="11.5"/>
+<circle cy="978.69" r="11.5"/>
+<circle cy="996.09" r="11.5"/>
+<circle cy="1017.6" r="11.5"/>
+<circle cy="1044.86" r="11.5"/>
+<circle cy="1080.56" r="11.5"/>
+<circle cy="1107.82" r="11.5"/>
+<circle cy="1129.33" r="11.5"/>
+<circle cy="1161.09" r="11.5"/>
+<circle cy="0" r="11.5"/>
+<circle cy="1200" r="11.5"/>
+<circle cy="31.19" r="11.5"/>
+<circle cy="48.77" r="11.5"/>
+<circle cy="84.47" r="11.5"/>
+<circle cy="111.73" r="11.5"/>
+<circle cy="133.24" r="11.5"/>
+<circle cy="165" r="11.5"/>
+<circle cy="196.2" r="11.5"/>
+<circle cy="231.17" r="11.5"/>
+<circle cy="262.37" r="11.5"/>
+<circle cy="294.13" r="11.5"/>
+<circle cy="315.64" r="11.5"/>
+<circle cy="342.91" r="11.5"/>
+<circle cy="378.6" r="11.5"/>
+<circle cy="396.18" r="11.5"/>
+<circle cy="427.37" r="11.5"/>
+<circle cy="466.28" r="11.5"/>
+<circle cy="498.04" r="11.5"/>
+<circle cy="519.55" r="11.5"/>
+<circle cy="546.82" r="11.5"/>
+<circle cy="582.51" r="11.5"/>
+<circle cy="609.78" r="11.5"/>
+<circle cy="631.28" r="11.5"/>
+<circle cy="648.68" r="11.5"/>
+<circle cy="663.05" r="11.5"/>
+<circle cy="701.96" r="11.5"/>
+<circle cy="729.22" r="11.5"/>
+<circle cy="760.41" r="11.5"/>
+<circle cy="792.18" r="11.5"/>
+<circle cy="813.69" r="11.5"/>
+</g>
+</g>
+<g transform="translate(450 0)">
+<g fill="#2020ff">
+<circle cy="782.49" r="11.5"/>
+<circle cy="804" r="11.5"/>
+<circle cy="835.76" r="11.5"/>
+<circle cy="866.96" r="11.5"/>
+<circle cy="894.22" r="11.5"/>
+<circle cy="933.13" r="11.5"/>
+<circle cy="947.5" r="11.5"/>
+<circle cy="964.9" r="11.5"/>
+<circle cy="986.4" r="11.5"/>
+<circle cy="1013.67" r="11.5"/>
+<circle cy="1049.36" r="11.5"/>
+<circle cy="1076.63" r="11.5"/>
+<circle cy="1098.13" r="11.5"/>
+<circle cy="1129.9" r="11.5"/>
+<circle cy="1168.81" r="11.5"/>
+<circle cy="0" r="11.5"/>
+<circle cy="1200" r="11.5"/>
+<circle cy="17.58" r="11.5"/>
+<circle cy="53.27" r="11.5"/>
+<circle cy="80.54" r="11.5"/>
+<circle cy="102.04" r="11.5"/>
+<circle cy="133.81" r="11.5"/>
+<circle cy="165" r="11.5"/>
+<circle cy="199.98" r="11.5"/>
+<circle cy="231.17" r="11.5"/>
+<circle cy="262.94" r="11.5"/>
+<circle cy="284.45" r="11.5"/>
+<circle cy="311.71" r="11.5"/>
+<circle cy="347.41" r="11.5"/>
+<circle cy="364.98" r="11.5"/>
+<circle cy="396.18" r="11.5"/>
+<circle cy="435.08" r="11.5"/>
+<circle cy="466.85" r="11.5"/>
+<circle cy="488.36" r="11.5"/>
+<circle cy="515.62" r="11.5"/>
+<circle cy="551.32" r="11.5"/>
+<circle cy="578.58" r="11.5"/>
+<circle cy="600.09" r="11.5"/>
+<circle cy="617.49" r="11.5"/>
+<circle cy="631.85" r="11.5"/>
+<circle cy="670.76" r="11.5"/>
+<circle cy="698.02" r="11.5"/>
+<circle cy="729.22" r="11.5"/>
+<circle cy="760.99" r="11.5"/>
+<circle cy="782.49" r="11.5"/>
+</g>
+</g>
+<g transform="translate(480 0)">
+<g fill="#2020ff">
+<circle cy="764.92" r="11.5"/>
+<circle cy="786.42" r="11.5"/>
+<circle cy="818.19" r="11.5"/>
+<circle cy="849.38" r="11.5"/>
+<circle cy="876.65" r="11.5"/>
+<circle cy="915.55" r="11.5"/>
+<circle cy="929.92" r="11.5"/>
+<circle cy="947.32" r="11.5"/>
+<circle cy="968.83" r="11.5"/>
+<circle cy="996.09" r="11.5"/>
+<circle cy="1031.79" r="11.5"/>
+<circle cy="1059.05" r="11.5"/>
+<circle cy="1080.56" r="11.5"/>
+<circle cy="1112.32" r="11.5"/>
+<circle cy="1151.23" r="11.5"/>
+<circle cy="1182.42" r="11.5"/>
+<circle cy="0" r="11.5"/>
+<circle cy="1200" r="11.5"/>
+<circle cy="35.7" r="11.5"/>
+<circle cy="62.96" r="11.5"/>
+<circle cy="84.47" r="11.5"/>
+<circle cy="116.23" r="11.5"/>
+<circle cy="147.43" r="11.5"/>
+<circle cy="182.4" r="11.5"/>
+<circle cy="213.6" r="11.5"/>
+<circle cy="245.36" r="11.5"/>
+<circle cy="266.87" r="11.5"/>
+<circle cy="294.13" r="11.5"/>
+<circle cy="329.83" r="11.5"/>
+<circle cy="347.41" r="11.5"/>
+<circle cy="378.6" r="11.5"/>
+<circle cy="417.51" r="11.5"/>
+<circle cy="449.27" r="11.5"/>
+<circle cy="470.78" r="11.5"/>
+<circle cy="498.04" r="11.5"/>
+<circle cy="533.74" r="11.5"/>
+<circle cy="561.01" r="11.5"/>
+<circle cy="582.51" r="11.5"/>
+<circle cy="599.91" r="11.5"/>
+<circle cy="614.28" r="11.5"/>
+<circle cy="653.18" r="11.5"/>
+<circle cy="680.45" r="11.5"/>
+<circle cy="711.64" r="11.5"/>
+<circle cy="743.41" r="11.5"/>
+<circle cy="764.92" r="11.5"/>
+</g>
+</g>
+<g transform="translate(510 0)">
+<g fill="#2020ff">
+<circle cy="729.22" r="11.5"/>
+<circle cy="750.73" r="11.5"/>
+<circle cy="782.49" r="11.5"/>
+<circle cy="813.69" r="11.5"/>
+<circle cy="840.95" r="11.5"/>
+<circle cy="879.86" r="11.5"/>
+<circle cy="894.22" r="11.5"/>
+<circle cy="911.62" r="11.5"/>
+<circle cy="933.13" r="11.5"/>
+<circle cy="960.39" r="11.5"/>
+<circle cy="996.09" r="11.5"/>
+<circle cy="1023.35" r="11.5"/>
+<circle cy="1044.86" r="11.5"/>
+<circle cy="1076.63" r="11.5"/>
+<circle cy="1115.53" r="11.5"/>
+<circle cy="1146.73" r="11.5"/>
+<circle cy="1164.3" r="11.5"/>
+<circle cy="0" r="11.5"/>
+<circle cy="1200" r="11.5"/>
+<circle cy="27.26" r="11.5"/>
+<circle cy="48.77" r="11.5"/>
+<circle cy="80.54" r="11.5"/>
+<circle cy="111.73" r="11.5"/>
+<circle cy="146.71" r="11.5"/>
+<circle cy="177.9" r="11.5"/>
+<circle cy="209.67" r="11.5"/>
+<circle cy="231.17" r="11.5"/>
+<circle cy="258.44" r="11.5"/>
+<circle cy="294.13" r="11.5"/>
+<circle cy="311.71" r="11.5"/>
+<circle cy="342.91" r="11.5"/>
+<circle cy="381.81" r="11.5"/>
+<circle cy="413.58" r="11.5"/>
+<circle cy="435.08" r="11.5"/>
+<circle cy="462.35" r="11.5"/>
+<circle cy="498.04" r="11.5"/>
+<circle cy="525.31" r="11.5"/>
+<circle cy="546.82" r="11.5"/>
+<circle cy="564.21" r="11.5"/>
+<circle cy="578.58" r="11.5"/>
+<circle cy="617.49" r="11.5"/>
+<circle cy="644.75" r="11.5"/>
+<circle cy="675.95" r="11.5"/>
+<circle cy="707.71" r="11.5"/>
+<circle cy="729.22" r="11.5"/>
+</g>
+</g>
+<g transform="translate(540 0)">
+<g fill="#2020ff">
+<circle cy="701.96" r="11.5"/>
+<circle cy="723.46" r="11.5"/>
+<circle cy="755.23" r="11.5"/>
+<circle cy="786.42" r="11.5"/>
+<circle cy="813.69" r="11.5"/>
+<circle cy="852.59" r="11.5"/>
+<circle cy="866.96" r="11.5"/>
+<circle cy="884.36" r="11.5"/>
+<circle cy="905.87" r="11.5"/>
+<circle cy="933.13" r="11.5"/>
+<circle cy="968.83" r="11.5"/>
+<circle cy="996.09" r="11.5"/>
+<circle cy="1017.6" r="11.5"/>
+<circle cy="1049.36" r="11.5"/>
+<circle cy="1088.27" r="11.5"/>
+<circle cy="1119.46" r="11.5"/>
+<circle cy="1137.04" r="11.5"/>
+<circle cy="1172.74" r="11.5"/>
+<circle cy="0" r="11.5"/>
+<circle cy="1200" r="11.5"/>
+<circle cy="21.51" r="11.5"/>
+<circle cy="53.27" r="11.5"/>
+<circle cy="84.47" r="11.5"/>
+<circle cy="119.44" r="11.5"/>
+<circle cy="150.64" r="11.5"/>
+<circle cy="182.4" r="11.5"/>
+<circle cy="203.91" r="11.5"/>
+<circle cy="231.17" r="11.5"/>
+<circle cy="266.87" r="11.5"/>
+<circle cy="284.45" r="11.5"/>
+<circle cy="315.64" r="11.5"/>
+<circle cy="354.55" r="11.5"/>
+<circle cy="386.31" r="11.5"/>
+<circle cy="407.82" r="11.5"/>
+<circle cy="435.08" r="11.5"/>
+<circle cy="470.78" r="11.5"/>
+<circle cy="498.04" r="11.5"/>
+<circle cy="519.55" r="11.5"/>
+<circle cy="536.95" r="11.5"/>
+<circle cy="551.32" r="11.5"/>
+<circle cy="590.22" r="11.5"/>
+<circle cy="617.49" r="11.5"/>
+<circle cy="648.68" r="11.5"/>
+<circle cy="680.45" r="11.5"/>
+<circle cy="701.96" r="11.5"/>
+</g>
+</g>
+<g transform="translate(570 0)">
+<g fill="#2020ff">
+<circle cy="680.45" r="11.5"/>
+<circle cy="701.96" r="11.5"/>
+<circle cy="733.72" r="11.5"/>
+<circle cy="764.92" r="11.5"/>
+<circle cy="792.18" r="11.5"/>
+<circle cy="831.09" r="11.5"/>
+<circle cy="845.45" r="11.5"/>
+<circle cy="862.85" r="11.5"/>
+<circle cy="884.36" r="11.5"/>
+<circle cy="911.62" r="11.5"/>
+<circle cy="947.32" r="11.5"/>
+<circle cy="974.58" r="11.5"/>
+<circle cy="996.09" r="11.5"/>
+<circle cy="1027.86" r="11.5"/>
+<circle cy="1066.76" r="11.5"/>
+<circle cy="1097.96" r="11.5"/>
+<circle cy="1115.53" r="11.5"/>
+<circle cy="1151.23" r="11.5"/>
+<circle cy="1178.49" r="11.5"/>
+<circle cy="0" r="11.5"/>
+<circle cy="1200" r="11.5"/>
+<circle cy="31.77" r="11.5"/>
+<circle cy="62.96" r="11.5"/>
+<circle cy="97.94" r="11.5"/>
+<circle cy="129.13" r="11.5"/>
+<circle cy="160.9" r="11.5"/>
+<circle cy="182.4" r="11.5"/>
+<circle cy="209.67" r="11.5"/>
+<circle cy="245.36" r="11.5"/>
+<circle cy="262.94" r="11.5"/>
+<circle cy="294.13" r="11.5"/>
+<circle cy="333.04" r="11.5"/>
+<circle cy="364.81" r="11.5"/>
+<circle cy="386.31" r="11.5"/>
+<circle cy="413.58" r="11.5"/>
+<circle cy="449.27" r="11.5"/>
+<circle cy="476.54" r="11.5"/>
+<circle cy="498.04" r="11.5"/>
+<circle cy="515.44" r="11.5"/>
+<circle cy="529.81" r="11.5"/>
+<circle cy="568.72" r="11.5"/>
+<circle cy="595.98" r="11.5"/>
+<circle cy="627.18" r="11.5"/>
+<circle cy="658.94" r="11.5"/>
+<circle cy="680.45" r="11.5"/>
+</g>
+</g>
+<g transform="translate(600 0)">
+<g fill="#2020ff">
+<circle cy="648.68" r="11.5"/>
+<circle cy="670.19" r="11.5"/>
+<circle cy="701.96" r="11.5"/>
+<circle cy="733.15" r="11.5"/>
+<circle cy="760.41" r="11.5"/>
+<circle cy="799.32" r="11.5"/>
+<circle cy="813.69" r="11.5"/>
+<circle cy="831.09" r="11.5"/>
+<circle cy="852.59" r="11.5"/>
+<circle cy="879.86" r="11.5"/>
+<circle cy="915.55" r="11.5"/>
+<circle cy="942.82" r="11.5"/>
+<circle cy="964.32" r="11.5"/>
+<circle cy="996.09" r="11.5"/>
+<circle cy="1035" r="11.5"/>
+<circle cy="1066.19" r="11.5"/>
+<circle cy="1083.77" r="11.5"/>
+<circle cy="1119.46" r="11.5"/>
+<circle cy="1146.73" r="11.5"/>
+<circle cy="1168.23" r="11.5"/>
+<circle cy="0" r="11.5"/>
+<circle cy="1200" r="11.5"/>
+<circle cy="31.19" r="11.5"/>
+<circle cy="66.17" r="11.5"/>
+<circle cy="97.36" r="11.5"/>
+<circle cy="129.13" r="11.5"/>
+<circle cy="150.64" r="11.5"/>
+<circle cy="177.9" r="11.5"/>
+<circle cy="213.6" r="11.5"/>
+<circle cy="231.17" r="11.5"/>
+<circle cy="262.37" r="11.5"/>
+<circle cy="301.27" r="11.5"/>
+<circle cy="333.04" r="11.5"/>
+<circle cy="354.55" r="11.5"/>
+<circle cy="381.81" r="11.5"/>
+<circle cy="417.51" r="11.5"/>
+<circle cy="444.77" r="11.5"/>
+<circle cy="466.28" r="11.5"/>
+<circle cy="483.68" r="11.5"/>
+<circle cy="498.04" r="11.5"/>
+<circle cy="536.95" r="11.5"/>
+<circle cy="564.21" r="11.5"/>
+<circle cy="595.41" r="11.5"/>
+<circle cy="627.18" r="11.5"/>
+<circle cy="648.68" r="11.5"/>
+</g>
+</g>
+<g transform="translate(630 0)">
+<g fill="#2020ff">
+<circle cy="617.49" r="11.5"/>
+<circle cy="638.99" r="11.5"/>
+<circle cy="670.76" r="11.5"/>
+<circle cy="701.96" r="11.5"/>
+<circle cy="729.22" r="11.5"/>
+<circle cy="768.12" r="11.5"/>
+<circle cy="782.49" r="11.5"/>
+<circle cy="799.89" r="11.5"/>
+<circle cy="821.4" r="11.5"/>
+<circle cy="848.66" r="11.5"/>
+<circle cy="884.36" r="11.5"/>
+<circle cy="911.62" r="11.5"/>
+<circle cy="933.13" r="11.5"/>
+<circle cy="964.9" r="11.5"/>
+<circle cy="1003.8" r="11.5"/>
+<circle cy="1035" r="11.5"/>
+<circle cy="1052.57" r="11.5"/>
+<circle cy="1088.27" r="11.5"/>
+<circle cy="1115.53" r="11.5"/>
+<circle cy="1137.04" r="11.5"/>
+<circle cy="1168.81" r="11.5"/>
+<circle cy="0" r="11.5"/>
+<circle cy="1200" r="11.5"/>
+<circle cy="34.98" r="11.5"/>
+<circle cy="66.17" r="11.5"/>
+<circle cy="97.94" r="11.5"/>
+<circle cy="119.44" r="11.5"/>
+<circle cy="146.71" r="11.5"/>
+<circle cy="182.4" r="11.5"/>
+<circle cy="199.98" r="11.5"/>
+<circle cy="231.17" r="11.5"/>
+<circle cy="270.08" r="11.5"/>
+<circle cy="301.85" r="11.5"/>
+<circle cy="323.35" r="11.5"/>
+<circle cy="350.62" r="11.5"/>
+<circle cy="386.31" r="11.5"/>
+<circle cy="413.58" r="11.5"/>
+<circle cy="435.08" r="11.5"/>
+<circle cy="452.48" r="11.5"/>
+<circle cy="466.85" r="11.5"/>
+<circle cy="505.76" r="11.5"/>
+<circle cy="533.02" r="11.5"/>
+<circle cy="564.21" r="11.5"/>
+<circle cy="595.98" r="11.5"/>
+<circle cy="617.49" r="11.5"/>
+</g>
+</g>
+<g transform="translate(660 0)">
+<g fill="#2020ff">
+<circle cy="582.51" r="11.5"/>
+<circle cy="604.02" r="11.5"/>
+<circle cy="635.79" r="11.5"/>
+<circle cy="666.98" r="11.5"/>
+<circle cy="694.24" r="11.5"/>
+<circle cy="733.15" r="11.5"/>
+<circle cy="747.52" r="11.5"/>
+<circle cy="764.92" r="11.5"/>
+<circle cy="786.42" r="11.5"/>
+<circle cy="813.69" r="11.5"/>
+<circle cy="849.38" r="11.5"/>
+<circle cy="876.65" r="11.5"/>
+<circle cy="898.15" r="11.5"/>
+<circle cy="929.92" r="11.5"/>
+<circle cy="968.83" r="11.5"/>
+<circle cy="1000.02" r="11.5"/>
+<circle cy="1017.6" r="11.5"/>
+<circle cy="1053.29" r="11.5"/>
+<circle cy="1080.56" r="11.5"/>
+<circle cy="1102.06" r="11.5"/>
+<circle cy="1133.83" r="11.5"/>
+<circle cy="1165.02" r="11.5"/>
+<circle cy="0" r="11.5"/>
+<circle cy="1200" r="11.5"/>
+<circle cy="31.19" r="11.5"/>
+<circle cy="62.96" r="11.5"/>
+<circle cy="84.47" r="11.5"/>
+<circle cy="111.73" r="11.5"/>
+<circle cy="147.43" r="11.5"/>
+<circle cy="165" r="11.5"/>
+<circle cy="196.2" r="11.5"/>
+<circle cy="235.1" r="11.5"/>
+<circle cy="266.87" r="11.5"/>
+<circle cy="288.38" r="11.5"/>
+<circle cy="315.64" r="11.5"/>
+<circle cy="351.34" r="11.5"/>
+<circle cy="378.6" r="11.5"/>
+<circle cy="400.11" r="11.5"/>
+<circle cy="417.51" r="11.5"/>
+<circle cy="431.88" r="11.5"/>
+<circle cy="470.78" r="11.5"/>
+<circle cy="498.04" r="11.5"/>
+<circle cy="529.24" r="11.5"/>
+<circle cy="561.01" r="11.5"/>
+<circle cy="582.51" r="11.5"/>
+</g>
+</g>
+<g transform="translate(690 0)">
+<g fill="#2020ff">
+<circle cy="551.32" r="11.5"/>
+<circle cy="572.82" r="11.5"/>
+<circle cy="604.59" r="11.5"/>
+<circle cy="635.79" r="11.5"/>
+<circle cy="663.05" r="11.5"/>
+<circle cy="701.96" r="11.5"/>
+<circle cy="716.32" r="11.5"/>
+<circle cy="733.72" r="11.5"/>
+<circle cy="755.23" r="11.5"/>
+<circle cy="782.49" r="11.5"/>
+<circle cy="818.19" r="11.5"/>
+<circle cy="845.45" r="11.5"/>
+<circle cy="866.96" r="11.5"/>
+<circle cy="898.73" r="11.5"/>
+<circle cy="937.63" r="11.5"/>
+<circle cy="968.83" r="11.5"/>
+<circle cy="986.4" r="11.5"/>
+<circle cy="1022.1" r="11.5"/>
+<circle cy="1049.36" r="11.5"/>
+<circle cy="1070.87" r="11.5"/>
+<circle cy="1102.64" r="11.5"/>
+<circle cy="1133.83" r="11.5"/>
+<circle cy="1168.81" r="11.5"/>
+<circle cy="0" r="11.5"/>
+<circle cy="1200" r="11.5"/>
+<circle cy="31.77" r="11.5"/>
+<circle cy="53.27" r="11.5"/>
+<circle cy="80.54" r="11.5"/>
+<circle cy="116.23" r="11.5"/>
+<circle cy="133.81" r="11.5"/>
+<circle cy="165" r="11.5"/>
+<circle cy="203.91" r="11.5"/>
+<circle cy="235.68" r="11.5"/>
+<circle cy="257.18" r="11.5"/>
+<circle cy="284.45" r="11.5"/>
+<circle cy="320.14" r="11.5"/>
+<circle cy="347.41" r="11.5"/>
+<circle cy="368.91" r="11.5"/>
+<circle cy="386.31" r="11.5"/>
+<circle cy="400.68" r="11.5"/>
+<circle cy="439.59" r="11.5"/>
+<circle cy="466.85" r="11.5"/>
+<circle cy="498.04" r="11.5"/>
+<circle cy="529.81" r="11.5"/>
+<circle cy="551.32" r="11.5"/>
+</g>
+</g>
+<g transform="translate(720 0)">
+<g fill="#2020ff">
+<circle cy="519.55" r="11.5"/>
+<circle cy="541.06" r="11.5"/>
+<circle cy="572.82" r="11.5"/>
+<circle cy="604.02" r="11.5"/>
+<circle cy="631.28" r="11.5"/>
+<circle cy="670.19" r="11.5"/>
+<circle cy="684.56" r="11.5"/>
+<circle cy="701.96" r="11.5"/>
+<circle cy="723.46" r="11.5"/>
+<circle cy="750.73" r="11.5"/>
+<circle cy="786.42" r="11.5"/>
+<circle cy="813.69" r="11.5"/>
+<circle cy="835.19" r="11.5"/>
+<circle cy="866.96" r="11.5"/>
+<circle cy="905.87" r="11.5"/>
+<circle cy="937.06" r="11.5"/>
+<circle cy="954.64" r="11.5"/>
+<circle cy="990.33" r="11.5"/>
+<circle cy="1017.6" r="11.5"/>
+<circle cy="1039.1" r="11.5"/>
+<circle cy="1070.87" r="11.5"/>
+<circle cy="1102.06" r="11.5"/>
+<circle cy="1137.04" r="11.5"/>
+<circle cy="1168.23" r="11.5"/>
+<circle cy="0" r="11.5"/>
+<circle cy="1200" r="11.5"/>
+<circle cy="21.51" r="11.5"/>
+<circle cy="48.77" r="11.5"/>
+<circle cy="84.47" r="11.5"/>
+<circle cy="102.04" r="11.5"/>
+<circle cy="133.24" r="11.5"/>
+<circle cy="172.14" r="11.5"/>
+<circle cy="203.91" r="11.5"/>
+<circle cy="225.42" r="11.5"/>
+<circle cy="252.68" r="11.5"/>
+<circle cy="288.38" r="11.5"/>
+<circle cy="315.64" r="11.5"/>
+<circle cy="337.15" r="11.5"/>
+<circle cy="354.55" r="11.5"/>
+<circle cy="368.91" r="11.5"/>
+<circle cy="407.82" r="11.5"/>
+<circle cy="435.08" r="11.5"/>
+<circle cy="466.28" r="11.5"/>
+<circle cy="498.04" r="11.5"/>
+<circle cy="519.55" r="11.5"/>
+</g>
+</g>
+<g transform="translate(750 0)">
+<g fill="#2020ff">
+<circle cy="498.04" r="11.5"/>
+<circle cy="519.55" r="11.5"/>
+<circle cy="551.32" r="11.5"/>
+<circle cy="582.51" r="11.5"/>
+<circle cy="609.78" r="11.5"/>
+<circle cy="648.68" r="11.5"/>
+<circle cy="663.05" r="11.5"/>
+<circle cy="680.45" r="11.5"/>
+<circle cy="701.96" r="11.5"/>
+<circle cy="729.22" r="11.5"/>
+<circle cy="764.92" r="11.5"/>
+<circle cy="792.18" r="11.5"/>
+<circle cy="813.69" r="11.5"/>
+<circle cy="845.45" r="11.5"/>
+<circle cy="884.36" r="11.5"/>
+<circle cy="915.55" r="11.5"/>
+<circle cy="933.13" r="11.5"/>
+<circle cy="968.83" r="11.5"/>
+<circle cy="996.09" r="11.5"/>
+<circle cy="1017.6" r="11.5"/>
+<circle cy="1049.36" r="11.5"/>
+<circle cy="1080.56" r="11.5"/>
+<circle cy="1115.53" r="11.5"/>
+<circle cy="1146.73" r="11.5"/>
+<circle cy="1178.49" r="11.5"/>
+<circle cy="0" r="11.5"/>
+<circle cy="1200" r="11.5"/>
+<circle cy="27.26" r="11.5"/>
+<circle cy="62.96" r="11.5"/>
+<circle cy="80.54" r="11.5"/>
+<circle cy="111.73" r="11.5"/>
+<circle cy="150.64" r="11.5"/>
+<circle cy="182.4" r="11.5"/>
+<circle cy="203.91" r="11.5"/>
+<circle cy="231.17" r="11.5"/>
+<circle cy="266.87" r="11.5"/>
+<circle cy="294.13" r="11.5"/>
+<circle cy="315.64" r="11.5"/>
+<circle cy="333.04" r="11.5"/>
+<circle cy="347.41" r="11.5"/>
+<circle cy="386.31" r="11.5"/>
+<circle cy="413.58" r="11.5"/>
+<circle cy="444.77" r="11.5"/>
+<circle cy="476.54" r="11.5"/>
+<circle cy="498.04" r="11.5"/>
+</g>
+</g>
+<g transform="translate(780 0)">
+<g fill="#2020ff">
+<circle cy="470.78" r="11.5"/>
+<circle cy="492.29" r="11.5"/>
+<circle cy="524.05" r="11.5"/>
+<circle cy="555.25" r="11.5"/>
+<circle cy="582.51" r="11.5"/>
+<circle cy="621.42" r="11.5"/>
+<circle cy="635.79" r="11.5"/>
+<circle cy="653.18" r="11.5"/>
+<circle cy="674.69" r="11.5"/>
+<circle cy="701.96" r="11.5"/>
+<circle cy="737.65" r="11.5"/>
+<circle cy="764.92" r="11.5"/>
+<circle cy="786.42" r="11.5"/>
+<circle cy="818.19" r="11.5"/>
+<circle cy="857.09" r="11.5"/>
+<circle cy="888.29" r="11.5"/>
+<circle cy="905.87" r="11.5"/>
+<circle cy="941.56" r="11.5"/>
+<circle cy="968.83" r="11.5"/>
+<circle cy="990.33" r="11.5"/>
+<circle cy="1022.1" r="11.5"/>
+<circle cy="1053.29" r="11.5"/>
+<circle cy="1088.27" r="11.5"/>
+<circle cy="1119.46" r="11.5"/>
+<circle cy="1151.23" r="11.5"/>
+<circle cy="1172.74" r="11.5"/>
+<circle cy="0" r="11.5"/>
+<circle cy="1200" r="11.5"/>
+<circle cy="35.7" r="11.5"/>
+<circle cy="53.27" r="11.5"/>
+<circle cy="84.47" r="11.5"/>
+<circle cy="123.37" r="11.5"/>
+<circle cy="155.14" r="11.5"/>
+<circle cy="176.65" r="11.5"/>
+<circle cy="203.91" r="11.5"/>
+<circle cy="239.61" r="11.5"/>
+<circle cy="266.87" r="11.5"/>
+<circle cy="288.38" r="11.5"/>
+<circle cy="305.78" r="11.5"/>
+<circle cy="320.14" r="11.5"/>
+<circle cy="359.05" r="11.5"/>
+<circle cy="386.31" r="11.5"/>
+<circle cy="417.51" r="11.5"/>
+<circle cy="449.27" r="11.5"/>
+<circle cy="470.78" r="11.5"/>
+</g>
+</g>
+<g transform="translate(810 0)">
+<g fill="#2020ff">
+<circle cy="435.08" r="11.5"/>
+<circle cy="456.59" r="11.5"/>
+<circle cy="488.36" r="11.5"/>
+<circle cy="519.55" r="11.5"/>
+<circle cy="546.82" r="11.5"/>
+<circle cy="585.72" r="11.5"/>
+<circle cy="600.09" r="11.5"/>
+<circle cy="617.49" r="11.5"/>
+<circle cy="638.99" r="11.5"/>
+<circle cy="666.26" r="11.5"/>
+<circle cy="701.96" r="11.5"/>
+<circle cy="729.22" r="11.5"/>
+<circle cy="750.73" r="11.5"/>
+<circle cy="782.49" r="11.5"/>
+<circle cy="821.4" r="11.5"/>
+<circle cy="852.59" r="11.5"/>
+<circle cy="870.17" r="11.5"/>
+<circle cy="905.87" r="11.5"/>
+<circle cy="933.13" r="11.5"/>
+<circle cy="954.64" r="11.5"/>
+<circle cy="986.4" r="11.5"/>
+<circle cy="1017.6" r="11.5"/>
+<circle cy="1052.57" r="11.5"/>
+<circle cy="1083.77" r="11.5"/>
+<circle cy="1115.53" r="11.5"/>
+<circle cy="1137.04" r="11.5"/>
+<circle cy="1164.3" r="11.5"/>
+<circle cy="0" r="11.5"/>
+<circle cy="1200" r="11.5"/>
+<circle cy="17.58" r="11.5"/>
+<circle cy="48.77" r="11.5"/>
+<circle cy="87.68" r="11.5"/>
+<circle cy="119.44" r="11.5"/>
+<circle cy="140.95" r="11.5"/>
+<circle cy="168.21" r="11.5"/>
+<circle cy="203.91" r="11.5"/>
+<circle cy="231.17" r="11.5"/>
+<circle cy="252.68" r="11.5"/>
+<circle cy="270.08" r="11.5"/>
+<circle cy="284.45" r="11.5"/>
+<circle cy="323.35" r="11.5"/>
+<circle cy="350.62" r="11.5"/>
+<circle cy="381.81" r="11.5"/>
+<circle cy="413.58" r="11.5"/>
+<circle cy="435.08" r="11.5"/>
+</g>
+</g>
+<g transform="translate(840 0)">
+<g fill="#2020ff">
+<circle cy="417.51" r="11.5"/>
+<circle cy="439.01" r="11.5"/>
+<circle cy="470.78" r="11.5"/>
+<circle cy="501.98" r="11.5"/>
+<circle cy="529.24" r="11.5"/>
+<circle cy="568.15" r="11.5"/>
+<circle cy="582.51" r="11.5"/>
+<circle cy="599.91" r="11.5"/>
+<circle cy="621.42" r="11.5"/>
+<circle cy="648.68" r="11.5"/>
+<circle cy="684.38" r="11.5"/>
+<circle cy="711.64" r="11.5"/>
+<circle cy="733.15" r="11.5"/>
+<circle cy="764.92" r="11.5"/>
+<circle cy="803.82" r="11.5"/>
+<circle cy="835.02" r="11.5"/>
+<circle cy="852.59" r="11.5"/>
+<circle cy="888.29" r="11.5"/>
+<circle cy="915.55" r="11.5"/>
+<circle cy="937.06" r="11.5"/>
+<circle cy="968.83" r="11.5"/>
+<circle cy="1000.02" r="11.5"/>
+<circle cy="1035" r="11.5"/>
+<circle cy="1066.19" r="11.5"/>
+<circle cy="1097.96" r="11.5"/>
+<circle cy="1119.46" r="11.5"/>
+<circle cy="1146.73" r="11.5"/>
+<circle cy="1182.42" r="11.5"/>
+<circle cy="0" r="11.5"/>
+<circle cy="1200" r="11.5"/>
+<circle cy="31.19" r="11.5"/>
+<circle cy="70.1" r="11.5"/>
+<circle cy="101.87" r="11.5"/>
+<circle cy="123.37" r="11.5"/>
+<circle cy="150.64" r="11.5"/>
+<circle cy="186.33" r="11.5"/>
+<circle cy="213.6" r="11.5"/>
+<circle cy="235.1" r="11.5"/>
+<circle cy="252.5" r="11.5"/>
+<circle cy="266.87" r="11.5"/>
+<circle cy="305.78" r="11.5"/>
+<circle cy="333.04" r="11.5"/>
+<circle cy="364.24" r="11.5"/>
+<circle cy="396" r="11.5"/>
+<circle cy="417.51" r="11.5"/>
+</g>
+</g>
+<g transform="translate(870 0)">
+<g fill="#2020ff">
+<circle cy="386.31" r="11.5"/>
+<circle cy="407.82" r="11.5"/>
+<circle cy="439.59" r="11.5"/>
+<circle cy="470.78" r="11.5"/>
+<circle cy="498.04" r="11.5"/>
+<circle cy="536.95" r="11.5"/>
+<circle cy="551.32" r="11.5"/>
+<circle cy="568.72" r="11.5"/>
+<circle cy="590.22" r="11.5"/>
+<circle cy="617.49" r="11.5"/>
+<circle cy="653.18" r="11.5"/>
+<circle cy="680.45" r="11.5"/>
+<circle cy="701.96" r="11.5"/>
+<circle cy="733.72" r="11.5"/>
+<circle cy="772.63" r="11.5"/>
+<circle cy="803.82" r="11.5"/>
+<circle cy="821.4" r="11.5"/>
+<circle cy="857.09" r="11.5"/>
+<circle cy="884.36" r="11.5"/>
+<circle cy="905.87" r="11.5"/>
+<circle cy="937.63" r="11.5"/>
+<circle cy="968.83" r="11.5"/>
+<circle cy="1003.8" r="11.5"/>
+<circle cy="1035" r="11.5"/>
+<circle cy="1066.76" r="11.5"/>
+<circle cy="1088.27" r="11.5"/>
+<circle cy="1115.53" r="11.5"/>
+<circle cy="1151.23" r="11.5"/>
+<circle cy="1168.81" r="11.5"/>
+<circle cy="0" r="11.5"/>
+<circle cy="1200" r="11.5"/>
+<circle cy="38.91" r="11.5"/>
+<circle cy="70.67" r="11.5"/>
+<circle cy="92.18" r="11.5"/>
+<circle cy="119.44" r="11.5"/>
+<circle cy="155.14" r="11.5"/>
+<circle cy="182.4" r="11.5"/>
+<circle cy="203.91" r="11.5"/>
+<circle cy="221.31" r="11.5"/>
+<circle cy="235.68" r="11.5"/>
+<circle cy="274.58" r="11.5"/>
+<circle cy="301.85" r="11.5"/>
+<circle cy="333.04" r="11.5"/>
+<circle cy="364.81" r="11.5"/>
+<circle cy="386.31" r="11.5"/>
+</g>
+</g>
+<g transform="translate(900 0)">
+<g fill="#2020ff">
+<circle cy="347.41" r="11.5"/>
+<circle cy="368.91" r="11.5"/>
+<circle cy="400.68" r="11.5"/>
+<circle cy="431.88" r="11.5"/>
+<circle cy="459.14" r="11.5"/>
+<circle cy="498.04" r="11.5"/>
+<circle cy="512.41" r="11.5"/>
+<circle cy="529.81" r="11.5"/>
+<circle cy="551.32" r="11.5"/>
+<circle cy="578.58" r="11.5"/>
+<circle cy="614.28" r="11.5"/>
+<circle cy="641.54" r="11.5"/>
+<circle cy="663.05" r="11.5"/>
+<circle cy="694.82" r="11.5"/>
+<circle cy="733.72" r="11.5"/>
+<circle cy="764.92" r="11.5"/>
+<circle cy="782.49" r="11.5"/>
+<circle cy="818.19" r="11.5"/>
+<circle cy="845.45" r="11.5"/>
+<circle cy="866.96" r="11.5"/>
+<circle cy="898.73" r="11.5"/>
+<circle cy="929.92" r="11.5"/>
+<circle cy="964.9" r="11.5"/>
+<circle cy="996.09" r="11.5"/>
+<circle cy="1027.86" r="11.5"/>
+<circle cy="1049.36" r="11.5"/>
+<circle cy="1076.63" r="11.5"/>
+<circle cy="1112.32" r="11.5"/>
+<circle cy="1129.9" r="11.5"/>
+<circle cy="1161.09" r="11.5"/>
+<circle cy="0" r="11.5"/>
+<circle cy="1200" r="11.5"/>
+<circle cy="31.77" r="11.5"/>
+<circle cy="53.27" r="11.5"/>
+<circle cy="80.54" r="11.5"/>
+<circle cy="116.23" r="11.5"/>
+<circle cy="143.5" r="11.5"/>
+<circle cy="165" r="11.5"/>
+<circle cy="182.4" r="11.5"/>
+<circle cy="196.77" r="11.5"/>
+<circle cy="235.68" r="11.5"/>
+<circle cy="262.94" r="11.5"/>
+<circle cy="294.13" r="11.5"/>
+<circle cy="325.9" r="11.5"/>
+<circle cy="347.41" r="11.5"/>
+</g>
+</g>
+<g transform="translate(930 0)">
+<g fill="#2020ff">
+<circle cy="315.64" r="11.5"/>
+<circle cy="337.15" r="11.5"/>
+<circle cy="368.91" r="11.5"/>
+<circle cy="400.11" r="11.5"/>
+<circle cy="427.37" r="11.5"/>
+<circle cy="466.28" r="11.5"/>
+<circle cy="480.65" r="11.5"/>
+<circle cy="498.04" r="11.5"/>
+<circle cy="519.55" r="11.5"/>
+<circle cy="546.82" r="11.5"/>
+<circle cy="582.51" r="11.5"/>
+<circle cy="609.78" r="11.5"/>
+<circle cy="631.28" r="11.5"/>
+<circle cy="663.05" r="11.5"/>
+<circle cy="701.96" r="11.5"/>
+<circle cy="733.15" r="11.5"/>
+<circle cy="750.73" r="11.5"/>
+<circle cy="786.42" r="11.5"/>
+<circle cy="813.69" r="11.5"/>
+<circle cy="835.19" r="11.5"/>
+<circle cy="866.96" r="11.5"/>
+<circle cy="898.15" r="11.5"/>
+<circle cy="933.13" r="11.5"/>
+<circle cy="964.32" r="11.5"/>
+<circle cy="996.09" r="11.5"/>
+<circle cy="1017.6" r="11.5"/>
+<circle cy="1044.86" r="11.5"/>
+<circle cy="1080.56" r="11.5"/>
+<circle cy="1098.13" r="11.5"/>
+<circle cy="1129.33" r="11.5"/>
+<circle cy="1168.23" r="11.5"/>
+<circle cy="0" r="11.5"/>
+<circle cy="1200" r="11.5"/>
+<circle cy="21.51" r="11.5"/>
+<circle cy="48.77" r="11.5"/>
+<circle cy="84.47" r="11.5"/>
+<circle cy="111.73" r="11.5"/>
+<circle cy="133.24" r="11.5"/>
+<circle cy="150.64" r="11.5"/>
+<circle cy="165" r="11.5"/>
+<circle cy="203.91" r="11.5"/>
+<circle cy="231.17" r="11.5"/>
+<circle cy="262.37" r="11.5"/>
+<circle cy="294.13" r="11.5"/>
+<circle cy="315.64" r="11.5"/>
+</g>
+</g>
+<g transform="translate(960 0)">
+<g fill="#2020ff">
+<circle cy="294.13" r="11.5"/>
+<circle cy="315.64" r="11.5"/>
+<circle cy="347.41" r="11.5"/>
+<circle cy="378.6" r="11.5"/>
+<circle cy="405.87" r="11.5"/>
+<circle cy="444.77" r="11.5"/>
+<circle cy="459.14" r="11.5"/>
+<circle cy="476.54" r="11.5"/>
+<circle cy="498.04" r="11.5"/>
+<circle cy="525.31" r="11.5"/>
+<circle cy="561.01" r="11.5"/>
+<circle cy="588.27" r="11.5"/>
+<circle cy="609.78" r="11.5"/>
+<circle cy="641.54" r="11.5"/>
+<circle cy="680.45" r="11.5"/>
+<circle cy="711.64" r="11.5"/>
+<circle cy="729.22" r="11.5"/>
+<circle cy="764.92" r="11.5"/>
+<circle cy="792.18" r="11.5"/>
+<circle cy="813.69" r="11.5"/>
+<circle cy="845.45" r="11.5"/>
+<circle cy="876.65" r="11.5"/>
+<circle cy="911.62" r="11.5"/>
+<circle cy="942.82" r="11.5"/>
+<circle cy="974.58" r="11.5"/>
+<circle cy="996.09" r="11.5"/>
+<circle cy="1023.35" r="11.5"/>
+<circle cy="1059.05" r="11.5"/>
+<circle cy="1076.63" r="11.5"/>
+<circle cy="1107.82" r="11.5"/>
+<circle cy="1146.73" r="11.5"/>
+<circle cy="1178.49" r="11.5"/>
+<circle cy="0" r="11.5"/>
+<circle cy="1200" r="11.5"/>
+<circle cy="27.26" r="11.5"/>
+<circle cy="62.96" r="11.5"/>
+<circle cy="90.22" r="11.5"/>
+<circle cy="111.73" r="11.5"/>
+<circle cy="129.13" r="11.5"/>
+<circle cy="143.5" r="11.5"/>
+<circle cy="182.4" r="11.5"/>
+<circle cy="209.67" r="11.5"/>
+<circle cy="240.86" r="11.5"/>
+<circle cy="272.63" r="11.5"/>
+<circle cy="294.13" r="11.5"/>
+</g>
+</g>
+<g transform="translate(990 0)">
+<g fill="#2020ff">
+<circle cy="266.87" r="11.5"/>
+<circle cy="288.38" r="11.5"/>
+<circle cy="320.14" r="11.5"/>
+<circle cy="351.34" r="11.5"/>
+<circle cy="378.6" r="11.5"/>
+<circle cy="417.51" r="11.5"/>
+<circle cy="431.88" r="11.5"/>
+<circle cy="449.27" r="11.5"/>
+<circle cy="470.78" r="11.5"/>
+<circle cy="498.04" r="11.5"/>
+<circle cy="533.74" r="11.5"/>
+<circle cy="561.01" r="11.5"/>
+<circle cy="582.51" r="11.5"/>
+<circle cy="614.28" r="11.5"/>
+<circle cy="653.18" r="11.5"/>
+<circle cy="684.38" r="11.5"/>
+<circle cy="701.96" r="11.5"/>
+<circle cy="737.65" r="11.5"/>
+<circle cy="764.92" r="11.5"/>
+<circle cy="786.42" r="11.5"/>
+<circle cy="818.19" r="11.5"/>
+<circle cy="849.38" r="11.5"/>
+<circle cy="884.36" r="11.5"/>
+<circle cy="915.55" r="11.5"/>
+<circle cy="947.32" r="11.5"/>
+<circle cy="968.83" r="11.5"/>
+<circle cy="996.09" r="11.5"/>
+<circle cy="1031.79" r="11.5"/>
+<circle cy="1049.36" r="11.5"/>
+<circle cy="1080.56" r="11.5"/>
+<circle cy="1119.46" r="11.5"/>
+<circle cy="1151.23" r="11.5"/>
+<circle cy="1172.74" r="11.5"/>
+<circle cy="0" r="11.5"/>
+<circle cy="1200" r="11.5"/>
+<circle cy="35.7" r="11.5"/>
+<circle cy="62.96" r="11.5"/>
+<circle cy="84.47" r="11.5"/>
+<circle cy="101.87" r="11.5"/>
+<circle cy="116.23" r="11.5"/>
+<circle cy="155.14" r="11.5"/>
+<circle cy="182.4" r="11.5"/>
+<circle cy="213.6" r="11.5"/>
+<circle cy="245.36" r="11.5"/>
+<circle cy="266.87" r="11.5"/>
+</g>
+</g>
+<g transform="translate(1020 0)">
+<g fill="#2020ff">
+<circle cy="231.17" r="11.5"/>
+<circle cy="252.68" r="11.5"/>
+<circle cy="284.45" r="11.5"/>
+<circle cy="315.64" r="11.5"/>
+<circle cy="342.91" r="11.5"/>
+<circle cy="381.81" r="11.5"/>
+<circle cy="396.18" r="11.5"/>
+<circle cy="413.58" r="11.5"/>
+<circle cy="435.08" r="11.5"/>
+<circle cy="462.35" r="11.5"/>
+<circle cy="498.04" r="11.5"/>
+<circle cy="525.31" r="11.5"/>
+<circle cy="546.82" r="11.5"/>
+<circle cy="578.58" r="11.5"/>
+<circle cy="617.49" r="11.5"/>
+<circle cy="648.68" r="11.5"/>
+<circle cy="666.26" r="11.5"/>
+<circle cy="701.96" r="11.5"/>
+<circle cy="729.22" r="11.5"/>
+<circle cy="750.73" r="11.5"/>
+<circle cy="782.49" r="11.5"/>
+<circle cy="813.69" r="11.5"/>
+<circle cy="848.66" r="11.5"/>
+<circle cy="879.86" r="11.5"/>
+<circle cy="911.62" r="11.5"/>
+<circle cy="933.13" r="11.5"/>
+<circle cy="960.39" r="11.5"/>
+<circle cy="996.09" r="11.5"/>
+<circle cy="1013.67" r="11.5"/>
+<circle cy="1044.86" r="11.5"/>
+<circle cy="1083.77" r="11.5"/>
+<circle cy="1115.53" r="11.5"/>
+<circle cy="1137.04" r="11.5"/>
+<circle cy="1164.3" r="11.5"/>
+<circle cy="0" r="11.5"/>
+<circle cy="1200" r="11.5"/>
+<circle cy="27.26" r="11.5"/>
+<circle cy="48.77" r="11.5"/>
+<circle cy="66.17" r="11.5"/>
+<circle cy="80.54" r="11.5"/>
+<circle cy="119.44" r="11.5"/>
+<circle cy="146.71" r="11.5"/>
+<circle cy="177.9" r="11.5"/>
+<circle cy="209.67" r="11.5"/>
+<circle cy="231.17" r="11.5"/>
+</g>
+</g>
+<g transform="translate(1050 0)">
+<g fill="#2020ff">
+<circle cy="203.91" r="11.5"/>
+<circle cy="225.42" r="11.5"/>
+<circle cy="257.18" r="11.5"/>
+<circle cy="288.38" r="11.5"/>
+<circle cy="315.64" r="11.5"/>
+<circle cy="354.55" r="11.5"/>
+<circle cy="368.91" r="11.5"/>
+<circle cy="386.31" r="11.5"/>
+<circle cy="407.82" r="11.5"/>
+<circle cy="435.08" r="11.5"/>
+<circle cy="470.78" r="11.5"/>
+<circle cy="498.04" r="11.5"/>
+<circle cy="519.55" r="11.5"/>
+<circle cy="551.32" r="11.5"/>
+<circle cy="590.22" r="11.5"/>
+<circle cy="621.42" r="11.5"/>
+<circle cy="638.99" r="11.5"/>
+<circle cy="674.69" r="11.5"/>
+<circle cy="701.96" r="11.5"/>
+<circle cy="723.46" r="11.5"/>
+<circle cy="755.23" r="11.5"/>
+<circle cy="786.42" r="11.5"/>
+<circle cy="821.4" r="11.5"/>
+<circle cy="852.59" r="11.5"/>
+<circle cy="884.36" r="11.5"/>
+<circle cy="905.87" r="11.5"/>
+<circle cy="933.13" r="11.5"/>
+<circle cy="968.83" r="11.5"/>
+<circle cy="986.4" r="11.5"/>
+<circle cy="1017.6" r="11.5"/>
+<circle cy="1056.5" r="11.5"/>
+<circle cy="1088.27" r="11.5"/>
+<circle cy="1109.78" r="11.5"/>
+<circle cy="1137.04" r="11.5"/>
+<circle cy="1172.74" r="11.5"/>
+<circle cy="0" r="11.5"/>
+<circle cy="1200" r="11.5"/>
+<circle cy="21.51" r="11.5"/>
+<circle cy="38.91" r="11.5"/>
+<circle cy="53.27" r="11.5"/>
+<circle cy="92.18" r="11.5"/>
+<circle cy="119.44" r="11.5"/>
+<circle cy="150.64" r="11.5"/>
+<circle cy="182.4" r="11.5"/>
+<circle cy="203.91" r="11.5"/>
+</g>
+</g>
+<g transform="translate(1080 0)">
+<g fill="#2020ff">
+<circle cy="182.4" r="11.5"/>
+<circle cy="203.91" r="11.5"/>
+<circle cy="235.68" r="11.5"/>
+<circle cy="266.87" r="11.5"/>
+<circle cy="294.13" r="11.5"/>
+<circle cy="333.04" r="11.5"/>
+<circle cy="347.41" r="11.5"/>
+<circle cy="364.81" r="11.5"/>
+<circle cy="386.31" r="11.5"/>
+<circle cy="413.58" r="11.5"/>
+<circle cy="449.27" r="11.5"/>
+<circle cy="476.54" r="11.5"/>
+<circle cy="498.04" r="11.5"/>
+<circle cy="529.81" r="11.5"/>
+<circle cy="568.72" r="11.5"/>
+<circle cy="599.91" r="11.5"/>
+<circle cy="617.49" r="11.5"/>
+<circle cy="653.18" r="11.5"/>
+<circle cy="680.45" r="11.5"/>
+<circle cy="701.96" r="11.5"/>
+<circle cy="733.72" r="11.5"/>
+<circle cy="764.92" r="11.5"/>
+<circle cy="799.89" r="11.5"/>
+<circle cy="831.09" r="11.5"/>
+<circle cy="862.85" r="11.5"/>
+<circle cy="884.36" r="11.5"/>
+<circle cy="911.62" r="11.5"/>
+<circle cy="947.32" r="11.5"/>
+<circle cy="964.9" r="11.5"/>
+<circle cy="996.09" r="11.5"/>
+<circle cy="1035" r="11.5"/>
+<circle cy="1066.76" r="11.5"/>
+<circle cy="1088.27" r="11.5"/>
+<circle cy="1115.53" r="11.5"/>
+<circle cy="1151.23" r="11.5"/>
+<circle cy="1178.49" r="11.5"/>
+<circle cy="0" r="11.5"/>
+<circle cy="1200" r="11.5"/>
+<circle cy="17.4" r="11.5"/>
+<circle cy="31.77" r="11.5"/>
+<circle cy="70.67" r="11.5"/>
+<circle cy="97.94" r="11.5"/>
+<circle cy="129.13" r="11.5"/>
+<circle cy="160.9" r="11.5"/>
+<circle cy="182.4" r="11.5"/>
+</g>
+</g>
+<g transform="translate(1110 0)">
+<g fill="#2020ff">
+<circle cy="165" r="11.5"/>
+<circle cy="186.51" r="11.5"/>
+<circle cy="218.28" r="11.5"/>
+<circle cy="249.47" r="11.5"/>
+<circle cy="276.74" r="11.5"/>
+<circle cy="315.64" r="11.5"/>
+<circle cy="330.01" r="11.5"/>
+<circle cy="347.41" r="11.5"/>
+<circle cy="368.91" r="11.5"/>
+<circle cy="396.18" r="11.5"/>
+<circle cy="431.88" r="11.5"/>
+<circle cy="459.14" r="11.5"/>
+<circle cy="480.65" r="11.5"/>
+<circle cy="512.41" r="11.5"/>
+<circle cy="551.32" r="11.5"/>
+<circle cy="582.51" r="11.5"/>
+<circle cy="600.09" r="11.5"/>
+<circle cy="635.79" r="11.5"/>
+<circle cy="663.05" r="11.5"/>
+<circle cy="684.56" r="11.5"/>
+<circle cy="716.32" r="11.5"/>
+<circle cy="747.52" r="11.5"/>
+<circle cy="782.49" r="11.5"/>
+<circle cy="813.69" r="11.5"/>
+<circle cy="845.45" r="11.5"/>
+<circle cy="866.96" r="11.5"/>
+<circle cy="894.22" r="11.5"/>
+<circle cy="929.92" r="11.5"/>
+<circle cy="947.5" r="11.5"/>
+<circle cy="978.69" r="11.5"/>
+<circle cy="1017.6" r="11.5"/>
+<circle cy="1049.36" r="11.5"/>
+<circle cy="1070.87" r="11.5"/>
+<circle cy="1098.13" r="11.5"/>
+<circle cy="1133.83" r="11.5"/>
+<circle cy="1161.09" r="11.5"/>
+<circle cy="1182.6" r="11.5"/>
+<circle cy="0" r="11.5"/>
+<circle cy="1200" r="11.5"/>
+<circle cy="14.37" r="11.5"/>
+<circle cy="53.27" r="11.5"/>
+<circle cy="80.54" r="11.5"/>
+<circle cy="111.73" r="11.5"/>
+<circle cy="143.5" r="11.5"/>
+<circle cy="165" r="11.5"/>
+</g>
+</g>
+<g transform="translate(1140 0)">
+<g fill="#2020ff">
+<circle cy="150.64" r="11.5"/>
+<circle cy="172.14" r="11.5"/>
+<circle cy="203.91" r="11.5"/>
+<circle cy="235.1" r="11.5"/>
+<circle cy="262.37" r="11.5"/>
+<circle cy="301.27" r="11.5"/>
+<circle cy="315.64" r="11.5"/>
+<circle cy="333.04" r="11.5"/>
+<circle cy="354.55" r="11.5"/>
+<circle cy="381.81" r="11.5"/>
+<circle cy="417.51" r="11.5"/>
+<circle cy="444.77" r="11.5"/>
+<circle cy="466.28" r="11.5"/>
+<circle cy="498.04" r="11.5"/>
+<circle cy="536.95" r="11.5"/>
+<circle cy="568.15" r="11.5"/>
+<circle cy="585.72" r="11.5"/>
+<circle cy="621.42" r="11.5"/>
+<circle cy="648.68" r="11.5"/>
+<circle cy="670.19" r="11.5"/>
+<circle cy="701.96" r="11.5"/>
+<circle cy="733.15" r="11.5"/>
+<circle cy="768.12" r="11.5"/>
+<circle cy="799.32" r="11.5"/>
+<circle cy="831.09" r="11.5"/>
+<circle cy="852.59" r="11.5"/>
+<circle cy="879.86" r="11.5"/>
+<circle cy="915.55" r="11.5"/>
+<circle cy="933.13" r="11.5"/>
+<circle cy="964.32" r="11.5"/>
+<circle cy="1003.23" r="11.5"/>
+<circle cy="1035" r="11.5"/>
+<circle cy="1056.5" r="11.5"/>
+<circle cy="1083.77" r="11.5"/>
+<circle cy="1119.46" r="11.5"/>
+<circle cy="1146.73" r="11.5"/>
+<circle cy="1168.23" r="11.5"/>
+<circle cy="1185.63" r="11.5"/>
+<circle cy="0" r="11.5"/>
+<circle cy="1200" r="11.5"/>
+<circle cy="38.91" r="11.5"/>
+<circle cy="66.17" r="11.5"/>
+<circle cy="97.36" r="11.5"/>
+<circle cy="129.13" r="11.5"/>
+<circle cy="150.64" r="11.5"/>
+</g>
+</g>
+<g transform="translate(1170 0)">
+<g fill="#2020ff">
+<circle cy="111.73" r="11.5"/>
+<circle cy="133.24" r="11.5"/>
+<circle cy="165" r="11.5"/>
+<circle cy="196.2" r="11.5"/>
+<circle cy="223.46" r="11.5"/>
+<circle cy="262.37" r="11.5"/>
+<circle cy="276.74" r="11.5"/>
+<circle cy="294.13" r="11.5"/>
+<circle cy="315.64" r="11.5"/>
+<circle cy="342.91" r="11.5"/>
+<circle cy="378.6" r="11.5"/>
+<circle cy="405.87" r="11.5"/>
+<circle cy="427.37" r="11.5"/>
+<circle cy="459.14" r="11.5"/>
+<circle cy="498.04" r="11.5"/>
+<circle cy="529.24" r="11.5"/>
+<circle cy="546.82" r="11.5"/>
+<circle cy="582.51" r="11.5"/>
+<circle cy="609.78" r="11.5"/>
+<circle cy="631.28" r="11.5"/>
+<circle cy="663.05" r="11.5"/>
+<circle cy="694.24" r="11.5"/>
+<circle cy="729.22" r="11.5"/>
+<circle cy="760.41" r="11.5"/>
+<circle cy="792.18" r="11.5"/>
+<circle cy="813.69" r="11.5"/>
+<circle cy="840.95" r="11.5"/>
+<circle cy="876.65" r="11.5"/>
+<circle cy="894.22" r="11.5"/>
+<circle cy="925.42" r="11.5"/>
+<circle cy="964.32" r="11.5"/>
+<circle cy="996.09" r="11.5"/>
+<circle cy="1017.6" r="11.5"/>
+<circle cy="1044.86" r="11.5"/>
+<circle cy="1080.56" r="11.5"/>
+<circle cy="1107.82" r="11.5"/>
+<circle cy="1129.33" r="11.5"/>
+<circle cy="1146.73" r="11.5"/>
+<circle cy="1161.09" r="11.5"/>
+<circle cy="0" r="11.5"/>
+<circle cy="1200" r="11.5"/>
+<circle cy="27.26" r="11.5"/>
+<circle cy="58.46" r="11.5"/>
+<circle cy="90.22" r="11.5"/>
+<circle cy="111.73" r="11.5"/>
+</g>
+</g>
+<g transform="translate(1200 0)">
+<g fill="#2020ff">
+<circle cy="84.47" r="11.5"/>
+<circle cy="105.97" r="11.5"/>
+<circle cy="137.74" r="11.5"/>
+<circle cy="168.93" r="11.5"/>
+<circle cy="196.2" r="11.5"/>
+<circle cy="235.1" r="11.5"/>
+<circle cy="249.47" r="11.5"/>
+<circle cy="266.87" r="11.5"/>
+<circle cy="288.38" r="11.5"/>
+<circle cy="315.64" r="11.5"/>
+<circle cy="351.34" r="11.5"/>
+<circle cy="378.6" r="11.5"/>
+<circle cy="400.11" r="11.5"/>
+<circle cy="431.88" r="11.5"/>
+<circle cy="470.78" r="11.5"/>
+<circle cy="501.98" r="11.5"/>
+<circle cy="519.55" r="11.5"/>
+<circle cy="555.25" r="11.5"/>
+<circle cy="582.51" r="11.5"/>
+<circle cy="604.02" r="11.5"/>
+<circle cy="635.79" r="11.5"/>
+<circle cy="666.98" r="11.5"/>
+<circle cy="701.96" r="11.5"/>
+<circle cy="733.15" r="11.5"/>
+<circle cy="764.92" r="11.5"/>
+<circle cy="786.42" r="11.5"/>
+<circle cy="813.69" r="11.5"/>
+<circle cy="849.38" r="11.5"/>
+<circle cy="866.96" r="11.5"/>
+<circle cy="898.15" r="11.5"/>
+<circle cy="937.06" r="11.5"/>
+<circle cy="968.83" r="11.5"/>
+<circle cy="990.33" r="11.5"/>
+<circle cy="1017.6" r="11.5"/>
+<circle cy="1053.29" r="11.5"/>
+<circle cy="1080.56" r="11.5"/>
+<circle cy="1102.06" r="11.5"/>
+<circle cy="1119.46" r="11.5"/>
+<circle cy="1133.83" r="11.5"/>
+<circle cy="1172.74" r="11.5"/>
+<circle cy="0" r="11.5"/>
+<circle cy="1200" r="11.5"/>
+<circle cy="31.19" r="11.5"/>
+<circle cy="62.96" r="11.5"/>
+<circle cy="84.47" r="11.5"/>
+</g>
+</g>
+<g transform="translate(1230 0)">
+<g fill="#2020ff">
+<circle cy="53.27" r="11.5"/>
+<circle cy="74.78" r="11.5"/>
+<circle cy="106.55" r="11.5"/>
+<circle cy="137.74" r="11.5"/>
+<circle cy="165" r="11.5"/>
+<circle cy="203.91" r="11.5"/>
+<circle cy="218.28" r="11.5"/>
+<circle cy="235.68" r="11.5"/>
+<circle cy="257.18" r="11.5"/>
+<circle cy="284.45" r="11.5"/>
+<circle cy="320.14" r="11.5"/>
+<circle cy="347.41" r="11.5"/>
+<circle cy="368.91" r="11.5"/>
+<circle cy="400.68" r="11.5"/>
+<circle cy="439.59" r="11.5"/>
+<circle cy="470.78" r="11.5"/>
+<circle cy="488.36" r="11.5"/>
+<circle cy="524.05" r="11.5"/>
+<circle cy="551.32" r="11.5"/>
+<circle cy="572.82" r="11.5"/>
+<circle cy="604.59" r="11.5"/>
+<circle cy="635.79" r="11.5"/>
+<circle cy="670.76" r="11.5"/>
+<circle cy="701.96" r="11.5"/>
+<circle cy="733.72" r="11.5"/>
+<circle cy="755.23" r="11.5"/>
+<circle cy="782.49" r="11.5"/>
+<circle cy="818.19" r="11.5"/>
+<circle cy="835.76" r="11.5"/>
+<circle cy="866.96" r="11.5"/>
+<circle cy="905.87" r="11.5"/>
+<circle cy="937.63" r="11.5"/>
+<circle cy="959.14" r="11.5"/>
+<circle cy="986.4" r="11.5"/>
+<circle cy="1022.1" r="11.5"/>
+<circle cy="1049.36" r="11.5"/>
+<circle cy="1070.87" r="11.5"/>
+<circle cy="1088.27" r="11.5"/>
+<circle cy="1102.64" r="11.5"/>
+<circle cy="1141.54" r="11.5"/>
+<circle cy="1168.81" r="11.5"/>
+<circle cy="0" r="11.5"/>
+<circle cy="1200" r="11.5"/>
+<circle cy="31.77" r="11.5"/>
+<circle cy="53.27" r="11.5"/>
+</g>
+</g>
+<g transform="translate(1260 0)">
+<g fill="#2020ff">
+<circle cy="21.51" r="11.5"/>
+<circle cy="43.01" r="11.5"/>
+<circle cy="74.78" r="11.5"/>
+<circle cy="105.97" r="11.5"/>
+<circle cy="133.24" r="11.5"/>
+<circle cy="172.14" r="11.5"/>
+<circle cy="186.51" r="11.5"/>
+<circle cy="203.91" r="11.5"/>
+<circle cy="225.42" r="11.5"/>
+<circle cy="252.68" r="11.5"/>
+<circle cy="288.38" r="11.5"/>
+<circle cy="315.64" r="11.5"/>
+<circle cy="337.15" r="11.5"/>
+<circle cy="368.91" r="11.5"/>
+<circle cy="407.82" r="11.5"/>
+<circle cy="439.01" r="11.5"/>
+<circle cy="456.59" r="11.5"/>
+<circle cy="492.29" r="11.5"/>
+<circle cy="519.55" r="11.5"/>
+<circle cy="541.06" r="11.5"/>
+<circle cy="572.82" r="11.5"/>
+<circle cy="604.02" r="11.5"/>
+<circle cy="638.99" r="11.5"/>
+<circle cy="670.19" r="11.5"/>
+<circle cy="701.96" r="11.5"/>
+<circle cy="723.46" r="11.5"/>
+<circle cy="750.73" r="11.5"/>
+<circle cy="786.42" r="11.5"/>
+<circle cy="804" r="11.5"/>
+<circle cy="835.19" r="11.5"/>
+<circle cy="874.1" r="11.5"/>
+<circle cy="905.87" r="11.5"/>
+<circle cy="927.37" r="11.5"/>
+<circle cy="954.64" r="11.5"/>
+<circle cy="990.33" r="11.5"/>
+<circle cy="1017.6" r="11.5"/>
+<circle cy="1039.1" r="11.5"/>
+<circle cy="1056.5" r="11.5"/>
+<circle cy="1070.87" r="11.5"/>
+<circle cy="1109.78" r="11.5"/>
+<circle cy="1137.04" r="11.5"/>
+<circle cy="1168.23" r="11.5"/>
+<circle cy="0" r="11.5"/>
+<circle cy="1200" r="11.5"/>
+<circle cy="21.51" r="11.5"/>
+</g>
+</g>
+<g transform="translate(1290 0)">
+<g fill="#2020ff">
+<circle cy="0" r="11.5"/>
+<circle cy="1200" r="11.5"/>
+<circle cy="21.51" r="11.5"/>
+<circle cy="53.27" r="11.5"/>
+<circle cy="84.47" r="11.5"/>
+<circle cy="111.73" r="11.5"/>
+<circle cy="150.64" r="11.5"/>
+<circle cy="165" r="11.5"/>
+<circle cy="182.4" r="11.5"/>
+<circle cy="203.91" r="11.5"/>
+<circle cy="231.17" r="11.5"/>
+<circle cy="266.87" r="11.5"/>
+<circle cy="294.13" r="11.5"/>
+<circle cy="315.64" r="11.5"/>
+<circle cy="347.41" r="11.5"/>
+<circle cy="386.31" r="11.5"/>
+<circle cy="417.51" r="11.5"/>
+<circle cy="435.08" r="11.5"/>
+<circle cy="470.78" r="11.5"/>
+<circle cy="498.04" r="11.5"/>
+<circle cy="519.55" r="11.5"/>
+<circle cy="551.32" r="11.5"/>
+<circle cy="582.51" r="11.5"/>
+<circle cy="617.49" r="11.5"/>
+<circle cy="648.68" r="11.5"/>
+<circle cy="680.45" r="11.5"/>
+<circle cy="701.96" r="11.5"/>
+<circle cy="729.22" r="11.5"/>
+<circle cy="764.92" r="11.5"/>
+<circle cy="782.49" r="11.5"/>
+<circle cy="813.69" r="11.5"/>
+<circle cy="852.59" r="11.5"/>
+<circle cy="884.36" r="11.5"/>
+<circle cy="905.87" r="11.5"/>
+<circle cy="933.13" r="11.5"/>
+<circle cy="968.83" r="11.5"/>
+<circle cy="996.09" r="11.5"/>
+<circle cy="1017.6" r="11.5"/>
+<circle cy="1035" r="11.5"/>
+<circle cy="1049.36" r="11.5"/>
+<circle cy="1088.27" r="11.5"/>
+<circle cy="1115.53" r="11.5"/>
+<circle cy="1146.73" r="11.5"/>
+<circle cy="1178.49" r="11.5"/>
+<circle cy="0" r="11.5"/>
+<circle cy="1200" r="11.5"/>
+</g>
+</g>
+<g fill="white" text-anchor="middle">
+<g font-size="10">
+<text y="-1.67">1</text>
+<text y="8.33">1</text>
+<text y="1198.33">1</text>
+<text y="1208.33">1</text>
+<text y="19.84">81</text>
+<text y="29.84">80</text>
+<text y="51.61">33</text>
+<text y="61.61">32</text>
+<text y="82.8">21</text>
+<text y="92.8">20</text>
+<text y="110.06">16</text>
+<text y="120.06">15</text>
+<text y="148.97">12</text>
+<text y="158.97">11</text>
+<text y="163.34">11</text>
+<text y="173.34">10</text>
+<text y="180.74">10</text>
+<text y="190.74">9</text>
+<text y="202.24">9</text>
+<text y="212.24">8</text>
+<text y="229.51">8</text>
+<text y="239.51">7</text>
+<text y="265.2">7</text>
+<text y="275.2">6</text>
+<text y="292.47">32</text>
+<text y="302.47">27</text>
+<text y="313.97">6</text>
+<text y="323.97">5</text>
+<text y="345.74">11</text>
+<text y="355.74">9</text>
+<text y="384.65">5</text>
+<text y="394.65">4</text>
+<text y="415.84">14</text>
+<text y="425.84">11</text>
+<text y="433.42">9</text>
+<text y="443.42">7</text>
+<text y="469.11">21</text>
+<text y="479.11">16</text>
+<text y="496.38">4</text>
+<text y="506.38">3</text>
+<text y="517.88">27</text>
+<text y="527.88">20</text>
+<text y="549.65">11</text>
+<text y="559.65">8</text>
+<text y="580.85">7</text>
+<text y="590.85">5</text>
+<text y="615.82">10</text>
+<text y="625.82">7</text>
+<text y="647.02">16</text>
+<text y="657.02">11</text>
+<text y="678.78">40</text>
+<text y="688.78">27</text>
+<text y="700.29">3</text>
+<text y="710.29">2</text>
+<text y="727.55">32</text>
+<text y="737.55">21</text>
+<text y="763.25">14</text>
+<text y="773.25">9</text>
+<text y="780.83">11</text>
+<text y="790.83">7</text>
+<text y="812.02">8</text>
+<text y="822.02">5</text>
+<text y="850.93">18</text>
+<text y="860.93">11</text>
+<text y="882.69">5</text>
+<text y="892.69">3</text>
+<text y="904.2">27</text>
+<text y="914.2">16</text>
+<text y="931.46">12</text>
+<text y="941.46">7</text>
+<text y="967.16">7</text>
+<text y="977.16">4</text>
+<text y="994.42">16</text>
+<text y="1004.42">9</text>
+<text y="1015.93">9</text>
+<text y="1025.93">5</text>
+<text y="1033.33">20</text>
+<text y="1043.33">11</text>
+<text y="1047.7">11</text>
+<text y="1057.7">6</text>
+<text y="1086.6">15</text>
+<text y="1096.6">8</text>
+<text y="1113.87">40</text>
+<text y="1123.87">21</text>
+<text y="1145.06">64</text>
+<text y="1155.06">33</text>
+<text y="1176.83">160</text>
+<text y="1186.83">81</text>
+<text y="1198.33">2</text>
+<text y="1208.33">1</text>
+</g>
+<g transform="translate(30 0)">
+<g font-size="10">
+<text y="1176.83">1</text>
+<text y="1186.83">1</text>
+<text y="-1.67">81</text>
+<text y="8.33">80</text>
+<text y="1198.33">81</text>
+<text y="1208.33">80</text>
+<text y="30.1">33</text>
+<text y="40.1">32</text>
+<text y="61.29">21</text>
+<text y="71.29">20</text>
+<text y="88.56">16</text>
+<text y="98.56">15</text>
+<text y="127.46">12</text>
+<text y="137.46">11</text>
+<text y="141.83">11</text>
+<text y="151.83">10</text>
+<text y="159.23">10</text>
+<text y="169.23">9</text>
+<text y="180.74">9</text>
+<text y="190.74">8</text>
+<text y="208">8</text>
+<text y="218">7</text>
+<text y="243.7">7</text>
+<text y="253.7">6</text>
+<text y="270.96">32</text>
+<text y="280.96">27</text>
+<text y="292.47">6</text>
+<text y="302.47">5</text>
+<text y="324.23">11</text>
+<text y="334.23">9</text>
+<text y="363.14">5</text>
+<text y="373.14">4</text>
+<text y="394.34">14</text>
+<text y="404.34">11</text>
+<text y="411.91">9</text>
+<text y="421.91">7</text>
+<text y="447.61">21</text>
+<text y="457.61">16</text>
+<text y="474.87">4</text>
+<text y="484.87">3</text>
+<text y="496.38">27</text>
+<text y="506.38">20</text>
+<text y="528.14">11</text>
+<text y="538.14">8</text>
+<text y="559.34">7</text>
+<text y="569.34">5</text>
+<text y="594.31">10</text>
+<text y="604.31">7</text>
+<text y="625.51">16</text>
+<text y="635.51">11</text>
+<text y="657.28">40</text>
+<text y="667.28">27</text>
+<text y="678.78">3</text>
+<text y="688.78">2</text>
+<text y="706.05">32</text>
+<text y="716.05">21</text>
+<text y="741.74">14</text>
+<text y="751.74">9</text>
+<text y="759.32">11</text>
+<text y="769.32">7</text>
+<text y="790.51">8</text>
+<text y="800.51">5</text>
+<text y="829.42">18</text>
+<text y="839.42">11</text>
+<text y="861.19">5</text>
+<text y="871.19">3</text>
+<text y="882.69">27</text>
+<text y="892.69">16</text>
+<text y="909.96">12</text>
+<text y="919.96">7</text>
+<text y="945.65">7</text>
+<text y="955.65">4</text>
+<text y="972.92">16</text>
+<text y="982.92">9</text>
+<text y="994.42">9</text>
+<text y="1004.42">5</text>
+<text y="1011.82">20</text>
+<text y="1021.82">11</text>
+<text y="1026.19">11</text>
+<text y="1036.19">6</text>
+<text y="1065.1">15</text>
+<text y="1075.1">8</text>
+<text y="1092.36">40</text>
+<text y="1102.36">21</text>
+<text y="1123.55">64</text>
+<text y="1133.55">33</text>
+<text y="1155.32">160</text>
+<text y="1165.32">81</text>
+<text y="1176.83">2</text>
+<text y="1186.83">1</text>
+</g>
+</g>
+<g transform="translate(60 0)">
+<g font-size="10">
+<text y="1145.06">1</text>
+<text y="1155.06">1</text>
+<text y="1166.57">81</text>
+<text y="1176.57">80</text>
+<text y="-1.67">33</text>
+<text y="8.33">32</text>
+<text y="1198.33">33</text>
+<text y="1208.33">32</text>
+<text y="29.53">21</text>
+<text y="39.53">20</text>
+<text y="56.79">16</text>
+<text y="66.79">15</text>
+<text y="95.7">12</text>
+<text y="105.7">11</text>
+<text y="110.06">11</text>
+<text y="120.06">10</text>
+<text y="127.46">10</text>
+<text y="137.46">9</text>
+<text y="148.97">9</text>
+<text y="158.97">8</text>
+<text y="176.23">8</text>
+<text y="186.23">7</text>
+<text y="211.93">7</text>
+<text y="221.93">6</text>
+<text y="239.2">32</text>
+<text y="249.2">27</text>
+<text y="260.7">6</text>
+<text y="270.7">5</text>
+<text y="292.47">11</text>
+<text y="302.47">9</text>
+<text y="331.37">5</text>
+<text y="341.37">4</text>
+<text y="362.57">14</text>
+<text y="372.57">11</text>
+<text y="380.14">9</text>
+<text y="390.14">7</text>
+<text y="415.84">21</text>
+<text y="425.84">16</text>
+<text y="443.11">4</text>
+<text y="453.11">3</text>
+<text y="464.61">27</text>
+<text y="474.61">20</text>
+<text y="496.38">11</text>
+<text y="506.38">8</text>
+<text y="527.57">7</text>
+<text y="537.57">5</text>
+<text y="562.55">10</text>
+<text y="572.55">7</text>
+<text y="593.74">16</text>
+<text y="603.74">11</text>
+<text y="625.51">40</text>
+<text y="635.51">27</text>
+<text y="647.02">3</text>
+<text y="657.02">2</text>
+<text y="674.28">32</text>
+<text y="684.28">21</text>
+<text y="709.98">14</text>
+<text y="719.98">9</text>
+<text y="727.55">11</text>
+<text y="737.55">7</text>
+<text y="758.75">8</text>
+<text y="768.75">5</text>
+<text y="797.65">18</text>
+<text y="807.65">11</text>
+<text y="829.42">5</text>
+<text y="839.42">3</text>
+<text y="850.93">27</text>
+<text y="860.93">16</text>
+<text y="878.19">12</text>
+<text y="888.19">7</text>
+<text y="913.89">7</text>
+<text y="923.89">4</text>
+<text y="941.15">16</text>
+<text y="951.15">9</text>
+<text y="962.66">9</text>
+<text y="972.66">5</text>
+<text y="980.06">20</text>
+<text y="990.06">11</text>
+<text y="994.42">11</text>
+<text y="1004.42">6</text>
+<text y="1033.33">15</text>
+<text y="1043.33">8</text>
+<text y="1060.59">40</text>
+<text y="1070.59">21</text>
+<text y="1091.79">64</text>
+<text y="1101.79">33</text>
+<text y="1123.55">160</text>
+<text y="1133.55">81</text>
+<text y="1145.06">2</text>
+<text y="1155.06">1</text>
+</g>
+</g>
+<g transform="translate(90 0)">
+<g font-size="10">
+<text y="1113.87">1</text>
+<text y="1123.87">1</text>
+<text y="1135.37">81</text>
+<text y="1145.37">80</text>
+<text y="1167.14">33</text>
+<text y="1177.14">32</text>
+<text y="-1.67">21</text>
+<text y="8.33">20</text>
+<text y="1198.33">21</text>
+<text y="1208.33">20</text>
+<text y="25.6">16</text>
+<text y="35.6">15</text>
+<text y="64.5">12</text>
+<text y="74.5">11</text>
+<text y="78.87">11</text>
+<text y="88.87">10</text>
+<text y="96.27">10</text>
+<text y="106.27">9</text>
+<text y="117.78">9</text>
+<text y="127.78">8</text>
+<text y="145.04">8</text>
+<text y="155.04">7</text>
+<text y="180.74">7</text>
+<text y="190.74">6</text>
+<text y="208">32</text>
+<text y="218">27</text>
+<text y="229.51">6</text>
+<text y="239.51">5</text>
+<text y="261.27">11</text>
+<text y="271.27">9</text>
+<text y="300.18">5</text>
+<text y="310.18">4</text>
+<text y="331.37">14</text>
+<text y="341.37">11</text>
+<text y="348.95">9</text>
+<text y="358.95">7</text>
+<text y="384.65">21</text>
+<text y="394.65">16</text>
+<text y="411.91">4</text>
+<text y="421.91">3</text>
+<text y="433.42">27</text>
+<text y="443.42">20</text>
+<text y="465.18">11</text>
+<text y="475.18">8</text>
+<text y="496.38">7</text>
+<text y="506.38">5</text>
+<text y="531.35">10</text>
+<text y="541.35">7</text>
+<text y="562.55">16</text>
+<text y="572.55">11</text>
+<text y="594.31">40</text>
+<text y="604.31">27</text>
+<text y="615.82">3</text>
+<text y="625.82">2</text>
+<text y="643.09">32</text>
+<text y="653.09">21</text>
+<text y="678.78">14</text>
+<text y="688.78">9</text>
+<text y="696.36">11</text>
+<text y="706.36">7</text>
+<text y="727.55">8</text>
+<text y="737.55">5</text>
+<text y="766.46">18</text>
+<text y="776.46">11</text>
+<text y="798.22">5</text>
+<text y="808.22">3</text>
+<text y="819.73">27</text>
+<text y="829.73">16</text>
+<text y="847">12</text>
+<text y="857">7</text>
+<text y="882.69">7</text>
+<text y="892.69">4</text>
+<text y="909.96">16</text>
+<text y="919.96">9</text>
+<text y="931.46">9</text>
+<text y="941.46">5</text>
+<text y="948.86">20</text>
+<text y="958.86">11</text>
+<text y="963.23">11</text>
+<text y="973.23">6</text>
+<text y="1002.13">15</text>
+<text y="1012.13">8</text>
+<text y="1029.4">40</text>
+<text y="1039.4">21</text>
+<text y="1060.59">64</text>
+<text y="1070.59">33</text>
+<text y="1092.36">160</text>
+<text y="1102.36">81</text>
+<text y="1113.87">2</text>
+<text y="1123.87">1</text>
+</g>
+</g>
+<g transform="translate(120 0)">
+<g font-size="10">
+<text y="1086.6">1</text>
+<text y="1096.6">1</text>
+<text y="1108.11">81</text>
+<text y="1118.11">80</text>
+<text y="1139.87">33</text>
+<text y="1149.87">32</text>
+<text y="1171.07">21</text>
+<text y="1181.07">20</text>
+<text y="-1.67">16</text>
+<text y="8.33">15</text>
+<text y="1198.33">16</text>
+<text y="1208.33">15</text>
+<text y="37.24">12</text>
+<text y="47.24">11</text>
+<text y="51.61">11</text>
+<text y="61.61">10</text>
+<text y="69.01">10</text>
+<text y="79.01">9</text>
+<text y="90.51">9</text>
+<text y="100.51">8</text>
+<text y="117.78">8</text>
+<text y="127.78">7</text>
+<text y="153.47">7</text>
+<text y="163.47">6</text>
+<text y="180.74">32</text>
+<text y="190.74">27</text>
+<text y="202.24">6</text>
+<text y="212.24">5</text>
+<text y="234.01">11</text>
+<text y="244.01">9</text>
+<text y="272.92">5</text>
+<text y="282.92">4</text>
+<text y="304.11">14</text>
+<text y="314.11">11</text>
+<text y="321.69">9</text>
+<text y="331.69">7</text>
+<text y="357.38">21</text>
+<text y="367.38">16</text>
+<text y="384.65">4</text>
+<text y="394.65">3</text>
+<text y="406.15">27</text>
+<text y="416.15">20</text>
+<text y="437.92">11</text>
+<text y="447.92">8</text>
+<text y="469.11">7</text>
+<text y="479.11">5</text>
+<text y="504.09">10</text>
+<text y="514.09">7</text>
+<text y="535.28">16</text>
+<text y="545.28">11</text>
+<text y="567.05">40</text>
+<text y="577.05">27</text>
+<text y="588.56">3</text>
+<text y="598.56">2</text>
+<text y="615.82">32</text>
+<text y="625.82">21</text>
+<text y="651.52">14</text>
+<text y="661.52">9</text>
+<text y="669.09">11</text>
+<text y="679.09">7</text>
+<text y="700.29">8</text>
+<text y="710.29">5</text>
+<text y="739.19">18</text>
+<text y="749.19">11</text>
+<text y="770.96">5</text>
+<text y="780.96">3</text>
+<text y="792.47">27</text>
+<text y="802.47">16</text>
+<text y="819.73">12</text>
+<text y="829.73">7</text>
+<text y="855.43">7</text>
+<text y="865.43">4</text>
+<text y="882.69">16</text>
+<text y="892.69">9</text>
+<text y="904.2">9</text>
+<text y="914.2">5</text>
+<text y="921.6">20</text>
+<text y="931.6">11</text>
+<text y="935.96">11</text>
+<text y="945.96">6</text>
+<text y="974.87">15</text>
+<text y="984.87">8</text>
+<text y="1002.13">40</text>
+<text y="1012.13">21</text>
+<text y="1033.33">64</text>
+<text y="1043.33">33</text>
+<text y="1065.1">160</text>
+<text y="1075.1">81</text>
+<text y="1086.6">2</text>
+<text y="1096.6">1</text>
+</g>
+</g>
+<g transform="translate(150 0)">
+<g font-size="10">
+<text y="1047.7">1</text>
+<text y="1057.7">1</text>
+<text y="1069.2">81</text>
+<text y="1079.2">80</text>
+<text y="1100.97">33</text>
+<text y="1110.97">32</text>
+<text y="1132.16">21</text>
+<text y="1142.16">20</text>
+<text y="1159.43">16</text>
+<text y="1169.43">15</text>
+<text y="-1.67">12</text>
+<text y="8.33">11</text>
+<text y="1198.33">12</text>
+<text y="1208.33">11</text>
+<text y="12.7">11</text>
+<text y="22.7">10</text>
+<text y="30.1">10</text>
+<text y="40.1">9</text>
+<text y="51.61">9</text>
+<text y="61.61">8</text>
+<text y="78.87">8</text>
+<text y="88.87">7</text>
+<text y="114.57">7</text>
+<text y="124.57">6</text>
+<text y="141.83">32</text>
+<text y="151.83">27</text>
+<text y="163.34">6</text>
+<text y="173.34">5</text>
+<text y="195.1">11</text>
+<text y="205.1">9</text>
+<text y="234.01">5</text>
+<text y="244.01">4</text>
+<text y="265.2">14</text>
+<text y="275.2">11</text>
+<text y="282.78">9</text>
+<text y="292.78">7</text>
+<text y="318.48">21</text>
+<text y="328.48">16</text>
+<text y="345.74">4</text>
+<text y="355.74">3</text>
+<text y="367.25">27</text>
+<text y="377.25">20</text>
+<text y="399.01">11</text>
+<text y="409.01">8</text>
+<text y="430.21">7</text>
+<text y="440.21">5</text>
+<text y="465.18">10</text>
+<text y="475.18">7</text>
+<text y="496.38">16</text>
+<text y="506.38">11</text>
+<text y="528.14">40</text>
+<text y="538.14">27</text>
+<text y="549.65">3</text>
+<text y="559.65">2</text>
+<text y="576.92">32</text>
+<text y="586.92">21</text>
+<text y="612.61">14</text>
+<text y="622.61">9</text>
+<text y="630.19">11</text>
+<text y="640.19">7</text>
+<text y="661.38">8</text>
+<text y="671.38">5</text>
+<text y="700.29">18</text>
+<text y="710.29">11</text>
+<text y="732.05">5</text>
+<text y="742.05">3</text>
+<text y="753.56">27</text>
+<text y="763.56">16</text>
+<text y="780.83">12</text>
+<text y="790.83">7</text>
+<text y="816.52">7</text>
+<text y="826.52">4</text>
+<text y="843.79">16</text>
+<text y="853.79">9</text>
+<text y="865.29">9</text>
+<text y="875.29">5</text>
+<text y="882.69">20</text>
+<text y="892.69">11</text>
+<text y="897.06">11</text>
+<text y="907.06">6</text>
+<text y="935.96">15</text>
+<text y="945.96">8</text>
+<text y="963.23">40</text>
+<text y="973.23">21</text>
+<text y="994.42">64</text>
+<text y="1004.42">33</text>
+<text y="1026.19">160</text>
+<text y="1036.19">81</text>
+<text y="1047.7">2</text>
+<text y="1057.7">1</text>
+</g>
+</g>
+<g transform="translate(180 0)">
+<g font-size="10">
+<text y="1033.33">1</text>
+<text y="1043.33">1</text>
+<text y="1054.84">81</text>
+<text y="1064.84">80</text>
+<text y="1086.6">33</text>
+<text y="1096.6">32</text>
+<text y="1117.8">21</text>
+<text y="1127.8">20</text>
+<text y="1145.06">16</text>
+<text y="1155.06">15</text>
+<text y="1183.97">12</text>
+<text y="1193.97">11</text>
+<text y="-1.67">11</text>
+<text y="8.33">10</text>
+<text y="1198.33">11</text>
+<text y="1208.33">10</text>
+<text y="15.73">10</text>
+<text y="25.73">9</text>
+<text y="37.24">9</text>
+<text y="47.24">8</text>
+<text y="64.5">8</text>
+<text y="74.5">7</text>
+<text y="100.2">7</text>
+<text y="110.2">6</text>
+<text y="127.46">32</text>
+<text y="137.46">27</text>
+<text y="148.97">6</text>
+<text y="158.97">5</text>
+<text y="180.74">11</text>
+<text y="190.74">9</text>
+<text y="219.64">5</text>
+<text y="229.64">4</text>
+<text y="250.84">14</text>
+<text y="260.84">11</text>
+<text y="268.41">9</text>
+<text y="278.41">7</text>
+<text y="304.11">21</text>
+<text y="314.11">16</text>
+<text y="331.37">4</text>
+<text y="341.37">3</text>
+<text y="352.88">27</text>
+<text y="362.88">20</text>
+<text y="384.65">11</text>
+<text y="394.65">8</text>
+<text y="415.84">7</text>
+<text y="425.84">5</text>
+<text y="450.82">10</text>
+<text y="460.82">7</text>
+<text y="482.01">16</text>
+<text y="492.01">11</text>
+<text y="513.78">40</text>
+<text y="523.78">27</text>
+<text y="535.28">3</text>
+<text y="545.28">2</text>
+<text y="562.55">32</text>
+<text y="572.55">21</text>
+<text y="598.25">14</text>
+<text y="608.25">9</text>
+<text y="615.82">11</text>
+<text y="625.82">7</text>
+<text y="647.02">8</text>
+<text y="657.02">5</text>
+<text y="685.92">18</text>
+<text y="695.92">11</text>
+<text y="717.69">5</text>
+<text y="727.69">3</text>
+<text y="739.19">27</text>
+<text y="749.19">16</text>
+<text y="766.46">12</text>
+<text y="776.46">7</text>
+<text y="802.16">7</text>
+<text y="812.16">4</text>
+<text y="829.42">16</text>
+<text y="839.42">9</text>
+<text y="850.93">9</text>
+<text y="860.93">5</text>
+<text y="868.32">20</text>
+<text y="878.32">11</text>
+<text y="882.69">11</text>
+<text y="892.69">6</text>
+<text y="921.6">15</text>
+<text y="931.6">8</text>
+<text y="948.86">40</text>
+<text y="958.86">21</text>
+<text y="980.06">64</text>
+<text y="990.06">33</text>
+<text y="1011.82">160</text>
+<text y="1021.82">81</text>
+<text y="1033.33">2</text>
+<text y="1043.33">1</text>
+</g>
+</g>
+<g transform="translate(210 0)">
+<g font-size="10">
+<text y="1015.93">1</text>
+<text y="1025.93">1</text>
+<text y="1037.44">81</text>
+<text y="1047.44">80</text>
+<text y="1069.2">33</text>
+<text y="1079.2">32</text>
+<text y="1100.4">21</text>
+<text y="1110.4">20</text>
+<text y="1127.66">16</text>
+<text y="1137.66">15</text>
+<text y="1166.57">12</text>
+<text y="1176.57">11</text>
+<text y="1180.93">11</text>
+<text y="1190.93">10</text>
+<text y="-1.67">10</text>
+<text y="8.33">9</text>
+<text y="1198.33">10</text>
+<text y="1208.33">9</text>
+<text y="19.84">9</text>
+<text y="29.84">8</text>
+<text y="47.1">8</text>
+<text y="57.1">7</text>
+<text y="82.8">7</text>
+<text y="92.8">6</text>
+<text y="110.06">32</text>
+<text y="120.06">27</text>
+<text y="131.57">6</text>
+<text y="141.57">5</text>
+<text y="163.34">11</text>
+<text y="173.34">9</text>
+<text y="202.24">5</text>
+<text y="212.24">4</text>
+<text y="233.44">14</text>
+<text y="243.44">11</text>
+<text y="251.01">9</text>
+<text y="261.01">7</text>
+<text y="286.71">21</text>
+<text y="296.71">16</text>
+<text y="313.97">4</text>
+<text y="323.97">3</text>
+<text y="335.48">27</text>
+<text y="345.48">20</text>
+<text y="367.25">11</text>
+<text y="377.25">8</text>
+<text y="398.44">7</text>
+<text y="408.44">5</text>
+<text y="433.42">10</text>
+<text y="443.42">7</text>
+<text y="464.61">16</text>
+<text y="474.61">11</text>
+<text y="496.38">40</text>
+<text y="506.38">27</text>
+<text y="517.88">3</text>
+<text y="527.88">2</text>
+<text y="545.15">32</text>
+<text y="555.15">21</text>
+<text y="580.85">14</text>
+<text y="590.85">9</text>
+<text y="598.42">11</text>
+<text y="608.42">7</text>
+<text y="629.62">8</text>
+<text y="639.62">5</text>
+<text y="668.52">18</text>
+<text y="678.52">11</text>
+<text y="700.29">5</text>
+<text y="710.29">3</text>
+<text y="721.79">27</text>
+<text y="731.79">16</text>
+<text y="749.06">12</text>
+<text y="759.06">7</text>
+<text y="784.76">7</text>
+<text y="794.76">4</text>
+<text y="812.02">16</text>
+<text y="822.02">9</text>
+<text y="833.53">9</text>
+<text y="843.53">5</text>
+<text y="850.93">20</text>
+<text y="860.93">11</text>
+<text y="865.29">11</text>
+<text y="875.29">6</text>
+<text y="904.2">15</text>
+<text y="914.2">8</text>
+<text y="931.46">40</text>
+<text y="941.46">21</text>
+<text y="962.66">64</text>
+<text y="972.66">33</text>
+<text y="994.42">160</text>
+<text y="1004.42">81</text>
+<text y="1015.93">2</text>
+<text y="1025.93">1</text>
+</g>
+</g>
+<g transform="translate(240 0)">
+<g font-size="10">
+<text y="994.42">1</text>
+<text y="1004.42">1</text>
+<text y="1015.93">81</text>
+<text y="1025.93">80</text>
+<text y="1047.7">33</text>
+<text y="1057.7">32</text>
+<text y="1078.89">21</text>
+<text y="1088.89">20</text>
+<text y="1106.15">16</text>
+<text y="1116.15">15</text>
+<text y="1145.06">12</text>
+<text y="1155.06">11</text>
+<text y="1159.43">11</text>
+<text y="1169.43">10</text>
+<text y="1176.83">10</text>
+<text y="1186.83">9</text>
+<text y="-1.67">9</text>
+<text y="8.33">8</text>
+<text y="1198.33">9</text>
+<text y="1208.33">8</text>
+<text y="25.6">8</text>
+<text y="35.6">7</text>
+<text y="61.29">7</text>
+<text y="71.29">6</text>
+<text y="88.56">32</text>
+<text y="98.56">27</text>
+<text y="110.06">6</text>
+<text y="120.06">5</text>
+<text y="141.83">11</text>
+<text y="151.83">9</text>
+<text y="180.74">5</text>
+<text y="190.74">4</text>
+<text y="211.93">14</text>
+<text y="221.93">11</text>
+<text y="229.51">9</text>
+<text y="239.51">7</text>
+<text y="265.2">21</text>
+<text y="275.2">16</text>
+<text y="292.47">4</text>
+<text y="302.47">3</text>
+<text y="313.97">27</text>
+<text y="323.97">20</text>
+<text y="345.74">11</text>
+<text y="355.74">8</text>
+<text y="376.94">7</text>
+<text y="386.94">5</text>
+<text y="411.91">10</text>
+<text y="421.91">7</text>
+<text y="443.11">16</text>
+<text y="453.11">11</text>
+<text y="474.87">40</text>
+<text y="484.87">27</text>
+<text y="496.38">3</text>
+<text y="506.38">2</text>
+<text y="523.64">32</text>
+<text y="533.64">21</text>
+<text y="559.34">14</text>
+<text y="569.34">9</text>
+<text y="576.92">11</text>
+<text y="586.92">7</text>
+<text y="608.11">8</text>
+<text y="618.11">5</text>
+<text y="647.02">18</text>
+<text y="657.02">11</text>
+<text y="678.78">5</text>
+<text y="688.78">3</text>
+<text y="700.29">27</text>
+<text y="710.29">16</text>
+<text y="727.55">12</text>
+<text y="737.55">7</text>
+<text y="763.25">7</text>
+<text y="773.25">4</text>
+<text y="790.51">16</text>
+<text y="800.51">9</text>
+<text y="812.02">9</text>
+<text y="822.02">5</text>
+<text y="829.42">20</text>
+<text y="839.42">11</text>
+<text y="843.79">11</text>
+<text y="853.79">6</text>
+<text y="882.69">15</text>
+<text y="892.69">8</text>
+<text y="909.96">40</text>
+<text y="919.96">21</text>
+<text y="941.15">64</text>
+<text y="951.15">33</text>
+<text y="972.92">160</text>
+<text y="982.92">81</text>
+<text y="994.42">2</text>
+<text y="1004.42">1</text>
+</g>
+</g>
+<g transform="translate(270 0)">
+<g font-size="10">
+<text y="967.16">1</text>
+<text y="977.16">1</text>
+<text y="988.67">81</text>
+<text y="998.67">80</text>
+<text y="1020.43">33</text>
+<text y="1030.43">32</text>
+<text y="1051.63">21</text>
+<text y="1061.63">20</text>
+<text y="1078.89">16</text>
+<text y="1088.89">15</text>
+<text y="1117.8">12</text>
+<text y="1127.8">11</text>
+<text y="1132.16">11</text>
+<text y="1142.16">10</text>
+<text y="1149.56">10</text>
+<text y="1159.56">9</text>
+<text y="1171.07">9</text>
+<text y="1181.07">8</text>
+<text y="-1.67">8</text>
+<text y="8.33">7</text>
+<text y="1198.33">8</text>
+<text y="1208.33">7</text>
+<text y="34.03">7</text>
+<text y="44.03">6</text>
+<text y="61.29">32</text>
+<text y="71.29">27</text>
+<text y="82.8">6</text>
+<text y="92.8">5</text>
+<text y="114.57">11</text>
+<text y="124.57">9</text>
+<text y="153.47">5</text>
+<text y="163.47">4</text>
+<text y="184.67">14</text>
+<text y="194.67">11</text>
+<text y="202.24">9</text>
+<text y="212.24">7</text>
+<text y="237.94">21</text>
+<text y="247.94">16</text>
+<text y="265.2">4</text>
+<text y="275.2">3</text>
+<text y="286.71">27</text>
+<text y="296.71">20</text>
+<text y="318.48">11</text>
+<text y="328.48">8</text>
+<text y="349.67">7</text>
+<text y="359.67">5</text>
+<text y="384.65">10</text>
+<text y="394.65">7</text>
+<text y="415.84">16</text>
+<text y="425.84">11</text>
+<text y="447.61">40</text>
+<text y="457.61">27</text>
+<text y="469.11">3</text>
+<text y="479.11">2</text>
+<text y="496.38">32</text>
+<text y="506.38">21</text>
+<text y="532.08">14</text>
+<text y="542.08">9</text>
+<text y="549.65">11</text>
+<text y="559.65">7</text>
+<text y="580.85">8</text>
+<text y="590.85">5</text>
+<text y="619.75">18</text>
+<text y="629.75">11</text>
+<text y="651.52">5</text>
+<text y="661.52">3</text>
+<text y="673.02">27</text>
+<text y="683.02">16</text>
+<text y="700.29">12</text>
+<text y="710.29">7</text>
+<text y="735.99">7</text>
+<text y="745.99">4</text>
+<text y="763.25">16</text>
+<text y="773.25">9</text>
+<text y="784.76">9</text>
+<text y="794.76">5</text>
+<text y="802.16">20</text>
+<text y="812.16">11</text>
+<text y="816.52">11</text>
+<text y="826.52">6</text>
+<text y="855.43">15</text>
+<text y="865.43">8</text>
+<text y="882.69">40</text>
+<text y="892.69">21</text>
+<text y="913.89">64</text>
+<text y="923.89">33</text>
+<text y="945.65">160</text>
+<text y="955.65">81</text>
+<text y="967.16">2</text>
+<text y="977.16">1</text>
+</g>
+</g>
+<g transform="translate(300 0)">
+<g font-size="10">
+<text y="931.46">1</text>
+<text y="941.46">1</text>
+<text y="952.97">81</text>
+<text y="962.97">80</text>
+<text y="984.74">33</text>
+<text y="994.74">32</text>
+<text y="1015.93">21</text>
+<text y="1025.93">20</text>
+<text y="1043.19">16</text>
+<text y="1053.19">15</text>
+<text y="1082.1">12</text>
+<text y="1092.1">11</text>
+<text y="1096.47">11</text>
+<text y="1106.47">10</text>
+<text y="1113.87">10</text>
+<text y="1123.87">9</text>
+<text y="1135.37">9</text>
+<text y="1145.37">8</text>
+<text y="1162.64">8</text>
+<text y="1172.64">7</text>
+<text y="-1.67">7</text>
+<text y="8.33">6</text>
+<text y="1198.33">7</text>
+<text y="1208.33">6</text>
+<text y="25.6">32</text>
+<text y="35.6">27</text>
+<text y="47.1">6</text>
+<text y="57.1">5</text>
+<text y="78.87">11</text>
+<text y="88.87">9</text>
+<text y="117.78">5</text>
+<text y="127.78">4</text>
+<text y="148.97">14</text>
+<text y="158.97">11</text>
+<text y="166.55">9</text>
+<text y="176.55">7</text>
+<text y="202.24">21</text>
+<text y="212.24">16</text>
+<text y="229.51">4</text>
+<text y="239.51">3</text>
+<text y="251.01">27</text>
+<text y="261.01">20</text>
+<text y="282.78">11</text>
+<text y="292.78">8</text>
+<text y="313.97">7</text>
+<text y="323.97">5</text>
+<text y="348.95">10</text>
+<text y="358.95">7</text>
+<text y="380.14">16</text>
+<text y="390.14">11</text>
+<text y="411.91">40</text>
+<text y="421.91">27</text>
+<text y="433.42">3</text>
+<text y="443.42">2</text>
+<text y="460.68">32</text>
+<text y="470.68">21</text>
+<text y="496.38">14</text>
+<text y="506.38">9</text>
+<text y="513.95">11</text>
+<text y="523.95">7</text>
+<text y="545.15">8</text>
+<text y="555.15">5</text>
+<text y="584.05">18</text>
+<text y="594.05">11</text>
+<text y="615.82">5</text>
+<text y="625.82">3</text>
+<text y="637.33">27</text>
+<text y="647.33">16</text>
+<text y="664.59">12</text>
+<text y="674.59">7</text>
+<text y="700.29">7</text>
+<text y="710.29">4</text>
+<text y="727.55">16</text>
+<text y="737.55">9</text>
+<text y="749.06">9</text>
+<text y="759.06">5</text>
+<text y="766.46">20</text>
+<text y="776.46">11</text>
+<text y="780.83">11</text>
+<text y="790.83">6</text>
+<text y="819.73">15</text>
+<text y="829.73">8</text>
+<text y="847">40</text>
+<text y="857">21</text>
+<text y="878.19">64</text>
+<text y="888.19">33</text>
+<text y="909.96">160</text>
+<text y="919.96">81</text>
+<text y="931.46">2</text>
+<text y="941.46">1</text>
+</g>
+</g>
+<g transform="translate(330 0)">
+<g font-size="10">
+<text y="904.2">1</text>
+<text y="914.2">1</text>
+<text y="925.7">81</text>
+<text y="935.7">80</text>
+<text y="957.47">33</text>
+<text y="967.47">32</text>
+<text y="988.67">21</text>
+<text y="998.67">20</text>
+<text y="1015.93">16</text>
+<text y="1025.93">15</text>
+<text y="1054.84">12</text>
+<text y="1064.84">11</text>
+<text y="1069.2">11</text>
+<text y="1079.2">10</text>
+<text y="1086.6">10</text>
+<text y="1096.6">9</text>
+<text y="1108.11">9</text>
+<text y="1118.11">8</text>
+<text y="1135.37">8</text>
+<text y="1145.37">7</text>
+<text y="1171.07">7</text>
+<text y="1181.07">6</text>
+<text y="-1.67">32</text>
+<text y="8.33">27</text>
+<text y="1198.33">32</text>
+<text y="1208.33">27</text>
+<text y="19.84">6</text>
+<text y="29.84">5</text>
+<text y="51.61">11</text>
+<text y="61.61">9</text>
+<text y="90.51">5</text>
+<text y="100.51">4</text>
+<text y="121.71">14</text>
+<text y="131.71">11</text>
+<text y="139.28">9</text>
+<text y="149.28">7</text>
+<text y="174.98">21</text>
+<text y="184.98">16</text>
+<text y="202.24">4</text>
+<text y="212.24">3</text>
+<text y="223.75">27</text>
+<text y="233.75">20</text>
+<text y="255.52">11</text>
+<text y="265.52">8</text>
+<text y="286.71">7</text>
+<text y="296.71">5</text>
+<text y="321.69">10</text>
+<text y="331.69">7</text>
+<text y="352.88">16</text>
+<text y="362.88">11</text>
+<text y="384.65">40</text>
+<text y="394.65">27</text>
+<text y="406.15">3</text>
+<text y="416.15">2</text>
+<text y="433.42">32</text>
+<text y="443.42">21</text>
+<text y="469.11">14</text>
+<text y="479.11">9</text>
+<text y="486.69">11</text>
+<text y="496.69">7</text>
+<text y="517.88">8</text>
+<text y="527.88">5</text>
+<text y="556.79">18</text>
+<text y="566.79">11</text>
+<text y="588.56">5</text>
+<text y="598.56">3</text>
+<text y="610.06">27</text>
+<text y="620.06">16</text>
+<text y="637.33">12</text>
+<text y="647.33">7</text>
+<text y="673.02">7</text>
+<text y="683.02">4</text>
+<text y="700.29">16</text>
+<text y="710.29">9</text>
+<text y="721.79">9</text>
+<text y="731.79">5</text>
+<text y="739.19">20</text>
+<text y="749.19">11</text>
+<text y="753.56">11</text>
+<text y="763.56">6</text>
+<text y="792.47">15</text>
+<text y="802.47">8</text>
+<text y="819.73">40</text>
+<text y="829.73">21</text>
+<text y="850.93">64</text>
+<text y="860.93">33</text>
+<text y="882.69">160</text>
+<text y="892.69">81</text>
+<text y="904.2">2</text>
+<text y="914.2">1</text>
+</g>
+</g>
+<g transform="translate(360 0)">
+<g font-size="10">
+<text y="882.69">1</text>
+<text y="892.69">1</text>
+<text y="904.2">81</text>
+<text y="914.2">80</text>
+<text y="935.96">33</text>
+<text y="945.96">32</text>
+<text y="967.16">21</text>
+<text y="977.16">20</text>
+<text y="994.42">16</text>
+<text y="1004.42">15</text>
+<text y="1033.33">12</text>
+<text y="1043.33">11</text>
+<text y="1047.7">11</text>
+<text y="1057.7">10</text>
+<text y="1065.1">10</text>
+<text y="1075.1">9</text>
+<text y="1086.6">9</text>
+<text y="1096.6">8</text>
+<text y="1113.87">8</text>
+<text y="1123.87">7</text>
+<text y="1149.56">7</text>
+<text y="1159.56">6</text>
+<text y="1176.83">32</text>
+<text y="1186.83">27</text>
+<text y="-1.67">6</text>
+<text y="8.33">5</text>
+<text y="1198.33">6</text>
+<text y="1208.33">5</text>
+<text y="30.1">11</text>
+<text y="40.1">9</text>
+<text y="69.01">5</text>
+<text y="79.01">4</text>
+<text y="100.2">14</text>
+<text y="110.2">11</text>
+<text y="117.78">9</text>
+<text y="127.78">7</text>
+<text y="153.47">21</text>
+<text y="163.47">16</text>
+<text y="180.74">4</text>
+<text y="190.74">3</text>
+<text y="202.24">27</text>
+<text y="212.24">20</text>
+<text y="234.01">11</text>
+<text y="244.01">8</text>
+<text y="265.2">7</text>
+<text y="275.2">5</text>
+<text y="300.18">10</text>
+<text y="310.18">7</text>
+<text y="331.37">16</text>
+<text y="341.37">11</text>
+<text y="363.14">40</text>
+<text y="373.14">27</text>
+<text y="384.65">3</text>
+<text y="394.65">2</text>
+<text y="411.91">32</text>
+<text y="421.91">21</text>
+<text y="447.61">14</text>
+<text y="457.61">9</text>
+<text y="465.18">11</text>
+<text y="475.18">7</text>
+<text y="496.38">8</text>
+<text y="506.38">5</text>
+<text y="535.28">18</text>
+<text y="545.28">11</text>
+<text y="567.05">5</text>
+<text y="577.05">3</text>
+<text y="588.56">27</text>
+<text y="598.56">16</text>
+<text y="615.82">12</text>
+<text y="625.82">7</text>
+<text y="651.52">7</text>
+<text y="661.52">4</text>
+<text y="678.78">16</text>
+<text y="688.78">9</text>
+<text y="700.29">9</text>
+<text y="710.29">5</text>
+<text y="717.69">20</text>
+<text y="727.69">11</text>
+<text y="732.05">11</text>
+<text y="742.05">6</text>
+<text y="770.96">15</text>
+<text y="780.96">8</text>
+<text y="798.22">40</text>
+<text y="808.22">21</text>
+<text y="829.42">64</text>
+<text y="839.42">33</text>
+<text y="861.19">160</text>
+<text y="871.19">81</text>
+<text y="882.69">2</text>
+<text y="892.69">1</text>
+</g>
+</g>
+<g transform="translate(390 0)">
+<g font-size="10">
+<text y="850.93">1</text>
+<text y="860.93">1</text>
+<text y="872.43">81</text>
+<text y="882.43">80</text>
+<text y="904.2">33</text>
+<text y="914.2">32</text>
+<text y="935.39">21</text>
+<text y="945.39">20</text>
+<text y="962.66">16</text>
+<text y="972.66">15</text>
+<text y="1001.56">12</text>
+<text y="1011.56">11</text>
+<text y="1015.93">11</text>
+<text y="1025.93">10</text>
+<text y="1033.33">10</text>
+<text y="1043.33">9</text>
+<text y="1054.84">9</text>
+<text y="1064.84">8</text>
+<text y="1082.1">8</text>
+<text y="1092.1">7</text>
+<text y="1117.8">7</text>
+<text y="1127.8">6</text>
+<text y="1145.06">32</text>
+<text y="1155.06">27</text>
+<text y="1166.57">6</text>
+<text y="1176.57">5</text>
+<text y="-1.67">11</text>
+<text y="8.33">9</text>
+<text y="1198.33">11</text>
+<text y="1208.33">9</text>
+<text y="37.24">5</text>
+<text y="47.24">4</text>
+<text y="68.43">14</text>
+<text y="78.43">11</text>
+<text y="86.01">9</text>
+<text y="96.01">7</text>
+<text y="121.71">21</text>
+<text y="131.71">16</text>
+<text y="148.97">4</text>
+<text y="158.97">3</text>
+<text y="170.48">27</text>
+<text y="180.48">20</text>
+<text y="202.24">11</text>
+<text y="212.24">8</text>
+<text y="233.44">7</text>
+<text y="243.44">5</text>
+<text y="268.41">10</text>
+<text y="278.41">7</text>
+<text y="299.61">16</text>
+<text y="309.61">11</text>
+<text y="331.37">40</text>
+<text y="341.37">27</text>
+<text y="352.88">3</text>
+<text y="362.88">2</text>
+<text y="380.14">32</text>
+<text y="390.14">21</text>
+<text y="415.84">14</text>
+<text y="425.84">9</text>
+<text y="433.42">11</text>
+<text y="443.42">7</text>
+<text y="464.61">8</text>
+<text y="474.61">5</text>
+<text y="503.52">18</text>
+<text y="513.52">11</text>
+<text y="535.28">5</text>
+<text y="545.28">3</text>
+<text y="556.79">27</text>
+<text y="566.79">16</text>
+<text y="584.05">12</text>
+<text y="594.05">7</text>
+<text y="619.75">7</text>
+<text y="629.75">4</text>
+<text y="647.02">16</text>
+<text y="657.02">9</text>
+<text y="668.52">9</text>
+<text y="678.52">5</text>
+<text y="685.92">20</text>
+<text y="695.92">11</text>
+<text y="700.29">11</text>
+<text y="710.29">6</text>
+<text y="739.19">15</text>
+<text y="749.19">8</text>
+<text y="766.46">40</text>
+<text y="776.46">21</text>
+<text y="797.65">64</text>
+<text y="807.65">33</text>
+<text y="829.42">160</text>
+<text y="839.42">81</text>
+<text y="850.93">2</text>
+<text y="860.93">1</text>
+</g>
+</g>
+<g transform="translate(420 0)">
+<g font-size="10">
+<text y="812.02">1</text>
+<text y="822.02">1</text>
+<text y="833.53">81</text>
+<text y="843.53">80</text>
+<text y="865.29">33</text>
+<text y="875.29">32</text>
+<text y="896.49">21</text>
+<text y="906.49">20</text>
+<text y="923.75">16</text>
+<text y="933.75">15</text>
+<text y="962.66">12</text>
+<text y="972.66">11</text>
+<text y="977.02">11</text>
+<text y="987.02">10</text>
+<text y="994.42">10</text>
+<text y="1004.42">9</text>
+<text y="1015.93">9</text>
+<text y="1025.93">8</text>
+<text y="1043.19">8</text>
+<text y="1053.19">7</text>
+<text y="1078.89">7</text>
+<text y="1088.89">6</text>
+<text y="1106.15">32</text>
+<text y="1116.15">27</text>
+<text y="1127.66">6</text>
+<text y="1137.66">5</text>
+<text y="1159.43">11</text>
+<text y="1169.43">9</text>
+<text y="-1.67">5</text>
+<text y="8.33">4</text>
+<text y="1198.33">5</text>
+<text y="1208.33">4</text>
+<text y="29.53">14</text>
+<text y="39.53">11</text>
+<text y="47.1">9</text>
+<text y="57.1">7</text>
+<text y="82.8">21</text>
+<text y="92.8">16</text>
+<text y="110.06">4</text>
+<text y="120.06">3</text>
+<text y="131.57">27</text>
+<text y="141.57">20</text>
+<text y="163.34">11</text>
+<text y="173.34">8</text>
+<text y="194.53">7</text>
+<text y="204.53">5</text>
+<text y="229.51">10</text>
+<text y="239.51">7</text>
+<text y="260.7">16</text>
+<text y="270.7">11</text>
+<text y="292.47">40</text>
+<text y="302.47">27</text>
+<text y="313.97">3</text>
+<text y="323.97">2</text>
+<text y="341.24">32</text>
+<text y="351.24">21</text>
+<text y="376.94">14</text>
+<text y="386.94">9</text>
+<text y="394.51">11</text>
+<text y="404.51">7</text>
+<text y="425.71">8</text>
+<text y="435.71">5</text>
+<text y="464.61">18</text>
+<text y="474.61">11</text>
+<text y="496.38">5</text>
+<text y="506.38">3</text>
+<text y="517.88">27</text>
+<text y="527.88">16</text>
+<text y="545.15">12</text>
+<text y="555.15">7</text>
+<text y="580.85">7</text>
+<text y="590.85">4</text>
+<text y="608.11">16</text>
+<text y="618.11">9</text>
+<text y="629.62">9</text>
+<text y="639.62">5</text>
+<text y="647.02">20</text>
+<text y="657.02">11</text>
+<text y="661.38">11</text>
+<text y="671.38">6</text>
+<text y="700.29">15</text>
+<text y="710.29">8</text>
+<text y="727.55">40</text>
+<text y="737.55">21</text>
+<text y="758.75">64</text>
+<text y="768.75">33</text>
+<text y="790.51">160</text>
+<text y="800.51">81</text>
+<text y="812.02">2</text>
+<text y="822.02">1</text>
+</g>
+</g>
+<g transform="translate(450 0)">
+<g font-size="10">
+<text y="780.83">1</text>
+<text y="790.83">1</text>
+<text y="802.33">81</text>
+<text y="812.33">80</text>
+<text y="834.1">33</text>
+<text y="844.1">32</text>
+<text y="865.29">21</text>
+<text y="875.29">20</text>
+<text y="892.56">16</text>
+<text y="902.56">15</text>
+<text y="931.46">12</text>
+<text y="941.46">11</text>
+<text y="945.83">11</text>
+<text y="955.83">10</text>
+<text y="963.23">10</text>
+<text y="973.23">9</text>
+<text y="984.74">9</text>
+<text y="994.74">8</text>
+<text y="1012">8</text>
+<text y="1022">7</text>
+<text y="1047.7">7</text>
+<text y="1057.7">6</text>
+<text y="1074.96">32</text>
+<text y="1084.96">27</text>
+<text y="1096.47">6</text>
+<text y="1106.47">5</text>
+<text y="1128.23">11</text>
+<text y="1138.23">9</text>
+<text y="1167.14">5</text>
+<text y="1177.14">4</text>
+<text y="-1.67">14</text>
+<text y="8.33">11</text>
+<text y="1198.33">14</text>
+<text y="1208.33">11</text>
+<text y="15.91">9</text>
+<text y="25.91">7</text>
+<text y="51.61">21</text>
+<text y="61.61">16</text>
+<text y="78.87">4</text>
+<text y="88.87">3</text>
+<text y="100.38">27</text>
+<text y="110.38">20</text>
+<text y="132.14">11</text>
+<text y="142.14">8</text>
+<text y="163.34">7</text>
+<text y="173.34">5</text>
+<text y="198.31">10</text>
+<text y="208.31">7</text>
+<text y="229.51">16</text>
+<text y="239.51">11</text>
+<text y="261.27">40</text>
+<text y="271.27">27</text>
+<text y="282.78">3</text>
+<text y="292.78">2</text>
+<text y="310.04">32</text>
+<text y="320.04">21</text>
+<text y="345.74">14</text>
+<text y="355.74">9</text>
+<text y="363.32">11</text>
+<text y="373.32">7</text>
+<text y="394.51">8</text>
+<text y="404.51">5</text>
+<text y="433.42">18</text>
+<text y="443.42">11</text>
+<text y="465.18">5</text>
+<text y="475.18">3</text>
+<text y="486.69">27</text>
+<text y="496.69">16</text>
+<text y="513.95">12</text>
+<text y="523.95">7</text>
+<text y="549.65">7</text>
+<text y="559.65">4</text>
+<text y="576.92">16</text>
+<text y="586.92">9</text>
+<text y="598.42">9</text>
+<text y="608.42">5</text>
+<text y="615.82">20</text>
+<text y="625.82">11</text>
+<text y="630.19">11</text>
+<text y="640.19">6</text>
+<text y="669.09">15</text>
+<text y="679.09">8</text>
+<text y="696.36">40</text>
+<text y="706.36">21</text>
+<text y="727.55">64</text>
+<text y="737.55">33</text>
+<text y="759.32">160</text>
+<text y="769.32">81</text>
+<text y="780.83">2</text>
+<text y="790.83">1</text>
+</g>
+</g>
+<g transform="translate(480 0)">
+<g font-size="10">
+<text y="763.25">1</text>
+<text y="773.25">1</text>
+<text y="784.76">81</text>
+<text y="794.76">80</text>
+<text y="816.52">33</text>
+<text y="826.52">32</text>
+<text y="847.72">21</text>
+<text y="857.72">20</text>
+<text y="874.98">16</text>
+<text y="884.98">15</text>
+<text y="913.89">12</text>
+<text y="923.89">11</text>
+<text y="928.25">11</text>
+<text y="938.25">10</text>
+<text y="945.65">10</text>
+<text y="955.65">9</text>
+<text y="967.16">9</text>
+<text y="977.16">8</text>
+<text y="994.42">8</text>
+<text y="1004.42">7</text>
+<text y="1030.12">7</text>
+<text y="1040.12">6</text>
+<text y="1057.38">32</text>
+<text y="1067.38">27</text>
+<text y="1078.89">6</text>
+<text y="1088.89">5</text>
+<text y="1110.66">11</text>
+<text y="1120.66">9</text>
+<text y="1149.56">5</text>
+<text y="1159.56">4</text>
+<text y="1180.76">14</text>
+<text y="1190.76">11</text>
+<text y="-1.67">9</text>
+<text y="8.33">7</text>
+<text y="1198.33">9</text>
+<text y="1208.33">7</text>
+<text y="34.03">21</text>
+<text y="44.03">16</text>
+<text y="61.29">4</text>
+<text y="71.29">3</text>
+<text y="82.8">27</text>
+<text y="92.8">20</text>
+<text y="114.57">11</text>
+<text y="124.57">8</text>
+<text y="145.76">7</text>
+<text y="155.76">5</text>
+<text y="180.74">10</text>
+<text y="190.74">7</text>
+<text y="211.93">16</text>
+<text y="221.93">11</text>
+<text y="243.7">40</text>
+<text y="253.7">27</text>
+<text y="265.2">3</text>
+<text y="275.2">2</text>
+<text y="292.47">32</text>
+<text y="302.47">21</text>
+<text y="328.17">14</text>
+<text y="338.17">9</text>
+<text y="345.74">11</text>
+<text y="355.74">7</text>
+<text y="376.94">8</text>
+<text y="386.94">5</text>
+<text y="415.84">18</text>
+<text y="425.84">11</text>
+<text y="447.61">5</text>
+<text y="457.61">3</text>
+<text y="469.11">27</text>
+<text y="479.11">16</text>
+<text y="496.38">12</text>
+<text y="506.38">7</text>
+<text y="532.08">7</text>
+<text y="542.08">4</text>
+<text y="559.34">16</text>
+<text y="569.34">9</text>
+<text y="580.85">9</text>
+<text y="590.85">5</text>
+<text y="598.25">20</text>
+<text y="608.25">11</text>
+<text y="612.61">11</text>
+<text y="622.61">6</text>
+<text y="651.52">15</text>
+<text y="661.52">8</text>
+<text y="678.78">40</text>
+<text y="688.78">21</text>
+<text y="709.98">64</text>
+<text y="719.98">33</text>
+<text y="741.74">160</text>
+<text y="751.74">81</text>
+<text y="763.25">2</text>
+<text y="773.25">1</text>
+</g>
+</g>
+<g transform="translate(510 0)">
+<g font-size="10">
+<text y="727.55">1</text>
+<text y="737.55">1</text>
+<text y="749.06">81</text>
+<text y="759.06">80</text>
+<text y="780.83">33</text>
+<text y="790.83">32</text>
+<text y="812.02">21</text>
+<text y="822.02">20</text>
+<text y="839.28">16</text>
+<text y="849.28">15</text>
+<text y="878.19">12</text>
+<text y="888.19">11</text>
+<text y="892.56">11</text>
+<text y="902.56">10</text>
+<text y="909.96">10</text>
+<text y="919.96">9</text>
+<text y="931.46">9</text>
+<text y="941.46">8</text>
+<text y="958.73">8</text>
+<text y="968.73">7</text>
+<text y="994.42">7</text>
+<text y="1004.42">6</text>
+<text y="1021.69">32</text>
+<text y="1031.69">27</text>
+<text y="1043.19">6</text>
+<text y="1053.19">5</text>
+<text y="1074.96">11</text>
+<text y="1084.96">9</text>
+<text y="1113.87">5</text>
+<text y="1123.87">4</text>
+<text y="1145.06">14</text>
+<text y="1155.06">11</text>
+<text y="1162.64">9</text>
+<text y="1172.64">7</text>
+<text y="-1.67">21</text>
+<text y="8.33">16</text>
+<text y="1198.33">21</text>
+<text y="1208.33">16</text>
+<text y="25.6">4</text>
+<text y="35.6">3</text>
+<text y="47.1">27</text>
+<text y="57.1">20</text>
+<text y="78.87">11</text>
+<text y="88.87">8</text>
+<text y="110.06">7</text>
+<text y="120.06">5</text>
+<text y="145.04">10</text>
+<text y="155.04">7</text>
+<text y="176.23">16</text>
+<text y="186.23">11</text>
+<text y="208">40</text>
+<text y="218">27</text>
+<text y="229.51">3</text>
+<text y="239.51">2</text>
+<text y="256.77">32</text>
+<text y="266.77">21</text>
+<text y="292.47">14</text>
+<text y="302.47">9</text>
+<text y="310.04">11</text>
+<text y="320.04">7</text>
+<text y="341.24">8</text>
+<text y="351.24">5</text>
+<text y="380.14">18</text>
+<text y="390.14">11</text>
+<text y="411.91">5</text>
+<text y="421.91">3</text>
+<text y="433.42">27</text>
+<text y="443.42">16</text>
+<text y="460.68">12</text>
+<text y="470.68">7</text>
+<text y="496.38">7</text>
+<text y="506.38">4</text>
+<text y="523.64">16</text>
+<text y="533.64">9</text>
+<text y="545.15">9</text>
+<text y="555.15">5</text>
+<text y="562.55">20</text>
+<text y="572.55">11</text>
+<text y="576.92">11</text>
+<text y="586.92">6</text>
+<text y="615.82">15</text>
+<text y="625.82">8</text>
+<text y="643.09">40</text>
+<text y="653.09">21</text>
+<text y="674.28">64</text>
+<text y="684.28">33</text>
+<text y="706.05">160</text>
+<text y="716.05">81</text>
+<text y="727.55">2</text>
+<text y="737.55">1</text>
+</g>
+</g>
+<g transform="translate(540 0)">
+<g font-size="10">
+<text y="700.29">1</text>
+<text y="710.29">1</text>
+<text y="721.79">81</text>
+<text y="731.79">80</text>
+<text y="753.56">33</text>
+<text y="763.56">32</text>
+<text y="784.76">21</text>
+<text y="794.76">20</text>
+<text y="812.02">16</text>
+<text y="822.02">15</text>
+<text y="850.93">12</text>
+<text y="860.93">11</text>
+<text y="865.29">11</text>
+<text y="875.29">10</text>
+<text y="882.69">10</text>
+<text y="892.69">9</text>
+<text y="904.2">9</text>
+<text y="914.2">8</text>
+<text y="931.46">8</text>
+<text y="941.46">7</text>
+<text y="967.16">7</text>
+<text y="977.16">6</text>
+<text y="994.42">32</text>
+<text y="1004.42">27</text>
+<text y="1015.93">6</text>
+<text y="1025.93">5</text>
+<text y="1047.7">11</text>
+<text y="1057.7">9</text>
+<text y="1086.6">5</text>
+<text y="1096.6">4</text>
+<text y="1117.8">14</text>
+<text y="1127.8">11</text>
+<text y="1135.37">9</text>
+<text y="1145.37">7</text>
+<text y="1171.07">21</text>
+<text y="1181.07">16</text>
+<text y="-1.67">4</text>
+<text y="8.33">3</text>
+<text y="1198.33">4</text>
+<text y="1208.33">3</text>
+<text y="19.84">27</text>
+<text y="29.84">20</text>
+<text y="51.61">11</text>
+<text y="61.61">8</text>
+<text y="82.8">7</text>
+<text y="92.8">5</text>
+<text y="117.78">10</text>
+<text y="127.78">7</text>
+<text y="148.97">16</text>
+<text y="158.97">11</text>
+<text y="180.74">40</text>
+<text y="190.74">27</text>
+<text y="202.24">3</text>
+<text y="212.24">2</text>
+<text y="229.51">32</text>
+<text y="239.51">21</text>
+<text y="265.2">14</text>
+<text y="275.2">9</text>
+<text y="282.78">11</text>
+<text y="292.78">7</text>
+<text y="313.97">8</text>
+<text y="323.97">5</text>
+<text y="352.88">18</text>
+<text y="362.88">11</text>
+<text y="384.65">5</text>
+<text y="394.65">3</text>
+<text y="406.15">27</text>
+<text y="416.15">16</text>
+<text y="433.42">12</text>
+<text y="443.42">7</text>
+<text y="469.11">7</text>
+<text y="479.11">4</text>
+<text y="496.38">16</text>
+<text y="506.38">9</text>
+<text y="517.88">9</text>
+<text y="527.88">5</text>
+<text y="535.28">20</text>
+<text y="545.28">11</text>
+<text y="549.65">11</text>
+<text y="559.65">6</text>
+<text y="588.56">15</text>
+<text y="598.56">8</text>
+<text y="615.82">40</text>
+<text y="625.82">21</text>
+<text y="647.02">64</text>
+<text y="657.02">33</text>
+<text y="678.78">160</text>
+<text y="688.78">81</text>
+<text y="700.29">2</text>
+<text y="710.29">1</text>
+</g>
+</g>
+<g transform="translate(570 0)">
+<g font-size="10">
+<text y="678.78">1</text>
+<text y="688.78">1</text>
+<text y="700.29">81</text>
+<text y="710.29">80</text>
+<text y="732.05">33</text>
+<text y="742.05">32</text>
+<text y="763.25">21</text>
+<text y="773.25">20</text>
+<text y="790.51">16</text>
+<text y="800.51">15</text>
+<text y="829.42">12</text>
+<text y="839.42">11</text>
+<text y="843.79">11</text>
+<text y="853.79">10</text>
+<text y="861.19">10</text>
+<text y="871.19">9</text>
+<text y="882.69">9</text>
+<text y="892.69">8</text>
+<text y="909.96">8</text>
+<text y="919.96">7</text>
+<text y="945.65">7</text>
+<text y="955.65">6</text>
+<text y="972.92">32</text>
+<text y="982.92">27</text>
+<text y="994.42">6</text>
+<text y="1004.42">5</text>
+<text y="1026.19">11</text>
+<text y="1036.19">9</text>
+<text y="1065.1">5</text>
+<text y="1075.1">4</text>
+<text y="1096.29">14</text>
+<text y="1106.29">11</text>
+<text y="1113.87">9</text>
+<text y="1123.87">7</text>
+<text y="1149.56">21</text>
+<text y="1159.56">16</text>
+<text y="1176.83">4</text>
+<text y="1186.83">3</text>
+<text y="-1.67">27</text>
+<text y="8.33">20</text>
+<text y="1198.33">27</text>
+<text y="1208.33">20</text>
+<text y="30.1">11</text>
+<text y="40.1">8</text>
+<text y="61.29">7</text>
+<text y="71.29">5</text>
+<text y="96.27">10</text>
+<text y="106.27">7</text>
+<text y="127.46">16</text>
+<text y="137.46">11</text>
+<text y="159.23">40</text>
+<text y="169.23">27</text>
+<text y="180.74">3</text>
+<text y="190.74">2</text>
+<text y="208">32</text>
+<text y="218">21</text>
+<text y="243.7">14</text>
+<text y="253.7">9</text>
+<text y="261.27">11</text>
+<text y="271.27">7</text>
+<text y="292.47">8</text>
+<text y="302.47">5</text>
+<text y="331.37">18</text>
+<text y="341.37">11</text>
+<text y="363.14">5</text>
+<text y="373.14">3</text>
+<text y="384.65">27</text>
+<text y="394.65">16</text>
+<text y="411.91">12</text>
+<text y="421.91">7</text>
+<text y="447.61">7</text>
+<text y="457.61">4</text>
+<text y="474.87">16</text>
+<text y="484.87">9</text>
+<text y="496.38">9</text>
+<text y="506.38">5</text>
+<text y="513.78">20</text>
+<text y="523.78">11</text>
+<text y="528.14">11</text>
+<text y="538.14">6</text>
+<text y="567.05">15</text>
+<text y="577.05">8</text>
+<text y="594.31">40</text>
+<text y="604.31">21</text>
+<text y="625.51">64</text>
+<text y="635.51">33</text>
+<text y="657.28">160</text>
+<text y="667.28">81</text>
+<text y="678.78">2</text>
+<text y="688.78">1</text>
+</g>
+</g>
+<g transform="translate(600 0)">
+<g font-size="10">
+<text y="647.02">1</text>
+<text y="657.02">1</text>
+<text y="668.52">81</text>
+<text y="678.52">80</text>
+<text y="700.29">33</text>
+<text y="710.29">32</text>
+<text y="731.48">21</text>
+<text y="741.48">20</text>
+<text y="758.75">16</text>
+<text y="768.75">15</text>
+<text y="797.65">12</text>
+<text y="807.65">11</text>
+<text y="812.02">11</text>
+<text y="822.02">10</text>
+<text y="829.42">10</text>
+<text y="839.42">9</text>
+<text y="850.93">9</text>
+<text y="860.93">8</text>
+<text y="878.19">8</text>
+<text y="888.19">7</text>
+<text y="913.89">7</text>
+<text y="923.89">6</text>
+<text y="941.15">32</text>
+<text y="951.15">27</text>
+<text y="962.66">6</text>
+<text y="972.66">5</text>
+<text y="994.42">11</text>
+<text y="1004.42">9</text>
+<text y="1033.33">5</text>
+<text y="1043.33">4</text>
+<text y="1064.52">14</text>
+<text y="1074.52">11</text>
+<text y="1082.1">9</text>
+<text y="1092.1">7</text>
+<text y="1117.8">21</text>
+<text y="1127.8">16</text>
+<text y="1145.06">4</text>
+<text y="1155.06">3</text>
+<text y="1166.57">27</text>
+<text y="1176.57">20</text>
+<text y="-1.67">11</text>
+<text y="8.33">8</text>
+<text y="1198.33">11</text>
+<text y="1208.33">8</text>
+<text y="29.53">7</text>
+<text y="39.53">5</text>
+<text y="64.5">10</text>
+<text y="74.5">7</text>
+<text y="95.7">16</text>
+<text y="105.7">11</text>
+<text y="127.46">40</text>
+<text y="137.46">27</text>
+<text y="148.97">3</text>
+<text y="158.97">2</text>
+<text y="176.23">32</text>
+<text y="186.23">21</text>
+<text y="211.93">14</text>
+<text y="221.93">9</text>
+<text y="229.51">11</text>
+<text y="239.51">7</text>
+<text y="260.7">8</text>
+<text y="270.7">5</text>
+<text y="299.61">18</text>
+<text y="309.61">11</text>
+<text y="331.37">5</text>
+<text y="341.37">3</text>
+<text y="352.88">27</text>
+<text y="362.88">16</text>
+<text y="380.14">12</text>
+<text y="390.14">7</text>
+<text y="415.84">7</text>
+<text y="425.84">4</text>
+<text y="443.11">16</text>
+<text y="453.11">9</text>
+<text y="464.61">9</text>
+<text y="474.61">5</text>
+<text y="482.01">20</text>
+<text y="492.01">11</text>
+<text y="496.38">11</text>
+<text y="506.38">6</text>
+<text y="535.28">15</text>
+<text y="545.28">8</text>
+<text y="562.55">40</text>
+<text y="572.55">21</text>
+<text y="593.74">64</text>
+<text y="603.74">33</text>
+<text y="625.51">160</text>
+<text y="635.51">81</text>
+<text y="647.02">2</text>
+<text y="657.02">1</text>
+</g>
+</g>
+<g transform="translate(630 0)">
+<g font-size="10">
+<text y="615.82">1</text>
+<text y="625.82">1</text>
+<text y="637.33">81</text>
+<text y="647.33">80</text>
+<text y="669.09">33</text>
+<text y="679.09">32</text>
+<text y="700.29">21</text>
+<text y="710.29">20</text>
+<text y="727.55">16</text>
+<text y="737.55">15</text>
+<text y="766.46">12</text>
+<text y="776.46">11</text>
+<text y="780.83">11</text>
+<text y="790.83">10</text>
+<text y="798.22">10</text>
+<text y="808.22">9</text>
+<text y="819.73">9</text>
+<text y="829.73">8</text>
+<text y="847">8</text>
+<text y="857">7</text>
+<text y="882.69">7</text>
+<text y="892.69">6</text>
+<text y="909.96">32</text>
+<text y="919.96">27</text>
+<text y="931.46">6</text>
+<text y="941.46">5</text>
+<text y="963.23">11</text>
+<text y="973.23">9</text>
+<text y="1002.13">5</text>
+<text y="1012.13">4</text>
+<text y="1033.33">14</text>
+<text y="1043.33">11</text>
+<text y="1050.91">9</text>
+<text y="1060.91">7</text>
+<text y="1086.6">21</text>
+<text y="1096.6">16</text>
+<text y="1113.87">4</text>
+<text y="1123.87">3</text>
+<text y="1135.37">27</text>
+<text y="1145.37">20</text>
+<text y="1167.14">11</text>
+<text y="1177.14">8</text>
+<text y="-1.67">7</text>
+<text y="8.33">5</text>
+<text y="1198.33">7</text>
+<text y="1208.33">5</text>
+<text y="33.31">10</text>
+<text y="43.31">7</text>
+<text y="64.5">16</text>
+<text y="74.5">11</text>
+<text y="96.27">40</text>
+<text y="106.27">27</text>
+<text y="117.78">3</text>
+<text y="127.78">2</text>
+<text y="145.04">32</text>
+<text y="155.04">21</text>
+<text y="180.74">14</text>
+<text y="190.74">9</text>
+<text y="198.31">11</text>
+<text y="208.31">7</text>
+<text y="229.51">8</text>
+<text y="239.51">5</text>
+<text y="268.41">18</text>
+<text y="278.41">11</text>
+<text y="300.18">5</text>
+<text y="310.18">3</text>
+<text y="321.69">27</text>
+<text y="331.69">16</text>
+<text y="348.95">12</text>
+<text y="358.95">7</text>
+<text y="384.65">7</text>
+<text y="394.65">4</text>
+<text y="411.91">16</text>
+<text y="421.91">9</text>
+<text y="433.42">9</text>
+<text y="443.42">5</text>
+<text y="450.82">20</text>
+<text y="460.82">11</text>
+<text y="465.18">11</text>
+<text y="475.18">6</text>
+<text y="504.09">15</text>
+<text y="514.09">8</text>
+<text y="531.35">40</text>
+<text y="541.35">21</text>
+<text y="562.55">64</text>
+<text y="572.55">33</text>
+<text y="594.31">160</text>
+<text y="604.31">81</text>
+<text y="615.82">2</text>
+<text y="625.82">1</text>
+</g>
+</g>
+<g transform="translate(660 0)">
+<g font-size="10">
+<text y="580.85">1</text>
+<text y="590.85">1</text>
+<text y="602.35">81</text>
+<text y="612.35">80</text>
+<text y="634.12">33</text>
+<text y="644.12">32</text>
+<text y="665.31">21</text>
+<text y="675.31">20</text>
+<text y="692.58">16</text>
+<text y="702.58">15</text>
+<text y="731.48">12</text>
+<text y="741.48">11</text>
+<text y="745.85">11</text>
+<text y="755.85">10</text>
+<text y="763.25">10</text>
+<text y="773.25">9</text>
+<text y="784.76">9</text>
+<text y="794.76">8</text>
+<text y="812.02">8</text>
+<text y="822.02">7</text>
+<text y="847.72">7</text>
+<text y="857.72">6</text>
+<text y="874.98">32</text>
+<text y="884.98">27</text>
+<text y="896.49">6</text>
+<text y="906.49">5</text>
+<text y="928.25">11</text>
+<text y="938.25">9</text>
+<text y="967.16">5</text>
+<text y="977.16">4</text>
+<text y="998.35">14</text>
+<text y="1008.35">11</text>
+<text y="1015.93">9</text>
+<text y="1025.93">7</text>
+<text y="1051.63">21</text>
+<text y="1061.63">16</text>
+<text y="1078.89">4</text>
+<text y="1088.89">3</text>
+<text y="1100.4">27</text>
+<text y="1110.4">20</text>
+<text y="1132.16">11</text>
+<text y="1142.16">8</text>
+<text y="1163.36">7</text>
+<text y="1173.36">5</text>
+<text y="-1.67">10</text>
+<text y="8.33">7</text>
+<text y="1198.33">10</text>
+<text y="1208.33">7</text>
+<text y="29.53">16</text>
+<text y="39.53">11</text>
+<text y="61.29">40</text>
+<text y="71.29">27</text>
+<text y="82.8">3</text>
+<text y="92.8">2</text>
+<text y="110.06">32</text>
+<text y="120.06">21</text>
+<text y="145.76">14</text>
+<text y="155.76">9</text>
+<text y="163.34">11</text>
+<text y="173.34">7</text>
+<text y="194.53">8</text>
+<text y="204.53">5</text>
+<text y="233.44">18</text>
+<text y="243.44">11</text>
+<text y="265.2">5</text>
+<text y="275.2">3</text>
+<text y="286.71">27</text>
+<text y="296.71">16</text>
+<text y="313.97">12</text>
+<text y="323.97">7</text>
+<text y="349.67">7</text>
+<text y="359.67">4</text>
+<text y="376.94">16</text>
+<text y="386.94">9</text>
+<text y="398.44">9</text>
+<text y="408.44">5</text>
+<text y="415.84">20</text>
+<text y="425.84">11</text>
+<text y="430.21">11</text>
+<text y="440.21">6</text>
+<text y="469.11">15</text>
+<text y="479.11">8</text>
+<text y="496.38">40</text>
+<text y="506.38">21</text>
+<text y="527.57">64</text>
+<text y="537.57">33</text>
+<text y="559.34">160</text>
+<text y="569.34">81</text>
+<text y="580.85">2</text>
+<text y="590.85">1</text>
+</g>
+</g>
+<g transform="translate(690 0)">
+<g font-size="10">
+<text y="549.65">1</text>
+<text y="559.65">1</text>
+<text y="571.16">81</text>
+<text y="581.16">80</text>
+<text y="602.92">33</text>
+<text y="612.92">32</text>
+<text y="634.12">21</text>
+<text y="644.12">20</text>
+<text y="661.38">16</text>
+<text y="671.38">15</text>
+<text y="700.29">12</text>
+<text y="710.29">11</text>
+<text y="714.66">11</text>
+<text y="724.66">10</text>
+<text y="732.05">10</text>
+<text y="742.05">9</text>
+<text y="753.56">9</text>
+<text y="763.56">8</text>
+<text y="780.83">8</text>
+<text y="790.83">7</text>
+<text y="816.52">7</text>
+<text y="826.52">6</text>
+<text y="843.79">32</text>
+<text y="853.79">27</text>
+<text y="865.29">6</text>
+<text y="875.29">5</text>
+<text y="897.06">11</text>
+<text y="907.06">9</text>
+<text y="935.96">5</text>
+<text y="945.96">4</text>
+<text y="967.16">14</text>
+<text y="977.16">11</text>
+<text y="984.74">9</text>
+<text y="994.74">7</text>
+<text y="1020.43">21</text>
+<text y="1030.43">16</text>
+<text y="1047.7">4</text>
+<text y="1057.7">3</text>
+<text y="1069.2">27</text>
+<text y="1079.2">20</text>
+<text y="1100.97">11</text>
+<text y="1110.97">8</text>
+<text y="1132.16">7</text>
+<text y="1142.16">5</text>
+<text y="1167.14">10</text>
+<text y="1177.14">7</text>
+<text y="-1.67">16</text>
+<text y="8.33">11</text>
+<text y="1198.33">16</text>
+<text y="1208.33">11</text>
+<text y="30.1">40</text>
+<text y="40.1">27</text>
+<text y="51.61">3</text>
+<text y="61.61">2</text>
+<text y="78.87">32</text>
+<text y="88.87">21</text>
+<text y="114.57">14</text>
+<text y="124.57">9</text>
+<text y="132.14">11</text>
+<text y="142.14">7</text>
+<text y="163.34">8</text>
+<text y="173.34">5</text>
+<text y="202.24">18</text>
+<text y="212.24">11</text>
+<text y="234.01">5</text>
+<text y="244.01">3</text>
+<text y="255.52">27</text>
+<text y="265.52">16</text>
+<text y="282.78">12</text>
+<text y="292.78">7</text>
+<text y="318.48">7</text>
+<text y="328.48">4</text>
+<text y="345.74">16</text>
+<text y="355.74">9</text>
+<text y="367.25">9</text>
+<text y="377.25">5</text>
+<text y="384.65">20</text>
+<text y="394.65">11</text>
+<text y="399.01">11</text>
+<text y="409.01">6</text>
+<text y="437.92">15</text>
+<text y="447.92">8</text>
+<text y="465.18">40</text>
+<text y="475.18">21</text>
+<text y="496.38">64</text>
+<text y="506.38">33</text>
+<text y="528.14">160</text>
+<text y="538.14">81</text>
+<text y="549.65">2</text>
+<text y="559.65">1</text>
+</g>
+</g>
+<g transform="translate(720 0)">
+<g font-size="10">
+<text y="517.88">1</text>
+<text y="527.88">1</text>
+<text y="539.39">81</text>
+<text y="549.39">80</text>
+<text y="571.16">33</text>
+<text y="581.16">32</text>
+<text y="602.35">21</text>
+<text y="612.35">20</text>
+<text y="629.62">16</text>
+<text y="639.62">15</text>
+<text y="668.52">12</text>
+<text y="678.52">11</text>
+<text y="682.89">11</text>
+<text y="692.89">10</text>
+<text y="700.29">10</text>
+<text y="710.29">9</text>
+<text y="721.79">9</text>
+<text y="731.79">8</text>
+<text y="749.06">8</text>
+<text y="759.06">7</text>
+<text y="784.76">7</text>
+<text y="794.76">6</text>
+<text y="812.02">32</text>
+<text y="822.02">27</text>
+<text y="833.53">6</text>
+<text y="843.53">5</text>
+<text y="865.29">11</text>
+<text y="875.29">9</text>
+<text y="904.2">5</text>
+<text y="914.2">4</text>
+<text y="935.39">14</text>
+<text y="945.39">11</text>
+<text y="952.97">9</text>
+<text y="962.97">7</text>
+<text y="988.67">21</text>
+<text y="998.67">16</text>
+<text y="1015.93">4</text>
+<text y="1025.93">3</text>
+<text y="1037.44">27</text>
+<text y="1047.44">20</text>
+<text y="1069.2">11</text>
+<text y="1079.2">8</text>
+<text y="1100.4">7</text>
+<text y="1110.4">5</text>
+<text y="1135.37">10</text>
+<text y="1145.37">7</text>
+<text y="1166.57">16</text>
+<text y="1176.57">11</text>
+<text y="-1.67">40</text>
+<text y="8.33">27</text>
+<text y="1198.33">40</text>
+<text y="1208.33">27</text>
+<text y="19.84">3</text>
+<text y="29.84">2</text>
+<text y="47.1">32</text>
+<text y="57.1">21</text>
+<text y="82.8">14</text>
+<text y="92.8">9</text>
+<text y="100.38">11</text>
+<text y="110.38">7</text>
+<text y="131.57">8</text>
+<text y="141.57">5</text>
+<text y="170.48">18</text>
+<text y="180.48">11</text>
+<text y="202.24">5</text>
+<text y="212.24">3</text>
+<text y="223.75">27</text>
+<text y="233.75">16</text>
+<text y="251.01">12</text>
+<text y="261.01">7</text>
+<text y="286.71">7</text>
+<text y="296.71">4</text>
+<text y="313.97">16</text>
+<text y="323.97">9</text>
+<text y="335.48">9</text>
+<text y="345.48">5</text>
+<text y="352.88">20</text>
+<text y="362.88">11</text>
+<text y="367.25">11</text>
+<text y="377.25">6</text>
+<text y="406.15">15</text>
+<text y="416.15">8</text>
+<text y="433.42">40</text>
+<text y="443.42">21</text>
+<text y="464.61">64</text>
+<text y="474.61">33</text>
+<text y="496.38">160</text>
+<text y="506.38">81</text>
+<text y="517.88">2</text>
+<text y="527.88">1</text>
+</g>
+</g>
+<g transform="translate(750 0)">
+<g font-size="10">
+<text y="496.38">1</text>
+<text y="506.38">1</text>
+<text y="517.88">81</text>
+<text y="527.88">80</text>
+<text y="549.65">33</text>
+<text y="559.65">32</text>
+<text y="580.85">21</text>
+<text y="590.85">20</text>
+<text y="608.11">16</text>
+<text y="618.11">15</text>
+<text y="647.02">12</text>
+<text y="657.02">11</text>
+<text y="661.38">11</text>
+<text y="671.38">10</text>
+<text y="678.78">10</text>
+<text y="688.78">9</text>
+<text y="700.29">9</text>
+<text y="710.29">8</text>
+<text y="727.55">8</text>
+<text y="737.55">7</text>
+<text y="763.25">7</text>
+<text y="773.25">6</text>
+<text y="790.51">32</text>
+<text y="800.51">27</text>
+<text y="812.02">6</text>
+<text y="822.02">5</text>
+<text y="843.79">11</text>
+<text y="853.79">9</text>
+<text y="882.69">5</text>
+<text y="892.69">4</text>
+<text y="913.89">14</text>
+<text y="923.89">11</text>
+<text y="931.46">9</text>
+<text y="941.46">7</text>
+<text y="967.16">21</text>
+<text y="977.16">16</text>
+<text y="994.42">4</text>
+<text y="1004.42">3</text>
+<text y="1015.93">27</text>
+<text y="1025.93">20</text>
+<text y="1047.7">11</text>
+<text y="1057.7">8</text>
+<text y="1078.89">7</text>
+<text y="1088.89">5</text>
+<text y="1113.87">10</text>
+<text y="1123.87">7</text>
+<text y="1145.06">16</text>
+<text y="1155.06">11</text>
+<text y="1176.83">40</text>
+<text y="1186.83">27</text>
+<text y="-1.67">3</text>
+<text y="8.33">2</text>
+<text y="1198.33">3</text>
+<text y="1208.33">2</text>
+<text y="25.6">32</text>
+<text y="35.6">21</text>
+<text y="61.29">14</text>
+<text y="71.29">9</text>
+<text y="78.87">11</text>
+<text y="88.87">7</text>
+<text y="110.06">8</text>
+<text y="120.06">5</text>
+<text y="148.97">18</text>
+<text y="158.97">11</text>
+<text y="180.74">5</text>
+<text y="190.74">3</text>
+<text y="202.24">27</text>
+<text y="212.24">16</text>
+<text y="229.51">12</text>
+<text y="239.51">7</text>
+<text y="265.2">7</text>
+<text y="275.2">4</text>
+<text y="292.47">16</text>
+<text y="302.47">9</text>
+<text y="313.97">9</text>
+<text y="323.97">5</text>
+<text y="331.37">20</text>
+<text y="341.37">11</text>
+<text y="345.74">11</text>
+<text y="355.74">6</text>
+<text y="384.65">15</text>
+<text y="394.65">8</text>
+<text y="411.91">40</text>
+<text y="421.91">21</text>
+<text y="443.11">64</text>
+<text y="453.11">33</text>
+<text y="474.87">160</text>
+<text y="484.87">81</text>
+<text y="496.38">2</text>
+<text y="506.38">1</text>
+</g>
+</g>
+<g transform="translate(780 0)">
+<g font-size="10">
+<text y="469.11">1</text>
+<text y="479.11">1</text>
+<text y="490.62">81</text>
+<text y="500.62">80</text>
+<text y="522.39">33</text>
+<text y="532.39">32</text>
+<text y="553.58">21</text>
+<text y="563.58">20</text>
+<text y="580.85">16</text>
+<text y="590.85">15</text>
+<text y="619.75">12</text>
+<text y="629.75">11</text>
+<text y="634.12">11</text>
+<text y="644.12">10</text>
+<text y="651.52">10</text>
+<text y="661.52">9</text>
+<text y="673.02">9</text>
+<text y="683.02">8</text>
+<text y="700.29">8</text>
+<text y="710.29">7</text>
+<text y="735.99">7</text>
+<text y="745.99">6</text>
+<text y="763.25">32</text>
+<text y="773.25">27</text>
+<text y="784.76">6</text>
+<text y="794.76">5</text>
+<text y="816.52">11</text>
+<text y="826.52">9</text>
+<text y="855.43">5</text>
+<text y="865.43">4</text>
+<text y="886.62">14</text>
+<text y="896.62">11</text>
+<text y="904.2">9</text>
+<text y="914.2">7</text>
+<text y="939.9">21</text>
+<text y="949.9">16</text>
+<text y="967.16">4</text>
+<text y="977.16">3</text>
+<text y="988.67">27</text>
+<text y="998.67">20</text>
+<text y="1020.43">11</text>
+<text y="1030.43">8</text>
+<text y="1051.63">7</text>
+<text y="1061.63">5</text>
+<text y="1086.6">10</text>
+<text y="1096.6">7</text>
+<text y="1117.8">16</text>
+<text y="1127.8">11</text>
+<text y="1149.56">40</text>
+<text y="1159.56">27</text>
+<text y="1171.07">3</text>
+<text y="1181.07">2</text>
+<text y="-1.67">32</text>
+<text y="8.33">21</text>
+<text y="1198.33">32</text>
+<text y="1208.33">21</text>
+<text y="34.03">14</text>
+<text y="44.03">9</text>
+<text y="51.61">11</text>
+<text y="61.61">7</text>
+<text y="82.8">8</text>
+<text y="92.8">5</text>
+<text y="121.71">18</text>
+<text y="131.71">11</text>
+<text y="153.47">5</text>
+<text y="163.47">3</text>
+<text y="174.98">27</text>
+<text y="184.98">16</text>
+<text y="202.24">12</text>
+<text y="212.24">7</text>
+<text y="237.94">7</text>
+<text y="247.94">4</text>
+<text y="265.2">16</text>
+<text y="275.2">9</text>
+<text y="286.71">9</text>
+<text y="296.71">5</text>
+<text y="304.11">20</text>
+<text y="314.11">11</text>
+<text y="318.48">11</text>
+<text y="328.48">6</text>
+<text y="357.38">15</text>
+<text y="367.38">8</text>
+<text y="384.65">40</text>
+<text y="394.65">21</text>
+<text y="415.84">64</text>
+<text y="425.84">33</text>
+<text y="447.61">160</text>
+<text y="457.61">81</text>
+<text y="469.11">2</text>
+<text y="479.11">1</text>
+</g>
+</g>
+<g transform="translate(810 0)">
+<g font-size="10">
+<text y="433.42">1</text>
+<text y="443.42">1</text>
+<text y="454.92">81</text>
+<text y="464.92">80</text>
+<text y="486.69">33</text>
+<text y="496.69">32</text>
+<text y="517.88">21</text>
+<text y="527.88">20</text>
+<text y="545.15">16</text>
+<text y="555.15">15</text>
+<text y="584.05">12</text>
+<text y="594.05">11</text>
+<text y="598.42">11</text>
+<text y="608.42">10</text>
+<text y="615.82">10</text>
+<text y="625.82">9</text>
+<text y="637.33">9</text>
+<text y="647.33">8</text>
+<text y="664.59">8</text>
+<text y="674.59">7</text>
+<text y="700.29">7</text>
+<text y="710.29">6</text>
+<text y="727.55">32</text>
+<text y="737.55">27</text>
+<text y="749.06">6</text>
+<text y="759.06">5</text>
+<text y="780.83">11</text>
+<text y="790.83">9</text>
+<text y="819.73">5</text>
+<text y="829.73">4</text>
+<text y="850.93">14</text>
+<text y="860.93">11</text>
+<text y="868.5">9</text>
+<text y="878.5">7</text>
+<text y="904.2">21</text>
+<text y="914.2">16</text>
+<text y="931.46">4</text>
+<text y="941.46">3</text>
+<text y="952.97">27</text>
+<text y="962.97">20</text>
+<text y="984.74">11</text>
+<text y="994.74">8</text>
+<text y="1015.93">7</text>
+<text y="1025.93">5</text>
+<text y="1050.91">10</text>
+<text y="1060.91">7</text>
+<text y="1082.1">16</text>
+<text y="1092.1">11</text>
+<text y="1113.87">40</text>
+<text y="1123.87">27</text>
+<text y="1135.37">3</text>
+<text y="1145.37">2</text>
+<text y="1162.64">32</text>
+<text y="1172.64">21</text>
+<text y="-1.67">14</text>
+<text y="8.33">9</text>
+<text y="1198.33">14</text>
+<text y="1208.33">9</text>
+<text y="15.91">11</text>
+<text y="25.91">7</text>
+<text y="47.1">8</text>
+<text y="57.1">5</text>
+<text y="86.01">18</text>
+<text y="96.01">11</text>
+<text y="117.78">5</text>
+<text y="127.78">3</text>
+<text y="139.28">27</text>
+<text y="149.28">16</text>
+<text y="166.55">12</text>
+<text y="176.55">7</text>
+<text y="202.24">7</text>
+<text y="212.24">4</text>
+<text y="229.51">16</text>
+<text y="239.51">9</text>
+<text y="251.01">9</text>
+<text y="261.01">5</text>
+<text y="268.41">20</text>
+<text y="278.41">11</text>
+<text y="282.78">11</text>
+<text y="292.78">6</text>
+<text y="321.69">15</text>
+<text y="331.69">8</text>
+<text y="348.95">40</text>
+<text y="358.95">21</text>
+<text y="380.14">64</text>
+<text y="390.14">33</text>
+<text y="411.91">160</text>
+<text y="421.91">81</text>
+<text y="433.42">2</text>
+<text y="443.42">1</text>
+</g>
+</g>
+<g transform="translate(840 0)">
+<g font-size="10">
+<text y="415.84">1</text>
+<text y="425.84">1</text>
+<text y="437.35">81</text>
+<text y="447.35">80</text>
+<text y="469.11">33</text>
+<text y="479.11">32</text>
+<text y="500.31">21</text>
+<text y="510.31">20</text>
+<text y="527.57">16</text>
+<text y="537.57">15</text>
+<text y="566.48">12</text>
+<text y="576.48">11</text>
+<text y="580.85">11</text>
+<text y="590.85">10</text>
+<text y="598.25">10</text>
+<text y="608.25">9</text>
+<text y="619.75">9</text>
+<text y="629.75">8</text>
+<text y="647.02">8</text>
+<text y="657.02">7</text>
+<text y="682.71">7</text>
+<text y="692.71">6</text>
+<text y="709.98">32</text>
+<text y="719.98">27</text>
+<text y="731.48">6</text>
+<text y="741.48">5</text>
+<text y="763.25">11</text>
+<text y="773.25">9</text>
+<text y="802.16">5</text>
+<text y="812.16">4</text>
+<text y="833.35">14</text>
+<text y="843.35">11</text>
+<text y="850.93">9</text>
+<text y="860.93">7</text>
+<text y="886.62">21</text>
+<text y="896.62">16</text>
+<text y="913.89">4</text>
+<text y="923.89">3</text>
+<text y="935.39">27</text>
+<text y="945.39">20</text>
+<text y="967.16">11</text>
+<text y="977.16">8</text>
+<text y="998.35">7</text>
+<text y="1008.35">5</text>
+<text y="1033.33">10</text>
+<text y="1043.33">7</text>
+<text y="1064.52">16</text>
+<text y="1074.52">11</text>
+<text y="1096.29">40</text>
+<text y="1106.29">27</text>
+<text y="1117.8">3</text>
+<text y="1127.8">2</text>
+<text y="1145.06">32</text>
+<text y="1155.06">21</text>
+<text y="1180.76">14</text>
+<text y="1190.76">9</text>
+<text y="-1.67">11</text>
+<text y="8.33">7</text>
+<text y="1198.33">11</text>
+<text y="1208.33">7</text>
+<text y="29.53">8</text>
+<text y="39.53">5</text>
+<text y="68.43">18</text>
+<text y="78.43">11</text>
+<text y="100.2">5</text>
+<text y="110.2">3</text>
+<text y="121.71">27</text>
+<text y="131.71">16</text>
+<text y="148.97">12</text>
+<text y="158.97">7</text>
+<text y="184.67">7</text>
+<text y="194.67">4</text>
+<text y="211.93">16</text>
+<text y="221.93">9</text>
+<text y="233.44">9</text>
+<text y="243.44">5</text>
+<text y="250.84">20</text>
+<text y="260.84">11</text>
+<text y="265.2">11</text>
+<text y="275.2">6</text>
+<text y="304.11">15</text>
+<text y="314.11">8</text>
+<text y="331.37">40</text>
+<text y="341.37">21</text>
+<text y="362.57">64</text>
+<text y="372.57">33</text>
+<text y="394.34">160</text>
+<text y="404.34">81</text>
+<text y="415.84">2</text>
+<text y="425.84">1</text>
+</g>
+</g>
+<g transform="translate(870 0)">
+<g font-size="10">
+<text y="384.65">1</text>
+<text y="394.65">1</text>
+<text y="406.15">81</text>
+<text y="416.15">80</text>
+<text y="437.92">33</text>
+<text y="447.92">32</text>
+<text y="469.11">21</text>
+<text y="479.11">20</text>
+<text y="496.38">16</text>
+<text y="506.38">15</text>
+<text y="535.28">12</text>
+<text y="545.28">11</text>
+<text y="549.65">11</text>
+<text y="559.65">10</text>
+<text y="567.05">10</text>
+<text y="577.05">9</text>
+<text y="588.56">9</text>
+<text y="598.56">8</text>
+<text y="615.82">8</text>
+<text y="625.82">7</text>
+<text y="651.52">7</text>
+<text y="661.52">6</text>
+<text y="678.78">32</text>
+<text y="688.78">27</text>
+<text y="700.29">6</text>
+<text y="710.29">5</text>
+<text y="732.05">11</text>
+<text y="742.05">9</text>
+<text y="770.96">5</text>
+<text y="780.96">4</text>
+<text y="802.16">14</text>
+<text y="812.16">11</text>
+<text y="819.73">9</text>
+<text y="829.73">7</text>
+<text y="855.43">21</text>
+<text y="865.43">16</text>
+<text y="882.69">4</text>
+<text y="892.69">3</text>
+<text y="904.2">27</text>
+<text y="914.2">20</text>
+<text y="935.96">11</text>
+<text y="945.96">8</text>
+<text y="967.16">7</text>
+<text y="977.16">5</text>
+<text y="1002.13">10</text>
+<text y="1012.13">7</text>
+<text y="1033.33">16</text>
+<text y="1043.33">11</text>
+<text y="1065.1">40</text>
+<text y="1075.1">27</text>
+<text y="1086.6">3</text>
+<text y="1096.6">2</text>
+<text y="1113.87">32</text>
+<text y="1123.87">21</text>
+<text y="1149.56">14</text>
+<text y="1159.56">9</text>
+<text y="1167.14">11</text>
+<text y="1177.14">7</text>
+<text y="-1.67">8</text>
+<text y="8.33">5</text>
+<text y="1198.33">8</text>
+<text y="1208.33">5</text>
+<text y="37.24">18</text>
+<text y="47.24">11</text>
+<text y="69.01">5</text>
+<text y="79.01">3</text>
+<text y="90.51">27</text>
+<text y="100.51">16</text>
+<text y="117.78">12</text>
+<text y="127.78">7</text>
+<text y="153.47">7</text>
+<text y="163.47">4</text>
+<text y="180.74">16</text>
+<text y="190.74">9</text>
+<text y="202.24">9</text>
+<text y="212.24">5</text>
+<text y="219.64">20</text>
+<text y="229.64">11</text>
+<text y="234.01">11</text>
+<text y="244.01">6</text>
+<text y="272.92">15</text>
+<text y="282.92">8</text>
+<text y="300.18">40</text>
+<text y="310.18">21</text>
+<text y="331.37">64</text>
+<text y="341.37">33</text>
+<text y="363.14">160</text>
+<text y="373.14">81</text>
+<text y="384.65">2</text>
+<text y="394.65">1</text>
+</g>
+</g>
+<g transform="translate(900 0)">
+<g font-size="10">
+<text y="345.74">1</text>
+<text y="355.74">1</text>
+<text y="367.25">81</text>
+<text y="377.25">80</text>
+<text y="399.01">33</text>
+<text y="409.01">32</text>
+<text y="430.21">21</text>
+<text y="440.21">20</text>
+<text y="457.47">16</text>
+<text y="467.47">15</text>
+<text y="496.38">12</text>
+<text y="506.38">11</text>
+<text y="510.75">11</text>
+<text y="520.75">10</text>
+<text y="528.14">10</text>
+<text y="538.14">9</text>
+<text y="549.65">9</text>
+<text y="559.65">8</text>
+<text y="576.92">8</text>
+<text y="586.92">7</text>
+<text y="612.61">7</text>
+<text y="622.61">6</text>
+<text y="639.88">32</text>
+<text y="649.88">27</text>
+<text y="661.38">6</text>
+<text y="671.38">5</text>
+<text y="693.15">11</text>
+<text y="703.15">9</text>
+<text y="732.05">5</text>
+<text y="742.05">4</text>
+<text y="763.25">14</text>
+<text y="773.25">11</text>
+<text y="780.83">9</text>
+<text y="790.83">7</text>
+<text y="816.52">21</text>
+<text y="826.52">16</text>
+<text y="843.79">4</text>
+<text y="853.79">3</text>
+<text y="865.29">27</text>
+<text y="875.29">20</text>
+<text y="897.06">11</text>
+<text y="907.06">8</text>
+<text y="928.25">7</text>
+<text y="938.25">5</text>
+<text y="963.23">10</text>
+<text y="973.23">7</text>
+<text y="994.42">16</text>
+<text y="1004.42">11</text>
+<text y="1026.19">40</text>
+<text y="1036.19">27</text>
+<text y="1047.7">3</text>
+<text y="1057.7">2</text>
+<text y="1074.96">32</text>
+<text y="1084.96">21</text>
+<text y="1110.66">14</text>
+<text y="1120.66">9</text>
+<text y="1128.23">11</text>
+<text y="1138.23">7</text>
+<text y="1159.43">8</text>
+<text y="1169.43">5</text>
+<text y="-1.67">18</text>
+<text y="8.33">11</text>
+<text y="1198.33">18</text>
+<text y="1208.33">11</text>
+<text y="30.1">5</text>
+<text y="40.1">3</text>
+<text y="51.61">27</text>
+<text y="61.61">16</text>
+<text y="78.87">12</text>
+<text y="88.87">7</text>
+<text y="114.57">7</text>
+<text y="124.57">4</text>
+<text y="141.83">16</text>
+<text y="151.83">9</text>
+<text y="163.34">9</text>
+<text y="173.34">5</text>
+<text y="180.74">20</text>
+<text y="190.74">11</text>
+<text y="195.1">11</text>
+<text y="205.1">6</text>
+<text y="234.01">15</text>
+<text y="244.01">8</text>
+<text y="261.27">40</text>
+<text y="271.27">21</text>
+<text y="292.47">64</text>
+<text y="302.47">33</text>
+<text y="324.23">160</text>
+<text y="334.23">81</text>
+<text y="345.74">2</text>
+<text y="355.74">1</text>
+</g>
+</g>
+<g transform="translate(930 0)">
+<g font-size="10">
+<text y="313.97">1</text>
+<text y="323.97">1</text>
+<text y="335.48">81</text>
+<text y="345.48">80</text>
+<text y="367.25">33</text>
+<text y="377.25">32</text>
+<text y="398.44">21</text>
+<text y="408.44">20</text>
+<text y="425.71">16</text>
+<text y="435.71">15</text>
+<text y="464.61">12</text>
+<text y="474.61">11</text>
+<text y="478.98">11</text>
+<text y="488.98">10</text>
+<text y="496.38">10</text>
+<text y="506.38">9</text>
+<text y="517.88">9</text>
+<text y="527.88">8</text>
+<text y="545.15">8</text>
+<text y="555.15">7</text>
+<text y="580.85">7</text>
+<text y="590.85">6</text>
+<text y="608.11">32</text>
+<text y="618.11">27</text>
+<text y="629.62">6</text>
+<text y="639.62">5</text>
+<text y="661.38">11</text>
+<text y="671.38">9</text>
+<text y="700.29">5</text>
+<text y="710.29">4</text>
+<text y="731.48">14</text>
+<text y="741.48">11</text>
+<text y="749.06">9</text>
+<text y="759.06">7</text>
+<text y="784.76">21</text>
+<text y="794.76">16</text>
+<text y="812.02">4</text>
+<text y="822.02">3</text>
+<text y="833.53">27</text>
+<text y="843.53">20</text>
+<text y="865.29">11</text>
+<text y="875.29">8</text>
+<text y="896.49">7</text>
+<text y="906.49">5</text>
+<text y="931.46">10</text>
+<text y="941.46">7</text>
+<text y="962.66">16</text>
+<text y="972.66">11</text>
+<text y="994.42">40</text>
+<text y="1004.42">27</text>
+<text y="1015.93">3</text>
+<text y="1025.93">2</text>
+<text y="1043.19">32</text>
+<text y="1053.19">21</text>
+<text y="1078.89">14</text>
+<text y="1088.89">9</text>
+<text y="1096.47">11</text>
+<text y="1106.47">7</text>
+<text y="1127.66">8</text>
+<text y="1137.66">5</text>
+<text y="1166.57">18</text>
+<text y="1176.57">11</text>
+<text y="-1.67">5</text>
+<text y="8.33">3</text>
+<text y="1198.33">5</text>
+<text y="1208.33">3</text>
+<text y="19.84">27</text>
+<text y="29.84">16</text>
+<text y="47.1">12</text>
+<text y="57.1">7</text>
+<text y="82.8">7</text>
+<text y="92.8">4</text>
+<text y="110.06">16</text>
+<text y="120.06">9</text>
+<text y="131.57">9</text>
+<text y="141.57">5</text>
+<text y="148.97">20</text>
+<text y="158.97">11</text>
+<text y="163.34">11</text>
+<text y="173.34">6</text>
+<text y="202.24">15</text>
+<text y="212.24">8</text>
+<text y="229.51">40</text>
+<text y="239.51">21</text>
+<text y="260.7">64</text>
+<text y="270.7">33</text>
+<text y="292.47">160</text>
+<text y="302.47">81</text>
+<text y="313.97">2</text>
+<text y="323.97">1</text>
+</g>
+</g>
+<g transform="translate(960 0)">
+<g font-size="10">
+<text y="292.47">1</text>
+<text y="302.47">1</text>
+<text y="313.97">81</text>
+<text y="323.97">80</text>
+<text y="345.74">33</text>
+<text y="355.74">32</text>
+<text y="376.94">21</text>
+<text y="386.94">20</text>
+<text y="404.2">16</text>
+<text y="414.2">15</text>
+<text y="443.11">12</text>
+<text y="453.11">11</text>
+<text y="457.47">11</text>
+<text y="467.47">10</text>
+<text y="474.87">10</text>
+<text y="484.87">9</text>
+<text y="496.38">9</text>
+<text y="506.38">8</text>
+<text y="523.64">8</text>
+<text y="533.64">7</text>
+<text y="559.34">7</text>
+<text y="569.34">6</text>
+<text y="586.6">32</text>
+<text y="596.6">27</text>
+<text y="608.11">6</text>
+<text y="618.11">5</text>
+<text y="639.88">11</text>
+<text y="649.88">9</text>
+<text y="678.78">5</text>
+<text y="688.78">4</text>
+<text y="709.98">14</text>
+<text y="719.98">11</text>
+<text y="727.55">9</text>
+<text y="737.55">7</text>
+<text y="763.25">21</text>
+<text y="773.25">16</text>
+<text y="790.51">4</text>
+<text y="800.51">3</text>
+<text y="812.02">27</text>
+<text y="822.02">20</text>
+<text y="843.79">11</text>
+<text y="853.79">8</text>
+<text y="874.98">7</text>
+<text y="884.98">5</text>
+<text y="909.96">10</text>
+<text y="919.96">7</text>
+<text y="941.15">16</text>
+<text y="951.15">11</text>
+<text y="972.92">40</text>
+<text y="982.92">27</text>
+<text y="994.42">3</text>
+<text y="1004.42">2</text>
+<text y="1021.69">32</text>
+<text y="1031.69">21</text>
+<text y="1057.38">14</text>
+<text y="1067.38">9</text>
+<text y="1074.96">11</text>
+<text y="1084.96">7</text>
+<text y="1106.15">8</text>
+<text y="1116.15">5</text>
+<text y="1145.06">18</text>
+<text y="1155.06">11</text>
+<text y="1176.83">5</text>
+<text y="1186.83">3</text>
+<text y="-1.67">27</text>
+<text y="8.33">16</text>
+<text y="1198.33">27</text>
+<text y="1208.33">16</text>
+<text y="25.6">12</text>
+<text y="35.6">7</text>
+<text y="61.29">7</text>
+<text y="71.29">4</text>
+<text y="88.56">16</text>
+<text y="98.56">9</text>
+<text y="110.06">9</text>
+<text y="120.06">5</text>
+<text y="127.46">20</text>
+<text y="137.46">11</text>
+<text y="141.83">11</text>
+<text y="151.83">6</text>
+<text y="180.74">15</text>
+<text y="190.74">8</text>
+<text y="208">40</text>
+<text y="218">21</text>
+<text y="239.2">64</text>
+<text y="249.2">33</text>
+<text y="270.96">160</text>
+<text y="280.96">81</text>
+<text y="292.47">2</text>
+<text y="302.47">1</text>
+</g>
+</g>
+<g transform="translate(990 0)">
+<g font-size="10">
+<text y="265.2">1</text>
+<text y="275.2">1</text>
+<text y="286.71">81</text>
+<text y="296.71">80</text>
+<text y="318.48">33</text>
+<text y="328.48">32</text>
+<text y="349.67">21</text>
+<text y="359.67">20</text>
+<text y="376.94">16</text>
+<text y="386.94">15</text>
+<text y="415.84">12</text>
+<text y="425.84">11</text>
+<text y="430.21">11</text>
+<text y="440.21">10</text>
+<text y="447.61">10</text>
+<text y="457.61">9</text>
+<text y="469.11">9</text>
+<text y="479.11">8</text>
+<text y="496.38">8</text>
+<text y="506.38">7</text>
+<text y="532.08">7</text>
+<text y="542.08">6</text>
+<text y="559.34">32</text>
+<text y="569.34">27</text>
+<text y="580.85">6</text>
+<text y="590.85">5</text>
+<text y="612.61">11</text>
+<text y="622.61">9</text>
+<text y="651.52">5</text>
+<text y="661.52">4</text>
+<text y="682.71">14</text>
+<text y="692.71">11</text>
+<text y="700.29">9</text>
+<text y="710.29">7</text>
+<text y="735.99">21</text>
+<text y="745.99">16</text>
+<text y="763.25">4</text>
+<text y="773.25">3</text>
+<text y="784.76">27</text>
+<text y="794.76">20</text>
+<text y="816.52">11</text>
+<text y="826.52">8</text>
+<text y="847.72">7</text>
+<text y="857.72">5</text>
+<text y="882.69">10</text>
+<text y="892.69">7</text>
+<text y="913.89">16</text>
+<text y="923.89">11</text>
+<text y="945.65">40</text>
+<text y="955.65">27</text>
+<text y="967.16">3</text>
+<text y="977.16">2</text>
+<text y="994.42">32</text>
+<text y="1004.42">21</text>
+<text y="1030.12">14</text>
+<text y="1040.12">9</text>
+<text y="1047.7">11</text>
+<text y="1057.7">7</text>
+<text y="1078.89">8</text>
+<text y="1088.89">5</text>
+<text y="1117.8">18</text>
+<text y="1127.8">11</text>
+<text y="1149.56">5</text>
+<text y="1159.56">3</text>
+<text y="1171.07">27</text>
+<text y="1181.07">16</text>
+<text y="-1.67">12</text>
+<text y="8.33">7</text>
+<text y="1198.33">12</text>
+<text y="1208.33">7</text>
+<text y="34.03">7</text>
+<text y="44.03">4</text>
+<text y="61.29">16</text>
+<text y="71.29">9</text>
+<text y="82.8">9</text>
+<text y="92.8">5</text>
+<text y="100.2">20</text>
+<text y="110.2">11</text>
+<text y="114.57">11</text>
+<text y="124.57">6</text>
+<text y="153.47">15</text>
+<text y="163.47">8</text>
+<text y="180.74">40</text>
+<text y="190.74">21</text>
+<text y="211.93">64</text>
+<text y="221.93">33</text>
+<text y="243.7">160</text>
+<text y="253.7">81</text>
+<text y="265.2">2</text>
+<text y="275.2">1</text>
+</g>
+</g>
+<g transform="translate(1020 0)">
+<g font-size="10">
+<text y="229.51">1</text>
+<text y="239.51">1</text>
+<text y="251.01">81</text>
+<text y="261.01">80</text>
+<text y="282.78">33</text>
+<text y="292.78">32</text>
+<text y="313.97">21</text>
+<text y="323.97">20</text>
+<text y="341.24">16</text>
+<text y="351.24">15</text>
+<text y="380.14">12</text>
+<text y="390.14">11</text>
+<text y="394.51">11</text>
+<text y="404.51">10</text>
+<text y="411.91">10</text>
+<text y="421.91">9</text>
+<text y="433.42">9</text>
+<text y="443.42">8</text>
+<text y="460.68">8</text>
+<text y="470.68">7</text>
+<text y="496.38">7</text>
+<text y="506.38">6</text>
+<text y="523.64">32</text>
+<text y="533.64">27</text>
+<text y="545.15">6</text>
+<text y="555.15">5</text>
+<text y="576.92">11</text>
+<text y="586.92">9</text>
+<text y="615.82">5</text>
+<text y="625.82">4</text>
+<text y="647.02">14</text>
+<text y="657.02">11</text>
+<text y="664.59">9</text>
+<text y="674.59">7</text>
+<text y="700.29">21</text>
+<text y="710.29">16</text>
+<text y="727.55">4</text>
+<text y="737.55">3</text>
+<text y="749.06">27</text>
+<text y="759.06">20</text>
+<text y="780.83">11</text>
+<text y="790.83">8</text>
+<text y="812.02">7</text>
+<text y="822.02">5</text>
+<text y="847">10</text>
+<text y="857">7</text>
+<text y="878.19">16</text>
+<text y="888.19">11</text>
+<text y="909.96">40</text>
+<text y="919.96">27</text>
+<text y="931.46">3</text>
+<text y="941.46">2</text>
+<text y="958.73">32</text>
+<text y="968.73">21</text>
+<text y="994.42">14</text>
+<text y="1004.42">9</text>
+<text y="1012">11</text>
+<text y="1022">7</text>
+<text y="1043.19">8</text>
+<text y="1053.19">5</text>
+<text y="1082.1">18</text>
+<text y="1092.1">11</text>
+<text y="1113.87">5</text>
+<text y="1123.87">3</text>
+<text y="1135.37">27</text>
+<text y="1145.37">16</text>
+<text y="1162.64">12</text>
+<text y="1172.64">7</text>
+<text y="-1.67">7</text>
+<text y="8.33">4</text>
+<text y="1198.33">7</text>
+<text y="1208.33">4</text>
+<text y="25.6">16</text>
+<text y="35.6">9</text>
+<text y="47.1">9</text>
+<text y="57.1">5</text>
+<text y="64.5">20</text>
+<text y="74.5">11</text>
+<text y="78.87">11</text>
+<text y="88.87">6</text>
+<text y="117.78">15</text>
+<text y="127.78">8</text>
+<text y="145.04">40</text>
+<text y="155.04">21</text>
+<text y="176.23">64</text>
+<text y="186.23">33</text>
+<text y="208">160</text>
+<text y="218">81</text>
+<text y="229.51">2</text>
+<text y="239.51">1</text>
+</g>
+</g>
+<g transform="translate(1050 0)">
+<g font-size="10">
+<text y="202.24">1</text>
+<text y="212.24">1</text>
+<text y="223.75">81</text>
+<text y="233.75">80</text>
+<text y="255.52">33</text>
+<text y="265.52">32</text>
+<text y="286.71">21</text>
+<text y="296.71">20</text>
+<text y="313.97">16</text>
+<text y="323.97">15</text>
+<text y="352.88">12</text>
+<text y="362.88">11</text>
+<text y="367.25">11</text>
+<text y="377.25">10</text>
+<text y="384.65">10</text>
+<text y="394.65">9</text>
+<text y="406.15">9</text>
+<text y="416.15">8</text>
+<text y="433.42">8</text>
+<text y="443.42">7</text>
+<text y="469.11">7</text>
+<text y="479.11">6</text>
+<text y="496.38">32</text>
+<text y="506.38">27</text>
+<text y="517.88">6</text>
+<text y="527.88">5</text>
+<text y="549.65">11</text>
+<text y="559.65">9</text>
+<text y="588.56">5</text>
+<text y="598.56">4</text>
+<text y="619.75">14</text>
+<text y="629.75">11</text>
+<text y="637.33">9</text>
+<text y="647.33">7</text>
+<text y="673.02">21</text>
+<text y="683.02">16</text>
+<text y="700.29">4</text>
+<text y="710.29">3</text>
+<text y="721.79">27</text>
+<text y="731.79">20</text>
+<text y="753.56">11</text>
+<text y="763.56">8</text>
+<text y="784.76">7</text>
+<text y="794.76">5</text>
+<text y="819.73">10</text>
+<text y="829.73">7</text>
+<text y="850.93">16</text>
+<text y="860.93">11</text>
+<text y="882.69">40</text>
+<text y="892.69">27</text>
+<text y="904.2">3</text>
+<text y="914.2">2</text>
+<text y="931.46">32</text>
+<text y="941.46">21</text>
+<text y="967.16">14</text>
+<text y="977.16">9</text>
+<text y="984.74">11</text>
+<text y="994.74">7</text>
+<text y="1015.93">8</text>
+<text y="1025.93">5</text>
+<text y="1054.84">18</text>
+<text y="1064.84">11</text>
+<text y="1086.6">5</text>
+<text y="1096.6">3</text>
+<text y="1108.11">27</text>
+<text y="1118.11">16</text>
+<text y="1135.37">12</text>
+<text y="1145.37">7</text>
+<text y="1171.07">7</text>
+<text y="1181.07">4</text>
+<text y="-1.67">16</text>
+<text y="8.33">9</text>
+<text y="1198.33">16</text>
+<text y="1208.33">9</text>
+<text y="19.84">9</text>
+<text y="29.84">5</text>
+<text y="37.24">20</text>
+<text y="47.24">11</text>
+<text y="51.61">11</text>
+<text y="61.61">6</text>
+<text y="90.51">15</text>
+<text y="100.51">8</text>
+<text y="117.78">40</text>
+<text y="127.78">21</text>
+<text y="148.97">64</text>
+<text y="158.97">33</text>
+<text y="180.74">160</text>
+<text y="190.74">81</text>
+<text y="202.24">2</text>
+<text y="212.24">1</text>
+</g>
+</g>
+<g transform="translate(1080 0)">
+<g font-size="10">
+<text y="180.74">1</text>
+<text y="190.74">1</text>
+<text y="202.24">81</text>
+<text y="212.24">80</text>
+<text y="234.01">33</text>
+<text y="244.01">32</text>
+<text y="265.2">21</text>
+<text y="275.2">20</text>
+<text y="292.47">16</text>
+<text y="302.47">15</text>
+<text y="331.37">12</text>
+<text y="341.37">11</text>
+<text y="345.74">11</text>
+<text y="355.74">10</text>
+<text y="363.14">10</text>
+<text y="373.14">9</text>
+<text y="384.65">9</text>
+<text y="394.65">8</text>
+<text y="411.91">8</text>
+<text y="421.91">7</text>
+<text y="447.61">7</text>
+<text y="457.61">6</text>
+<text y="474.87">32</text>
+<text y="484.87">27</text>
+<text y="496.38">6</text>
+<text y="506.38">5</text>
+<text y="528.14">11</text>
+<text y="538.14">9</text>
+<text y="567.05">5</text>
+<text y="577.05">4</text>
+<text y="598.25">14</text>
+<text y="608.25">11</text>
+<text y="615.82">9</text>
+<text y="625.82">7</text>
+<text y="651.52">21</text>
+<text y="661.52">16</text>
+<text y="678.78">4</text>
+<text y="688.78">3</text>
+<text y="700.29">27</text>
+<text y="710.29">20</text>
+<text y="732.05">11</text>
+<text y="742.05">8</text>
+<text y="763.25">7</text>
+<text y="773.25">5</text>
+<text y="798.22">10</text>
+<text y="808.22">7</text>
+<text y="829.42">16</text>
+<text y="839.42">11</text>
+<text y="861.19">40</text>
+<text y="871.19">27</text>
+<text y="882.69">3</text>
+<text y="892.69">2</text>
+<text y="909.96">32</text>
+<text y="919.96">21</text>
+<text y="945.65">14</text>
+<text y="955.65">9</text>
+<text y="963.23">11</text>
+<text y="973.23">7</text>
+<text y="994.42">8</text>
+<text y="1004.42">5</text>
+<text y="1033.33">18</text>
+<text y="1043.33">11</text>
+<text y="1065.1">5</text>
+<text y="1075.1">3</text>
+<text y="1086.6">27</text>
+<text y="1096.6">16</text>
+<text y="1113.87">12</text>
+<text y="1123.87">7</text>
+<text y="1149.56">7</text>
+<text y="1159.56">4</text>
+<text y="1176.83">16</text>
+<text y="1186.83">9</text>
+<text y="-1.67">9</text>
+<text y="8.33">5</text>
+<text y="1198.33">9</text>
+<text y="1208.33">5</text>
+<text y="15.73">20</text>
+<text y="25.73">11</text>
+<text y="30.1">11</text>
+<text y="40.1">6</text>
+<text y="69.01">15</text>
+<text y="79.01">8</text>
+<text y="96.27">40</text>
+<text y="106.27">21</text>
+<text y="127.46">64</text>
+<text y="137.46">33</text>
+<text y="159.23">160</text>
+<text y="169.23">81</text>
+<text y="180.74">2</text>
+<text y="190.74">1</text>
+</g>
+</g>
+<g transform="translate(1110 0)">
+<g font-size="10">
+<text y="163.34">1</text>
+<text y="173.34">1</text>
+<text y="184.84">81</text>
+<text y="194.84">80</text>
+<text y="216.61">33</text>
+<text y="226.61">32</text>
+<text y="247.8">21</text>
+<text y="257.8">20</text>
+<text y="275.07">16</text>
+<text y="285.07">15</text>
+<text y="313.97">12</text>
+<text y="323.97">11</text>
+<text y="328.34">11</text>
+<text y="338.34">10</text>
+<text y="345.74">10</text>
+<text y="355.74">9</text>
+<text y="367.25">9</text>
+<text y="377.25">8</text>
+<text y="394.51">8</text>
+<text y="404.51">7</text>
+<text y="430.21">7</text>
+<text y="440.21">6</text>
+<text y="457.47">32</text>
+<text y="467.47">27</text>
+<text y="478.98">6</text>
+<text y="488.98">5</text>
+<text y="510.75">11</text>
+<text y="520.75">9</text>
+<text y="549.65">5</text>
+<text y="559.65">4</text>
+<text y="580.85">14</text>
+<text y="590.85">11</text>
+<text y="598.42">9</text>
+<text y="608.42">7</text>
+<text y="634.12">21</text>
+<text y="644.12">16</text>
+<text y="661.38">4</text>
+<text y="671.38">3</text>
+<text y="682.89">27</text>
+<text y="692.89">20</text>
+<text y="714.66">11</text>
+<text y="724.66">8</text>
+<text y="745.85">7</text>
+<text y="755.85">5</text>
+<text y="780.83">10</text>
+<text y="790.83">7</text>
+<text y="812.02">16</text>
+<text y="822.02">11</text>
+<text y="843.79">40</text>
+<text y="853.79">27</text>
+<text y="865.29">3</text>
+<text y="875.29">2</text>
+<text y="892.56">32</text>
+<text y="902.56">21</text>
+<text y="928.25">14</text>
+<text y="938.25">9</text>
+<text y="945.83">11</text>
+<text y="955.83">7</text>
+<text y="977.02">8</text>
+<text y="987.02">5</text>
+<text y="1015.93">18</text>
+<text y="1025.93">11</text>
+<text y="1047.7">5</text>
+<text y="1057.7">3</text>
+<text y="1069.2">27</text>
+<text y="1079.2">16</text>
+<text y="1096.47">12</text>
+<text y="1106.47">7</text>
+<text y="1132.16">7</text>
+<text y="1142.16">4</text>
+<text y="1159.43">16</text>
+<text y="1169.43">9</text>
+<text y="1180.93">9</text>
+<text y="1190.93">5</text>
+<text y="-1.67">20</text>
+<text y="8.33">11</text>
+<text y="1198.33">20</text>
+<text y="1208.33">11</text>
+<text y="12.7">11</text>
+<text y="22.7">6</text>
+<text y="51.61">15</text>
+<text y="61.61">8</text>
+<text y="78.87">40</text>
+<text y="88.87">21</text>
+<text y="110.06">64</text>
+<text y="120.06">33</text>
+<text y="141.83">160</text>
+<text y="151.83">81</text>
+<text y="163.34">2</text>
+<text y="173.34">1</text>
+</g>
+</g>
+<g transform="translate(1140 0)">
+<g font-size="10">
+<text y="148.97">1</text>
+<text y="158.97">1</text>
+<text y="170.48">81</text>
+<text y="180.48">80</text>
+<text y="202.24">33</text>
+<text y="212.24">32</text>
+<text y="233.44">21</text>
+<text y="243.44">20</text>
+<text y="260.7">16</text>
+<text y="270.7">15</text>
+<text y="299.61">12</text>
+<text y="309.61">11</text>
+<text y="313.97">11</text>
+<text y="323.97">10</text>
+<text y="331.37">10</text>
+<text y="341.37">9</text>
+<text y="352.88">9</text>
+<text y="362.88">8</text>
+<text y="380.14">8</text>
+<text y="390.14">7</text>
+<text y="415.84">7</text>
+<text y="425.84">6</text>
+<text y="443.11">32</text>
+<text y="453.11">27</text>
+<text y="464.61">6</text>
+<text y="474.61">5</text>
+<text y="496.38">11</text>
+<text y="506.38">9</text>
+<text y="535.28">5</text>
+<text y="545.28">4</text>
+<text y="566.48">14</text>
+<text y="576.48">11</text>
+<text y="584.05">9</text>
+<text y="594.05">7</text>
+<text y="619.75">21</text>
+<text y="629.75">16</text>
+<text y="647.02">4</text>
+<text y="657.02">3</text>
+<text y="668.52">27</text>
+<text y="678.52">20</text>
+<text y="700.29">11</text>
+<text y="710.29">8</text>
+<text y="731.48">7</text>
+<text y="741.48">5</text>
+<text y="766.46">10</text>
+<text y="776.46">7</text>
+<text y="797.65">16</text>
+<text y="807.65">11</text>
+<text y="829.42">40</text>
+<text y="839.42">27</text>
+<text y="850.93">3</text>
+<text y="860.93">2</text>
+<text y="878.19">32</text>
+<text y="888.19">21</text>
+<text y="913.89">14</text>
+<text y="923.89">9</text>
+<text y="931.46">11</text>
+<text y="941.46">7</text>
+<text y="962.66">8</text>
+<text y="972.66">5</text>
+<text y="1001.56">18</text>
+<text y="1011.56">11</text>
+<text y="1033.33">5</text>
+<text y="1043.33">3</text>
+<text y="1054.84">27</text>
+<text y="1064.84">16</text>
+<text y="1082.1">12</text>
+<text y="1092.1">7</text>
+<text y="1117.8">7</text>
+<text y="1127.8">4</text>
+<text y="1145.06">16</text>
+<text y="1155.06">9</text>
+<text y="1166.57">9</text>
+<text y="1176.57">5</text>
+<text y="1183.97">20</text>
+<text y="1193.97">11</text>
+<text y="-1.67">11</text>
+<text y="8.33">6</text>
+<text y="1198.33">11</text>
+<text y="1208.33">6</text>
+<text y="37.24">15</text>
+<text y="47.24">8</text>
+<text y="64.5">40</text>
+<text y="74.5">21</text>
+<text y="95.7">64</text>
+<text y="105.7">33</text>
+<text y="127.46">160</text>
+<text y="137.46">81</text>
+<text y="148.97">2</text>
+<text y="158.97">1</text>
+</g>
+</g>
+<g transform="translate(1170 0)">
+<g font-size="10">
+<text y="110.06">1</text>
+<text y="120.06">1</text>
+<text y="131.57">81</text>
+<text y="141.57">80</text>
+<text y="163.34">33</text>
+<text y="173.34">32</text>
+<text y="194.53">21</text>
+<text y="204.53">20</text>
+<text y="221.8">16</text>
+<text y="231.8">15</text>
+<text y="260.7">12</text>
+<text y="270.7">11</text>
+<text y="275.07">11</text>
+<text y="285.07">10</text>
+<text y="292.47">10</text>
+<text y="302.47">9</text>
+<text y="313.97">9</text>
+<text y="323.97">8</text>
+<text y="341.24">8</text>
+<text y="351.24">7</text>
+<text y="376.94">7</text>
+<text y="386.94">6</text>
+<text y="404.2">32</text>
+<text y="414.2">27</text>
+<text y="425.71">6</text>
+<text y="435.71">5</text>
+<text y="457.47">11</text>
+<text y="467.47">9</text>
+<text y="496.38">5</text>
+<text y="506.38">4</text>
+<text y="527.57">14</text>
+<text y="537.57">11</text>
+<text y="545.15">9</text>
+<text y="555.15">7</text>
+<text y="580.85">21</text>
+<text y="590.85">16</text>
+<text y="608.11">4</text>
+<text y="618.11">3</text>
+<text y="629.62">27</text>
+<text y="639.62">20</text>
+<text y="661.38">11</text>
+<text y="671.38">8</text>
+<text y="692.58">7</text>
+<text y="702.58">5</text>
+<text y="727.55">10</text>
+<text y="737.55">7</text>
+<text y="758.75">16</text>
+<text y="768.75">11</text>
+<text y="790.51">40</text>
+<text y="800.51">27</text>
+<text y="812.02">3</text>
+<text y="822.02">2</text>
+<text y="839.28">32</text>
+<text y="849.28">21</text>
+<text y="874.98">14</text>
+<text y="884.98">9</text>
+<text y="892.56">11</text>
+<text y="902.56">7</text>
+<text y="923.75">8</text>
+<text y="933.75">5</text>
+<text y="962.66">18</text>
+<text y="972.66">11</text>
+<text y="994.42">5</text>
+<text y="1004.42">3</text>
+<text y="1015.93">27</text>
+<text y="1025.93">16</text>
+<text y="1043.19">12</text>
+<text y="1053.19">7</text>
+<text y="1078.89">7</text>
+<text y="1088.89">4</text>
+<text y="1106.15">16</text>
+<text y="1116.15">9</text>
+<text y="1127.66">9</text>
+<text y="1137.66">5</text>
+<text y="1145.06">20</text>
+<text y="1155.06">11</text>
+<text y="1159.43">11</text>
+<text y="1169.43">6</text>
+<text y="-1.67">15</text>
+<text y="8.33">8</text>
+<text y="1198.33">15</text>
+<text y="1208.33">8</text>
+<text y="25.6">40</text>
+<text y="35.6">21</text>
+<text y="56.79">64</text>
+<text y="66.79">33</text>
+<text y="88.56">160</text>
+<text y="98.56">81</text>
+<text y="110.06">2</text>
+<text y="120.06">1</text>
+</g>
+</g>
+<g transform="translate(1200 0)">
+<g font-size="10">
+<text y="82.8">1</text>
+<text y="92.8">1</text>
+<text y="104.31">81</text>
+<text y="114.31">80</text>
+<text y="136.07">33</text>
+<text y="146.07">32</text>
+<text y="167.27">21</text>
+<text y="177.27">20</text>
+<text y="194.53">16</text>
+<text y="204.53">15</text>
+<text y="233.44">12</text>
+<text y="243.44">11</text>
+<text y="247.8">11</text>
+<text y="257.8">10</text>
+<text y="265.2">10</text>
+<text y="275.2">9</text>
+<text y="286.71">9</text>
+<text y="296.71">8</text>
+<text y="313.97">8</text>
+<text y="323.97">7</text>
+<text y="349.67">7</text>
+<text y="359.67">6</text>
+<text y="376.94">32</text>
+<text y="386.94">27</text>
+<text y="398.44">6</text>
+<text y="408.44">5</text>
+<text y="430.21">11</text>
+<text y="440.21">9</text>
+<text y="469.11">5</text>
+<text y="479.11">4</text>
+<text y="500.31">14</text>
+<text y="510.31">11</text>
+<text y="517.88">9</text>
+<text y="527.88">7</text>
+<text y="553.58">21</text>
+<text y="563.58">16</text>
+<text y="580.85">4</text>
+<text y="590.85">3</text>
+<text y="602.35">27</text>
+<text y="612.35">20</text>
+<text y="634.12">11</text>
+<text y="644.12">8</text>
+<text y="665.31">7</text>
+<text y="675.31">5</text>
+<text y="700.29">10</text>
+<text y="710.29">7</text>
+<text y="731.48">16</text>
+<text y="741.48">11</text>
+<text y="763.25">40</text>
+<text y="773.25">27</text>
+<text y="784.76">3</text>
+<text y="794.76">2</text>
+<text y="812.02">32</text>
+<text y="822.02">21</text>
+<text y="847.72">14</text>
+<text y="857.72">9</text>
+<text y="865.29">11</text>
+<text y="875.29">7</text>
+<text y="896.49">8</text>
+<text y="906.49">5</text>
+<text y="935.39">18</text>
+<text y="945.39">11</text>
+<text y="967.16">5</text>
+<text y="977.16">3</text>
+<text y="988.67">27</text>
+<text y="998.67">16</text>
+<text y="1015.93">12</text>
+<text y="1025.93">7</text>
+<text y="1051.63">7</text>
+<text y="1061.63">4</text>
+<text y="1078.89">16</text>
+<text y="1088.89">9</text>
+<text y="1100.4">9</text>
+<text y="1110.4">5</text>
+<text y="1117.8">20</text>
+<text y="1127.8">11</text>
+<text y="1132.16">11</text>
+<text y="1142.16">6</text>
+<text y="1171.07">15</text>
+<text y="1181.07">8</text>
+<text y="-1.67">40</text>
+<text y="8.33">21</text>
+<text y="1198.33">40</text>
+<text y="1208.33">21</text>
+<text y="29.53">64</text>
+<text y="39.53">33</text>
+<text y="61.29">160</text>
+<text y="71.29">81</text>
+<text y="82.8">2</text>
+<text y="92.8">1</text>
+</g>
+</g>
+<g transform="translate(1230 0)">
+<g font-size="10">
+<text y="51.61">1</text>
+<text y="61.61">1</text>
+<text y="73.11">81</text>
+<text y="83.11">80</text>
+<text y="104.88">33</text>
+<text y="114.88">32</text>
+<text y="136.07">21</text>
+<text y="146.07">20</text>
+<text y="163.34">16</text>
+<text y="173.34">15</text>
+<text y="202.24">12</text>
+<text y="212.24">11</text>
+<text y="216.61">11</text>
+<text y="226.61">10</text>
+<text y="234.01">10</text>
+<text y="244.01">9</text>
+<text y="255.52">9</text>
+<text y="265.52">8</text>
+<text y="282.78">8</text>
+<text y="292.78">7</text>
+<text y="318.48">7</text>
+<text y="328.48">6</text>
+<text y="345.74">32</text>
+<text y="355.74">27</text>
+<text y="367.25">6</text>
+<text y="377.25">5</text>
+<text y="399.01">11</text>
+<text y="409.01">9</text>
+<text y="437.92">5</text>
+<text y="447.92">4</text>
+<text y="469.11">14</text>
+<text y="479.11">11</text>
+<text y="486.69">9</text>
+<text y="496.69">7</text>
+<text y="522.39">21</text>
+<text y="532.39">16</text>
+<text y="549.65">4</text>
+<text y="559.65">3</text>
+<text y="571.16">27</text>
+<text y="581.16">20</text>
+<text y="602.92">11</text>
+<text y="612.92">8</text>
+<text y="634.12">7</text>
+<text y="644.12">5</text>
+<text y="669.09">10</text>
+<text y="679.09">7</text>
+<text y="700.29">16</text>
+<text y="710.29">11</text>
+<text y="732.05">40</text>
+<text y="742.05">27</text>
+<text y="753.56">3</text>
+<text y="763.56">2</text>
+<text y="780.83">32</text>
+<text y="790.83">21</text>
+<text y="816.52">14</text>
+<text y="826.52">9</text>
+<text y="834.1">11</text>
+<text y="844.1">7</text>
+<text y="865.29">8</text>
+<text y="875.29">5</text>
+<text y="904.2">18</text>
+<text y="914.2">11</text>
+<text y="935.96">5</text>
+<text y="945.96">3</text>
+<text y="957.47">27</text>
+<text y="967.47">16</text>
+<text y="984.74">12</text>
+<text y="994.74">7</text>
+<text y="1020.43">7</text>
+<text y="1030.43">4</text>
+<text y="1047.7">16</text>
+<text y="1057.7">9</text>
+<text y="1069.2">9</text>
+<text y="1079.2">5</text>
+<text y="1086.6">20</text>
+<text y="1096.6">11</text>
+<text y="1100.97">11</text>
+<text y="1110.97">6</text>
+<text y="1139.87">15</text>
+<text y="1149.87">8</text>
+<text y="1167.14">40</text>
+<text y="1177.14">21</text>
+<text y="-1.67">64</text>
+<text y="8.33">33</text>
+<text y="1198.33">64</text>
+<text y="1208.33">33</text>
+<text y="30.1">160</text>
+<text y="40.1">81</text>
+<text y="51.61">2</text>
+<text y="61.61">1</text>
+</g>
+</g>
+<g transform="translate(1260 0)">
+<g font-size="10">
+<text y="19.84">1</text>
+<text y="29.84">1</text>
+<text y="41.35">81</text>
+<text y="51.35">80</text>
+<text y="73.11">33</text>
+<text y="83.11">32</text>
+<text y="104.31">21</text>
+<text y="114.31">20</text>
+<text y="131.57">16</text>
+<text y="141.57">15</text>
+<text y="170.48">12</text>
+<text y="180.48">11</text>
+<text y="184.84">11</text>
+<text y="194.84">10</text>
+<text y="202.24">10</text>
+<text y="212.24">9</text>
+<text y="223.75">9</text>
+<text y="233.75">8</text>
+<text y="251.01">8</text>
+<text y="261.01">7</text>
+<text y="286.71">7</text>
+<text y="296.71">6</text>
+<text y="313.97">32</text>
+<text y="323.97">27</text>
+<text y="335.48">6</text>
+<text y="345.48">5</text>
+<text y="367.25">11</text>
+<text y="377.25">9</text>
+<text y="406.15">5</text>
+<text y="416.15">4</text>
+<text y="437.35">14</text>
+<text y="447.35">11</text>
+<text y="454.92">9</text>
+<text y="464.92">7</text>
+<text y="490.62">21</text>
+<text y="500.62">16</text>
+<text y="517.88">4</text>
+<text y="527.88">3</text>
+<text y="539.39">27</text>
+<text y="549.39">20</text>
+<text y="571.16">11</text>
+<text y="581.16">8</text>
+<text y="602.35">7</text>
+<text y="612.35">5</text>
+<text y="637.33">10</text>
+<text y="647.33">7</text>
+<text y="668.52">16</text>
+<text y="678.52">11</text>
+<text y="700.29">40</text>
+<text y="710.29">27</text>
+<text y="721.79">3</text>
+<text y="731.79">2</text>
+<text y="749.06">32</text>
+<text y="759.06">21</text>
+<text y="784.76">14</text>
+<text y="794.76">9</text>
+<text y="802.33">11</text>
+<text y="812.33">7</text>
+<text y="833.53">8</text>
+<text y="843.53">5</text>
+<text y="872.43">18</text>
+<text y="882.43">11</text>
+<text y="904.2">5</text>
+<text y="914.2">3</text>
+<text y="925.7">27</text>
+<text y="935.7">16</text>
+<text y="952.97">12</text>
+<text y="962.97">7</text>
+<text y="988.67">7</text>
+<text y="998.67">4</text>
+<text y="1015.93">16</text>
+<text y="1025.93">9</text>
+<text y="1037.44">9</text>
+<text y="1047.44">5</text>
+<text y="1054.84">20</text>
+<text y="1064.84">11</text>
+<text y="1069.2">11</text>
+<text y="1079.2">6</text>
+<text y="1108.11">15</text>
+<text y="1118.11">8</text>
+<text y="1135.37">40</text>
+<text y="1145.37">21</text>
+<text y="1166.57">64</text>
+<text y="1176.57">33</text>
+<text y="-1.67">160</text>
+<text y="8.33">81</text>
+<text y="1198.33">160</text>
+<text y="1208.33">81</text>
+<text y="19.84">2</text>
+<text y="29.84">1</text>
+</g>
+</g>
+<g transform="translate(1290 0)">
+<g font-size="10">
+<text y="-1.67">1</text>
+<text y="8.33">1</text>
+<text y="1198.33">1</text>
+<text y="1208.33">1</text>
+<text y="19.84">81</text>
+<text y="29.84">80</text>
+<text y="51.61">33</text>
+<text y="61.61">32</text>
+<text y="82.8">21</text>
+<text y="92.8">20</text>
+<text y="110.06">16</text>
+<text y="120.06">15</text>
+<text y="148.97">12</text>
+<text y="158.97">11</text>
+<text y="163.34">11</text>
+<text y="173.34">10</text>
+<text y="180.74">10</text>
+<text y="190.74">9</text>
+<text y="202.24">9</text>
+<text y="212.24">8</text>
+<text y="229.51">8</text>
+<text y="239.51">7</text>
+<text y="265.2">7</text>
+<text y="275.2">6</text>
+<text y="292.47">32</text>
+<text y="302.47">27</text>
+<text y="313.97">6</text>
+<text y="323.97">5</text>
+<text y="345.74">11</text>
+<text y="355.74">9</text>
+<text y="384.65">5</text>
+<text y="394.65">4</text>
+<text y="415.84">14</text>
+<text y="425.84">11</text>
+<text y="433.42">9</text>
+<text y="443.42">7</text>
+<text y="469.11">21</text>
+<text y="479.11">16</text>
+<text y="496.38">4</text>
+<text y="506.38">3</text>
+<text y="517.88">27</text>
+<text y="527.88">20</text>
+<text y="549.65">11</text>
+<text y="559.65">8</text>
+<text y="580.85">7</text>
+<text y="590.85">5</text>
+<text y="615.82">10</text>
+<text y="625.82">7</text>
+<text y="647.02">16</text>
+<text y="657.02">11</text>
+<text y="678.78">40</text>
+<text y="688.78">27</text>
+<text y="700.29">3</text>
+<text y="710.29">2</text>
+<text y="727.55">32</text>
+<text y="737.55">21</text>
+<text y="763.25">14</text>
+<text y="773.25">9</text>
+<text y="780.83">11</text>
+<text y="790.83">7</text>
+<text y="812.02">8</text>
+<text y="822.02">5</text>
+<text y="850.93">18</text>
+<text y="860.93">11</text>
+<text y="882.69">5</text>
+<text y="892.69">3</text>
+<text y="904.2">27</text>
+<text y="914.2">16</text>
+<text y="931.46">12</text>
+<text y="941.46">7</text>
+<text y="967.16">7</text>
+<text y="977.16">4</text>
+<text y="994.42">16</text>
+<text y="1004.42">9</text>
+<text y="1015.93">9</text>
+<text y="1025.93">5</text>
+<text y="1033.33">20</text>
+<text y="1043.33">11</text>
+<text y="1047.7">11</text>
+<text y="1057.7">6</text>
+<text y="1086.6">15</text>
+<text y="1096.6">8</text>
+<text y="1113.87">40</text>
+<text y="1123.87">21</text>
+<text y="1145.06">64</text>
+<text y="1155.06">33</text>
+<text y="1176.83">160</text>
+<text y="1186.83">81</text>
+<text y="-1.67">2</text>
+<text y="8.33">1</text>
+<text y="1198.33">2</text>
+<text y="1208.33">1</text>
+</g>
+</g>
+</g>
+</g>
+<a href="https://www.fidolab.org">
+<text fill="grey" font-size="20" font-style="italic" text-anchor="middle" x="862.5" y="1312">www.FidoLab.org</text>
+</a>
+</g>
+</svg>

@@ -1,14 +1,11 @@
 <?xml version="1.0"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-width="810" height="1618"
->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="810" height="1483">
 <g style="font-family: Times New Roman;">
 <text font-size="36" text-anchor="middle" x="405" y="36">Meantone Temperaments</text>
-<g transform="translate(100 372)">
-<g stroke="black" stroke-width="1">
-<path d="M20 0 V1200"/>
-<path d="M0 0 H20"/>
+<g transform="translate(100 237)">
+<g fill="transparent" stroke="black" stroke-width="1">
+<path d="M0 0 H20 V1200 H0"/>
 <path d="M0 100 H20"/>
 <path d="M0 200 H20"/>
 <path d="M0 300 H20"/>
@@ -20,7 +17,6 @@ width="810" height="1618"
 <path d="M0 900 H20"/>
 <path d="M0 1000 H20"/>
 <path d="M0 1100 H20"/>
-<path d="M0 1200 H20"/>
 <g transform="translate(7 0)">
 <path d="M0 10 H13"/>
 <path d="M0 20 H13"/>
@@ -320,216 +316,146 @@ width="810" height="1618"
 <text y="1180">1180</text>
 </g>
 </g>
-<g transform="translate(125 372)">
-<line stroke="black" stroke-width="3" x1="0" x2="460" y1="0" y2="0"/>
-
-<g transform="translate(464,6.67)"><text  fill="black" font-size="20" text-anchor="start">1/1 tonic</text></g>
-
-<line stroke="black" stroke-width="1" x1="0" x2="460" y1="21.51" y2="21.51"/>
-
-<g transform="translate(464,25.51)"><text  fill="black" font-size="12" text-anchor="start">81/80 syntonic comma</text></g>
-
-<line stroke="black" stroke-width="1" x1="0" x2="460" y1="41.06" y2="41.06"/>
-
-<g transform="translate(464,45.06)"><text  fill="black" font-size="12" text-anchor="start">128/125 diminished 2nd</text></g>
-
-<line stroke="black" stroke-width="1" x1="0" x2="460" y1="70.67" y2="70.67"/>
-
-<g transform="translate(464,74.67)"><text  fill="black" font-size="12" text-anchor="start">25/24 chromatic semitone</text></g>
-
-<line stroke="black" stroke-width="1" x1="0" x2="460" y1="92.18" y2="92.18"/>
-
-<g transform="translate(464,96.18)"><text  fill="black" font-size="12" text-anchor="start">135/128</text></g>
-
-<line stroke="black" stroke-width="1" x1="0" x2="460" y1="111.73" y2="111.73"/>
-
-<g transform="translate(464,115.73)"><text  fill="black" font-size="12" text-anchor="start">16/15 diatonic semitone</text></g>
-
-<line stroke="black" stroke-width="1" x1="0" x2="460" y1="133.24" y2="133.24"/>
-
-<g transform="translate(464,137.24)"><text  fill="black" font-size="12" text-anchor="start">27/25</text></g>
-
-<line stroke="black" stroke-width="2" x1="0" x2="460" y1="182.4" y2="182.4"/>
-
-<g transform="translate(464,187.4)"><text  fill="black" font-size="15" text-anchor="start">10/9 minor 2nd</text></g>
-
-<line stroke="black" stroke-width="2" x1="0" x2="460" y1="203.91" y2="203.91"/>
-
-<g transform="translate(464,208.91)"><text  fill="black" font-size="15" text-anchor="start">9/8 major 2nd</text></g>
-
-<line stroke="black" stroke-width="2" x1="0" x2="460" y1="231.17" y2="231.17"/>
-
-<g transform="translate(464,236.84)"><text  fill="black" font-size="17" text-anchor="start">8/7 septimal major 2nd</text></g>
-
-<line stroke="black" stroke-width="2" x1="0" x2="460" y1="266.87" y2="266.87"/>
-
-<g transform="translate(464,272.54)"><text  fill="black" font-size="17" text-anchor="start">7/6 septimal minor 3rd</text></g>
-
-<line stroke="black" stroke-width="1" x1="0" x2="460" y1="294.13" y2="294.13"/>
-
-<g transform="translate(464,298.13)"><text  fill="black" font-size="12" text-anchor="start">32/27 Pythagorean minor 3rd</text></g>
-
-<line stroke="black" stroke-width="3" x1="0" x2="460" y1="315.64" y2="315.64"/>
-
-<g transform="translate(464,322.31)"><text  fill="black" font-size="20" text-anchor="start">6/5 minor 3rd</text></g>
-
-<line stroke="black" stroke-width="3" x1="0" x2="460" y1="386.31" y2="386.31"/>
-
-<g transform="translate(464,392.98)"><text  fill="black" font-size="20" text-anchor="start">5/4 major 3rd</text></g>
-
-<line stroke="black" stroke-width="1" x1="0" x2="458.58" y1="407.82" y2="407.82"/>
-
-<line stroke="black" stroke-width="1" x1="458.58" x2="460" y1="407.82" y2="404.98"/>
-
-<g transform="translate(464,408.98)"><text  fill="black" font-size="12" text-anchor="start">81/64 ditone</text></g>
-
-<line stroke="black" stroke-width="1" x1="0" x2="456.8" y1="427.37" y2="427.37"/>
-
-<line stroke="black" stroke-width="1" x1="456.8" x2="460" y1="427.37" y2="420.98"/>
-
-<g transform="translate(464,424.98)"><text  fill="black" font-size="12" text-anchor="start">32/25 diminished 4th</text></g>
-
-<line stroke="black" stroke-width="2" x1="0" x2="458.55" y1="435.08" y2="435.08"/>
-
-<line stroke="black" stroke-width="2" x1="458.55" x2="460" y1="435.08" y2="437.98"/>
-
-<g transform="translate(464,442.98)"><text  fill="black" font-size="15" text-anchor="start">9/7 septimal major 3rd</text></g>
-
-<line stroke="black" stroke-width="1" x1="0" x2="460" y1="456.99" y2="456.99"/>
-
-<g transform="translate(464,460.99)"><text  fill="black" font-size="12" text-anchor="start">125/96 augmented 3rd</text></g>
-
-<line stroke="black" stroke-width="3" x1="0" x2="460" y1="498.04" y2="498.04"/>
-
-<g transform="translate(464,504.71)"><text  fill="black" font-size="20" text-anchor="start">4/3 major 4th</text></g>
-
-<line stroke="black" stroke-width="1" x1="0" x2="453" y1="568.72" y2="568.72"/>
-
-<line stroke="black" stroke-width="1" x1="453" x2="460" y1="568.72" y2="554.72"/>
-
-<g transform="translate(464,558.72)"><text  fill="black" font-size="12" text-anchor="start">25/18 augmented 4th </text></g>
-
-<line stroke="black" stroke-width="2" x1="0" x2="454.94" y1="582.51" y2="582.51"/>
-
-<line stroke="black" stroke-width="2" x1="454.94" x2="460" y1="582.51" y2="572.38"/>
-
-<g transform="translate(464,578.05)"><text  fill="black" font-size="17" text-anchor="start">7/5 septimal tritone</text></g>
-
-<line stroke="black" stroke-width="1" x1="0" x2="460" y1="590.22" y2="590.22"/>
-
-<g transform="translate(464,594.22)"><text  fill="black" font-size="12" text-anchor="start">45/32 high / diatonic tritone</text></g>
-
-<line stroke="black" stroke-width="1" x1="0" x2="460" y1="609.78" y2="609.78"/>
-
-<g transform="translate(464,613.78)"><text  fill="black" font-size="12" text-anchor="start">64/45 low tritone</text></g>
-
-<line stroke="black" stroke-width="2" x1="0" x2="455.02" y1="617.49" y2="617.49"/>
-
-<line stroke="black" stroke-width="2" x1="455.02" x2="460" y1="617.49" y2="627.44"/>
-
-<g transform="translate(464,633.11)"><text  fill="black" font-size="17" text-anchor="start">10/7 septimal tritone</text></g>
-
-<line stroke="black" stroke-width="1" x1="0" x2="453.09" y1="631.28" y2="631.28"/>
-
-<line stroke="black" stroke-width="1" x1="453.09" x2="460" y1="631.28" y2="645.11"/>
-
-<g transform="translate(464,649.11)"><text  fill="black" font-size="12" text-anchor="start">36/25 diminished 5th</text></g>
-
-<line stroke="black" stroke-width="1" x1="0" x2="460" y1="680.45" y2="680.45"/>
-
-<g transform="translate(464,684.45)"><text  fill="black" font-size="12" text-anchor="start">40/27 dissonant "wolf" 5th</text></g>
-
-<line stroke="black" stroke-width="3" x1="0" x2="460" y1="701.96" y2="701.96"/>
-
-<g transform="translate(464,708.62)"><text  fill="black" font-size="20" text-anchor="start">3/2 perfect 5th</text></g>
-
-<line stroke="black" stroke-width="1" x1="0" x2="460" y1="743.01" y2="743.01"/>
-
-<g transform="translate(464,747.01)"><text  fill="black" font-size="12" text-anchor="start">192/125 diminished 6th</text></g>
-
-<line stroke="black" stroke-width="1" x1="0" x2="460" y1="772.63" y2="772.63"/>
-
-<g transform="translate(464,776.63)"><text  fill="black" font-size="12" text-anchor="start">25/16 augmented 5th</text></g>
-
-<line stroke="black" stroke-width="1" x1="0" x2="460" y1="792.18" y2="792.18"/>
-
-<g transform="translate(464,796.18)"><text  fill="black" font-size="12" text-anchor="start">128/81 Pythagorean minor 6th</text></g>
-
-<line stroke="black" stroke-width="3" x1="0" x2="460" y1="813.69" y2="813.69"/>
-
-<g transform="translate(464,820.35)"><text  fill="black" font-size="20" text-anchor="start">8/5 minor 6th</text></g>
-
-<line stroke="black" stroke-width="1" x1="0" x2="460" y1="840.53" y2="840.53"/>
-
-<g transform="translate(464,844.53)"><text  fill="black" font-size="12" text-anchor="start">13/8 overtone 6th</text></g>
-
-<line stroke="black" stroke-width="3" x1="0" x2="460" y1="884.36" y2="884.36"/>
-
-<g transform="translate(464,891.03)"><text  fill="black" font-size="20" text-anchor="start">5/3 major 6th</text></g>
-
-<line stroke="black" stroke-width="1" x1="0" x2="460" y1="905.87" y2="905.87"/>
-
-<g transform="translate(464,909.87)"><text  fill="black" font-size="12" text-anchor="start">27/16 Pythagorean major 6th</text></g>
-
-<line stroke="black" stroke-width="2" x1="0" x2="460" y1="933.13" y2="933.13"/>
-
-<g transform="translate(464,938.8)"><text  fill="black" font-size="17" text-anchor="start">12/7 septimal major 6th</text></g>
-
-<line stroke="black" stroke-width="2" x1="0" x2="460" y1="968.83" y2="968.83"/>
-
-<g transform="translate(464,974.49)"><text  fill="black" font-size="17" text-anchor="start">7/4 septimal minor 7th</text></g>
-
-<line stroke="black" stroke-width="2" x1="0" x2="460" y1="996.09" y2="996.09"/>
-
-<g transform="translate(464,1001.09)"><text  fill="black" font-size="15" text-anchor="start">16/9 Pythagorean small min. 7th</text></g>
-
-<line stroke="black" stroke-width="2" x1="0" x2="460" y1="1017.6" y2="1017.6"/>
-
-<g transform="translate(464,1022.6)"><text  fill="black" font-size="15" text-anchor="start">9/5 large minor 7th</text></g>
-
-<line stroke="black" stroke-width="1" x1="0" x2="460" y1="1049.36" y2="1049.36"/>
-
-<g transform="translate(464,1053.36)"><text  fill="black" font-size="12" text-anchor="start">11/6 undecimal "median" 7th</text></g>
-
-<line stroke="black" stroke-width="1" x1="0" x2="460" y1="1088.27" y2="1088.27"/>
-
-<g transform="translate(464,1092.27)"><text  fill="black" font-size="12" text-anchor="start">15/8 major 7th</text></g>
-
-<line stroke="black" stroke-width="1" x1="0" x2="460" y1="1109.78" y2="1109.78"/>
-
-<g transform="translate(464,1113.78)"><text  fill="black" font-size="12" text-anchor="start">243/128 Pythagorean major 7th</text></g>
-
-<line stroke="black" stroke-width="1" x1="0" x2="460" y1="1137.04" y2="1137.04"/>
-
-<g transform="translate(464,1141.04)"><text  fill="black" font-size="12" text-anchor="start">27/14 septimal major 7th</text></g>
-
-<line stroke="black" stroke-width="1" x1="0" x2="460" y1="1158.94" y2="1158.94"/>
-
-<g transform="translate(464,1162.94)"><text  fill="black" font-size="12" text-anchor="start">125/64 augmented 7th</text></g>
-
-<line stroke="black" stroke-width="3" x1="0" x2="460" y1="1200" y2="1200"/>
-
-<g transform="translate(464,1206.67)"><text  fill="black" font-size="20" text-anchor="start">2/1 octave</text></g>
-
+<g transform="translate(125 237)">
+<g fill="transparent" stroke="black">
+<g stroke-width="1">
+<path d="M0 21.51 H460"/>
+<path d="M0 41.06 H460"/>
+<path d="M0 70.67 H460"/>
+<path d="M0 92.18 H460"/>
+<path d="M0 111.73 H460"/>
+<path d="M0 133.24 H460"/>
+<path d="M0 294.13 H460"/>
+<path d="M0 407.82 H458.58 L460 404.98"/>
+<path d="M0 427.37 H456.8 L460 420.98"/>
+<path d="M0 456.99 H460"/>
+<path d="M0 568.72 H453 L460 554.72"/>
+<path d="M0 590.22 H460"/>
+<path d="M0 609.78 H460"/>
+<path d="M0 631.28 H453.09 L460 645.11"/>
+<path d="M0 680.45 H460"/>
+<path d="M0 743.01 H460"/>
+<path d="M0 772.63 H460"/>
+<path d="M0 792.18 H460"/>
+<path d="M0 840.53 H460"/>
+<path d="M0 905.87 H460"/>
+<path d="M0 1049.36 H460"/>
+<path d="M0 1088.27 H460"/>
+<path d="M0 1109.78 H460"/>
+<path d="M0 1137.04 H460"/>
+<path d="M0 1158.94 H460"/>
 </g>
-<g font-size="20" text-anchor="left" transform="translate(150 352) rotate(270)">
-<text y="0">12 Tone Equal Temperament</text>
-<text y="30">1/6 Syntonic Comma Meantone</text>
-<text y="60">55 Tone Equal Temperament</text>
-<text y="90">1/6 Pythagorean Comma Meantone</text>
-<text y="120">43 Tone Equal Temperament</text>
-<text y="150">1/5 Syntonic Comma Meantone</text>
-<text y="180">1/5 Pythagorean Comma Meantone</text>
-<text y="210">31 Tone Equal Temperament</text>
-<text y="240">1/4 Syntonic Comma Meantone</text>
-<text y="270">1/4 Pythagorean Comma Meantone</text>
-<text y="300">50 Tone Equal Temperament</text>
-<text y="330">2/7 Syntonic Comma Meantone</text>
-<text y="360">2/7 Pythagorean Comma Meantone</text>
-<text y="390">1/3 Syntonic Comma Meantone</text>
-<text y="420">19 Tone Equal Temperament</text>
+<g stroke-width="2">
+<path d="M0 182.4 H460"/>
+<path d="M0 203.91 H460"/>
+<path d="M0 231.17 H460"/>
+<path d="M0 266.87 H460"/>
+<path d="M0 435.08 H458.55 L460 437.98"/>
+<path d="M0 582.51 H454.94 L460 572.38"/>
+<path d="M0 617.49 H455.02 L460 627.44"/>
+<path d="M0 933.13 H460"/>
+<path d="M0 968.83 H460"/>
+<path d="M0 996.09 H460"/>
+<path d="M0 1017.6 H460"/>
 </g>
-<g stroke="grey" transform="translate(145 372)">
+<g stroke-width="3">
+<path d="M0 0 H460"/>
+<path d="M0 315.64 H460"/>
+<path d="M0 386.31 H460"/>
+<path d="M0 498.04 H460"/>
+<path d="M0 701.96 H460"/>
+<path d="M0 813.69 H460"/>
+<path d="M0 884.36 H460"/>
+<path d="M0 1200 H460"/>
+</g>
+</g>
+<g transform="translate(464 0)">
+<g font-size="12">
+<text y="25.51">81/80 syntonic comma</text>
+<text y="45.06">128/125 diminished 2nd</text>
+<text y="74.67">25/24 chromatic semitone</text>
+<text y="96.18">135/128</text>
+<text y="115.73">16/15 diatonic semitone</text>
+<text y="137.24">27/25</text>
+<text y="298.13">32/27 Pythagorean minor 3rd</text>
+<text y="408.98">81/64 ditone</text>
+<text y="424.98">32/25 diminished 4th</text>
+<text y="460.99">125/96 augmented 3rd</text>
+<text y="558.72">25/18 augmented 4th </text>
+<text y="594.22">45/32 high / diatonic tritone</text>
+<text y="613.78">64/45 low tritone</text>
+<text y="649.11">36/25 diminished 5th</text>
+<text y="684.45">40/27 dissonant "wolf" 5th</text>
+<text y="747.01">192/125 diminished 6th</text>
+<text y="776.63">25/16 augmented 5th</text>
+<text y="796.18">128/81 Pythagorean minor 6th</text>
+<text y="844.53">13/8 overtone 6th</text>
+<text y="909.87">27/16 Pythagorean major 6th</text>
+<text y="1053.36">11/6 undecimal "median" 7th</text>
+<text y="1092.27">15/8 major 7th</text>
+<text y="1113.78">243/128 Pythagorean major 7th</text>
+<text y="1141.04">27/14 septimal major 7th</text>
+<text y="1162.94">125/64 augmented 7th</text>
+</g>
+<g font-size="15">
+<text y="187.4">10/9 minor 2nd</text>
+<text y="208.91">9/8 major 2nd</text>
+<text y="442.98">9/7 septimal major 3rd</text>
+<text y="1001.09">16/9 Pythagorean small min. 7th</text>
+<text y="1022.6">9/5 large minor 7th</text>
+</g>
+<g font-size="17">
+<text y="236.84">8/7 septimal major 2nd</text>
+<text y="272.54">7/6 septimal minor 3rd</text>
+<text y="578.05">7/5 septimal tritone</text>
+<text y="633.11">10/7 septimal tritone</text>
+<text y="938.8">12/7 septimal major 6th</text>
+<text y="974.49">7/4 septimal minor 7th</text>
+</g>
+<g font-size="20">
+<text y="6.67">1/1 tonic</text>
+<text y="322.31">6/5 minor 3rd</text>
+<text y="392.98">5/4 major 3rd</text>
+<text y="504.71">4/3 major 4th</text>
+<text y="708.62">3/2 perfect 5th</text>
+<text y="820.35">8/5 minor 6th</text>
+<text y="891.03">5/3 major 6th</text>
+<text y="1206.67">2/1 octave</text>
+</g>
+</g>
+<g stroke="lightgrey" stroke-dasharray="3 3">
+<path d="M0 100 H460"/>
+<path d="M0 200 H460"/>
+<path d="M0 300 H460"/>
+<path d="M0 400 H460"/>
+<path d="M0 500 H460"/>
+<path d="M0 600 H460"/>
+<path d="M0 700 H460"/>
+<path d="M0 800 H460"/>
+<path d="M0 900 H460"/>
+<path d="M0 1000 H460"/>
+<path d="M0 1100 H460"/>
+</g>
+</g>
+<g font-size="20" text-anchor="left" transform="translate(150 217) rotate(270)">
+<text y="0">12-TET</text>
+<text y="30">1/6 SC Meantone</text>
+<text y="60">55-TET</text>
+<text y="90">1/6 PC Meantone</text>
+<text y="120">43-TET</text>
+<text y="150">1/5 SC Meantone</text>
+<text y="180">1/5 PC Meantone</text>
+<text y="210">31-TET</text>
+<text y="240">1/4 SC Meantone</text>
+<text y="270">1/4 PC Meantone</text>
+<text y="300">50-TET</text>
+<text y="330">2/7 SC Meantone</text>
+<text y="360">2/7 PC Meantone</text>
+<text y="390">1/3 SC Meantone</text>
+<text y="420">19-TET</text>
+</g>
+<g transform="translate(145 237)">
+<g stroke="grey">
 <path d="M0 0 V1200"/>
 <path d="M30 0 V1200"/>
 <path d="M60 0 V1200"/>
@@ -546,47 +472,25 @@ width="810" height="1618"
 <path d="M390 0 V1200"/>
 <path d="M420 0 V1200"/>
 </g>
-<g fill="black">
-<g transform="translate(145 372)">
-</g>
-<g transform="translate(175 372)">
-</g>
-<g transform="translate(205 372)">
-</g>
-<g transform="translate(235 372)">
-</g>
-<g transform="translate(265 372)">
-</g>
-<g transform="translate(295 372)">
-</g>
-<g transform="translate(325 372)">
-</g>
-<g transform="translate(355 372)">
-</g>
-<g transform="translate(385 372)">
-</g>
-<g transform="translate(415 372)">
-</g>
-<g transform="translate(445 372)">
-</g>
-<g transform="translate(475 372)">
-</g>
-<g transform="translate(505 372)">
-</g>
-<g transform="translate(535 372)">
-</g>
-<g transform="translate(565 372)">
-</g>
-</g>
 <g fill="#404040">
-<g transform="translate(145 372)">
 <circle cy="100" r="11.5"/>
 <circle cy="300" r="11.5"/>
 <circle cy="600" r="11.5"/>
 <circle cy="800" r="11.5"/>
 <circle cy="1000" r="11.5"/>
 </g>
-<g transform="translate(175 372)">
+<g fill="#2020ff">
+<circle cy="0" r="11.5"/>
+<circle cy="1200" r="11.5"/>
+<circle cy="200" r="11.5"/>
+<circle cy="400" r="11.5"/>
+<circle cy="500" r="11.5"/>
+<circle cy="700" r="11.5"/>
+<circle cy="900" r="11.5"/>
+<circle cy="1100" r="11.5"/>
+</g>
+<g transform="translate(30 0)">
+<g fill="#404040">
 <circle cy="88.59" r="11.5"/>
 <circle cy="108.15" r="11.5"/>
 <circle cy="285.34" r="11.5"/>
@@ -602,7 +506,19 @@ width="810" height="1618"
 <circle cy="1111.41" r="11.5"/>
 <circle cy="1180.45" r="11.5"/>
 </g>
-<g transform="translate(205 372)">
+<g fill="#2020ff">
+<circle cy="0" r="11.5"/>
+<circle cy="1200" r="11.5"/>
+<circle cy="196.74" r="11.5"/>
+<circle cy="393.48" r="11.5"/>
+<circle cy="501.63" r="11.5"/>
+<circle cy="698.37" r="11.5"/>
+<circle cy="895.11" r="11.5"/>
+<circle cy="1091.85" r="11.5"/>
+</g>
+</g>
+<g transform="translate(60 0)">
+<g fill="#404040">
 <circle cy="87.27" r="11.5"/>
 <circle cy="109.09" r="11.5"/>
 <circle cy="283.64" r="11.5"/>
@@ -618,7 +534,19 @@ width="810" height="1618"
 <circle cy="1112.73" r="11.5"/>
 <circle cy="1178.18" r="11.5"/>
 </g>
-<g transform="translate(235 372)">
+<g fill="#2020ff">
+<circle cy="0" r="11.5"/>
+<circle cy="1200" r="11.5"/>
+<circle cy="196.36" r="11.5"/>
+<circle cy="392.73" r="11.5"/>
+<circle cy="501.82" r="11.5"/>
+<circle cy="698.18" r="11.5"/>
+<circle cy="894.55" r="11.5"/>
+<circle cy="1090.91" r="11.5"/>
+</g>
+</g>
+<g transform="translate(90 0)">
+<g fill="#404040">
 <circle cy="86.31" r="11.5"/>
 <circle cy="109.78" r="11.5"/>
 <circle cy="282.4" r="11.5"/>
@@ -634,7 +562,19 @@ width="810" height="1618"
 <circle cy="1113.69" r="11.5"/>
 <circle cy="1176.54" r="11.5"/>
 </g>
-<g transform="translate(265 372)">
+<g fill="#2020ff">
+<circle cy="0" r="11.5"/>
+<circle cy="1200" r="11.5"/>
+<circle cy="196.09" r="11.5"/>
+<circle cy="392.18" r="11.5"/>
+<circle cy="501.96" r="11.5"/>
+<circle cy="698.04" r="11.5"/>
+<circle cy="894.13" r="11.5"/>
+<circle cy="1090.22" r="11.5"/>
+</g>
+</g>
+<g transform="translate(120 0)">
+<g fill="#404040">
 <circle cy="83.72" r="11.5"/>
 <circle cy="111.63" r="11.5"/>
 <circle cy="279.07" r="11.5"/>
@@ -650,7 +590,19 @@ width="810" height="1618"
 <circle cy="1116.28" r="11.5"/>
 <circle cy="1172.09" r="11.5"/>
 </g>
-<g transform="translate(295 372)">
+<g fill="#2020ff">
+<circle cy="0" r="11.5"/>
+<circle cy="1200" r="11.5"/>
+<circle cy="195.35" r="11.5"/>
+<circle cy="390.7" r="11.5"/>
+<circle cy="502.33" r="11.5"/>
+<circle cy="697.67" r="11.5"/>
+<circle cy="893.02" r="11.5"/>
+<circle cy="1088.37" r="11.5"/>
+</g>
+</g>
+<g transform="translate(150 0)">
+<g fill="#404040">
 <circle cy="83.58" r="11.5"/>
 <circle cy="111.73" r="11.5"/>
 <circle cy="278.88" r="11.5"/>
@@ -666,7 +618,19 @@ width="810" height="1618"
 <circle cy="1116.42" r="11.5"/>
 <circle cy="1171.84" r="11.5"/>
 </g>
-<g transform="translate(325 372)">
+<g fill="#2020ff">
+<circle cy="0" r="11.5"/>
+<circle cy="1200" r="11.5"/>
+<circle cy="195.31" r="11.5"/>
+<circle cy="390.61" r="11.5"/>
+<circle cy="502.35" r="11.5"/>
+<circle cy="697.65" r="11.5"/>
+<circle cy="892.96" r="11.5"/>
+<circle cy="1088.27" r="11.5"/>
+</g>
+</g>
+<g transform="translate(180 0)">
+<g fill="#404040">
 <circle cy="80.84" r="11.5"/>
 <circle cy="113.69" r="11.5"/>
 <circle cy="275.37" r="11.5"/>
@@ -682,7 +646,19 @@ width="810" height="1618"
 <circle cy="1119.16" r="11.5"/>
 <circle cy="1167.16" r="11.5"/>
 </g>
-<g transform="translate(355 372)">
+<g fill="#2020ff">
+<circle cy="0" r="11.5"/>
+<circle cy="1200" r="11.5"/>
+<circle cy="194.53" r="11.5"/>
+<circle cy="389.05" r="11.5"/>
+<circle cy="502.74" r="11.5"/>
+<circle cy="697.26" r="11.5"/>
+<circle cy="891.79" r="11.5"/>
+<circle cy="1086.31" r="11.5"/>
+</g>
+</g>
+<g transform="translate(210 0)">
+<g fill="#404040">
 <circle cy="77.42" r="11.5"/>
 <circle cy="116.13" r="11.5"/>
 <circle cy="270.97" r="11.5"/>
@@ -698,7 +674,19 @@ width="810" height="1618"
 <circle cy="1122.58" r="11.5"/>
 <circle cy="1161.29" r="11.5"/>
 </g>
-<g transform="translate(385 372)">
+<g fill="#2020ff">
+<circle cy="0" r="11.5"/>
+<circle cy="1200" r="11.5"/>
+<circle cy="193.55" r="11.5"/>
+<circle cy="387.1" r="11.5"/>
+<circle cy="503.23" r="11.5"/>
+<circle cy="696.77" r="11.5"/>
+<circle cy="890.32" r="11.5"/>
+<circle cy="1083.87" r="11.5"/>
+</g>
+</g>
+<g transform="translate(240 0)">
+<g fill="#404040">
 <circle cy="76.05" r="11.5"/>
 <circle cy="117.11" r="11.5"/>
 <circle cy="269.21" r="11.5"/>
@@ -714,7 +702,19 @@ width="810" height="1618"
 <circle cy="1123.95" r="11.5"/>
 <circle cy="1158.94" r="11.5"/>
 </g>
-<g transform="translate(415 372)">
+<g fill="#2020ff">
+<circle cy="0" r="11.5"/>
+<circle cy="1200" r="11.5"/>
+<circle cy="193.16" r="11.5"/>
+<circle cy="386.31" r="11.5"/>
+<circle cy="503.42" r="11.5"/>
+<circle cy="696.58" r="11.5"/>
+<circle cy="889.74" r="11.5"/>
+<circle cy="1082.89" r="11.5"/>
+</g>
+</g>
+<g transform="translate(270 0)">
+<g fill="#404040">
 <circle cy="72.63" r="11.5"/>
 <circle cy="119.55" r="11.5"/>
 <circle cy="264.81" r="11.5"/>
@@ -730,7 +730,19 @@ width="810" height="1618"
 <circle cy="1127.37" r="11.5"/>
 <circle cy="1153.08" r="11.5"/>
 </g>
-<g transform="translate(445 372)">
+<g fill="#2020ff">
+<circle cy="0" r="11.5"/>
+<circle cy="1200" r="11.5"/>
+<circle cy="192.18" r="11.5"/>
+<circle cy="384.36" r="11.5"/>
+<circle cy="503.91" r="11.5"/>
+<circle cy="696.09" r="11.5"/>
+<circle cy="888.27" r="11.5"/>
+<circle cy="1080.45" r="11.5"/>
+</g>
+</g>
+<g transform="translate(300 0)">
+<g fill="#404040">
 <circle cy="72" r="11.5"/>
 <circle cy="120" r="11.5"/>
 <circle cy="264" r="11.5"/>
@@ -746,7 +758,19 @@ width="810" height="1618"
 <circle cy="1128" r="11.5"/>
 <circle cy="1152" r="11.5"/>
 </g>
-<g transform="translate(475 372)">
+<g fill="#2020ff">
+<circle cy="0" r="11.5"/>
+<circle cy="1200" r="11.5"/>
+<circle cy="192" r="11.5"/>
+<circle cy="384" r="11.5"/>
+<circle cy="504" r="11.5"/>
+<circle cy="696" r="11.5"/>
+<circle cy="888" r="11.5"/>
+<circle cy="1080" r="11.5"/>
+</g>
+</g>
+<g transform="translate(330 0)">
+<g fill="#404040">
 <circle cy="70.67" r="11.5"/>
 <circle cy="120.95" r="11.5"/>
 <circle cy="262.29" r="11.5"/>
@@ -762,7 +786,19 @@ width="810" height="1618"
 <circle cy="1129.33" r="11.5"/>
 <circle cy="1149.72" r="11.5"/>
 </g>
-<g transform="translate(505 372)">
+<g fill="#2020ff">
+<circle cy="0" r="11.5"/>
+<circle cy="1200" r="11.5"/>
+<circle cy="191.62" r="11.5"/>
+<circle cy="383.24" r="11.5"/>
+<circle cy="504.19" r="11.5"/>
+<circle cy="695.81" r="11.5"/>
+<circle cy="887.43" r="11.5"/>
+<circle cy="1079.05" r="11.5"/>
+</g>
+</g>
+<g transform="translate(360 0)">
+<g fill="#404040">
 <circle cy="66.76" r="11.5"/>
 <circle cy="123.74" r="11.5"/>
 <circle cy="257.27" r="11.5"/>
@@ -778,7 +814,19 @@ width="810" height="1618"
 <circle cy="1133.24" r="11.5"/>
 <circle cy="1143.03" r="11.5"/>
 </g>
-<g transform="translate(535 372)">
+<g fill="#2020ff">
+<circle cy="0" r="11.5"/>
+<circle cy="1200" r="11.5"/>
+<circle cy="190.5" r="11.5"/>
+<circle cy="381.01" r="11.5"/>
+<circle cy="504.75" r="11.5"/>
+<circle cy="695.25" r="11.5"/>
+<circle cy="885.76" r="11.5"/>
+<circle cy="1076.26" r="11.5"/>
+</g>
+</g>
+<g transform="translate(390 0)">
+<g fill="#404040">
 <circle cy="63.5" r="11.5"/>
 <circle cy="126.07" r="11.5"/>
 <circle cy="253.08" r="11.5"/>
@@ -794,7 +842,19 @@ width="810" height="1618"
 <circle cy="1136.5" r="11.5"/>
 <circle cy="1137.43" r="11.5"/>
 </g>
-<g transform="translate(565 372)">
+<g fill="#2020ff">
+<circle cy="0" r="11.5"/>
+<circle cy="1200" r="11.5"/>
+<circle cy="189.57" r="11.5"/>
+<circle cy="379.14" r="11.5"/>
+<circle cy="505.21" r="11.5"/>
+<circle cy="694.79" r="11.5"/>
+<circle cy="884.36" r="11.5"/>
+<circle cy="1073.93" r="11.5"/>
+</g>
+</g>
+<g transform="translate(420 0)">
+<g fill="#404040">
 <circle cy="63.16" r="11.5"/>
 <circle cy="126.32" r="11.5"/>
 <circle cy="252.63" r="11.5"/>
@@ -808,149 +868,7 @@ width="810" height="1618"
 <circle cy="1010.53" r="11.5"/>
 <circle cy="1136.84" r="11.5"/>
 </g>
-</g>
-<g fill="blue">
-<g transform="translate(145 372)">
-<circle cy="0" r="11.5"/>
-<circle cy="1200" r="11.5"/>
-<circle cy="200" r="11.5"/>
-<circle cy="400" r="11.5"/>
-<circle cy="500" r="11.5"/>
-<circle cy="700" r="11.5"/>
-<circle cy="900" r="11.5"/>
-<circle cy="1100" r="11.5"/>
-</g>
-<g transform="translate(175 372)">
-<circle cy="0" r="11.5"/>
-<circle cy="1200" r="11.5"/>
-<circle cy="196.74" r="11.5"/>
-<circle cy="393.48" r="11.5"/>
-<circle cy="501.63" r="11.5"/>
-<circle cy="698.37" r="11.5"/>
-<circle cy="895.11" r="11.5"/>
-<circle cy="1091.85" r="11.5"/>
-</g>
-<g transform="translate(205 372)">
-<circle cy="0" r="11.5"/>
-<circle cy="1200" r="11.5"/>
-<circle cy="196.36" r="11.5"/>
-<circle cy="392.73" r="11.5"/>
-<circle cy="501.82" r="11.5"/>
-<circle cy="698.18" r="11.5"/>
-<circle cy="894.55" r="11.5"/>
-<circle cy="1090.91" r="11.5"/>
-</g>
-<g transform="translate(235 372)">
-<circle cy="0" r="11.5"/>
-<circle cy="1200" r="11.5"/>
-<circle cy="196.09" r="11.5"/>
-<circle cy="392.18" r="11.5"/>
-<circle cy="501.96" r="11.5"/>
-<circle cy="698.04" r="11.5"/>
-<circle cy="894.13" r="11.5"/>
-<circle cy="1090.22" r="11.5"/>
-</g>
-<g transform="translate(265 372)">
-<circle cy="0" r="11.5"/>
-<circle cy="1200" r="11.5"/>
-<circle cy="195.35" r="11.5"/>
-<circle cy="390.7" r="11.5"/>
-<circle cy="502.33" r="11.5"/>
-<circle cy="697.67" r="11.5"/>
-<circle cy="893.02" r="11.5"/>
-<circle cy="1088.37" r="11.5"/>
-</g>
-<g transform="translate(295 372)">
-<circle cy="0" r="11.5"/>
-<circle cy="1200" r="11.5"/>
-<circle cy="195.31" r="11.5"/>
-<circle cy="390.61" r="11.5"/>
-<circle cy="502.35" r="11.5"/>
-<circle cy="697.65" r="11.5"/>
-<circle cy="892.96" r="11.5"/>
-<circle cy="1088.27" r="11.5"/>
-</g>
-<g transform="translate(325 372)">
-<circle cy="0" r="11.5"/>
-<circle cy="1200" r="11.5"/>
-<circle cy="194.53" r="11.5"/>
-<circle cy="389.05" r="11.5"/>
-<circle cy="502.74" r="11.5"/>
-<circle cy="697.26" r="11.5"/>
-<circle cy="891.79" r="11.5"/>
-<circle cy="1086.31" r="11.5"/>
-</g>
-<g transform="translate(355 372)">
-<circle cy="0" r="11.5"/>
-<circle cy="1200" r="11.5"/>
-<circle cy="193.55" r="11.5"/>
-<circle cy="387.1" r="11.5"/>
-<circle cy="503.23" r="11.5"/>
-<circle cy="696.77" r="11.5"/>
-<circle cy="890.32" r="11.5"/>
-<circle cy="1083.87" r="11.5"/>
-</g>
-<g transform="translate(385 372)">
-<circle cy="0" r="11.5"/>
-<circle cy="1200" r="11.5"/>
-<circle cy="193.16" r="11.5"/>
-<circle cy="386.31" r="11.5"/>
-<circle cy="503.42" r="11.5"/>
-<circle cy="696.58" r="11.5"/>
-<circle cy="889.74" r="11.5"/>
-<circle cy="1082.89" r="11.5"/>
-</g>
-<g transform="translate(415 372)">
-<circle cy="0" r="11.5"/>
-<circle cy="1200" r="11.5"/>
-<circle cy="192.18" r="11.5"/>
-<circle cy="384.36" r="11.5"/>
-<circle cy="503.91" r="11.5"/>
-<circle cy="696.09" r="11.5"/>
-<circle cy="888.27" r="11.5"/>
-<circle cy="1080.45" r="11.5"/>
-</g>
-<g transform="translate(445 372)">
-<circle cy="0" r="11.5"/>
-<circle cy="1200" r="11.5"/>
-<circle cy="192" r="11.5"/>
-<circle cy="384" r="11.5"/>
-<circle cy="504" r="11.5"/>
-<circle cy="696" r="11.5"/>
-<circle cy="888" r="11.5"/>
-<circle cy="1080" r="11.5"/>
-</g>
-<g transform="translate(475 372)">
-<circle cy="0" r="11.5"/>
-<circle cy="1200" r="11.5"/>
-<circle cy="191.62" r="11.5"/>
-<circle cy="383.24" r="11.5"/>
-<circle cy="504.19" r="11.5"/>
-<circle cy="695.81" r="11.5"/>
-<circle cy="887.43" r="11.5"/>
-<circle cy="1079.05" r="11.5"/>
-</g>
-<g transform="translate(505 372)">
-<circle cy="0" r="11.5"/>
-<circle cy="1200" r="11.5"/>
-<circle cy="190.5" r="11.5"/>
-<circle cy="381.01" r="11.5"/>
-<circle cy="504.75" r="11.5"/>
-<circle cy="695.25" r="11.5"/>
-<circle cy="885.76" r="11.5"/>
-<circle cy="1076.26" r="11.5"/>
-</g>
-<g transform="translate(535 372)">
-<circle cy="0" r="11.5"/>
-<circle cy="1200" r="11.5"/>
-<circle cy="189.57" r="11.5"/>
-<circle cy="379.14" r="11.5"/>
-<circle cy="505.21" r="11.5"/>
-<circle cy="694.79" r="11.5"/>
-<circle cy="884.36" r="11.5"/>
-<circle cy="1073.93" r="11.5"/>
-</g>
-<g transform="translate(565 372)">
+<g fill="#2020ff">
 <circle cy="0" r="11.5"/>
 <circle cy="1200" r="11.5"/>
 <circle cy="189.47" r="11.5"/>
@@ -962,365 +880,426 @@ width="810" height="1618"
 </g>
 </g>
 <g fill="white" text-anchor="middle">
-<g transform="translate(145 372)">
-<text font-size="14" y="4.67">C</text>
-<text font-size="14" y="1204.67">C</text>
-<text font-size="10" y="98.33">C♯</text>
-<text font-size="10" y="108.33">D♭</text>
-<text font-size="14" y="204.67">D</text>
-<text font-size="10" y="298.33">D♯</text>
-<text font-size="10" y="308.33">E♭</text>
-<text font-size="14" y="404.67">E</text>
-<text font-size="14" y="504.67">F</text>
-<text font-size="10" y="598.33">F♯</text>
-<text font-size="10" y="608.33">G♭</text>
-<text font-size="14" y="704.67">G</text>
-<text font-size="10" y="798.33">G♯</text>
-<text font-size="10" y="808.33">A♭</text>
-<text font-size="14" y="904.67">A</text>
-<text font-size="10" y="998.33">A♯</text>
-<text font-size="10" y="1008.33">B♭</text>
-<text font-size="14" y="1104.67">B</text>
+<g font-size="10">
+<text y="98.33">C♯</text>
+<text y="108.33">D♭</text>
+<text y="298.33">D♯</text>
+<text y="308.33">E♭</text>
+<text y="598.33">F♯</text>
+<text y="608.33">G♭</text>
+<text y="798.33">G♯</text>
+<text y="808.33">A♭</text>
+<text y="998.33">A♯</text>
+<text y="1008.33">B♭</text>
 </g>
-<g transform="translate(175 372)">
-<text font-size="14" y="4.67">C</text>
-<text font-size="14" y="1204.67">C</text>
-<text font-size="12" y="92.59">C♯</text>
-<text font-size="12" y="112.15">D♭</text>
-<text font-size="14" y="201.41">D</text>
-<text font-size="12" y="289.34">D♯</text>
-<text font-size="12" y="308.89">E♭</text>
-<text font-size="14" y="398.15">E</text>
-<text font-size="12" y="417.04">F♭</text>
-<text font-size="12" y="486.08">E♯</text>
-<text font-size="14" y="506.3">F</text>
-<text font-size="12" y="594.22">F♯</text>
-<text font-size="12" y="613.78">G♭</text>
-<text font-size="14" y="703.04">G</text>
-<text font-size="12" y="790.96">G♯</text>
-<text font-size="12" y="810.52">A♭</text>
-<text font-size="14" y="899.78">A</text>
-<text font-size="12" y="987.71">A♯</text>
-<text font-size="12" y="1007.26">B♭</text>
-<text font-size="14" y="1096.52">B</text>
-<text font-size="12" y="1115.41">C♭</text>
-<text font-size="12" y="1184.45">B♯</text>
+<g font-size="14">
+<text y="4.67">C</text>
+<text y="1204.67">C</text>
+<text y="204.67">D</text>
+<text y="404.67">E</text>
+<text y="504.67">F</text>
+<text y="704.67">G</text>
+<text y="904.67">A</text>
+<text y="1104.67">B</text>
 </g>
-<g transform="translate(205 372)">
-<text font-size="14" y="4.67">C</text>
-<text font-size="14" y="1204.67">C</text>
-<text font-size="12" y="91.27">C♯</text>
-<text font-size="12" y="113.09">D♭</text>
-<text font-size="14" y="201.03">D</text>
-<text font-size="12" y="287.64">D♯</text>
-<text font-size="12" y="309.45">E♭</text>
-<text font-size="14" y="397.39">E</text>
-<text font-size="12" y="418.55">F♭</text>
-<text font-size="12" y="484">E♯</text>
-<text font-size="14" y="506.48">F</text>
-<text font-size="12" y="593.09">F♯</text>
-<text font-size="12" y="614.91">G♭</text>
-<text font-size="14" y="702.85">G</text>
-<text font-size="12" y="789.45">G♯</text>
-<text font-size="12" y="811.27">A♭</text>
-<text font-size="14" y="899.21">A</text>
-<text font-size="12" y="985.82">A♯</text>
-<text font-size="12" y="1007.64">B♭</text>
-<text font-size="14" y="1095.58">B</text>
-<text font-size="12" y="1116.73">C♭</text>
-<text font-size="12" y="1182.18">B♯</text>
+<g transform="translate(30 0)">
+<g font-size="12">
+<text y="92.59">C♯</text>
+<text y="112.15">D♭</text>
+<text y="289.34">D♯</text>
+<text y="308.89">E♭</text>
+<text y="417.04">F♭</text>
+<text y="486.08">E♯</text>
+<text y="594.22">F♯</text>
+<text y="613.78">G♭</text>
+<text y="790.96">G♯</text>
+<text y="810.52">A♭</text>
+<text y="987.71">A♯</text>
+<text y="1007.26">B♭</text>
+<text y="1115.41">C♭</text>
+<text y="1184.45">B♯</text>
 </g>
-<g transform="translate(235 372)">
-<text font-size="14" y="4.67">C</text>
-<text font-size="14" y="1204.67">C</text>
-<text font-size="12" y="90.31">C♯</text>
-<text font-size="12" y="113.78">D♭</text>
-<text font-size="14" y="200.76">D</text>
-<text font-size="12" y="286.4">D♯</text>
-<text font-size="12" y="309.87">E♭</text>
-<text font-size="14" y="396.85">E</text>
-<text font-size="12" y="419.64">F♭</text>
-<text font-size="12" y="482.49">E♯</text>
-<text font-size="14" y="506.62">F</text>
-<text font-size="12" y="592.27">F♯</text>
-<text font-size="12" y="615.73">G♭</text>
-<text font-size="14" y="702.71">G</text>
-<text font-size="12" y="788.36">G♯</text>
-<text font-size="12" y="811.82">A♭</text>
-<text font-size="14" y="898.8">A</text>
-<text font-size="12" y="984.45">A♯</text>
-<text font-size="12" y="1007.91">B♭</text>
-<text font-size="14" y="1094.89">B</text>
-<text font-size="12" y="1117.69">C♭</text>
-<text font-size="12" y="1180.54">B♯</text>
+<g font-size="14">
+<text y="4.67">C</text>
+<text y="1204.67">C</text>
+<text y="201.41">D</text>
+<text y="398.15">E</text>
+<text y="506.3">F</text>
+<text y="703.04">G</text>
+<text y="899.78">A</text>
+<text y="1096.52">B</text>
 </g>
-<g transform="translate(265 372)">
-<text font-size="14" y="4.67">C</text>
-<text font-size="14" y="1204.67">C</text>
-<text font-size="12" y="87.72">C♯</text>
-<text font-size="12" y="115.63">D♭</text>
-<text font-size="14" y="200.02">D</text>
-<text font-size="12" y="283.07">D♯</text>
-<text font-size="12" y="310.98">E♭</text>
-<text font-size="14" y="395.36">E</text>
-<text font-size="12" y="422.6">F♭</text>
-<text font-size="12" y="478.42">E♯</text>
-<text font-size="14" y="506.99">F</text>
-<text font-size="12" y="590.05">F♯</text>
-<text font-size="12" y="617.95">G♭</text>
-<text font-size="14" y="702.34">G</text>
-<text font-size="12" y="785.4">G♯</text>
-<text font-size="12" y="813.3">A♭</text>
-<text font-size="14" y="897.69">A</text>
-<text font-size="12" y="980.74">A♯</text>
-<text font-size="12" y="1008.65">B♭</text>
-<text font-size="14" y="1093.04">B</text>
-<text font-size="12" y="1120.28">C♭</text>
-<text font-size="12" y="1176.09">B♯</text>
 </g>
-<g transform="translate(295 372)">
-<text font-size="14" y="4.67">C</text>
-<text font-size="14" y="1204.67">C</text>
-<text font-size="12" y="87.58">C♯</text>
-<text font-size="12" y="115.73">D♭</text>
-<text font-size="14" y="199.97">D</text>
-<text font-size="12" y="282.88">D♯</text>
-<text font-size="12" y="311.04">E♭</text>
-<text font-size="14" y="395.28">E</text>
-<text font-size="12" y="422.77">F♭</text>
-<text font-size="12" y="478.19">E♯</text>
-<text font-size="14" y="507.01">F</text>
-<text font-size="12" y="589.92">F♯</text>
-<text font-size="12" y="618.08">G♭</text>
-<text font-size="14" y="702.32">G</text>
-<text font-size="12" y="785.23">G♯</text>
-<text font-size="12" y="813.39">A♭</text>
-<text font-size="14" y="897.63">A</text>
-<text font-size="12" y="980.54">A♯</text>
-<text font-size="12" y="1008.69">B♭</text>
-<text font-size="14" y="1092.94">B</text>
-<text font-size="12" y="1120.42">C♭</text>
-<text font-size="12" y="1175.84">B♯</text>
+<g transform="translate(60 0)">
+<g font-size="12">
+<text y="91.27">C♯</text>
+<text y="113.09">D♭</text>
+<text y="287.64">D♯</text>
+<text y="309.45">E♭</text>
+<text y="418.55">F♭</text>
+<text y="484">E♯</text>
+<text y="593.09">F♯</text>
+<text y="614.91">G♭</text>
+<text y="789.45">G♯</text>
+<text y="811.27">A♭</text>
+<text y="985.82">A♯</text>
+<text y="1007.64">B♭</text>
+<text y="1116.73">C♭</text>
+<text y="1182.18">B♯</text>
 </g>
-<g transform="translate(325 372)">
-<text font-size="14" y="4.67">C</text>
-<text font-size="14" y="1204.67">C</text>
-<text font-size="12" y="84.84">C♯</text>
-<text font-size="12" y="117.69">D♭</text>
-<text font-size="14" y="199.19">D</text>
-<text font-size="12" y="279.37">D♯</text>
-<text font-size="12" y="312.21">E♭</text>
-<text font-size="14" y="393.72">E</text>
-<text font-size="12" y="425.9">F♭</text>
-<text font-size="12" y="473.89">E♯</text>
-<text font-size="14" y="507.4">F</text>
-<text font-size="12" y="587.58">F♯</text>
-<text font-size="12" y="620.42">G♭</text>
-<text font-size="14" y="701.93">G</text>
-<text font-size="12" y="782.1">G♯</text>
-<text font-size="12" y="814.95">A♭</text>
-<text font-size="14" y="896.46">A</text>
-<text font-size="12" y="976.63">A♯</text>
-<text font-size="12" y="1009.47">B♭</text>
-<text font-size="14" y="1090.98">B</text>
-<text font-size="12" y="1123.16">C♭</text>
-<text font-size="12" y="1171.16">B♯</text>
+<g font-size="14">
+<text y="4.67">C</text>
+<text y="1204.67">C</text>
+<text y="201.03">D</text>
+<text y="397.39">E</text>
+<text y="506.48">F</text>
+<text y="702.85">G</text>
+<text y="899.21">A</text>
+<text y="1095.58">B</text>
 </g>
-<g transform="translate(355 372)">
-<text font-size="14" y="4.67">C</text>
-<text font-size="14" y="1204.67">C</text>
-<text font-size="12" y="81.42">C♯</text>
-<text font-size="12" y="120.13">D♭</text>
-<text font-size="14" y="198.22">D</text>
-<text font-size="12" y="274.97">D♯</text>
-<text font-size="12" y="313.68">E♭</text>
-<text font-size="14" y="391.76">E</text>
-<text font-size="12" y="429.81">F♭</text>
-<text font-size="12" y="468.52">E♯</text>
-<text font-size="14" y="507.89">F</text>
-<text font-size="12" y="584.65">F♯</text>
-<text font-size="12" y="623.35">G♭</text>
-<text font-size="14" y="701.44">G</text>
-<text font-size="12" y="778.19">G♯</text>
-<text font-size="12" y="816.9">A♭</text>
-<text font-size="14" y="894.99">A</text>
-<text font-size="12" y="971.74">A♯</text>
-<text font-size="12" y="1010.45">B♭</text>
-<text font-size="14" y="1088.54">B</text>
-<text font-size="12" y="1126.58">C♭</text>
-<text font-size="12" y="1165.29">B♯</text>
 </g>
-<g transform="translate(385 372)">
-<text font-size="14" y="4.67">C</text>
-<text font-size="14" y="1204.67">C</text>
-<text font-size="12" y="80.05">C♯</text>
-<text font-size="12" y="121.11">D♭</text>
-<text font-size="14" y="197.82">D</text>
-<text font-size="12" y="273.21">D♯</text>
-<text font-size="12" y="314.26">E♭</text>
-<text font-size="14" y="390.98">E</text>
-<text font-size="12" y="431.37">F♭</text>
-<text font-size="12" y="466.36">E♯</text>
-<text font-size="14" y="508.09">F</text>
-<text font-size="12" y="583.47">F♯</text>
-<text font-size="12" y="624.53">G♭</text>
-<text font-size="14" y="701.25">G</text>
-<text font-size="12" y="776.63">G♯</text>
-<text font-size="12" y="817.69">A♭</text>
-<text font-size="14" y="894.4">A</text>
-<text font-size="12" y="969.78">A♯</text>
-<text font-size="12" y="1010.84">B♭</text>
-<text font-size="14" y="1087.56">B</text>
-<text font-size="12" y="1127.95">C♭</text>
-<text font-size="12" y="1162.94">B♯</text>
+<g transform="translate(90 0)">
+<g font-size="12">
+<text y="90.31">C♯</text>
+<text y="113.78">D♭</text>
+<text y="286.4">D♯</text>
+<text y="309.87">E♭</text>
+<text y="419.64">F♭</text>
+<text y="482.49">E♯</text>
+<text y="592.27">F♯</text>
+<text y="615.73">G♭</text>
+<text y="788.36">G♯</text>
+<text y="811.82">A♭</text>
+<text y="984.45">A♯</text>
+<text y="1007.91">B♭</text>
+<text y="1117.69">C♭</text>
+<text y="1180.54">B♯</text>
 </g>
-<g transform="translate(415 372)">
-<text font-size="14" y="4.67">C</text>
-<text font-size="14" y="1204.67">C</text>
-<text font-size="12" y="76.63">C♯</text>
-<text font-size="12" y="123.55">D♭</text>
-<text font-size="14" y="196.85">D</text>
-<text font-size="12" y="268.81">D♯</text>
-<text font-size="12" y="315.73">E♭</text>
-<text font-size="14" y="389.03">E</text>
-<text font-size="12" y="435.28">F♭</text>
-<text font-size="12" y="460.99">E♯</text>
-<text font-size="14" y="508.58">F</text>
-<text font-size="12" y="580.54">F♯</text>
-<text font-size="12" y="627.46">G♭</text>
-<text font-size="14" y="700.76">G</text>
-<text font-size="12" y="772.72">G♯</text>
-<text font-size="12" y="819.64">A♭</text>
-<text font-size="14" y="892.94">A</text>
-<text font-size="12" y="964.9">A♯</text>
-<text font-size="12" y="1011.82">B♭</text>
-<text font-size="14" y="1085.12">B</text>
-<text font-size="12" y="1131.37">C♭</text>
-<text font-size="12" y="1157.08">B♯</text>
+<g font-size="14">
+<text y="4.67">C</text>
+<text y="1204.67">C</text>
+<text y="200.76">D</text>
+<text y="396.85">E</text>
+<text y="506.62">F</text>
+<text y="702.71">G</text>
+<text y="898.8">A</text>
+<text y="1094.89">B</text>
 </g>
-<g transform="translate(445 372)">
-<text font-size="14" y="4.67">C</text>
-<text font-size="14" y="1204.67">C</text>
-<text font-size="12" y="76">C♯</text>
-<text font-size="12" y="124">D♭</text>
-<text font-size="14" y="196.67">D</text>
-<text font-size="12" y="268">D♯</text>
-<text font-size="12" y="316">E♭</text>
-<text font-size="14" y="388.67">E</text>
-<text font-size="12" y="436">F♭</text>
-<text font-size="12" y="460">E♯</text>
-<text font-size="14" y="508.67">F</text>
-<text font-size="12" y="580">F♯</text>
-<text font-size="12" y="628">G♭</text>
-<text font-size="14" y="700.67">G</text>
-<text font-size="12" y="772">G♯</text>
-<text font-size="12" y="820">A♭</text>
-<text font-size="14" y="892.67">A</text>
-<text font-size="12" y="964">A♯</text>
-<text font-size="12" y="1012">B♭</text>
-<text font-size="14" y="1084.67">B</text>
-<text font-size="12" y="1132">C♭</text>
-<text font-size="12" y="1156">B♯</text>
 </g>
-<g transform="translate(475 372)">
-<text font-size="14" y="4.67">C</text>
-<text font-size="14" y="1204.67">C</text>
-<text font-size="12" y="74.67">C♯</text>
-<text font-size="12" y="124.95">D♭</text>
-<text font-size="14" y="196.29">D</text>
-<text font-size="12" y="266.29">D♯</text>
-<text font-size="12" y="316.57">E♭</text>
-<text font-size="14" y="387.91">E</text>
-<text font-size="12" y="437.52">F♭</text>
-<text font-size="12" y="457.91">E♯</text>
-<text font-size="14" y="508.86">F</text>
-<text font-size="12" y="578.86">F♯</text>
-<text font-size="12" y="629.14">G♭</text>
-<text font-size="14" y="700.48">G</text>
-<text font-size="12" y="770.48">G♯</text>
-<text font-size="12" y="820.76">A♭</text>
-<text font-size="14" y="892.1">A</text>
-<text font-size="12" y="962.1">A♯</text>
-<text font-size="12" y="1012.38">B♭</text>
-<text font-size="14" y="1083.72">B</text>
-<text font-size="12" y="1133.33">C♭</text>
-<text font-size="12" y="1153.72">B♯</text>
+<g transform="translate(120 0)">
+<g font-size="12">
+<text y="87.72">C♯</text>
+<text y="115.63">D♭</text>
+<text y="283.07">D♯</text>
+<text y="310.98">E♭</text>
+<text y="422.6">F♭</text>
+<text y="478.42">E♯</text>
+<text y="590.05">F♯</text>
+<text y="617.95">G♭</text>
+<text y="785.4">G♯</text>
+<text y="813.3">A♭</text>
+<text y="980.74">A♯</text>
+<text y="1008.65">B♭</text>
+<text y="1120.28">C♭</text>
+<text y="1176.09">B♯</text>
 </g>
-<g transform="translate(505 372)">
-<text font-size="14" y="4.67">C</text>
-<text font-size="14" y="1204.67">C</text>
-<text font-size="12" y="70.76">C♯</text>
-<text font-size="12" y="127.74">D♭</text>
-<text font-size="14" y="195.17">D</text>
-<text font-size="12" y="261.27">D♯</text>
-<text font-size="12" y="318.24">E♭</text>
-<text font-size="14" y="385.68">E</text>
-<text font-size="12" y="441.98">F♭</text>
-<text font-size="12" y="451.77">E♯</text>
-<text font-size="14" y="509.41">F</text>
-<text font-size="12" y="575.51">F♯</text>
-<text font-size="12" y="632.49">G♭</text>
-<text font-size="14" y="699.92">G</text>
-<text font-size="12" y="766.02">G♯</text>
-<text font-size="12" y="822.99">A♭</text>
-<text font-size="14" y="890.42">A</text>
-<text font-size="12" y="956.52">A♯</text>
-<text font-size="12" y="1013.5">B♭</text>
-<text font-size="14" y="1080.93">B</text>
-<text font-size="12" y="1137.24">C♭</text>
-<text font-size="12" y="1147.03">B♯</text>
+<g font-size="14">
+<text y="4.67">C</text>
+<text y="1204.67">C</text>
+<text y="200.02">D</text>
+<text y="395.36">E</text>
+<text y="506.99">F</text>
+<text y="702.34">G</text>
+<text y="897.69">A</text>
+<text y="1093.04">B</text>
 </g>
-<g transform="translate(535 372)">
-<text font-size="14" y="4.67">C</text>
-<text font-size="14" y="1204.67">C</text>
-<text font-size="12" y="67.5">C♯</text>
-<text font-size="12" y="130.07">D♭</text>
-<text font-size="14" y="194.24">D</text>
-<text font-size="12" y="257.08">D♯</text>
-<text font-size="12" y="319.64">E♭</text>
-<text font-size="14" y="383.81">E</text>
-<text font-size="12" y="445.71">F♭</text>
-<text font-size="12" y="446.65">E♯</text>
-<text font-size="14" y="509.88">F</text>
-<text font-size="12" y="572.72">F♯</text>
-<text font-size="12" y="635.28">G♭</text>
-<text font-size="14" y="699.45">G</text>
-<text font-size="12" y="762.29">G♯</text>
-<text font-size="12" y="824.86">A♭</text>
-<text font-size="14" y="889.03">A</text>
-<text font-size="12" y="951.86">A♯</text>
-<text font-size="12" y="1014.43">B♭</text>
-<text font-size="14" y="1078.6">B</text>
-<text font-size="12" y="1140.5">C♭</text>
-<text font-size="12" y="1141.43">B♯</text>
 </g>
-<g transform="translate(565 372)">
-<text font-size="14" y="4.67">C</text>
-<text font-size="14" y="1204.67">C</text>
-<text font-size="12" y="67.16">C♯</text>
-<text font-size="12" y="130.32">D♭</text>
-<text font-size="14" y="194.14">D</text>
-<text font-size="12" y="256.63">D♯</text>
-<text font-size="12" y="319.79">E♭</text>
-<text font-size="14" y="383.61">E</text>
-<text font-size="10" y="440.44">E♯</text>
-<text font-size="10" y="450.44">F♭</text>
-<text font-size="14" y="509.93">F</text>
-<text font-size="12" y="572.42">F♯</text>
-<text font-size="12" y="635.58">G♭</text>
-<text font-size="14" y="699.4">G</text>
-<text font-size="12" y="761.89">G♯</text>
-<text font-size="12" y="825.05">A♭</text>
-<text font-size="14" y="888.88">A</text>
-<text font-size="12" y="951.37">A♯</text>
-<text font-size="12" y="1014.53">B♭</text>
-<text font-size="14" y="1078.35">B</text>
-<text font-size="10" y="1135.18">B♯</text>
-<text font-size="10" y="1145.18">C♭</text>
+<g transform="translate(150 0)">
+<g font-size="12">
+<text y="87.58">C♯</text>
+<text y="115.73">D♭</text>
+<text y="282.88">D♯</text>
+<text y="311.04">E♭</text>
+<text y="422.77">F♭</text>
+<text y="478.19">E♯</text>
+<text y="589.92">F♯</text>
+<text y="618.08">G♭</text>
+<text y="785.23">G♯</text>
+<text y="813.39">A♭</text>
+<text y="980.54">A♯</text>
+<text y="1008.69">B♭</text>
+<text y="1120.42">C♭</text>
+<text y="1175.84">B♯</text>
+</g>
+<g font-size="14">
+<text y="4.67">C</text>
+<text y="1204.67">C</text>
+<text y="199.97">D</text>
+<text y="395.28">E</text>
+<text y="507.01">F</text>
+<text y="702.32">G</text>
+<text y="897.63">A</text>
+<text y="1092.94">B</text>
+</g>
+</g>
+<g transform="translate(180 0)">
+<g font-size="12">
+<text y="84.84">C♯</text>
+<text y="117.69">D♭</text>
+<text y="279.37">D♯</text>
+<text y="312.21">E♭</text>
+<text y="425.9">F♭</text>
+<text y="473.89">E♯</text>
+<text y="587.58">F♯</text>
+<text y="620.42">G♭</text>
+<text y="782.1">G♯</text>
+<text y="814.95">A♭</text>
+<text y="976.63">A♯</text>
+<text y="1009.47">B♭</text>
+<text y="1123.16">C♭</text>
+<text y="1171.16">B♯</text>
+</g>
+<g font-size="14">
+<text y="4.67">C</text>
+<text y="1204.67">C</text>
+<text y="199.19">D</text>
+<text y="393.72">E</text>
+<text y="507.4">F</text>
+<text y="701.93">G</text>
+<text y="896.46">A</text>
+<text y="1090.98">B</text>
+</g>
+</g>
+<g transform="translate(210 0)">
+<g font-size="12">
+<text y="81.42">C♯</text>
+<text y="120.13">D♭</text>
+<text y="274.97">D♯</text>
+<text y="313.68">E♭</text>
+<text y="429.81">F♭</text>
+<text y="468.52">E♯</text>
+<text y="584.65">F♯</text>
+<text y="623.35">G♭</text>
+<text y="778.19">G♯</text>
+<text y="816.9">A♭</text>
+<text y="971.74">A♯</text>
+<text y="1010.45">B♭</text>
+<text y="1126.58">C♭</text>
+<text y="1165.29">B♯</text>
+</g>
+<g font-size="14">
+<text y="4.67">C</text>
+<text y="1204.67">C</text>
+<text y="198.22">D</text>
+<text y="391.76">E</text>
+<text y="507.89">F</text>
+<text y="701.44">G</text>
+<text y="894.99">A</text>
+<text y="1088.54">B</text>
+</g>
+</g>
+<g transform="translate(240 0)">
+<g font-size="12">
+<text y="80.05">C♯</text>
+<text y="121.11">D♭</text>
+<text y="273.21">D♯</text>
+<text y="314.26">E♭</text>
+<text y="431.37">F♭</text>
+<text y="466.36">E♯</text>
+<text y="583.47">F♯</text>
+<text y="624.53">G♭</text>
+<text y="776.63">G♯</text>
+<text y="817.69">A♭</text>
+<text y="969.78">A♯</text>
+<text y="1010.84">B♭</text>
+<text y="1127.95">C♭</text>
+<text y="1162.94">B♯</text>
+</g>
+<g font-size="14">
+<text y="4.67">C</text>
+<text y="1204.67">C</text>
+<text y="197.82">D</text>
+<text y="390.98">E</text>
+<text y="508.09">F</text>
+<text y="701.25">G</text>
+<text y="894.4">A</text>
+<text y="1087.56">B</text>
+</g>
+</g>
+<g transform="translate(270 0)">
+<g font-size="12">
+<text y="76.63">C♯</text>
+<text y="123.55">D♭</text>
+<text y="268.81">D♯</text>
+<text y="315.73">E♭</text>
+<text y="435.28">F♭</text>
+<text y="460.99">E♯</text>
+<text y="580.54">F♯</text>
+<text y="627.46">G♭</text>
+<text y="772.72">G♯</text>
+<text y="819.64">A♭</text>
+<text y="964.9">A♯</text>
+<text y="1011.82">B♭</text>
+<text y="1131.37">C♭</text>
+<text y="1157.08">B♯</text>
+</g>
+<g font-size="14">
+<text y="4.67">C</text>
+<text y="1204.67">C</text>
+<text y="196.85">D</text>
+<text y="389.03">E</text>
+<text y="508.58">F</text>
+<text y="700.76">G</text>
+<text y="892.94">A</text>
+<text y="1085.12">B</text>
+</g>
+</g>
+<g transform="translate(300 0)">
+<g font-size="12">
+<text y="76">C♯</text>
+<text y="124">D♭</text>
+<text y="268">D♯</text>
+<text y="316">E♭</text>
+<text y="436">F♭</text>
+<text y="460">E♯</text>
+<text y="580">F♯</text>
+<text y="628">G♭</text>
+<text y="772">G♯</text>
+<text y="820">A♭</text>
+<text y="964">A♯</text>
+<text y="1012">B♭</text>
+<text y="1132">C♭</text>
+<text y="1156">B♯</text>
+</g>
+<g font-size="14">
+<text y="4.67">C</text>
+<text y="1204.67">C</text>
+<text y="196.67">D</text>
+<text y="388.67">E</text>
+<text y="508.67">F</text>
+<text y="700.67">G</text>
+<text y="892.67">A</text>
+<text y="1084.67">B</text>
+</g>
+</g>
+<g transform="translate(330 0)">
+<g font-size="12">
+<text y="74.67">C♯</text>
+<text y="124.95">D♭</text>
+<text y="266.29">D♯</text>
+<text y="316.57">E♭</text>
+<text y="437.52">F♭</text>
+<text y="457.91">E♯</text>
+<text y="578.86">F♯</text>
+<text y="629.14">G♭</text>
+<text y="770.48">G♯</text>
+<text y="820.76">A♭</text>
+<text y="962.1">A♯</text>
+<text y="1012.38">B♭</text>
+<text y="1133.33">C♭</text>
+<text y="1153.72">B♯</text>
+</g>
+<g font-size="14">
+<text y="4.67">C</text>
+<text y="1204.67">C</text>
+<text y="196.29">D</text>
+<text y="387.91">E</text>
+<text y="508.86">F</text>
+<text y="700.48">G</text>
+<text y="892.1">A</text>
+<text y="1083.72">B</text>
+</g>
+</g>
+<g transform="translate(360 0)">
+<g font-size="12">
+<text y="70.76">C♯</text>
+<text y="127.74">D♭</text>
+<text y="261.27">D♯</text>
+<text y="318.24">E♭</text>
+<text y="441.98">F♭</text>
+<text y="451.77">E♯</text>
+<text y="575.51">F♯</text>
+<text y="632.49">G♭</text>
+<text y="766.02">G♯</text>
+<text y="822.99">A♭</text>
+<text y="956.52">A♯</text>
+<text y="1013.5">B♭</text>
+<text y="1137.24">C♭</text>
+<text y="1147.03">B♯</text>
+</g>
+<g font-size="14">
+<text y="4.67">C</text>
+<text y="1204.67">C</text>
+<text y="195.17">D</text>
+<text y="385.68">E</text>
+<text y="509.41">F</text>
+<text y="699.92">G</text>
+<text y="890.42">A</text>
+<text y="1080.93">B</text>
+</g>
+</g>
+<g transform="translate(390 0)">
+<g font-size="12">
+<text y="67.5">C♯</text>
+<text y="130.07">D♭</text>
+<text y="257.08">D♯</text>
+<text y="319.64">E♭</text>
+<text y="445.71">F♭</text>
+<text y="446.65">E♯</text>
+<text y="572.72">F♯</text>
+<text y="635.28">G♭</text>
+<text y="762.29">G♯</text>
+<text y="824.86">A♭</text>
+<text y="951.86">A♯</text>
+<text y="1014.43">B♭</text>
+<text y="1140.5">C♭</text>
+<text y="1141.43">B♯</text>
+</g>
+<g font-size="14">
+<text y="4.67">C</text>
+<text y="1204.67">C</text>
+<text y="194.24">D</text>
+<text y="383.81">E</text>
+<text y="509.88">F</text>
+<text y="699.45">G</text>
+<text y="889.03">A</text>
+<text y="1078.6">B</text>
+</g>
+</g>
+<g transform="translate(420 0)">
+<g font-size="10">
+<text y="440.44">E♯</text>
+<text y="450.44">F♭</text>
+<text y="1135.18">B♯</text>
+<text y="1145.18">C♭</text>
+</g>
+<g font-size="12">
+<text y="67.16">C♯</text>
+<text y="130.32">D♭</text>
+<text y="256.63">D♯</text>
+<text y="319.79">E♭</text>
+<text y="572.42">F♯</text>
+<text y="635.58">G♭</text>
+<text y="761.89">G♯</text>
+<text y="825.05">A♭</text>
+<text y="951.37">A♯</text>
+<text y="1014.53">B♭</text>
+</g>
+<g font-size="14">
+<text y="4.67">C</text>
+<text y="1204.67">C</text>
+<text y="194.14">D</text>
+<text y="383.61">E</text>
+<text y="509.93">F</text>
+<text y="699.4">G</text>
+<text y="888.88">A</text>
+<text y="1078.35">B</text>
+</g>
+</g>
 </g>
 </g>
 <a href="https://www.fidolab.org">
-<text fill="grey" font-size="20" font-style="italic" text-anchor="middle" x="427.5" y="1612">www.FidoLab.org</text>
+<text fill="grey" font-size="20" font-style="italic" text-anchor="middle" x="427.5" y="1477">www.FidoLab.org</text>
 </a>
 </g>
 </svg>
