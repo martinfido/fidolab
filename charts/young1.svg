@@ -597,8 +597,8 @@
 <g fill="#404040">
 <circle cy="0" r="11.5"/>
 <circle cy="1200" r="11.5"/>
-<circle cy="701.96" r="11.5"/>
-<circle cy="294.14" r="11.5"/>
+<circle cy="701.95" r="11.5"/>
+<circle cy="294.13" r="11.5"/>
 <circle cy="996.09" r="11.5"/>
 <circle cy="498.05" r="11.5"/>
 </g>
@@ -614,16 +614,16 @@
 </g>
 <g transform="translate(195 0)">
 <g fill="#404040">
-<circle cy="498.04" r="11.5"/>
+<circle cy="498.05" r="11.5"/>
 <circle cy="0" r="11.5"/>
 <circle cy="1200" r="11.5"/>
 <circle cy="792.18" r="11.5"/>
-<circle cy="294.14" r="11.5"/>
+<circle cy="294.13" r="11.5"/>
 <circle cy="996.09" r="11.5"/>
 </g>
 <g fill="#2020ff">
 <circle cy="700.12" r="11.5"/>
-<circle cy="200.24" r="11.5"/>
+<circle cy="200.25" r="11.5"/>
 <circle cy="898.17" r="11.5"/>
 <circle cy="396.09" r="11.5"/>
 <circle cy="1094.01" r="11.5"/>
@@ -698,12 +698,12 @@
 </g>
 <g fill="#2020ff">
 <circle cy="304.03" r="11.5"/>
-<circle cy="1004.16" r="11.5"/>
+<circle cy="1004.15" r="11.5"/>
 <circle cy="502.08" r="11.5"/>
 <circle cy="0" r="11.5"/>
 <circle cy="1200" r="11.5"/>
 <circle cy="697.92" r="11.5"/>
-<circle cy="195.85" r="11.5"/>
+<circle cy="195.84" r="11.5"/>
 <circle cy="895.97" r="11.5"/>
 </g>
 </g>
@@ -730,7 +730,7 @@
 <g fill="#404040">
 <circle cy="1106.11" r="11.5"/>
 <circle cy="608.07" r="11.5"/>
-<circle cy="200.25" r="11.5"/>
+<circle cy="200.24" r="11.5"/>
 <circle cy="902.2" r="11.5"/>
 <circle cy="404.16" r="11.5"/>
 </g>
@@ -758,7 +758,7 @@
 <circle cy="108.19" r="11.5"/>
 <circle cy="806.11" r="11.5"/>
 <circle cy="304.03" r="11.5"/>
-<circle cy="1001.96" r="11.5"/>
+<circle cy="1001.95" r="11.5"/>
 <circle cy="499.88" r="11.5"/>
 <circle cy="0" r="11.5"/>
 <circle cy="1200" r="11.5"/>
@@ -766,20 +766,20 @@
 </g>
 <g transform="translate(435 0)">
 <g fill="#404040">
-<circle cy="905.86" r="11.5"/>
+<circle cy="905.87" r="11.5"/>
 <circle cy="407.82" r="11.5"/>
 <circle cy="0" r="11.5"/>
 <circle cy="1200" r="11.5"/>
-<circle cy="701.95" r="11.5"/>
+<circle cy="701.96" r="11.5"/>
 <circle cy="203.91" r="11.5"/>
 </g>
 <g fill="#2020ff">
 <circle cy="1107.94" r="11.5"/>
-<circle cy="608.06" r="11.5"/>
+<circle cy="608.07" r="11.5"/>
 <circle cy="105.99" r="11.5"/>
 <circle cy="803.91" r="11.5"/>
 <circle cy="301.83" r="11.5"/>
-<circle cy="999.75" r="11.5"/>
+<circle cy="999.76" r="11.5"/>
 <circle cy="499.88" r="11.5"/>
 </g>
 </g>
@@ -787,7 +787,7 @@
 <g fill="#404040">
 <circle cy="203.91" r="11.5"/>
 <circle cy="905.87" r="11.5"/>
-<circle cy="498.05" r="11.5"/>
+<circle cy="498.04" r="11.5"/>
 <circle cy="0" r="11.5"/>
 <circle cy="1200" r="11.5"/>
 <circle cy="701.96" r="11.5"/>
@@ -817,7 +817,7 @@
 <circle cy="1102.08" r="11.5"/>
 <circle cy="600" r="11.5"/>
 <circle cy="97.92" r="11.5"/>
-<circle cy="795.84" r="11.5"/>
+<circle cy="795.85" r="11.5"/>
 <circle cy="295.97" r="11.5"/>
 </g>
 </g>
@@ -960,8 +960,8 @@
 <g font-size="12">
 <text y="4">E♭</text>
 <text y="1204">E♭</text>
-<text y="705.96">B♭</text>
-<text y="298.14">F♯</text>
+<text y="705.95">B♭</text>
+<text y="298.13">F♯</text>
 <text y="1000.09">C♯</text>
 <text y="502.05">G♯</text>
 </g>
@@ -977,11 +977,11 @@
 </g>
 <g transform="translate(195 0)">
 <g font-size="12">
-<text y="502.04">E♭</text>
+<text y="502.05">E♭</text>
 <text y="4">B♭</text>
 <text y="1204">B♭</text>
 <text y="796.18">F♯</text>
-<text y="298.14">C♯</text>
+<text y="298.13">C♯</text>
 <text y="1000.09">G♯</text>
 </g>
 <g font-size="14">
@@ -1093,7 +1093,7 @@
 <g font-size="12">
 <text y="1110.11">E♭</text>
 <text y="612.07">B♭</text>
-<text y="204.25">F♯</text>
+<text y="204.24">F♯</text>
 <text y="906.2">C♯</text>
 <text y="408.16">G♯</text>
 </g>
@@ -1129,11 +1129,11 @@
 </g>
 <g transform="translate(435 0)">
 <g font-size="12">
-<text y="909.86">E♭</text>
+<text y="909.87">E♭</text>
 <text y="411.82">B♭</text>
 <text y="4">F♯</text>
 <text y="1204">F♯</text>
-<text y="705.95">C♯</text>
+<text y="705.96">C♯</text>
 <text y="207.91">G♯</text>
 </g>
 <g font-size="14">
@@ -1150,7 +1150,7 @@
 <g font-size="12">
 <text y="207.91">E♭</text>
 <text y="909.87">B♭</text>
-<text y="502.05">F♯</text>
+<text y="502.04">F♯</text>
 <text y="4">C♯</text>
 <text y="1204">C♯</text>
 <text y="705.96">G♯</text>

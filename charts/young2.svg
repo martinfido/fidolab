@@ -597,14 +597,14 @@
 <g fill="#404040">
 <circle cy="0" r="11.5"/>
 <circle cy="1200" r="11.5"/>
-<circle cy="701.95" r="11.5"/>
-<circle cy="294.14" r="11.5"/>
+<circle cy="701.96" r="11.5"/>
+<circle cy="294.13" r="11.5"/>
 <circle cy="996.09" r="11.5"/>
 <circle cy="498.04" r="11.5"/>
 </g>
 <g fill="#2020ff">
 <circle cy="203.91" r="11.5"/>
-<circle cy="905.86" r="11.5"/>
+<circle cy="905.87" r="11.5"/>
 <circle cy="403.91" r="11.5"/>
 <circle cy="1101.95" r="11.5"/>
 <circle cy="600" r="11.5"/>
@@ -614,17 +614,17 @@
 </g>
 <g transform="translate(195 0)">
 <g fill="#404040">
-<circle cy="498.05" r="11.5"/>
+<circle cy="498.04" r="11.5"/>
 <circle cy="0" r="11.5"/>
 <circle cy="1200" r="11.5"/>
 <circle cy="792.18" r="11.5"/>
-<circle cy="294.14" r="11.5"/>
+<circle cy="294.13" r="11.5"/>
 <circle cy="996.09" r="11.5"/>
 </g>
 <g fill="#2020ff">
-<circle cy="701.96" r="11.5"/>
+<circle cy="701.95" r="11.5"/>
 <circle cy="203.91" r="11.5"/>
-<circle cy="901.96" r="11.5"/>
+<circle cy="901.95" r="11.5"/>
 <circle cy="400" r="11.5"/>
 <circle cy="1098.05" r="11.5"/>
 <circle cy="596.09" r="11.5"/>
@@ -634,7 +634,7 @@
 <g transform="translate(225 0)">
 <g fill="#404040">
 <circle cy="996.09" r="11.5"/>
-<circle cy="498.04" r="11.5"/>
+<circle cy="498.05" r="11.5"/>
 <circle cy="90.22" r="11.5"/>
 <circle cy="792.18" r="11.5"/>
 <circle cy="294.13" r="11.5"/>
@@ -646,23 +646,23 @@
 <circle cy="200" r="11.5"/>
 <circle cy="898.04" r="11.5"/>
 <circle cy="396.09" r="11.5"/>
-<circle cy="1094.14" r="11.5"/>
+<circle cy="1094.13" r="11.5"/>
 <circle cy="592.18" r="11.5"/>
 </g>
 </g>
 <g transform="translate(255 0)">
 <g fill="#404040">
-<circle cy="294.14" r="11.5"/>
+<circle cy="294.13" r="11.5"/>
 <circle cy="996.09" r="11.5"/>
 <circle cy="588.27" r="11.5"/>
-<circle cy="90.23" r="11.5"/>
+<circle cy="90.22" r="11.5"/>
 <circle cy="792.18" r="11.5"/>
 </g>
 <g fill="#2020ff">
 <circle cy="498.05" r="11.5"/>
 <circle cy="0" r="11.5"/>
 <circle cy="1200" r="11.5"/>
-<circle cy="698.05" r="11.5"/>
+<circle cy="698.04" r="11.5"/>
 <circle cy="196.09" r="11.5"/>
 <circle cy="894.13" r="11.5"/>
 <circle cy="392.18" r="11.5"/>
@@ -672,7 +672,7 @@
 <g transform="translate(285 0)">
 <g fill="#404040">
 <circle cy="796.09" r="11.5"/>
-<circle cy="298.04" r="11.5"/>
+<circle cy="298.05" r="11.5"/>
 <circle cy="1090.22" r="11.5"/>
 <circle cy="592.18" r="11.5"/>
 <circle cy="94.13" r="11.5"/>
@@ -684,22 +684,22 @@
 <circle cy="1200" r="11.5"/>
 <circle cy="698.05" r="11.5"/>
 <circle cy="196.09" r="11.5"/>
-<circle cy="894.14" r="11.5"/>
+<circle cy="894.13" r="11.5"/>
 <circle cy="392.18" r="11.5"/>
 </g>
 </g>
 <g transform="translate(315 0)">
 <g fill="#404040">
-<circle cy="98.05" r="11.5"/>
+<circle cy="98.04" r="11.5"/>
 <circle cy="800" r="11.5"/>
 <circle cy="392.18" r="11.5"/>
-<circle cy="1094.14" r="11.5"/>
+<circle cy="1094.13" r="11.5"/>
 <circle cy="596.09" r="11.5"/>
 </g>
 <g fill="#2020ff">
 <circle cy="301.96" r="11.5"/>
 <circle cy="1003.91" r="11.5"/>
-<circle cy="501.96" r="11.5"/>
+<circle cy="501.95" r="11.5"/>
 <circle cy="0" r="11.5"/>
 <circle cy="1200" r="11.5"/>
 <circle cy="698.04" r="11.5"/>
@@ -735,7 +735,7 @@
 <circle cy="400" r="11.5"/>
 </g>
 <g fill="#2020ff">
-<circle cy="105.86" r="11.5"/>
+<circle cy="105.87" r="11.5"/>
 <circle cy="807.82" r="11.5"/>
 <circle cy="305.86" r="11.5"/>
 <circle cy="1003.91" r="11.5"/>
@@ -786,7 +786,7 @@
 <g transform="translate(465 0)">
 <g fill="#404040">
 <circle cy="203.91" r="11.5"/>
-<circle cy="905.86" r="11.5"/>
+<circle cy="905.87" r="11.5"/>
 <circle cy="498.04" r="11.5"/>
 <circle cy="0" r="11.5"/>
 <circle cy="1200" r="11.5"/>
@@ -796,7 +796,7 @@
 <circle cy="407.82" r="11.5"/>
 <circle cy="1109.78" r="11.5"/>
 <circle cy="607.82" r="11.5"/>
-<circle cy="105.86" r="11.5"/>
+<circle cy="105.87" r="11.5"/>
 <circle cy="803.91" r="11.5"/>
 <circle cy="301.96" r="11.5"/>
 <circle cy="1000" r="11.5"/>
@@ -960,8 +960,8 @@
 <g font-size="12">
 <text y="4">E♭</text>
 <text y="1204">E♭</text>
-<text y="705.95">B♭</text>
-<text y="298.14">F♯</text>
+<text y="705.96">B♭</text>
+<text y="298.13">F♯</text>
 <text y="1000.09">C♯</text>
 <text y="502.04">G♯</text>
 </g>
@@ -977,11 +977,11 @@
 </g>
 <g transform="translate(195 0)">
 <g font-size="12">
-<text y="502.05">E♭</text>
+<text y="502.04">E♭</text>
 <text y="4">B♭</text>
 <text y="1204">B♭</text>
 <text y="796.18">F♯</text>
-<text y="298.14">C♯</text>
+<text y="298.13">C♯</text>
 <text y="1000.09">G♯</text>
 </g>
 <g font-size="14">
@@ -997,7 +997,7 @@
 <g transform="translate(225 0)">
 <g font-size="12">
 <text y="1000.09">E♭</text>
-<text y="502.04">B♭</text>
+<text y="502.05">B♭</text>
 <text y="94.22">F♯</text>
 <text y="796.18">C♯</text>
 <text y="298.13">G♯</text>
@@ -1015,10 +1015,10 @@
 </g>
 <g transform="translate(255 0)">
 <g font-size="12">
-<text y="298.14">E♭</text>
+<text y="298.13">E♭</text>
 <text y="1000.09">B♭</text>
 <text y="592.27">F♯</text>
-<text y="94.23">C♯</text>
+<text y="94.22">C♯</text>
 <text y="796.18">G♯</text>
 </g>
 <g font-size="14">
@@ -1035,7 +1035,7 @@
 <g transform="translate(285 0)">
 <g font-size="12">
 <text y="800.09">E♭</text>
-<text y="302.04">B♭</text>
+<text y="302.05">B♭</text>
 <text y="1094.22">F♯</text>
 <text y="596.18">C♯</text>
 <text y="98.13">G♯</text>
@@ -1053,10 +1053,10 @@
 </g>
 <g transform="translate(315 0)">
 <g font-size="12">
-<text y="102.05">E♭</text>
+<text y="102.04">E♭</text>
 <text y="804">B♭</text>
 <text y="396.18">F♯</text>
-<text y="1098.14">C♯</text>
+<text y="1098.13">C♯</text>
 <text y="600.09">G♯</text>
 </g>
 <g font-size="14">
@@ -1149,7 +1149,7 @@
 <g transform="translate(465 0)">
 <g font-size="12">
 <text y="207.91">E♭</text>
-<text y="909.86">B♭</text>
+<text y="909.87">B♭</text>
 <text y="502.04">F♯</text>
 <text y="4">C♯</text>
 <text y="1204">C♯</text>

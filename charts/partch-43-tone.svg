@@ -531,6 +531,7 @@
 <circle cy="1115.53" r="11.5"/>
 <circle cy="1146.73" r="11.5"/>
 <circle cy="1178.49" r="11.5"/>
+<circle cy="0" r="11.5"/>
 <circle cy="1200" r="11.5"/>
 </g>
 <g transform="translate(30 0)">
@@ -2731,6 +2732,8 @@
 <text y="1155.06">33</text>
 <text y="1176.83">160</text>
 <text y="1186.83">81</text>
+<text y="-1.67">2</text>
+<text y="8.33">1</text>
 <text y="1198.33">2</text>
 <text y="1208.33">1</text>
 </g>
