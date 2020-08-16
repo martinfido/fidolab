@@ -209,6 +209,27 @@ class Temperament {
     ]);
   }
 
+  // TODO verify http://www-personal.umich.edu/~bpl/larips/bachtemps.html
+  static kellner() {
+    const pure = 3 / 2;
+    const narrow = pure / Math.pow(Note.pythagorean_comma, 1 / 5);
+
+    return Temperament.of_names_ratios([
+      'C', narrow, 'G', narrow, 'D', narrow, 'A', narrow, 'E', pure, 'B', narrow,
+      'F♯', pure, 'C♯', pure, 'G♯', pure, 'E♭', pure, 'B♭', pure, 'F'
+    ]);
+  }
+
+  static kirnberger_3() {
+    const pure = 3 / 2;
+    const narrow = pure / Math.pow(Note.syntonic_comma, 1 / 4);
+
+    return Temperament.of_names_ratios([
+      'C♯', pure, 'A♭', pure, 'E♭', pure, 'B♭', pure, 'F', pure, 'C', narrow,
+      'G', narrow, 'D', narrow, 'A', narrow, 'E', pure, 'B', pure, 'F♯'
+    ]);
+  }
+
   // en.wikipedia.org/wiki/Werckmeister_temperament
   static werckmeister_3() {
     return [
@@ -238,6 +259,18 @@ class Temperament {
 
   static pythagorean() {
     return Temperament.custom("C:1/1 C♯:2187/2048 D:9/8 E♭:32/27 E:81/64 F:4/3 F♯:729/512 G:3/2 G♯:128/81 A:27/16 A♯:16/9 B:243/128");
+  }
+
+  static prinz() {
+    const pure = 3 / 2;
+    const narrow = pure / Math.pow(Note.syntonic_comma, 1 / 4);
+
+    return Temperament.of_names_ratios([
+      'F♯', pure, 'C♯', pure, 'G♯', pure, 'E♭', pure, 'B♭', pure, 'F', pure,
+      'C', narrow, 'G', narrow, 'D', narrow, 'A', narrow, 'E', pure, 'B'
+    ]);
+
+    return Temperament.custom("A:0 Bb:106.35 B:198.53 C:310.26 C#:400.49 D:503.42 Eb:604.4 E:696.58 F:808.31 F#:898.53 G:1006.84 G#:1102.44");
   }
 
   static thidell_formula_1() {

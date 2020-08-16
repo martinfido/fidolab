@@ -9,9 +9,9 @@
   <title>Fret position Calculator | Fido Lab</title>
   <link rel="icon" href="../favicon.ico">
   <link rel="stylesheet" type="text/css" href="../css/fidolab.css">
-  <script type="text/javascript" src="../js/util.js"></script>
-  <script type="text/javascript" src="../js/temperament.js"></script>
-  <script type="text/javascript">
+  <script src="../js/util.js"></script>
+  <script src="../js/temperament.js"></script>
+  <script>
     function get_notes() {
       let temperament = document.getElementById('tm').value;
       switch (temperament) {
@@ -21,11 +21,14 @@
         case 'yo1': return Temperament.young_1();
         case 'yo2': return Temperament.young_2();
         case 'leh': return Temperament.bach_lehman_1722();
+        case 'kel': return Temperament.kellner();
+        case 'ki3': return Temperament.kirnberger_3();
         case 'we3': return Temperament.werckmeister_3();
         case 'tf1': return Temperament.thidell_formula_1();
         case 'rev': return Temperament.revelation();
         case 'wtp': return Temperament.welltunedpiano();
         case 'pyt': return Temperament.pythagorean();
+        case 'pri': return Temperament.prinz();
         default: return custom_temperament();
       }
     }
@@ -113,7 +116,7 @@
       for (let i = 0; i < notes.length; i++) {
         let note = notes[i];
         let row = table.insertRow();
-        
+
         let cell = row.insertCell();
         cell.innerHTML = note.name;
         cell.style.textAlign = 'left';
@@ -143,6 +146,17 @@
           }
         }
       }
+
+      //let out="[Exact Tuning]\n";
+      //for (let i = 0; i <= 127; i++) {
+      //  let octave = Math.floor(i / notes.length);
+      //  let note = notes[(i + 7) % notes.length];
+      //  let cents = note.cents + cent_shift;
+      //  cents = ((cents % 1200) + 1200) % 1200;
+      //  cents += octave * 1200;
+      //  out += "note " + i + " = " + cents + "\n";
+      //}
+      //console.log(out);
     }
 
     const perma_params = ['tm', 'npo', 'cs', 'rn', 'rf', 'sl'];
@@ -218,19 +232,9 @@
   <noscript>
     <br />
     <div id="noscript-warning">
-      <strong>
-        <p>
-          Sorry, this page only works on modern browsers with JavaScript enabled.
-        </p>
-        <p>
-          If you need a new browser, you might like to try <a href="https://www.mozilla.org/firefox/">Mozilla
-            Firefox</a>.
-        </p>
-        <p>
-          If you have disabled JavaScript due to security or privacy concerns, feel free to audit my source. It's quite
-          small.
-        </p>
-      </strong>
+      <p><strong>Sorry, this page only works on modern browsers with JavaScript enabled.</strong></p>
+      <p><strong>If you need a new browser, you might like to try <a href="https://www.mozilla.org/firefox/">Mozilla Firefox</a>.</strong></p>
+      <p><strong>If you have disabled JavaScript due to security or privacy concerns, feel free to audit my source. It's quite small.</strong></p>
     </div>
   </noscript>
   <p>
@@ -254,11 +258,14 @@
       <option value="leh">Bach / Lehman 1722 (larips.com)</option>
       <option value="equ">Equal Temperament / Division</option>
       <option value="mea" selected="selected">Meantone</option>
+      <option value="pri">Prinz</option>
       <option value="pyt">Pythagorean</option>
       <option value="rev">Revelation Tuning (michaelharrison.com)</option>
       <option value="wtp">La Monte Young's Well Tuned Piano (kylegann.com)</option>
       <option value="tf1">Thidell Formula 1 (truetemperament.com)</option>
       <option value="val">Vallotti</option>
+      <option value="kel">Kellner</option>
+      <option value="ki3">Kirnberger III</option>
       <option value="we3">Werckmeister III</option>
       <option value="yo1">(Thomas) Young's first temperament</option>
       <option value="yo2">(Thomas) Young's second temperament</option>
@@ -277,6 +284,7 @@
       <option value="4" selected="selected">1/4</option>
       <option value="5">1/5</option>
       <option value="6">1/6</option>
+      <option value="7">1/7</option>
     </select>
   </p>
   <p id="cp" style="display: none;">
@@ -313,7 +321,6 @@
       <th><small>first octave</small></th>
       <th><small>second octave</small></th>
       <th><small>third octave</small></th>
-    </tr>
     </tr>
   </table>
 </body>
