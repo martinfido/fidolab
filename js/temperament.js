@@ -12,6 +12,7 @@ class Note {
       while (ratio < 1) { ratio *= 2; }
       while (ratio >= 2) { ratio /= 2; }
     }
+    // TODO rounding error is seen for 1/11 SC and 1/12 PC
     let cents = Math.log(ratio) * (1200 / Math.LN2);
     return new Note(name, ratio, cents);
   }
