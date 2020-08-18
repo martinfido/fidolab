@@ -218,21 +218,32 @@
     function beats(notes, root_index, top, bot) {
       let root = notes[root_index];
       let beats = null;
+      // find note with the lowest beat rate
       for (let i = 0; i < notes.length; i++) {
-        //if (i === root_index) {
-        //  continue;
-        //}
-        let note = notes[i];
-        if (note.frequency <= root.frequency) {
+        if (i === root_index) {
           continue;
         }
-        let note_beats = (note.frequency * bot) - (root.frequency * top);
-        console.log(root.name + ' ' + note.name + ' ' + root.frequency + ' ' + note.frequency + ' ' + note_beats, beats);
+        let note = notes[i];
+        let note_freq = note.frequency;
+        if (note_freq < root.frequency) {
+          note_freq *= 2;
+        }
+        let note_beats = (note_freq * bot) - (root.frequency * top);
+        console.log(root.name + ' ' + note.name + ' ' + root.frequency + ' ' + note_freq + ' ' + note_beats, beats);
         if ((beats === null) || (Math.abs(note_beats) < Math.abs(beats))) {
           beats = note_beats;
         }
       }
-      return ((beats === null) || (Math.abs(beats) > 25)) ? '-' : beats.toFixed(3);
+      return ((beats === null) || (Math.abs(beats) > 25)) ? '-' : fixed(beats);
+    }
+
+    function fixed(num) {
+      if (num === null) return '-';
+      let str = num.toFixed(3);
+      if (str === '-0.000') {
+        return '0.000';
+      }
+      return str;
     }
 
     const perma_params = ['tm', 'npo', 'cs', 'rn', 'rf', 'sl'];
