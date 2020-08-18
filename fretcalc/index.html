@@ -89,27 +89,48 @@
       return null;
     }
 
-    function update_table(notes) {
-      let root_name = document.getElementById('rn').value;
+    // apply args to notes
+    function munge_notes(notes) {
+      let root_note_name = document.getElementById('rn').value;
 
-      notes = shift_notes(notes, root_name);
+      // rotate so that the specified root is first, with ratio=1 and cents=0
+      notes = shift_notes(notes, root_note_name);
 
-      let cent_offset_note = find_note(notes, document.getElementById('cn').value);
+      // offset the cent values
+      let cent_offset_note_name = document.getElementById('cn').value;
+      let cent_offset_note = find_note(notes, cent_offset_note_name);
       let cent_shift = document.getElementById('co').value - cent_offset_note.cents;
 
-      let root_cents = notes[0].cents + cent_shift;
-      let root_hundreds = Note.nearest_hundred(root_cents);
+      for (let i = 0; i < notes.length; i++) {
+        notes[i].cents += cent_shift;
+      }
 
-      // TODO handle error
+      // set the note frequencies
+      // TODO handle error?
       let frequency_str = document.getElementById('fn').value;
       let frequency_note = Note.parse(frequency_str);
       let root_frequency;
       if (frequency_str.includes('/')) {
         root_frequency = document.getElementById('rf').value / frequency_note.ratio;
       } else {
-        let shift_note = Note.ofCents('', cent_shift, true);
+        let shift_note = Note.ofCents('', notes[0].cents, true);
         root_frequency = document.getElementById('rf').value / frequency_note.ratio * shift_note.ratio;
       }
+
+      if (root_frequency && !isNaN(root_frequency)) {
+        for (let i = 0; i < notes.length; i++) {
+          let note = notes[i];
+          note.frequency = note.ratio * root_frequency;
+        }
+      }
+
+      return notes;
+    }
+
+    function update_table(notes) {
+      notes = munge_notes(notes);
+
+      let root_hundreds = Note.nearest_hundred(notes[0].cents);
 
       let scale_length = document.getElementById('sl').value;
 
@@ -131,18 +152,18 @@
         row.insertCell().innerHTML = note.fraction_str() || '-';
         row.insertCell().innerHTML = note.ratio_str();
 
-        let cents = note.cents + cent_shift;
-        row.insertCell().innerHTML = note.cent_str(cent_shift);
+        let cents = note.cents;
+        row.insertCell().innerHTML = note.cent_str(0);
         if (notes.length === 12) {
           row.insertCell().innerHTML = Note.cent_offset_str(cents, Note.nearest_hundred(root_hundreds + (i * 100)));
         } else {
           row.insertCell().innerHTML = Note.cent_offset_str(cents);
         }
 
-        // TODO account for cent_shift
+        // TODO account for cent_shift?
         cell = row.insertCell();
-        if (root_frequency && !isNaN(root_frequency)) {
-          cell.innerHTML = (note.ratio * root_frequency).toFixed(3);
+        if (note.frequency) {
+          cell.innerHTML = note.frequency.toFixed(3);
         }
 
         for (let octave = 0; octave < 3; octave++) {
@@ -164,6 +185,54 @@
       //  out += "note " + i + " = " + cents + "\n";
       //}
       //console.log(out);
+
+      table = document.getElementById('beats');
+
+      // remove all but the table header
+      while (table.rows.length > 1) {
+        table.deleteRow(-1);
+      }
+
+      for (let i = 0; i < notes.length; i++) {
+        let note = notes[i];
+        let row = table.insertRow();
+
+        let cell = row.insertCell();
+        cell.innerHTML = note.name;
+        cell.style.textAlign = 'left';
+
+        row.insertCell().innerHTML = beats(notes, i, 10, 9);
+        row.insertCell().innerHTML = beats(notes, i, 9, 8);
+        row.insertCell().innerHTML = beats(notes, i, 6, 5);
+        row.insertCell().innerHTML = beats(notes, i, 5, 4);
+        row.insertCell().innerHTML = beats(notes, i, 4, 3);
+        row.insertCell().innerHTML = beats(notes, i, 3, 2);
+        row.insertCell().innerHTML = beats(notes, i, 8, 5);
+        row.insertCell().innerHTML = beats(notes, i, 5, 3);
+        row.insertCell().innerHTML = beats(notes, i, 7, 4);
+        row.insertCell().innerHTML = beats(notes, i, 9, 5);
+        row.insertCell().innerHTML = beats(notes, i, 15, 8);
+      }
+    }
+
+    function beats(notes, root_index, top, bot) {
+      let root = notes[root_index];
+      let beats = null;
+      for (let i = 0; i < notes.length; i++) {
+        //if (i === root_index) {
+        //  continue;
+        //}
+        let note = notes[i];
+        if (note.frequency <= root.frequency) {
+          continue;
+        }
+        let note_beats = (note.frequency * bot) - (root.frequency * top);
+        console.log(root.name + ' ' + note.name + ' ' + root.frequency + ' ' + note.frequency + ' ' + note_beats, beats);
+        if ((beats === null) || (Math.abs(note_beats) < Math.abs(beats))) {
+          beats = note_beats;
+        }
+      }
+      return ((beats === null) || (Math.abs(beats) > 25)) ? '-' : beats.toFixed(3);
     }
 
     const perma_params = ['tm', 'npo', 'cs', 'rn', 'rf', 'sl'];
@@ -331,6 +400,23 @@
       <th><small>first octave</small></th>
       <th><small>second octave</small></th>
       <th><small>third octave</small></th>
+    </tr>
+  </table>
+  <p>Beat rates for the frequencies shown above:</p>
+  <table id="beats">
+    <tr>
+      <th>Key</th>
+      <th>2<br /><small>(10/9)</small></th>
+      <th>2<br /><small>(9/8)</small></th>
+      <th>3♭<br /><small>(6/5)</small></th>
+      <th>3<br /><small>(5/4)</small></th>
+      <th>4<br /><small>(4/3)</small></th>
+      <th>5<br /><small>(3/2)</small></th>
+      <th>6♭<br /><small>(8/5)</small></th>
+      <th>6<br /><small>(5/3)</small></th>
+      <th>7♭<br /><small>(7/4)</small></th>
+      <th>7♭<br /><small>(9/5)</small></th>
+      <th>7<br /><small>(15/8)</small></th>
     </tr>
   </table>
 </body>
