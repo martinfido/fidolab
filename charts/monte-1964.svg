@@ -329,6 +329,7 @@
 <path d="M0 407.82 H398.58 L400 404.98"/>
 <path d="M0 427.37 H396.8 L400 420.98"/>
 <path d="M0 456.99 H400"/>
+<path d="M0 519.55 H400"/>
 <path d="M0 568.72 H393 L400 554.72"/>
 <path d="M0 590.22 H400"/>
 <path d="M0 609.78 H400"/>
@@ -340,10 +341,12 @@
 <path d="M0 840.53 H400"/>
 <path d="M0 905.87 H400"/>
 <path d="M0 1049.36 H400"/>
+<path d="M0 1066.76 H400"/>
 <path d="M0 1088.27 H400"/>
 <path d="M0 1109.78 H400"/>
 <path d="M0 1137.04 H400"/>
 <path d="M0 1158.94 H400"/>
+<path d="M0 1178.49 H400"/>
 </g>
 <g stroke-width="2">
 <path d="M0 182.4 H400"/>
@@ -381,6 +384,7 @@
 <text y="408.98">81/64 ditone</text>
 <text y="424.98">32/25 diminished 4th</text>
 <text y="460.99">125/96 augmented 3rd</text>
+<text y="523.55">27/20</text>
 <text y="558.72">25/18 augmented 4th </text>
 <text y="594.22">45/32 high / diatonic tritone</text>
 <text y="613.78">64/45 low tritone</text>
@@ -392,17 +396,19 @@
 <text y="844.53">13/8 overtone 6th</text>
 <text y="909.87">27/16 Pythagorean major 6th</text>
 <text y="1053.36">11/6 undecimal "median" 7th</text>
+<text y="1070.76">50/27</text>
 <text y="1092.27">15/8 major 7th</text>
 <text y="1113.78">243/128 Pythagorean major 7th</text>
 <text y="1141.04">27/14 septimal major 7th</text>
 <text y="1162.94">125/64 augmented 7th</text>
+<text y="1182.49">160/81</text>
 </g>
 <g font-size="15">
 <text y="187.4">10/9 minor 2nd</text>
 <text y="208.91">9/8 major 2nd</text>
 <text y="442.98">9/7 septimal major 3rd</text>
 <text y="1001.09">16/9 Pythagorean small min. 7th</text>
-<text y="1022.6">9/5 large minor 7th</text>
+<text y="1022.6">9/5 minor 7th</text>
 </g>
 <g font-size="17">
 <text y="236.84">8/7 septimal major 2nd</text>
@@ -410,7 +416,7 @@
 <text y="578.05">7/5 septimal tritone</text>
 <text y="633.11">10/7 septimal tritone</text>
 <text y="938.8">12/7 septimal major 6th</text>
-<text y="974.49">7/4 septimal minor 7th</text>
+<text y="974.49">7/4 harmonic 7th</text>
 </g>
 <g font-size="20">
 <text y="6.67">1/1 tonic</text>

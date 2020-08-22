@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="810" height="1483">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="870" height="1593">
 <g style="font-family: Times New Roman;">
-<text font-size="36" text-anchor="middle" x="405" y="36">Meantone Temperaments</text>
-<g transform="translate(100 237)">
+<text font-size="36" text-anchor="middle" x="435" y="36">Meantone Temperaments</text>
+<g transform="translate(100 347)">
 <g fill="transparent" stroke="black" stroke-width="1">
 <path d="M0 0 H20 V1200 H0"/>
 <path d="M0 100 H20"/>
@@ -316,60 +316,63 @@
 <text y="1180">1180</text>
 </g>
 </g>
-<g transform="translate(125 237)">
+<g transform="translate(125 347)">
 <g fill="transparent" stroke="black">
 <g stroke-width="1">
-<path d="M0 21.51 H460"/>
-<path d="M0 41.06 H460"/>
-<path d="M0 70.67 H460"/>
-<path d="M0 92.18 H460"/>
-<path d="M0 111.73 H460"/>
-<path d="M0 133.24 H460"/>
-<path d="M0 294.13 H460"/>
-<path d="M0 407.82 H458.58 L460 404.98"/>
-<path d="M0 427.37 H456.8 L460 420.98"/>
-<path d="M0 456.99 H460"/>
-<path d="M0 568.72 H453 L460 554.72"/>
-<path d="M0 590.22 H460"/>
-<path d="M0 609.78 H460"/>
-<path d="M0 631.28 H453.09 L460 645.11"/>
-<path d="M0 680.45 H460"/>
-<path d="M0 743.01 H460"/>
-<path d="M0 772.63 H460"/>
-<path d="M0 792.18 H460"/>
-<path d="M0 840.53 H460"/>
-<path d="M0 905.87 H460"/>
-<path d="M0 1049.36 H460"/>
-<path d="M0 1088.27 H460"/>
-<path d="M0 1109.78 H460"/>
-<path d="M0 1137.04 H460"/>
-<path d="M0 1158.94 H460"/>
+<path d="M0 21.51 H520"/>
+<path d="M0 41.06 H520"/>
+<path d="M0 70.67 H520"/>
+<path d="M0 92.18 H520"/>
+<path d="M0 111.73 H520"/>
+<path d="M0 133.24 H520"/>
+<path d="M0 294.13 H520"/>
+<path d="M0 407.82 H518.58 L520 404.98"/>
+<path d="M0 427.37 H516.8 L520 420.98"/>
+<path d="M0 456.99 H520"/>
+<path d="M0 519.55 H520"/>
+<path d="M0 568.72 H513 L520 554.72"/>
+<path d="M0 590.22 H520"/>
+<path d="M0 609.78 H520"/>
+<path d="M0 631.28 H513.09 L520 645.11"/>
+<path d="M0 680.45 H520"/>
+<path d="M0 743.01 H520"/>
+<path d="M0 772.63 H520"/>
+<path d="M0 792.18 H520"/>
+<path d="M0 840.53 H520"/>
+<path d="M0 905.87 H520"/>
+<path d="M0 1049.36 H520"/>
+<path d="M0 1066.76 H520"/>
+<path d="M0 1088.27 H520"/>
+<path d="M0 1109.78 H520"/>
+<path d="M0 1137.04 H520"/>
+<path d="M0 1158.94 H520"/>
+<path d="M0 1178.49 H520"/>
 </g>
 <g stroke-width="2">
-<path d="M0 182.4 H460"/>
-<path d="M0 203.91 H460"/>
-<path d="M0 231.17 H460"/>
-<path d="M0 266.87 H460"/>
-<path d="M0 435.08 H458.55 L460 437.98"/>
-<path d="M0 582.51 H454.94 L460 572.38"/>
-<path d="M0 617.49 H455.02 L460 627.44"/>
-<path d="M0 933.13 H460"/>
-<path d="M0 968.83 H460"/>
-<path d="M0 996.09 H460"/>
-<path d="M0 1017.6 H460"/>
+<path d="M0 182.4 H520"/>
+<path d="M0 203.91 H520"/>
+<path d="M0 231.17 H520"/>
+<path d="M0 266.87 H520"/>
+<path d="M0 435.08 H518.55 L520 437.98"/>
+<path d="M0 582.51 H514.94 L520 572.38"/>
+<path d="M0 617.49 H515.02 L520 627.44"/>
+<path d="M0 933.13 H520"/>
+<path d="M0 968.83 H520"/>
+<path d="M0 996.09 H520"/>
+<path d="M0 1017.6 H520"/>
 </g>
 <g stroke-width="3">
-<path d="M0 0 H460"/>
-<path d="M0 315.64 H460"/>
-<path d="M0 386.31 H460"/>
-<path d="M0 498.04 H460"/>
-<path d="M0 701.96 H460"/>
-<path d="M0 813.69 H460"/>
-<path d="M0 884.36 H460"/>
-<path d="M0 1200 H460"/>
+<path d="M0 0 H520"/>
+<path d="M0 315.64 H520"/>
+<path d="M0 386.31 H520"/>
+<path d="M0 498.04 H520"/>
+<path d="M0 701.96 H520"/>
+<path d="M0 813.69 H520"/>
+<path d="M0 884.36 H520"/>
+<path d="M0 1200 H520"/>
 </g>
 </g>
-<g transform="translate(464 0)">
+<g transform="translate(524 0)">
 <g font-size="12">
 <text y="25.51">81/80 syntonic comma</text>
 <text y="45.06">128/125 diminished 2nd</text>
@@ -381,6 +384,7 @@
 <text y="408.98">81/64 ditone</text>
 <text y="424.98">32/25 diminished 4th</text>
 <text y="460.99">125/96 augmented 3rd</text>
+<text y="523.55">27/20</text>
 <text y="558.72">25/18 augmented 4th </text>
 <text y="594.22">45/32 high / diatonic tritone</text>
 <text y="613.78">64/45 low tritone</text>
@@ -392,17 +396,19 @@
 <text y="844.53">13/8 overtone 6th</text>
 <text y="909.87">27/16 Pythagorean major 6th</text>
 <text y="1053.36">11/6 undecimal "median" 7th</text>
+<text y="1070.76">50/27</text>
 <text y="1092.27">15/8 major 7th</text>
 <text y="1113.78">243/128 Pythagorean major 7th</text>
 <text y="1141.04">27/14 septimal major 7th</text>
 <text y="1162.94">125/64 augmented 7th</text>
+<text y="1182.49">160/81</text>
 </g>
 <g font-size="15">
 <text y="187.4">10/9 minor 2nd</text>
 <text y="208.91">9/8 major 2nd</text>
 <text y="442.98">9/7 septimal major 3rd</text>
 <text y="1001.09">16/9 Pythagorean small min. 7th</text>
-<text y="1022.6">9/5 large minor 7th</text>
+<text y="1022.6">9/5 minor 7th</text>
 </g>
 <g font-size="17">
 <text y="236.84">8/7 septimal major 2nd</text>
@@ -410,7 +416,7 @@
 <text y="578.05">7/5 septimal tritone</text>
 <text y="633.11">10/7 septimal tritone</text>
 <text y="938.8">12/7 septimal major 6th</text>
-<text y="974.49">7/4 septimal minor 7th</text>
+<text y="974.49">7/4 harmonic 7th</text>
 </g>
 <g font-size="20">
 <text y="6.67">1/1 tonic</text>
@@ -424,37 +430,39 @@
 </g>
 </g>
 <g stroke="lightgrey" stroke-dasharray="3 3">
-<path d="M0 100 H460"/>
-<path d="M0 200 H460"/>
-<path d="M0 300 H460"/>
-<path d="M0 400 H460"/>
-<path d="M0 500 H460"/>
-<path d="M0 600 H460"/>
-<path d="M0 700 H460"/>
-<path d="M0 800 H460"/>
-<path d="M0 900 H460"/>
-<path d="M0 1000 H460"/>
-<path d="M0 1100 H460"/>
+<path d="M0 100 H520"/>
+<path d="M0 200 H520"/>
+<path d="M0 300 H520"/>
+<path d="M0 400 H520"/>
+<path d="M0 500 H520"/>
+<path d="M0 600 H520"/>
+<path d="M0 700 H520"/>
+<path d="M0 800 H520"/>
+<path d="M0 900 H520"/>
+<path d="M0 1000 H520"/>
+<path d="M0 1100 H520"/>
 </g>
 </g>
-<g font-size="20" text-anchor="left" transform="translate(150 217) rotate(270)">
-<text y="0">12-TET</text>
-<text y="30">1/6 SC Meantone</text>
-<text y="60">55-TET</text>
-<text y="90">1/6 PC Meantone</text>
-<text y="120">43-TET</text>
-<text y="150">1/5 SC Meantone</text>
-<text y="180">1/5 PC Meantone</text>
-<text y="210">31-TET</text>
-<text y="240">1/4 SC Meantone</text>
-<text y="270">1/4 PC Meantone</text>
-<text y="300">50-TET</text>
-<text y="330">2/7 SC Meantone</text>
-<text y="360">2/7 PC Meantone</text>
-<text y="390">1/3 SC Meantone</text>
-<text y="420">19-TET</text>
+<g font-size="20" text-anchor="left" transform="translate(150 327) rotate(270)">
+<text y="0">12-TET (1/11 SC, 1/12 PC)</text>
+<text y="30">1/7 SC Meantone</text>
+<text y="60">1/7 PC Meantone</text>
+<text y="90">1/6 SC Meantone</text>
+<text y="120">55-TET</text>
+<text y="150">1/6 PC Meantone</text>
+<text y="180">43-TET</text>
+<text y="210">1/5 SC Meantone</text>
+<text y="240">1/5 PC Meantone</text>
+<text y="270">31-TET</text>
+<text y="300">1/4 SC Meantone</text>
+<text y="330">1/4 PC Meantone</text>
+<text y="360">50-TET</text>
+<text y="390">2/7 SC Meantone</text>
+<text y="420">2/7 PC Meantone</text>
+<text y="450">1/3 SC Meantone</text>
+<text y="480">19-TET</text>
 </g>
-<g transform="translate(145 237)">
+<g transform="translate(145 347)">
 <g stroke="grey">
 <path d="M0 0 V1200"/>
 <path d="M30 0 V1200"/>
@@ -471,6 +479,8 @@
 <path d="M360 0 V1200"/>
 <path d="M390 0 V1200"/>
 <path d="M420 0 V1200"/>
+<path d="M450 0 V1200"/>
+<path d="M480 0 V1200"/>
 </g>
 <g fill="#404040">
 <circle cy="100" r="11.5"/>
@@ -490,6 +500,94 @@
 <circle cy="1100" r="11.5"/>
 </g>
 <g transform="translate(30 0)">
+<g fill="#808080">
+<circle cy="13.41" r="11.5"/>
+<circle cy="78.77" r="11.5"/>
+<circle cy="184.36" r="11.5"/>
+<circle cy="211.17" r="11.5"/>
+<circle cy="316.76" r="11.5"/>
+<circle cy="382.12" r="11.5"/>
+<circle cy="514.53" r="11.5"/>
+<circle cy="579.89" r="11.5"/>
+<circle cy="685.47" r="11.5"/>
+<circle cy="712.29" r="11.5"/>
+<circle cy="883.24" r="11.5"/>
+<circle cy="910.06" r="11.5"/>
+<circle cy="1015.64" r="11.5"/>
+<circle cy="1081.01" r="11.5"/>
+</g>
+<g fill="#404040">
+<circle cy="92.18" r="11.5"/>
+<circle cy="105.59" r="11.5"/>
+<circle cy="289.94" r="11.5"/>
+<circle cy="303.35" r="11.5"/>
+<circle cy="408.94" r="11.5"/>
+<circle cy="487.71" r="11.5"/>
+<circle cy="593.3" r="11.5"/>
+<circle cy="606.7" r="11.5"/>
+<circle cy="791.06" r="11.5"/>
+<circle cy="804.47" r="11.5"/>
+<circle cy="988.83" r="11.5"/>
+<circle cy="1002.23" r="11.5"/>
+<circle cy="1107.82" r="11.5"/>
+<circle cy="1186.59" r="11.5"/>
+</g>
+<g fill="#2020ff">
+<circle cy="0" r="11.5"/>
+<circle cy="1200" r="11.5"/>
+<circle cy="197.77" r="11.5"/>
+<circle cy="395.53" r="11.5"/>
+<circle cy="501.12" r="11.5"/>
+<circle cy="698.88" r="11.5"/>
+<circle cy="896.65" r="11.5"/>
+<circle cy="1094.41" r="11.5"/>
+</g>
+</g>
+<g transform="translate(60 0)">
+<g fill="#808080">
+<circle cy="16.76" r="11.5"/>
+<circle cy="73.47" r="11.5"/>
+<circle cy="180.45" r="11.5"/>
+<circle cy="213.96" r="11.5"/>
+<circle cy="320.95" r="11.5"/>
+<circle cy="377.66" r="11.5"/>
+<circle cy="518.15" r="11.5"/>
+<circle cy="574.86" r="11.5"/>
+<circle cy="681.85" r="11.5"/>
+<circle cy="715.36" r="11.5"/>
+<circle cy="879.05" r="11.5"/>
+<circle cy="912.57" r="11.5"/>
+<circle cy="1019.55" r="11.5"/>
+<circle cy="1076.26" r="11.5"/>
+</g>
+<g fill="#404040">
+<circle cy="90.22" r="11.5"/>
+<circle cy="106.98" r="11.5"/>
+<circle cy="287.43" r="11.5"/>
+<circle cy="304.19" r="11.5"/>
+<circle cy="411.17" r="11.5"/>
+<circle cy="484.64" r="11.5"/>
+<circle cy="591.62" r="11.5"/>
+<circle cy="608.38" r="11.5"/>
+<circle cy="788.83" r="11.5"/>
+<circle cy="805.59" r="11.5"/>
+<circle cy="986.04" r="11.5"/>
+<circle cy="1002.79" r="11.5"/>
+<circle cy="1109.78" r="11.5"/>
+<circle cy="1183.24" r="11.5"/>
+</g>
+<g fill="#2020ff">
+<circle cy="0" r="11.5"/>
+<circle cy="1200" r="11.5"/>
+<circle cy="197.21" r="11.5"/>
+<circle cy="394.41" r="11.5"/>
+<circle cy="501.4" r="11.5"/>
+<circle cy="698.6" r="11.5"/>
+<circle cy="895.81" r="11.5"/>
+<circle cy="1093.02" r="11.5"/>
+</g>
+</g>
+<g transform="translate(90 0)">
 <g fill="#808080">
 <circle cy="19.55" r="11.5"/>
 <circle cy="69.04" r="11.5"/>
@@ -533,7 +631,7 @@
 <circle cy="1091.85" r="11.5"/>
 </g>
 </g>
-<g transform="translate(60 0)">
+<g transform="translate(120 0)">
 <g fill="#808080">
 <circle cy="21.82" r="11.5"/>
 <circle cy="65.45" r="11.5"/>
@@ -577,7 +675,7 @@
 <circle cy="1090.91" r="11.5"/>
 </g>
 </g>
-<g transform="translate(90 0)">
+<g transform="translate(150 0)">
 <g fill="#808080">
 <circle cy="23.46" r="11.5"/>
 <circle cy="62.85" r="11.5"/>
@@ -621,7 +719,7 @@
 <circle cy="1090.22" r="11.5"/>
 </g>
 </g>
-<g transform="translate(120 0)">
+<g transform="translate(180 0)">
 <g fill="#808080">
 <circle cy="27.91" r="11.5"/>
 <circle cy="55.81" r="11.5"/>
@@ -665,7 +763,7 @@
 <circle cy="1088.37" r="11.5"/>
 </g>
 </g>
-<g transform="translate(150 0)">
+<g transform="translate(210 0)">
 <g fill="#808080">
 <circle cy="28.16" r="11.5"/>
 <circle cy="55.42" r="11.5"/>
@@ -709,7 +807,7 @@
 <circle cy="1088.27" r="11.5"/>
 </g>
 </g>
-<g transform="translate(180 0)">
+<g transform="translate(240 0)">
 <g fill="#808080">
 <circle cy="32.84" r="11.5"/>
 <circle cy="48" r="11.5"/>
@@ -753,7 +851,7 @@
 <circle cy="1086.31" r="11.5"/>
 </g>
 </g>
-<g transform="translate(210 0)">
+<g transform="translate(270 0)">
 <g fill="#808080">
 <circle cy="38.71" r="11.5"/>
 <circle cy="154.84" r="11.5"/>
@@ -793,7 +891,7 @@
 <circle cy="1083.87" r="11.5"/>
 </g>
 </g>
-<g transform="translate(240 0)">
+<g transform="translate(300 0)">
 <g fill="#808080">
 <circle cy="34.99" r="11.5"/>
 <circle cy="41.06" r="11.5"/>
@@ -837,7 +935,7 @@
 <circle cy="1082.89" r="11.5"/>
 </g>
 </g>
-<g transform="translate(270 0)">
+<g transform="translate(330 0)">
 <g fill="#808080">
 <circle cy="25.71" r="11.5"/>
 <circle cy="46.92" r="11.5"/>
@@ -881,7 +979,7 @@
 <circle cy="1080.45" r="11.5"/>
 </g>
 </g>
-<g transform="translate(300 0)">
+<g transform="translate(360 0)">
 <g fill="#808080">
 <circle cy="24" r="11.5"/>
 <circle cy="48" r="11.5"/>
@@ -925,7 +1023,7 @@
 <circle cy="1080" r="11.5"/>
 </g>
 </g>
-<g transform="translate(330 0)">
+<g transform="translate(390 0)">
 <g fill="#808080">
 <circle cy="20.4" r="11.5"/>
 <circle cy="50.28" r="11.5"/>
@@ -969,7 +1067,7 @@
 <circle cy="1079.05" r="11.5"/>
 </g>
 </g>
-<g transform="translate(360 0)">
+<g transform="translate(420 0)">
 <g fill="#808080">
 <circle cy="9.79" r="11.5"/>
 <circle cy="56.97" r="11.5"/>
@@ -1013,7 +1111,7 @@
 <circle cy="1076.26" r="11.5"/>
 </g>
 </g>
-<g transform="translate(390 0)">
+<g transform="translate(450 0)">
 <g fill="#404040">
 <circle cy="63.5" r="11.5"/>
 <circle cy="126.07" r="11.5"/>
@@ -1041,7 +1139,7 @@
 <circle cy="1073.93" r="11.5"/>
 </g>
 </g>
-<g transform="translate(420 0)">
+<g transform="translate(480 0)">
 <g fill="#404040">
 <circle cy="63.16" r="11.5"/>
 <circle cy="126.32" r="11.5"/>
@@ -1092,6 +1190,94 @@
 </g>
 <g transform="translate(30 0)">
 <g font-size="10">
+<text y="16.74">D𝄫</text>
+<text y="82.1">B𝄪</text>
+<text y="187.69">C𝄪</text>
+<text y="214.51">E𝄫</text>
+<text y="320.09">F𝄫</text>
+<text y="385.46">D𝄪</text>
+<text y="517.86">G𝄫</text>
+<text y="583.22">E𝄪</text>
+<text y="688.81">F𝄪</text>
+<text y="715.62">A𝄫</text>
+<text y="886.57">G𝄪</text>
+<text y="913.39">B𝄫</text>
+<text y="1018.98">C𝄫</text>
+<text y="1084.34">A𝄪</text>
+</g>
+<g font-size="12">
+<text y="96.18">C♯</text>
+<text y="109.59">D♭</text>
+<text y="293.94">D♯</text>
+<text y="307.35">E♭</text>
+<text y="412.94">F♭</text>
+<text y="491.71">E♯</text>
+<text y="597.3">F♯</text>
+<text y="610.7">G♭</text>
+<text y="795.06">G♯</text>
+<text y="808.47">A♭</text>
+<text y="992.83">A♯</text>
+<text y="1006.23">B♭</text>
+<text y="1111.82">C♭</text>
+<text y="1190.59">B♯</text>
+</g>
+<g font-size="14">
+<text y="4.67">C</text>
+<text y="1204.67">C</text>
+<text y="202.43">D</text>
+<text y="400.2">E</text>
+<text y="505.78">F</text>
+<text y="703.55">G</text>
+<text y="901.31">A</text>
+<text y="1099.08">B</text>
+</g>
+</g>
+<g transform="translate(60 0)">
+<g font-size="10">
+<text y="20.09">D𝄫</text>
+<text y="76.8">B𝄪</text>
+<text y="183.78">C𝄪</text>
+<text y="217.3">E𝄫</text>
+<text y="324.28">F𝄫</text>
+<text y="380.99">D𝄪</text>
+<text y="521.49">G𝄫</text>
+<text y="578.2">E𝄪</text>
+<text y="685.18">F𝄪</text>
+<text y="718.69">A𝄫</text>
+<text y="882.39">G𝄪</text>
+<text y="915.9">B𝄫</text>
+<text y="1022.88">C𝄫</text>
+<text y="1079.59">A𝄪</text>
+</g>
+<g font-size="12">
+<text y="94.22">C♯</text>
+<text y="110.98">D♭</text>
+<text y="291.43">D♯</text>
+<text y="308.19">E♭</text>
+<text y="415.17">F♭</text>
+<text y="488.64">E♯</text>
+<text y="595.62">F♯</text>
+<text y="612.38">G♭</text>
+<text y="792.83">G♯</text>
+<text y="809.59">A♭</text>
+<text y="990.04">A♯</text>
+<text y="1006.79">B♭</text>
+<text y="1113.78">C♭</text>
+<text y="1187.24">B♯</text>
+</g>
+<g font-size="14">
+<text y="4.67">C</text>
+<text y="1204.67">C</text>
+<text y="201.87">D</text>
+<text y="399.08">E</text>
+<text y="506.06">F</text>
+<text y="703.27">G</text>
+<text y="900.48">A</text>
+<text y="1097.68">B</text>
+</g>
+</g>
+<g transform="translate(90 0)">
+<g font-size="10">
 <text y="22.89">D𝄫</text>
 <text y="72.38">B𝄪</text>
 <text y="180.52">C𝄪</text>
@@ -1134,7 +1320,7 @@
 <text y="1096.52">B</text>
 </g>
 </g>
-<g transform="translate(60 0)">
+<g transform="translate(120 0)">
 <g font-size="10">
 <text y="25.15">D𝄫</text>
 <text y="68.79">B𝄪</text>
@@ -1178,7 +1364,7 @@
 <text y="1095.58">B</text>
 </g>
 </g>
-<g transform="translate(90 0)">
+<g transform="translate(150 0)">
 <g font-size="10">
 <text y="26.79">D𝄫</text>
 <text y="66.19">B𝄪</text>
@@ -1222,7 +1408,7 @@
 <text y="1094.89">B</text>
 </g>
 </g>
-<g transform="translate(120 0)">
+<g transform="translate(180 0)">
 <g font-size="10">
 <text y="31.24">D𝄫</text>
 <text y="59.15">B𝄪</text>
@@ -1266,7 +1452,7 @@
 <text y="1093.04">B</text>
 </g>
 </g>
-<g transform="translate(150 0)">
+<g transform="translate(210 0)">
 <g font-size="10">
 <text y="31.49">D𝄫</text>
 <text y="58.75">B𝄪</text>
@@ -1310,7 +1496,7 @@
 <text y="1092.94">B</text>
 </g>
 </g>
-<g transform="translate(180 0)">
+<g transform="translate(240 0)">
 <g font-size="10">
 <text y="36.18">D𝄫</text>
 <text y="51.33">B𝄪</text>
@@ -1354,7 +1540,7 @@
 <text y="1090.98">B</text>
 </g>
 </g>
-<g transform="translate(210 0)">
+<g transform="translate(270 0)">
 <g font-size="10">
 <text y="37.04">B𝄪</text>
 <text y="47.04">D𝄫</text>
@@ -1398,7 +1584,7 @@
 <text y="1088.54">B</text>
 </g>
 </g>
-<g transform="translate(240 0)">
+<g transform="translate(300 0)">
 <g font-size="10">
 <text y="38.32">B𝄪</text>
 <text y="44.39">D𝄫</text>
@@ -1442,7 +1628,7 @@
 <text y="1087.56">B</text>
 </g>
 </g>
-<g transform="translate(270 0)">
+<g transform="translate(330 0)">
 <g font-size="10">
 <text y="29.04">B𝄪</text>
 <text y="50.25">D𝄫</text>
@@ -1486,7 +1672,7 @@
 <text y="1085.12">B</text>
 </g>
 </g>
-<g transform="translate(300 0)">
+<g transform="translate(360 0)">
 <g font-size="10">
 <text y="27.33">B𝄪</text>
 <text y="51.33">D𝄫</text>
@@ -1530,7 +1716,7 @@
 <text y="1084.67">B</text>
 </g>
 </g>
-<g transform="translate(330 0)">
+<g transform="translate(390 0)">
 <g font-size="10">
 <text y="23.73">B𝄪</text>
 <text y="53.61">D𝄫</text>
@@ -1574,7 +1760,7 @@
 <text y="1083.72">B</text>
 </g>
 </g>
-<g transform="translate(360 0)">
+<g transform="translate(420 0)">
 <g font-size="10">
 <text y="13.12">B𝄪</text>
 <text y="60.31">D𝄫</text>
@@ -1618,7 +1804,7 @@
 <text y="1080.93">B</text>
 </g>
 </g>
-<g transform="translate(390 0)">
+<g transform="translate(450 0)">
 <g font-size="12">
 <text y="67.5">C♯</text>
 <text y="130.07">D♭</text>
@@ -1646,7 +1832,7 @@
 <text y="1078.6">B</text>
 </g>
 </g>
-<g transform="translate(420 0)">
+<g transform="translate(480 0)">
 <g font-size="10">
 <text y="440.44">E♯</text>
 <text y="450.44">F♭</text>
@@ -1679,7 +1865,7 @@
 </g>
 </g>
 <a href="https://www.fidolab.org">
-<text fill="grey" font-size="20" font-style="italic" text-anchor="middle" x="427.5" y="1477">www.FidoLab.org</text>
+<text fill="grey" font-size="20" font-style="italic" text-anchor="middle" x="457.5" y="1587">www.FidoLab.org</text>
 </a>
 </g>
 </svg>

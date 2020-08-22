@@ -1,0 +1,1923 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="849" height="1318">
+<g style="font-family: Times New Roman;">
+<text font-size="36" text-anchor="middle" x="424.5" y="36">Harmonic Series</text>
+<g transform="translate(100 72)">
+<g fill="transparent" stroke="black" stroke-width="1">
+<path d="M0 0 H20 V1200 H0"/>
+<path d="M0 100 H20"/>
+<path d="M0 200 H20"/>
+<path d="M0 300 H20"/>
+<path d="M0 400 H20"/>
+<path d="M0 500 H20"/>
+<path d="M0 600 H20"/>
+<path d="M0 700 H20"/>
+<path d="M0 800 H20"/>
+<path d="M0 900 H20"/>
+<path d="M0 1000 H20"/>
+<path d="M0 1100 H20"/>
+<g transform="translate(7 0)">
+<path d="M0 10 H13"/>
+<path d="M0 20 H13"/>
+<path d="M0 30 H13"/>
+<path d="M0 40 H13"/>
+<path d="M0 50 H13"/>
+<path d="M0 60 H13"/>
+<path d="M0 70 H13"/>
+<path d="M0 80 H13"/>
+<path d="M0 90 H13"/>
+<path d="M0 110 H13"/>
+<path d="M0 120 H13"/>
+<path d="M0 130 H13"/>
+<path d="M0 140 H13"/>
+<path d="M0 150 H13"/>
+<path d="M0 160 H13"/>
+<path d="M0 170 H13"/>
+<path d="M0 180 H13"/>
+<path d="M0 190 H13"/>
+<path d="M0 210 H13"/>
+<path d="M0 220 H13"/>
+<path d="M0 230 H13"/>
+<path d="M0 240 H13"/>
+<path d="M0 250 H13"/>
+<path d="M0 260 H13"/>
+<path d="M0 270 H13"/>
+<path d="M0 280 H13"/>
+<path d="M0 290 H13"/>
+<path d="M0 310 H13"/>
+<path d="M0 320 H13"/>
+<path d="M0 330 H13"/>
+<path d="M0 340 H13"/>
+<path d="M0 350 H13"/>
+<path d="M0 360 H13"/>
+<path d="M0 370 H13"/>
+<path d="M0 380 H13"/>
+<path d="M0 390 H13"/>
+<path d="M0 410 H13"/>
+<path d="M0 420 H13"/>
+<path d="M0 430 H13"/>
+<path d="M0 440 H13"/>
+<path d="M0 450 H13"/>
+<path d="M0 460 H13"/>
+<path d="M0 470 H13"/>
+<path d="M0 480 H13"/>
+<path d="M0 490 H13"/>
+<path d="M0 510 H13"/>
+<path d="M0 520 H13"/>
+<path d="M0 530 H13"/>
+<path d="M0 540 H13"/>
+<path d="M0 550 H13"/>
+<path d="M0 560 H13"/>
+<path d="M0 570 H13"/>
+<path d="M0 580 H13"/>
+<path d="M0 590 H13"/>
+<path d="M0 610 H13"/>
+<path d="M0 620 H13"/>
+<path d="M0 630 H13"/>
+<path d="M0 640 H13"/>
+<path d="M0 650 H13"/>
+<path d="M0 660 H13"/>
+<path d="M0 670 H13"/>
+<path d="M0 680 H13"/>
+<path d="M0 690 H13"/>
+<path d="M0 710 H13"/>
+<path d="M0 720 H13"/>
+<path d="M0 730 H13"/>
+<path d="M0 740 H13"/>
+<path d="M0 750 H13"/>
+<path d="M0 760 H13"/>
+<path d="M0 770 H13"/>
+<path d="M0 780 H13"/>
+<path d="M0 790 H13"/>
+<path d="M0 810 H13"/>
+<path d="M0 820 H13"/>
+<path d="M0 830 H13"/>
+<path d="M0 840 H13"/>
+<path d="M0 850 H13"/>
+<path d="M0 860 H13"/>
+<path d="M0 870 H13"/>
+<path d="M0 880 H13"/>
+<path d="M0 890 H13"/>
+<path d="M0 910 H13"/>
+<path d="M0 920 H13"/>
+<path d="M0 930 H13"/>
+<path d="M0 940 H13"/>
+<path d="M0 950 H13"/>
+<path d="M0 960 H13"/>
+<path d="M0 970 H13"/>
+<path d="M0 980 H13"/>
+<path d="M0 990 H13"/>
+<path d="M0 1010 H13"/>
+<path d="M0 1020 H13"/>
+<path d="M0 1030 H13"/>
+<path d="M0 1040 H13"/>
+<path d="M0 1050 H13"/>
+<path d="M0 1060 H13"/>
+<path d="M0 1070 H13"/>
+<path d="M0 1080 H13"/>
+<path d="M0 1090 H13"/>
+<path d="M0 1110 H13"/>
+<path d="M0 1120 H13"/>
+<path d="M0 1130 H13"/>
+<path d="M0 1140 H13"/>
+<path d="M0 1150 H13"/>
+<path d="M0 1160 H13"/>
+<path d="M0 1170 H13"/>
+<path d="M0 1180 H13"/>
+<path d="M0 1190 H13"/>
+</g>
+<g transform="translate(13 0)">
+<path d="M0 5 H7"/>
+<path d="M0 15 H7"/>
+<path d="M0 25 H7"/>
+<path d="M0 35 H7"/>
+<path d="M0 45 H7"/>
+<path d="M0 55 H7"/>
+<path d="M0 65 H7"/>
+<path d="M0 75 H7"/>
+<path d="M0 85 H7"/>
+<path d="M0 95 H7"/>
+<path d="M0 105 H7"/>
+<path d="M0 115 H7"/>
+<path d="M0 125 H7"/>
+<path d="M0 135 H7"/>
+<path d="M0 145 H7"/>
+<path d="M0 155 H7"/>
+<path d="M0 165 H7"/>
+<path d="M0 175 H7"/>
+<path d="M0 185 H7"/>
+<path d="M0 195 H7"/>
+<path d="M0 205 H7"/>
+<path d="M0 215 H7"/>
+<path d="M0 225 H7"/>
+<path d="M0 235 H7"/>
+<path d="M0 245 H7"/>
+<path d="M0 255 H7"/>
+<path d="M0 265 H7"/>
+<path d="M0 275 H7"/>
+<path d="M0 285 H7"/>
+<path d="M0 295 H7"/>
+<path d="M0 305 H7"/>
+<path d="M0 315 H7"/>
+<path d="M0 325 H7"/>
+<path d="M0 335 H7"/>
+<path d="M0 345 H7"/>
+<path d="M0 355 H7"/>
+<path d="M0 365 H7"/>
+<path d="M0 375 H7"/>
+<path d="M0 385 H7"/>
+<path d="M0 395 H7"/>
+<path d="M0 405 H7"/>
+<path d="M0 415 H7"/>
+<path d="M0 425 H7"/>
+<path d="M0 435 H7"/>
+<path d="M0 445 H7"/>
+<path d="M0 455 H7"/>
+<path d="M0 465 H7"/>
+<path d="M0 475 H7"/>
+<path d="M0 485 H7"/>
+<path d="M0 495 H7"/>
+<path d="M0 505 H7"/>
+<path d="M0 515 H7"/>
+<path d="M0 525 H7"/>
+<path d="M0 535 H7"/>
+<path d="M0 545 H7"/>
+<path d="M0 555 H7"/>
+<path d="M0 565 H7"/>
+<path d="M0 575 H7"/>
+<path d="M0 585 H7"/>
+<path d="M0 595 H7"/>
+<path d="M0 605 H7"/>
+<path d="M0 615 H7"/>
+<path d="M0 625 H7"/>
+<path d="M0 635 H7"/>
+<path d="M0 645 H7"/>
+<path d="M0 655 H7"/>
+<path d="M0 665 H7"/>
+<path d="M0 675 H7"/>
+<path d="M0 685 H7"/>
+<path d="M0 695 H7"/>
+<path d="M0 705 H7"/>
+<path d="M0 715 H7"/>
+<path d="M0 725 H7"/>
+<path d="M0 735 H7"/>
+<path d="M0 745 H7"/>
+<path d="M0 755 H7"/>
+<path d="M0 765 H7"/>
+<path d="M0 775 H7"/>
+<path d="M0 785 H7"/>
+<path d="M0 795 H7"/>
+<path d="M0 805 H7"/>
+<path d="M0 815 H7"/>
+<path d="M0 825 H7"/>
+<path d="M0 835 H7"/>
+<path d="M0 845 H7"/>
+<path d="M0 855 H7"/>
+<path d="M0 865 H7"/>
+<path d="M0 875 H7"/>
+<path d="M0 885 H7"/>
+<path d="M0 895 H7"/>
+<path d="M0 905 H7"/>
+<path d="M0 915 H7"/>
+<path d="M0 925 H7"/>
+<path d="M0 935 H7"/>
+<path d="M0 945 H7"/>
+<path d="M0 955 H7"/>
+<path d="M0 965 H7"/>
+<path d="M0 975 H7"/>
+<path d="M0 985 H7"/>
+<path d="M0 995 H7"/>
+<path d="M0 1005 H7"/>
+<path d="M0 1015 H7"/>
+<path d="M0 1025 H7"/>
+<path d="M0 1035 H7"/>
+<path d="M0 1045 H7"/>
+<path d="M0 1055 H7"/>
+<path d="M0 1065 H7"/>
+<path d="M0 1075 H7"/>
+<path d="M0 1085 H7"/>
+<path d="M0 1095 H7"/>
+<path d="M0 1105 H7"/>
+<path d="M0 1115 H7"/>
+<path d="M0 1125 H7"/>
+<path d="M0 1135 H7"/>
+<path d="M0 1145 H7"/>
+<path d="M0 1155 H7"/>
+<path d="M0 1165 H7"/>
+<path d="M0 1175 H7"/>
+<path d="M0 1185 H7"/>
+<path d="M0 1195 H7"/>
+</g>
+</g>
+<g fill="black" font-size="20" text-anchor="end" transform="translate(-5 6.7)">
+<text y="0">0</text>
+<text y="100">100</text>
+<text y="200">200</text>
+<text y="300">300</text>
+<text y="400">400</text>
+<text y="500">500</text>
+<text y="600">600</text>
+<text y="700">700</text>
+<text y="800">800</text>
+<text y="900">900</text>
+<text y="1000">1000</text>
+<text y="1100">1100</text>
+<text y="1200">1200</text>
+</g>
+<g fill="black" font-size="13" text-anchor="end" transform="translate(2 4.3)">
+<text y="20">20</text>
+<text y="40">40</text>
+<text y="60">60</text>
+<text y="80">80</text>
+<text y="120">120</text>
+<text y="140">140</text>
+<text y="160">160</text>
+<text y="180">180</text>
+<text y="220">220</text>
+<text y="240">240</text>
+<text y="260">260</text>
+<text y="280">280</text>
+<text y="320">320</text>
+<text y="340">340</text>
+<text y="360">360</text>
+<text y="380">380</text>
+<text y="420">420</text>
+<text y="440">440</text>
+<text y="460">460</text>
+<text y="480">480</text>
+<text y="520">520</text>
+<text y="540">540</text>
+<text y="560">560</text>
+<text y="580">580</text>
+<text y="620">620</text>
+<text y="640">640</text>
+<text y="660">660</text>
+<text y="680">680</text>
+<text y="720">720</text>
+<text y="740">740</text>
+<text y="760">760</text>
+<text y="780">780</text>
+<text y="820">820</text>
+<text y="840">840</text>
+<text y="860">860</text>
+<text y="880">880</text>
+<text y="920">920</text>
+<text y="940">940</text>
+<text y="960">960</text>
+<text y="980">980</text>
+<text y="1020">1020</text>
+<text y="1040">1040</text>
+<text y="1060">1060</text>
+<text y="1080">1080</text>
+<text y="1120">1120</text>
+<text y="1140">1140</text>
+<text y="1160">1160</text>
+<text y="1180">1180</text>
+</g>
+</g>
+<g transform="translate(125 72)">
+<g fill="transparent" stroke="black">
+<g stroke-width="1">
+<path d="M0 26.84 H499"/>
+<path d="M0 53.27 H499"/>
+<path d="M0 79.31 H499"/>
+<path d="M0 104.96 H499"/>
+<path d="M0 130.23 H499"/>
+<path d="M0 155.14 H499"/>
+<path d="M0 179.7 H499"/>
+<path d="M0 227.79 H499"/>
+<path d="M0 251.34 H499"/>
+<path d="M0 274.58 H499"/>
+<path d="M0 297.51 H499"/>
+<path d="M0 320.14 H499"/>
+<path d="M0 342.48 H499"/>
+<path d="M0 364.54 H499"/>
+<path d="M0 407.82 H499"/>
+<path d="M0 429.06 H499"/>
+<path d="M0 450.05 H499"/>
+<path d="M0 470.78 H499"/>
+<path d="M0 491.27 H499"/>
+<path d="M0 511.52 H499"/>
+<path d="M0 531.53 H499"/>
+<path d="M0 551.32 H499"/>
+<path d="M0 570.88 H499"/>
+<path d="M0 590.22 H499"/>
+<path d="M0 609.35 H499"/>
+<path d="M0 628.27 H499"/>
+<path d="M0 646.99 H499"/>
+<path d="M0 665.51 H499"/>
+<path d="M0 683.83 H499"/>
+<path d="M0 719.9 H499"/>
+<path d="M0 737.65 H499"/>
+<path d="M0 755.23 H499"/>
+<path d="M0 772.63 H499"/>
+<path d="M0 789.85 H499"/>
+<path d="M0 806.91 H499"/>
+<path d="M0 823.8 H499"/>
+<path d="M0 840.53 H499"/>
+<path d="M0 857.09 H499"/>
+<path d="M0 873.5 H499"/>
+<path d="M0 889.76 H499"/>
+<path d="M0 905.87 H499"/>
+<path d="M0 921.82 H499"/>
+<path d="M0 937.63 H499"/>
+<path d="M0 953.3 H499"/>
+<path d="M0 984.21 H499"/>
+<path d="M0 999.47 H499"/>
+<path d="M0 1014.59 H499"/>
+<path d="M0 1029.58 H499"/>
+<path d="M0 1044.44 H499"/>
+<path d="M0 1059.17 H499"/>
+<path d="M0 1073.78 H499"/>
+<path d="M0 1088.27 H499"/>
+<path d="M0 1102.64 H499"/>
+<path d="M0 1116.88 H499"/>
+<path d="M0 1131.02 H499"/>
+<path d="M0 1145.04 H499"/>
+<path d="M0 1158.94 H499"/>
+<path d="M0 1172.74 H499"/>
+<path d="M0 1186.42 H499"/>
+</g>
+<g stroke-width="2">
+<path d="M0 203.91 H499"/>
+<path d="M0 968.83 H499"/>
+</g>
+<g stroke-width="3">
+<path d="M0 0 H499"/>
+<path d="M0 386.31 H499"/>
+<path d="M0 701.96 H499"/>
+<path d="M0 1200 H499"/>
+</g>
+</g>
+<g transform="translate(503 0)">
+<g font-size="4">
+</g>
+<g font-size="5">
+</g>
+<g font-size="6">
+</g>
+<g font-size="7">
+</g>
+<g font-size="8">
+</g>
+<g font-size="9">
+<text y="29.84">65/64</text>
+<text y="82.31">67/64</text>
+<text y="133.23">69/64</text>
+<text y="182.7">71/64</text>
+<text y="230.79">73/64</text>
+<text y="277.58">75/64</text>
+<text y="323.14">77/64</text>
+<text y="367.54">79/64</text>
+<text y="410.82">81/64 ditone</text>
+<text y="453.05">83/64</text>
+<text y="494.27">85/64</text>
+<text y="534.53">87/64</text>
+<text y="573.88">89/64</text>
+<text y="612.35">91/64</text>
+<text y="649.99">93/64</text>
+<text y="686.83">95/64</text>
+<text y="722.9">97/64</text>
+<text y="758.23">99/64</text>
+<text y="792.85">101/64</text>
+<text y="826.8">103/64</text>
+<text y="860.09">105/64</text>
+<text y="892.76">107/64</text>
+<text y="924.82">109/64</text>
+<text y="956.3">111/64</text>
+<text y="987.21">113/64</text>
+<text y="1017.59">115/64</text>
+<text y="1047.44">117/64</text>
+<text y="1076.78">119/64</text>
+<text y="1105.64">121/64</text>
+<text y="1134.02">123/64</text>
+<text y="1161.94">125/64 augmented 7th</text>
+<text y="1189.42">127/64</text>
+</g>
+<g font-size="12">
+<text y="57.27">33/32</text>
+<text y="108.96">17/16</text>
+<text y="159.14">35/32</text>
+<text y="255.34">37/32</text>
+<text y="301.51">19/16</text>
+<text y="346.48">39/32</text>
+<text y="433.06">41/32</text>
+<text y="474.78">21/16</text>
+<text y="515.52">43/32</text>
+<text y="555.32">11/8</text>
+<text y="594.22">45/32 high / diatonic tritone</text>
+<text y="632.27">23/16</text>
+<text y="669.51">47/32</text>
+<text y="741.65">49/32</text>
+<text y="776.63">25/16 augmented 5th</text>
+<text y="810.91">51/32</text>
+<text y="844.53">13/8 overtone 6th</text>
+<text y="877.5">53/32</text>
+<text y="909.87">27/16 Pythagorean major 6th</text>
+<text y="941.63">55/32</text>
+<text y="1003.47">57/32</text>
+<text y="1033.58">29/16</text>
+<text y="1063.17">59/32</text>
+<text y="1092.27">15/8 major 7th</text>
+<text y="1120.88">61/32</text>
+<text y="1149.04">31/16</text>
+<text y="1176.74">63/32</text>
+</g>
+<g font-size="15">
+<text y="208.91">9/8 major 2nd</text>
+</g>
+<g font-size="17">
+<text y="974.49">7/4 harmonic 7th</text>
+</g>
+<g font-size="20">
+<text y="6.67">1/1 tonic</text>
+<text y="392.98">5/4 major 3rd</text>
+<text y="708.62">3/2 perfect 5th</text>
+<text y="1206.67">2/1 octave</text>
+</g>
+</g>
+<g stroke="lightgrey" stroke-dasharray="3 3">
+<path d="M0 100 H499"/>
+<path d="M0 200 H499"/>
+<path d="M0 300 H499"/>
+<path d="M0 400 H499"/>
+<path d="M0 500 H499"/>
+<path d="M0 600 H499"/>
+<path d="M0 700 H499"/>
+<path d="M0 800 H499"/>
+<path d="M0 900 H499"/>
+<path d="M0 1000 H499"/>
+<path d="M0 1100 H499"/>
+</g>
+</g>
+<g transform="translate(145 72)">
+<g stroke="grey" stroke-width="2">
+<path d="M0 0 L64 1200"/>
+<path d="M64 0 L96 701.96"/>
+<path d="M96 701.96 L128 1200"/>
+<path d="M128 0 L144 386.31"/>
+<path d="M144 386.31 L160 701.96"/>
+<path d="M160 701.96 L176 968.83"/>
+<path d="M176 968.83 L192 1200"/>
+<path d="M192 0 L200 203.91"/>
+<path d="M200 203.91 L208 386.31"/>
+<path d="M208 386.31 L216 551.32"/>
+<path d="M216 551.32 L224 701.96"/>
+<path d="M224 701.96 L232 840.53"/>
+<path d="M232 840.53 L240 968.83"/>
+<path d="M240 968.83 L248 1088.27"/>
+<path d="M248 1088.27 L256 1200"/>
+<path d="M256 0 L260 104.96"/>
+<path d="M260 104.96 L264 203.91"/>
+<path d="M264 203.91 L268 297.51"/>
+<path d="M268 297.51 L272 386.31"/>
+<path d="M272 386.31 L276 470.78"/>
+<path d="M276 470.78 L280 551.32"/>
+<path d="M280 551.32 L284 628.27"/>
+<path d="M284 628.27 L288 701.96"/>
+<path d="M288 701.96 L292 772.63"/>
+<path d="M292 772.63 L296 840.53"/>
+<path d="M296 840.53 L300 905.87"/>
+<path d="M300 905.87 L304 968.83"/>
+<path d="M304 968.83 L308 1029.58"/>
+<path d="M308 1029.58 L312 1088.27"/>
+<path d="M312 1088.27 L316 1145.04"/>
+<path d="M316 1145.04 L320 1200"/>
+<path d="M320 0 L322 53.27"/>
+<path d="M322 53.27 L324 104.96"/>
+<path d="M324 104.96 L326 155.14"/>
+<path d="M326 155.14 L328 203.91"/>
+<path d="M328 203.91 L330 251.34"/>
+<path d="M330 251.34 L332 297.51"/>
+<path d="M332 297.51 L334 342.48"/>
+<path d="M334 342.48 L336 386.31"/>
+<path d="M336 386.31 L338 429.06"/>
+<path d="M338 429.06 L340 470.78"/>
+<path d="M340 470.78 L342 511.52"/>
+<path d="M342 511.52 L344 551.32"/>
+<path d="M344 551.32 L346 590.22"/>
+<path d="M346 590.22 L348 628.27"/>
+<path d="M348 628.27 L350 665.51"/>
+<path d="M350 665.51 L352 701.96"/>
+<path d="M352 701.96 L354 737.65"/>
+<path d="M354 737.65 L356 772.63"/>
+<path d="M356 772.63 L358 806.91"/>
+<path d="M358 806.91 L360 840.53"/>
+<path d="M360 840.53 L362 873.5"/>
+<path d="M362 873.5 L364 905.87"/>
+<path d="M364 905.87 L366 937.63"/>
+<path d="M366 937.63 L368 968.83"/>
+<path d="M368 968.83 L370 999.47"/>
+<path d="M370 999.47 L372 1029.58"/>
+<path d="M372 1029.58 L374 1059.17"/>
+<path d="M374 1059.17 L376 1088.27"/>
+<path d="M376 1088.27 L378 1116.88"/>
+<path d="M378 1116.88 L380 1145.04"/>
+<path d="M380 1145.04 L382 1172.74"/>
+<path d="M382 1172.74 L384 1200"/>
+<path d="M384 0 L385 26.84"/>
+<path d="M385 26.84 L386 53.27"/>
+<path d="M386 53.27 L387 79.31"/>
+<path d="M387 79.31 L388 104.96"/>
+<path d="M388 104.96 L389 130.23"/>
+<path d="M389 130.23 L390 155.14"/>
+<path d="M390 155.14 L391 179.7"/>
+<path d="M391 179.7 L392 203.91"/>
+<path d="M392 203.91 L393 227.79"/>
+<path d="M393 227.79 L394 251.34"/>
+<path d="M394 251.34 L395 274.58"/>
+<path d="M395 274.58 L396 297.51"/>
+<path d="M396 297.51 L397 320.14"/>
+<path d="M397 320.14 L398 342.48"/>
+<path d="M398 342.48 L399 364.54"/>
+<path d="M399 364.54 L400 386.31"/>
+<path d="M400 386.31 L401 407.82"/>
+<path d="M401 407.82 L402 429.06"/>
+<path d="M402 429.06 L403 450.05"/>
+<path d="M403 450.05 L404 470.78"/>
+<path d="M404 470.78 L405 491.27"/>
+<path d="M405 491.27 L406 511.52"/>
+<path d="M406 511.52 L407 531.53"/>
+<path d="M407 531.53 L408 551.32"/>
+<path d="M408 551.32 L409 570.88"/>
+<path d="M409 570.88 L410 590.22"/>
+<path d="M410 590.22 L411 609.35"/>
+<path d="M411 609.35 L412 628.27"/>
+<path d="M412 628.27 L413 646.99"/>
+<path d="M413 646.99 L414 665.51"/>
+<path d="M414 665.51 L415 683.83"/>
+<path d="M415 683.83 L416 701.96"/>
+<path d="M416 701.96 L417 719.9"/>
+<path d="M417 719.9 L418 737.65"/>
+<path d="M418 737.65 L419 755.23"/>
+<path d="M419 755.23 L420 772.63"/>
+<path d="M420 772.63 L421 789.85"/>
+<path d="M421 789.85 L422 806.91"/>
+<path d="M422 806.91 L423 823.8"/>
+<path d="M423 823.8 L424 840.53"/>
+<path d="M424 840.53 L425 857.09"/>
+<path d="M425 857.09 L426 873.5"/>
+<path d="M426 873.5 L427 889.76"/>
+<path d="M427 889.76 L428 905.87"/>
+<path d="M428 905.87 L429 921.82"/>
+<path d="M429 921.82 L430 937.63"/>
+<path d="M430 937.63 L431 953.3"/>
+<path d="M431 953.3 L432 968.83"/>
+<path d="M432 968.83 L433 984.21"/>
+<path d="M433 984.21 L434 999.47"/>
+<path d="M434 999.47 L435 1014.59"/>
+<path d="M435 1014.59 L436 1029.58"/>
+<path d="M436 1029.58 L437 1044.44"/>
+<path d="M437 1044.44 L438 1059.17"/>
+<path d="M438 1059.17 L439 1073.78"/>
+<path d="M439 1073.78 L440 1088.27"/>
+<path d="M440 1088.27 L441 1102.64"/>
+<path d="M441 1102.64 L442 1116.88"/>
+<path d="M442 1116.88 L443 1131.02"/>
+<path d="M443 1131.02 L444 1145.04"/>
+<path d="M444 1145.04 L445 1158.94"/>
+<path d="M445 1158.94 L446 1172.74"/>
+<path d="M446 1172.74 L447 1186.42"/>
+<path d="M447 1186.42 L448 1200"/>
+</g>
+<g fill="#2020ff">
+<circle cy="0" r="11.5"/>
+<circle cy="1200" r="11.5"/>
+</g>
+<g transform="translate(64 0)">
+<g fill="#2020ff">
+<circle cy="0" r="11.5"/>
+<circle cy="1200" r="11.5"/>
+</g>
+</g>
+<g transform="translate(96 0)">
+<g fill="#2020ff">
+<circle cy="701.96" r="11.5"/>
+</g>
+</g>
+<g transform="translate(128 0)">
+<g fill="#2020ff">
+<circle cy="0" r="11.5"/>
+<circle cy="1200" r="11.5"/>
+</g>
+</g>
+<g transform="translate(144 0)">
+<g fill="#2020ff">
+<circle cy="386.31" r="11.5"/>
+</g>
+</g>
+<g transform="translate(160 0)">
+<g fill="#2020ff">
+<circle cy="701.96" r="11.5"/>
+</g>
+</g>
+<g transform="translate(176 0)">
+<g fill="#2020ff">
+<circle cy="968.83" r="11.5"/>
+</g>
+</g>
+<g transform="translate(192 0)">
+<g fill="#2020ff">
+<circle cy="0" r="11.5"/>
+<circle cy="1200" r="11.5"/>
+</g>
+</g>
+<g transform="translate(200 0)">
+<g fill="#2020ff">
+<circle cy="203.91" r="11.5"/>
+</g>
+</g>
+<g transform="translate(208 0)">
+<g fill="#2020ff">
+<circle cy="386.31" r="11.5"/>
+</g>
+</g>
+<g transform="translate(216 0)">
+<g fill="#2020ff">
+<circle cy="551.32" r="11.5"/>
+</g>
+</g>
+<g transform="translate(224 0)">
+<g fill="#2020ff">
+<circle cy="701.96" r="11.5"/>
+</g>
+</g>
+<g transform="translate(232 0)">
+<g fill="#2020ff">
+<circle cy="840.53" r="11.5"/>
+</g>
+</g>
+<g transform="translate(240 0)">
+<g fill="#2020ff">
+<circle cy="968.83" r="11.5"/>
+</g>
+</g>
+<g transform="translate(248 0)">
+<g fill="#2020ff">
+<circle cy="1088.27" r="11.5"/>
+</g>
+</g>
+<g transform="translate(256 0)">
+<g fill="#2020ff">
+<circle cy="0" r="11.5"/>
+<circle cy="1200" r="11.5"/>
+</g>
+</g>
+<g transform="translate(260 0)">
+<g fill="#2020ff">
+<circle cy="104.96" r="11.5"/>
+</g>
+</g>
+<g transform="translate(264 0)">
+<g fill="#2020ff">
+<circle cy="203.91" r="11.5"/>
+</g>
+</g>
+<g transform="translate(268 0)">
+<g fill="#2020ff">
+<circle cy="297.51" r="11.5"/>
+</g>
+</g>
+<g transform="translate(272 0)">
+<g fill="#2020ff">
+<circle cy="386.31" r="11.5"/>
+</g>
+</g>
+<g transform="translate(276 0)">
+<g fill="#2020ff">
+<circle cy="470.78" r="11.5"/>
+</g>
+</g>
+<g transform="translate(280 0)">
+<g fill="#2020ff">
+<circle cy="551.32" r="11.5"/>
+</g>
+</g>
+<g transform="translate(284 0)">
+<g fill="#2020ff">
+<circle cy="628.27" r="11.5"/>
+</g>
+</g>
+<g transform="translate(288 0)">
+<g fill="#2020ff">
+<circle cy="701.96" r="11.5"/>
+</g>
+</g>
+<g transform="translate(292 0)">
+<g fill="#2020ff">
+<circle cy="772.63" r="11.5"/>
+</g>
+</g>
+<g transform="translate(296 0)">
+<g fill="#2020ff">
+<circle cy="840.53" r="11.5"/>
+</g>
+</g>
+<g transform="translate(300 0)">
+<g fill="#2020ff">
+<circle cy="905.87" r="11.5"/>
+</g>
+</g>
+<g transform="translate(304 0)">
+<g fill="#2020ff">
+<circle cy="968.83" r="11.5"/>
+</g>
+</g>
+<g transform="translate(308 0)">
+<g fill="#2020ff">
+<circle cy="1029.58" r="11.5"/>
+</g>
+</g>
+<g transform="translate(312 0)">
+<g fill="#2020ff">
+<circle cy="1088.27" r="11.5"/>
+</g>
+</g>
+<g transform="translate(316 0)">
+<g fill="#2020ff">
+<circle cy="1145.04" r="11.5"/>
+</g>
+</g>
+<g transform="translate(320 0)">
+<g fill="#2020ff">
+<circle cy="0" r="11.5"/>
+<circle cy="1200" r="11.5"/>
+</g>
+</g>
+<g transform="translate(322 0)">
+<g fill="#2020ff">
+<circle cy="53.27" r="11.5"/>
+</g>
+</g>
+<g transform="translate(324 0)">
+<g fill="#2020ff">
+<circle cy="104.96" r="11.5"/>
+</g>
+</g>
+<g transform="translate(326 0)">
+<g fill="#2020ff">
+<circle cy="155.14" r="11.5"/>
+</g>
+</g>
+<g transform="translate(328 0)">
+<g fill="#2020ff">
+<circle cy="203.91" r="11.5"/>
+</g>
+</g>
+<g transform="translate(330 0)">
+<g fill="#2020ff">
+<circle cy="251.34" r="11.5"/>
+</g>
+</g>
+<g transform="translate(332 0)">
+<g fill="#2020ff">
+<circle cy="297.51" r="11.5"/>
+</g>
+</g>
+<g transform="translate(334 0)">
+<g fill="#2020ff">
+<circle cy="342.48" r="11.5"/>
+</g>
+</g>
+<g transform="translate(336 0)">
+<g fill="#2020ff">
+<circle cy="386.31" r="11.5"/>
+</g>
+</g>
+<g transform="translate(338 0)">
+<g fill="#2020ff">
+<circle cy="429.06" r="11.5"/>
+</g>
+</g>
+<g transform="translate(340 0)">
+<g fill="#2020ff">
+<circle cy="470.78" r="11.5"/>
+</g>
+</g>
+<g transform="translate(342 0)">
+<g fill="#2020ff">
+<circle cy="511.52" r="11.5"/>
+</g>
+</g>
+<g transform="translate(344 0)">
+<g fill="#2020ff">
+<circle cy="551.32" r="11.5"/>
+</g>
+</g>
+<g transform="translate(346 0)">
+<g fill="#2020ff">
+<circle cy="590.22" r="11.5"/>
+</g>
+</g>
+<g transform="translate(348 0)">
+<g fill="#2020ff">
+<circle cy="628.27" r="11.5"/>
+</g>
+</g>
+<g transform="translate(350 0)">
+<g fill="#2020ff">
+<circle cy="665.51" r="11.5"/>
+</g>
+</g>
+<g transform="translate(352 0)">
+<g fill="#2020ff">
+<circle cy="701.96" r="11.5"/>
+</g>
+</g>
+<g transform="translate(354 0)">
+<g fill="#2020ff">
+<circle cy="737.65" r="11.5"/>
+</g>
+</g>
+<g transform="translate(356 0)">
+<g fill="#2020ff">
+<circle cy="772.63" r="11.5"/>
+</g>
+</g>
+<g transform="translate(358 0)">
+<g fill="#2020ff">
+<circle cy="806.91" r="11.5"/>
+</g>
+</g>
+<g transform="translate(360 0)">
+<g fill="#2020ff">
+<circle cy="840.53" r="11.5"/>
+</g>
+</g>
+<g transform="translate(362 0)">
+<g fill="#2020ff">
+<circle cy="873.5" r="11.5"/>
+</g>
+</g>
+<g transform="translate(364 0)">
+<g fill="#2020ff">
+<circle cy="905.87" r="11.5"/>
+</g>
+</g>
+<g transform="translate(366 0)">
+<g fill="#2020ff">
+<circle cy="937.63" r="11.5"/>
+</g>
+</g>
+<g transform="translate(368 0)">
+<g fill="#2020ff">
+<circle cy="968.83" r="11.5"/>
+</g>
+</g>
+<g transform="translate(370 0)">
+<g fill="#2020ff">
+<circle cy="999.47" r="11.5"/>
+</g>
+</g>
+<g transform="translate(372 0)">
+<g fill="#2020ff">
+<circle cy="1029.58" r="11.5"/>
+</g>
+</g>
+<g transform="translate(374 0)">
+<g fill="#2020ff">
+<circle cy="1059.17" r="11.5"/>
+</g>
+</g>
+<g transform="translate(376 0)">
+<g fill="#2020ff">
+<circle cy="1088.27" r="11.5"/>
+</g>
+</g>
+<g transform="translate(378 0)">
+<g fill="#2020ff">
+<circle cy="1116.88" r="11.5"/>
+</g>
+</g>
+<g transform="translate(380 0)">
+<g fill="#2020ff">
+<circle cy="1145.04" r="11.5"/>
+</g>
+</g>
+<g transform="translate(382 0)">
+<g fill="#2020ff">
+<circle cy="1172.74" r="11.5"/>
+</g>
+</g>
+<g transform="translate(384 0)">
+<g fill="#2020ff">
+<circle cy="0" r="11.5"/>
+<circle cy="1200" r="11.5"/>
+</g>
+</g>
+<g transform="translate(385 0)">
+<g fill="#2020ff">
+<circle cy="26.84" r="11.5"/>
+</g>
+</g>
+<g transform="translate(386 0)">
+<g fill="#2020ff">
+<circle cy="53.27" r="11.5"/>
+</g>
+</g>
+<g transform="translate(387 0)">
+<g fill="#2020ff">
+<circle cy="79.31" r="11.5"/>
+</g>
+</g>
+<g transform="translate(388 0)">
+<g fill="#2020ff">
+<circle cy="104.96" r="11.5"/>
+</g>
+</g>
+<g transform="translate(389 0)">
+<g fill="#2020ff">
+<circle cy="130.23" r="11.5"/>
+</g>
+</g>
+<g transform="translate(390 0)">
+<g fill="#2020ff">
+<circle cy="155.14" r="11.5"/>
+</g>
+</g>
+<g transform="translate(391 0)">
+<g fill="#2020ff">
+<circle cy="179.7" r="11.5"/>
+</g>
+</g>
+<g transform="translate(392 0)">
+<g fill="#2020ff">
+<circle cy="203.91" r="11.5"/>
+</g>
+</g>
+<g transform="translate(393 0)">
+<g fill="#2020ff">
+<circle cy="227.79" r="11.5"/>
+</g>
+</g>
+<g transform="translate(394 0)">
+<g fill="#2020ff">
+<circle cy="251.34" r="11.5"/>
+</g>
+</g>
+<g transform="translate(395 0)">
+<g fill="#2020ff">
+<circle cy="274.58" r="11.5"/>
+</g>
+</g>
+<g transform="translate(396 0)">
+<g fill="#2020ff">
+<circle cy="297.51" r="11.5"/>
+</g>
+</g>
+<g transform="translate(397 0)">
+<g fill="#2020ff">
+<circle cy="320.14" r="11.5"/>
+</g>
+</g>
+<g transform="translate(398 0)">
+<g fill="#2020ff">
+<circle cy="342.48" r="11.5"/>
+</g>
+</g>
+<g transform="translate(399 0)">
+<g fill="#2020ff">
+<circle cy="364.54" r="11.5"/>
+</g>
+</g>
+<g transform="translate(400 0)">
+<g fill="#2020ff">
+<circle cy="386.31" r="11.5"/>
+</g>
+</g>
+<g transform="translate(401 0)">
+<g fill="#2020ff">
+<circle cy="407.82" r="11.5"/>
+</g>
+</g>
+<g transform="translate(402 0)">
+<g fill="#2020ff">
+<circle cy="429.06" r="11.5"/>
+</g>
+</g>
+<g transform="translate(403 0)">
+<g fill="#2020ff">
+<circle cy="450.05" r="11.5"/>
+</g>
+</g>
+<g transform="translate(404 0)">
+<g fill="#2020ff">
+<circle cy="470.78" r="11.5"/>
+</g>
+</g>
+<g transform="translate(405 0)">
+<g fill="#2020ff">
+<circle cy="491.27" r="11.5"/>
+</g>
+</g>
+<g transform="translate(406 0)">
+<g fill="#2020ff">
+<circle cy="511.52" r="11.5"/>
+</g>
+</g>
+<g transform="translate(407 0)">
+<g fill="#2020ff">
+<circle cy="531.53" r="11.5"/>
+</g>
+</g>
+<g transform="translate(408 0)">
+<g fill="#2020ff">
+<circle cy="551.32" r="11.5"/>
+</g>
+</g>
+<g transform="translate(409 0)">
+<g fill="#2020ff">
+<circle cy="570.88" r="11.5"/>
+</g>
+</g>
+<g transform="translate(410 0)">
+<g fill="#2020ff">
+<circle cy="590.22" r="11.5"/>
+</g>
+</g>
+<g transform="translate(411 0)">
+<g fill="#2020ff">
+<circle cy="609.35" r="11.5"/>
+</g>
+</g>
+<g transform="translate(412 0)">
+<g fill="#2020ff">
+<circle cy="628.27" r="11.5"/>
+</g>
+</g>
+<g transform="translate(413 0)">
+<g fill="#2020ff">
+<circle cy="646.99" r="11.5"/>
+</g>
+</g>
+<g transform="translate(414 0)">
+<g fill="#2020ff">
+<circle cy="665.51" r="11.5"/>
+</g>
+</g>
+<g transform="translate(415 0)">
+<g fill="#2020ff">
+<circle cy="683.83" r="11.5"/>
+</g>
+</g>
+<g transform="translate(416 0)">
+<g fill="#2020ff">
+<circle cy="701.96" r="11.5"/>
+</g>
+</g>
+<g transform="translate(417 0)">
+<g fill="#2020ff">
+<circle cy="719.9" r="11.5"/>
+</g>
+</g>
+<g transform="translate(418 0)">
+<g fill="#2020ff">
+<circle cy="737.65" r="11.5"/>
+</g>
+</g>
+<g transform="translate(419 0)">
+<g fill="#2020ff">
+<circle cy="755.23" r="11.5"/>
+</g>
+</g>
+<g transform="translate(420 0)">
+<g fill="#2020ff">
+<circle cy="772.63" r="11.5"/>
+</g>
+</g>
+<g transform="translate(421 0)">
+<g fill="#2020ff">
+<circle cy="789.85" r="11.5"/>
+</g>
+</g>
+<g transform="translate(422 0)">
+<g fill="#2020ff">
+<circle cy="806.91" r="11.5"/>
+</g>
+</g>
+<g transform="translate(423 0)">
+<g fill="#2020ff">
+<circle cy="823.8" r="11.5"/>
+</g>
+</g>
+<g transform="translate(424 0)">
+<g fill="#2020ff">
+<circle cy="840.53" r="11.5"/>
+</g>
+</g>
+<g transform="translate(425 0)">
+<g fill="#2020ff">
+<circle cy="857.09" r="11.5"/>
+</g>
+</g>
+<g transform="translate(426 0)">
+<g fill="#2020ff">
+<circle cy="873.5" r="11.5"/>
+</g>
+</g>
+<g transform="translate(427 0)">
+<g fill="#2020ff">
+<circle cy="889.76" r="11.5"/>
+</g>
+</g>
+<g transform="translate(428 0)">
+<g fill="#2020ff">
+<circle cy="905.87" r="11.5"/>
+</g>
+</g>
+<g transform="translate(429 0)">
+<g fill="#2020ff">
+<circle cy="921.82" r="11.5"/>
+</g>
+</g>
+<g transform="translate(430 0)">
+<g fill="#2020ff">
+<circle cy="937.63" r="11.5"/>
+</g>
+</g>
+<g transform="translate(431 0)">
+<g fill="#2020ff">
+<circle cy="953.3" r="11.5"/>
+</g>
+</g>
+<g transform="translate(432 0)">
+<g fill="#2020ff">
+<circle cy="968.83" r="11.5"/>
+</g>
+</g>
+<g transform="translate(433 0)">
+<g fill="#2020ff">
+<circle cy="984.21" r="11.5"/>
+</g>
+</g>
+<g transform="translate(434 0)">
+<g fill="#2020ff">
+<circle cy="999.47" r="11.5"/>
+</g>
+</g>
+<g transform="translate(435 0)">
+<g fill="#2020ff">
+<circle cy="1014.59" r="11.5"/>
+</g>
+</g>
+<g transform="translate(436 0)">
+<g fill="#2020ff">
+<circle cy="1029.58" r="11.5"/>
+</g>
+</g>
+<g transform="translate(437 0)">
+<g fill="#2020ff">
+<circle cy="1044.44" r="11.5"/>
+</g>
+</g>
+<g transform="translate(438 0)">
+<g fill="#2020ff">
+<circle cy="1059.17" r="11.5"/>
+</g>
+</g>
+<g transform="translate(439 0)">
+<g fill="#2020ff">
+<circle cy="1073.78" r="11.5"/>
+</g>
+</g>
+<g transform="translate(440 0)">
+<g fill="#2020ff">
+<circle cy="1088.27" r="11.5"/>
+</g>
+</g>
+<g transform="translate(441 0)">
+<g fill="#2020ff">
+<circle cy="1102.64" r="11.5"/>
+</g>
+</g>
+<g transform="translate(442 0)">
+<g fill="#2020ff">
+<circle cy="1116.88" r="11.5"/>
+</g>
+</g>
+<g transform="translate(443 0)">
+<g fill="#2020ff">
+<circle cy="1131.02" r="11.5"/>
+</g>
+</g>
+<g transform="translate(444 0)">
+<g fill="#2020ff">
+<circle cy="1145.04" r="11.5"/>
+</g>
+</g>
+<g transform="translate(445 0)">
+<g fill="#2020ff">
+<circle cy="1158.94" r="11.5"/>
+</g>
+</g>
+<g transform="translate(446 0)">
+<g fill="#2020ff">
+<circle cy="1172.74" r="11.5"/>
+</g>
+</g>
+<g transform="translate(447 0)">
+<g fill="#2020ff">
+<circle cy="1186.42" r="11.5"/>
+</g>
+</g>
+<g transform="translate(448 0)">
+<g fill="#2020ff">
+<circle cy="0" r="11.5"/>
+<circle cy="1200" r="11.5"/>
+</g>
+</g>
+<g fill="white" text-anchor="middle">
+<g font-size="14">
+<text y="4.67">1</text>
+<text y="1204.67">1</text>
+</g>
+<g transform="translate(64 0)">
+<g font-size="14">
+<text y="4.67">2</text>
+<text y="1204.67">2</text>
+</g>
+</g>
+<g transform="translate(96 0)">
+<g font-size="14">
+<text y="706.62">3</text>
+</g>
+</g>
+<g transform="translate(128 0)">
+<g font-size="14">
+<text y="4.67">4</text>
+<text y="1204.67">4</text>
+</g>
+</g>
+<g transform="translate(144 0)">
+<g font-size="14">
+<text y="390.98">5</text>
+</g>
+</g>
+<g transform="translate(160 0)">
+<g font-size="14">
+<text y="706.62">6</text>
+</g>
+</g>
+<g transform="translate(176 0)">
+<g font-size="14">
+<text y="973.49">7</text>
+</g>
+</g>
+<g transform="translate(192 0)">
+<g font-size="14">
+<text y="4.67">8</text>
+<text y="1204.67">8</text>
+</g>
+</g>
+<g transform="translate(200 0)">
+<g font-size="14">
+<text y="208.58">9</text>
+</g>
+</g>
+<g transform="translate(208 0)">
+<g font-size="12">
+<text y="390.31">10</text>
+</g>
+</g>
+<g transform="translate(216 0)">
+<g font-size="12">
+<text y="555.32">11</text>
+</g>
+</g>
+<g transform="translate(224 0)">
+<g font-size="12">
+<text y="705.96">12</text>
+</g>
+</g>
+<g transform="translate(232 0)">
+<g font-size="12">
+<text y="844.53">13</text>
+</g>
+</g>
+<g transform="translate(240 0)">
+<g font-size="12">
+<text y="972.83">14</text>
+</g>
+</g>
+<g transform="translate(248 0)">
+<g font-size="12">
+<text y="1092.27">15</text>
+</g>
+</g>
+<g transform="translate(256 0)">
+<g font-size="12">
+<text y="4">16</text>
+<text y="1204">16</text>
+</g>
+</g>
+<g transform="translate(260 0)">
+<g font-size="12">
+<text y="108.96">17</text>
+</g>
+</g>
+<g transform="translate(264 0)">
+<g font-size="12">
+<text y="207.91">18</text>
+</g>
+</g>
+<g transform="translate(268 0)">
+<g font-size="12">
+<text y="301.51">19</text>
+</g>
+</g>
+<g transform="translate(272 0)">
+<g font-size="12">
+<text y="390.31">20</text>
+</g>
+</g>
+<g transform="translate(276 0)">
+<g font-size="12">
+<text y="474.78">21</text>
+</g>
+</g>
+<g transform="translate(280 0)">
+<g font-size="12">
+<text y="555.32">22</text>
+</g>
+</g>
+<g transform="translate(284 0)">
+<g font-size="12">
+<text y="632.27">23</text>
+</g>
+</g>
+<g transform="translate(288 0)">
+<g font-size="12">
+<text y="705.96">24</text>
+</g>
+</g>
+<g transform="translate(292 0)">
+<g font-size="12">
+<text y="776.63">25</text>
+</g>
+</g>
+<g transform="translate(296 0)">
+<g font-size="12">
+<text y="844.53">26</text>
+</g>
+</g>
+<g transform="translate(300 0)">
+<g font-size="12">
+<text y="909.87">27</text>
+</g>
+</g>
+<g transform="translate(304 0)">
+<g font-size="12">
+<text y="972.83">28</text>
+</g>
+</g>
+<g transform="translate(308 0)">
+<g font-size="12">
+<text y="1033.58">29</text>
+</g>
+</g>
+<g transform="translate(312 0)">
+<g font-size="12">
+<text y="1092.27">30</text>
+</g>
+</g>
+<g transform="translate(316 0)">
+<g font-size="12">
+<text y="1149.04">31</text>
+</g>
+</g>
+<g transform="translate(320 0)">
+<g font-size="12">
+<text y="4">32</text>
+<text y="1204">32</text>
+</g>
+</g>
+<g transform="translate(322 0)">
+<g font-size="12">
+<text y="57.27">33</text>
+</g>
+</g>
+<g transform="translate(324 0)">
+<g font-size="12">
+<text y="108.96">34</text>
+</g>
+</g>
+<g transform="translate(326 0)">
+<g font-size="12">
+<text y="159.14">35</text>
+</g>
+</g>
+<g transform="translate(328 0)">
+<g font-size="12">
+<text y="207.91">36</text>
+</g>
+</g>
+<g transform="translate(330 0)">
+<g font-size="12">
+<text y="255.34">37</text>
+</g>
+</g>
+<g transform="translate(332 0)">
+<g font-size="12">
+<text y="301.51">38</text>
+</g>
+</g>
+<g transform="translate(334 0)">
+<g font-size="12">
+<text y="346.48">39</text>
+</g>
+</g>
+<g transform="translate(336 0)">
+<g font-size="12">
+<text y="390.31">40</text>
+</g>
+</g>
+<g transform="translate(338 0)">
+<g font-size="12">
+<text y="433.06">41</text>
+</g>
+</g>
+<g transform="translate(340 0)">
+<g font-size="12">
+<text y="474.78">42</text>
+</g>
+</g>
+<g transform="translate(342 0)">
+<g font-size="12">
+<text y="515.52">43</text>
+</g>
+</g>
+<g transform="translate(344 0)">
+<g font-size="12">
+<text y="555.32">44</text>
+</g>
+</g>
+<g transform="translate(346 0)">
+<g font-size="12">
+<text y="594.22">45</text>
+</g>
+</g>
+<g transform="translate(348 0)">
+<g font-size="12">
+<text y="632.27">46</text>
+</g>
+</g>
+<g transform="translate(350 0)">
+<g font-size="12">
+<text y="669.51">47</text>
+</g>
+</g>
+<g transform="translate(352 0)">
+<g font-size="12">
+<text y="705.96">48</text>
+</g>
+</g>
+<g transform="translate(354 0)">
+<g font-size="12">
+<text y="741.65">49</text>
+</g>
+</g>
+<g transform="translate(356 0)">
+<g font-size="12">
+<text y="776.63">50</text>
+</g>
+</g>
+<g transform="translate(358 0)">
+<g font-size="12">
+<text y="810.91">51</text>
+</g>
+</g>
+<g transform="translate(360 0)">
+<g font-size="12">
+<text y="844.53">52</text>
+</g>
+</g>
+<g transform="translate(362 0)">
+<g font-size="12">
+<text y="877.5">53</text>
+</g>
+</g>
+<g transform="translate(364 0)">
+<g font-size="12">
+<text y="909.87">54</text>
+</g>
+</g>
+<g transform="translate(366 0)">
+<g font-size="12">
+<text y="941.63">55</text>
+</g>
+</g>
+<g transform="translate(368 0)">
+<g font-size="12">
+<text y="972.83">56</text>
+</g>
+</g>
+<g transform="translate(370 0)">
+<g font-size="12">
+<text y="1003.47">57</text>
+</g>
+</g>
+<g transform="translate(372 0)">
+<g font-size="12">
+<text y="1033.58">58</text>
+</g>
+</g>
+<g transform="translate(374 0)">
+<g font-size="12">
+<text y="1063.17">59</text>
+</g>
+</g>
+<g transform="translate(376 0)">
+<g font-size="12">
+<text y="1092.27">60</text>
+</g>
+</g>
+<g transform="translate(378 0)">
+<g font-size="12">
+<text y="1120.88">61</text>
+</g>
+</g>
+<g transform="translate(380 0)">
+<g font-size="12">
+<text y="1149.04">62</text>
+</g>
+</g>
+<g transform="translate(382 0)">
+<g font-size="12">
+<text y="1176.74">63</text>
+</g>
+</g>
+<g transform="translate(384 0)">
+<g font-size="12">
+<text y="4">64</text>
+<text y="1204">64</text>
+</g>
+</g>
+<g transform="translate(385 0)">
+<g font-size="12">
+<text y="30.84">65</text>
+</g>
+</g>
+<g transform="translate(386 0)">
+<g font-size="12">
+<text y="57.27">66</text>
+</g>
+</g>
+<g transform="translate(387 0)">
+<g font-size="12">
+<text y="83.31">67</text>
+</g>
+</g>
+<g transform="translate(388 0)">
+<g font-size="12">
+<text y="108.96">68</text>
+</g>
+</g>
+<g transform="translate(389 0)">
+<g font-size="12">
+<text y="134.23">69</text>
+</g>
+</g>
+<g transform="translate(390 0)">
+<g font-size="12">
+<text y="159.14">70</text>
+</g>
+</g>
+<g transform="translate(391 0)">
+<g font-size="12">
+<text y="183.7">71</text>
+</g>
+</g>
+<g transform="translate(392 0)">
+<g font-size="12">
+<text y="207.91">72</text>
+</g>
+</g>
+<g transform="translate(393 0)">
+<g font-size="12">
+<text y="231.79">73</text>
+</g>
+</g>
+<g transform="translate(394 0)">
+<g font-size="12">
+<text y="255.34">74</text>
+</g>
+</g>
+<g transform="translate(395 0)">
+<g font-size="12">
+<text y="278.58">75</text>
+</g>
+</g>
+<g transform="translate(396 0)">
+<g font-size="12">
+<text y="301.51">76</text>
+</g>
+</g>
+<g transform="translate(397 0)">
+<g font-size="12">
+<text y="324.14">77</text>
+</g>
+</g>
+<g transform="translate(398 0)">
+<g font-size="12">
+<text y="346.48">78</text>
+</g>
+</g>
+<g transform="translate(399 0)">
+<g font-size="12">
+<text y="368.54">79</text>
+</g>
+</g>
+<g transform="translate(400 0)">
+<g font-size="12">
+<text y="390.31">80</text>
+</g>
+</g>
+<g transform="translate(401 0)">
+<g font-size="12">
+<text y="411.82">81</text>
+</g>
+</g>
+<g transform="translate(402 0)">
+<g font-size="12">
+<text y="433.06">82</text>
+</g>
+</g>
+<g transform="translate(403 0)">
+<g font-size="12">
+<text y="454.05">83</text>
+</g>
+</g>
+<g transform="translate(404 0)">
+<g font-size="12">
+<text y="474.78">84</text>
+</g>
+</g>
+<g transform="translate(405 0)">
+<g font-size="12">
+<text y="495.27">85</text>
+</g>
+</g>
+<g transform="translate(406 0)">
+<g font-size="12">
+<text y="515.52">86</text>
+</g>
+</g>
+<g transform="translate(407 0)">
+<g font-size="12">
+<text y="535.53">87</text>
+</g>
+</g>
+<g transform="translate(408 0)">
+<g font-size="12">
+<text y="555.32">88</text>
+</g>
+</g>
+<g transform="translate(409 0)">
+<g font-size="12">
+<text y="574.88">89</text>
+</g>
+</g>
+<g transform="translate(410 0)">
+<g font-size="12">
+<text y="594.22">90</text>
+</g>
+</g>
+<g transform="translate(411 0)">
+<g font-size="12">
+<text y="613.35">91</text>
+</g>
+</g>
+<g transform="translate(412 0)">
+<g font-size="12">
+<text y="632.27">92</text>
+</g>
+</g>
+<g transform="translate(413 0)">
+<g font-size="12">
+<text y="650.99">93</text>
+</g>
+</g>
+<g transform="translate(414 0)">
+<g font-size="12">
+<text y="669.51">94</text>
+</g>
+</g>
+<g transform="translate(415 0)">
+<g font-size="12">
+<text y="687.83">95</text>
+</g>
+</g>
+<g transform="translate(416 0)">
+<g font-size="12">
+<text y="705.96">96</text>
+</g>
+</g>
+<g transform="translate(417 0)">
+<g font-size="12">
+<text y="723.9">97</text>
+</g>
+</g>
+<g transform="translate(418 0)">
+<g font-size="12">
+<text y="741.65">98</text>
+</g>
+</g>
+<g transform="translate(419 0)">
+<g font-size="12">
+<text y="759.23">99</text>
+</g>
+</g>
+<g transform="translate(420 0)">
+<g font-size="10">
+<text y="775.96">100</text>
+</g>
+</g>
+<g transform="translate(421 0)">
+<g font-size="10">
+<text y="793.19">101</text>
+</g>
+</g>
+<g transform="translate(422 0)">
+<g font-size="10">
+<text y="810.24">102</text>
+</g>
+</g>
+<g transform="translate(423 0)">
+<g font-size="10">
+<text y="827.13">103</text>
+</g>
+</g>
+<g transform="translate(424 0)">
+<g font-size="10">
+<text y="843.86">104</text>
+</g>
+</g>
+<g transform="translate(425 0)">
+<g font-size="10">
+<text y="860.43">105</text>
+</g>
+</g>
+<g transform="translate(426 0)">
+<g font-size="10">
+<text y="876.84">106</text>
+</g>
+</g>
+<g transform="translate(427 0)">
+<g font-size="10">
+<text y="893.09">107</text>
+</g>
+</g>
+<g transform="translate(428 0)">
+<g font-size="10">
+<text y="909.2">108</text>
+</g>
+</g>
+<g transform="translate(429 0)">
+<g font-size="10">
+<text y="925.15">109</text>
+</g>
+</g>
+<g transform="translate(430 0)">
+<g font-size="10">
+<text y="940.96">110</text>
+</g>
+</g>
+<g transform="translate(431 0)">
+<g font-size="10">
+<text y="956.63">111</text>
+</g>
+</g>
+<g transform="translate(432 0)">
+<g font-size="10">
+<text y="972.16">112</text>
+</g>
+</g>
+<g transform="translate(433 0)">
+<g font-size="10">
+<text y="987.55">113</text>
+</g>
+</g>
+<g transform="translate(434 0)">
+<g font-size="10">
+<text y="1002.8">114</text>
+</g>
+</g>
+<g transform="translate(435 0)">
+<g font-size="10">
+<text y="1017.92">115</text>
+</g>
+</g>
+<g transform="translate(436 0)">
+<g font-size="10">
+<text y="1032.91">116</text>
+</g>
+</g>
+<g transform="translate(437 0)">
+<g font-size="10">
+<text y="1047.77">117</text>
+</g>
+</g>
+<g transform="translate(438 0)">
+<g font-size="10">
+<text y="1062.5">118</text>
+</g>
+</g>
+<g transform="translate(439 0)">
+<g font-size="10">
+<text y="1077.11">119</text>
+</g>
+</g>
+<g transform="translate(440 0)">
+<g font-size="10">
+<text y="1091.6">120</text>
+</g>
+</g>
+<g transform="translate(441 0)">
+<g font-size="10">
+<text y="1105.97">121</text>
+</g>
+</g>
+<g transform="translate(442 0)">
+<g font-size="10">
+<text y="1120.22">122</text>
+</g>
+</g>
+<g transform="translate(443 0)">
+<g font-size="10">
+<text y="1134.35">123</text>
+</g>
+</g>
+<g transform="translate(444 0)">
+<g font-size="10">
+<text y="1148.37">124</text>
+</g>
+</g>
+<g transform="translate(445 0)">
+<g font-size="10">
+<text y="1162.27">125</text>
+</g>
+</g>
+<g transform="translate(446 0)">
+<g font-size="10">
+<text y="1176.07">126</text>
+</g>
+</g>
+<g transform="translate(447 0)">
+<g font-size="10">
+<text y="1189.75">127</text>
+</g>
+</g>
+<g transform="translate(448 0)">
+<g font-size="10">
+<text y="3.33">128</text>
+<text y="1203.33">128</text>
+</g>
+</g>
+</g>
+</g>
+<a href="https://www.fidolab.org">
+<text fill="grey" font-size="20" font-style="italic" text-anchor="middle" x="447" y="1312">www.FidoLab.org</text>
+</a>
+</g>
+</svg>
