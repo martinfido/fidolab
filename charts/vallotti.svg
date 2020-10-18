@@ -326,8 +326,8 @@
 <path d="M0 111.73 H505"/>
 <path d="M0 133.24 H505"/>
 <path d="M0 294.13 H505"/>
-<path d="M0 407.82 H503.58 L505 404.98"/>
-<path d="M0 427.37 H501.8 L505 420.98"/>
+<path d="M0 407.82 H503.08 L505 403.98"/>
+<path d="M0 427.37 H500.8 L505 418.98"/>
 <path d="M0 456.99 H505"/>
 <path d="M0 519.55 H505"/>
 <path d="M0 568.72 H498 L505 554.72"/>
@@ -353,7 +353,7 @@
 <path d="M0 203.91 H505"/>
 <path d="M0 231.17 H505"/>
 <path d="M0 266.87 H505"/>
-<path d="M0 435.08 H503.55 L505 437.98"/>
+<path d="M0 435.08 H504.55 L505 435.98"/>
 <path d="M0 582.51 H499.94 L505 572.38"/>
 <path d="M0 617.49 H500.02 L505 627.44"/>
 <path d="M0 933.13 H505"/>
@@ -373,40 +373,52 @@
 </g>
 </g>
 <g transform="translate(509 0)">
+<g font-size="4">
+</g>
+<g font-size="5">
+</g>
+<g font-size="6">
+</g>
+<g font-size="7">
+</g>
+<g font-size="8">
+</g>
+<g font-size="9">
+<text y="24.51">81/80 syntonic comma</text>
+<text y="44.06">128/125 diminished 2nd</text>
+<text y="95.18">135/128</text>
+<text y="406.98">81/64 ditone</text>
+<text y="459.99">125/96 augmented 3rd</text>
+<text y="746.01">192/125 diminished 6th</text>
+<text y="795.18">128/81 Pythagorean minor 6th</text>
+<text y="1112.78">243/128 Pythagorean major 7th</text>
+<text y="1161.94">125/64 augmented 7th</text>
+<text y="1181.49">160/81</text>
+</g>
 <g font-size="12">
-<text y="25.51">81/80 syntonic comma</text>
-<text y="45.06">128/125 diminished 2nd</text>
 <text y="74.67">25/24 chromatic semitone</text>
-<text y="96.18">135/128</text>
 <text y="115.73">16/15 diatonic semitone</text>
 <text y="137.24">27/25</text>
 <text y="298.13">32/27 Pythagorean minor 3rd</text>
-<text y="408.98">81/64 ditone</text>
-<text y="424.98">32/25 diminished 4th</text>
-<text y="460.99">125/96 augmented 3rd</text>
+<text y="422.98">32/25 diminished 4th</text>
 <text y="523.55">27/20</text>
 <text y="558.72">25/18 augmented 4th </text>
 <text y="594.22">45/32 high / diatonic tritone</text>
 <text y="613.78">64/45 low tritone</text>
 <text y="649.11">36/25 diminished 5th</text>
 <text y="684.45">40/27 dissonant "wolf" 5th</text>
-<text y="747.01">192/125 diminished 6th</text>
 <text y="776.63">25/16 augmented 5th</text>
-<text y="796.18">128/81 Pythagorean minor 6th</text>
 <text y="844.53">13/8 overtone 6th</text>
 <text y="909.87">27/16 Pythagorean major 6th</text>
 <text y="1053.36">11/6 undecimal "median" 7th</text>
 <text y="1070.76">50/27</text>
 <text y="1092.27">15/8 major 7th</text>
-<text y="1113.78">243/128 Pythagorean major 7th</text>
 <text y="1141.04">27/14 septimal major 7th</text>
-<text y="1162.94">125/64 augmented 7th</text>
-<text y="1182.49">160/81</text>
 </g>
 <g font-size="15">
 <text y="187.4">10/9 minor 2nd</text>
 <text y="208.91">9/8 major 2nd</text>
-<text y="442.98">9/7 septimal major 3rd</text>
+<text y="440.98">9/7 septimal major 3rd</text>
 <text y="1001.09">16/9 Pythagorean small min. 7th</text>
 <text y="1022.6">9/5 minor 7th</text>
 </g>
@@ -468,7 +480,7 @@
 <path d="M435 0 V1200"/>
 <path d="M465 0 V1200"/>
 </g>
-<g fill="#808080">
+<g fill="#909090">
 <circle cy="76.05" r="11.5"/>
 <circle cy="117.11" r="11.5"/>
 <circle cy="269.21" r="11.5"/>
@@ -495,7 +507,7 @@
 <circle cy="1082.89" r="11.5"/>
 </g>
 <g transform="translate(30 0)">
-<g fill="#808080">
+<g fill="#909090">
 <circle cy="83.58" r="11.5"/>
 <circle cy="111.73" r="11.5"/>
 <circle cy="278.88" r="11.5"/>
@@ -523,7 +535,7 @@
 </g>
 </g>
 <g transform="translate(60 0)">
-<g fill="#808080">
+<g fill="#909090">
 <circle cy="88.59" r="11.5"/>
 <circle cy="108.15" r="11.5"/>
 <circle cy="285.34" r="11.5"/>
@@ -551,7 +563,7 @@
 </g>
 </g>
 <g transform="translate(90 0)">
-<g fill="#808080">
+<g fill="#909090">
 <circle cy="100" r="11.5"/>
 <circle cy="300" r="11.5"/>
 <circle cy="600" r="11.5"/>
@@ -570,7 +582,7 @@
 </g>
 </g>
 <g transform="translate(135 0)">
-<g fill="#404040">
+<g fill="#606060">
 <circle cy="0" r="11.5"/>
 <circle cy="1200" r="11.5"/>
 <circle cy="701.95" r="11.5"/>
@@ -589,7 +601,7 @@
 </g>
 </g>
 <g transform="translate(165 0)">
-<g fill="#404040">
+<g fill="#606060">
 <circle cy="498.05" r="11.5"/>
 <circle cy="0" r="11.5"/>
 <circle cy="1200" r="11.5"/>
@@ -608,7 +620,7 @@
 </g>
 </g>
 <g transform="translate(195 0)">
-<g fill="#404040">
+<g fill="#606060">
 <circle cy="996.09" r="11.5"/>
 <circle cy="498.05" r="11.5"/>
 <circle cy="90.22" r="11.5"/>
@@ -627,7 +639,7 @@
 </g>
 </g>
 <g transform="translate(225 0)">
-<g fill="#404040">
+<g fill="#606060">
 <circle cy="298.05" r="11.5"/>
 <circle cy="1000" r="11.5"/>
 <circle cy="592.18" r="11.5"/>
@@ -646,7 +658,7 @@
 </g>
 </g>
 <g transform="translate(255 0)">
-<g fill="#404040">
+<g fill="#606060">
 <circle cy="800" r="11.5"/>
 <circle cy="301.96" r="11.5"/>
 <circle cy="1094.13" r="11.5"/>
@@ -665,7 +677,7 @@
 </g>
 </g>
 <g transform="translate(285 0)">
-<g fill="#404040">
+<g fill="#606060">
 <circle cy="101.96" r="11.5"/>
 <circle cy="803.91" r="11.5"/>
 <circle cy="396.09" r="11.5"/>
@@ -684,7 +696,7 @@
 </g>
 </g>
 <g transform="translate(315 0)">
-<g fill="#404040">
+<g fill="#606060">
 <circle cy="603.91" r="11.5"/>
 <circle cy="105.87" r="11.5"/>
 <circle cy="898.04" r="11.5"/>
@@ -703,7 +715,7 @@
 </g>
 </g>
 <g transform="translate(345 0)">
-<g fill="#404040">
+<g fill="#606060">
 <circle cy="1105.87" r="11.5"/>
 <circle cy="607.82" r="11.5"/>
 <circle cy="200" r="11.5"/>
@@ -722,7 +734,7 @@
 </g>
 </g>
 <g transform="translate(375 0)">
-<g fill="#404040">
+<g fill="#606060">
 <circle cy="407.82" r="11.5"/>
 <circle cy="1109.78" r="11.5"/>
 <circle cy="701.96" r="11.5"/>
@@ -741,7 +753,7 @@
 </g>
 </g>
 <g transform="translate(405 0)">
-<g fill="#404040">
+<g fill="#606060">
 <circle cy="905.87" r="11.5"/>
 <circle cy="407.82" r="11.5"/>
 <circle cy="0" r="11.5"/>
@@ -760,7 +772,7 @@
 </g>
 </g>
 <g transform="translate(435 0)">
-<g fill="#404040">
+<g fill="#606060">
 <circle cy="203.91" r="11.5"/>
 <circle cy="905.87" r="11.5"/>
 <circle cy="498.04" r="11.5"/>
@@ -779,7 +791,7 @@
 </g>
 </g>
 <g transform="translate(465 0)">
-<g fill="#404040">
+<g fill="#606060">
 <circle cy="701.95" r="11.5"/>
 <circle cy="203.91" r="11.5"/>
 <circle cy="996.09" r="11.5"/>

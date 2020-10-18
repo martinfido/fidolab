@@ -2,7 +2,7 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="735" height="1318">
 <g style="font-family: Times New Roman;">
-<text font-size="36" text-anchor="middle" x="367.5" y="36">Michael Harrison's Revelation Temperament</text>
+<text font-size="36" text-anchor="middle" x="367.5" y="36">Michael Harrison's Revelation Tuning</text>
 <g transform="translate(100 72)">
 <g fill="transparent" stroke="black" stroke-width="1">
 <path d="M0 0 H20 V1200 H0"/>
@@ -338,15 +338,15 @@
 <path d="M0 792.18 H385"/>
 <path d="M0 842.9 H385"/>
 <path d="M0 905.87 H385"/>
-<path d="M0 1023.35 H381.13 L385 1031.09"/>
+<path d="M0 1023.35 H381.63 L385 1030.09"/>
 <path d="M0 1059.05 H385"/>
 <path d="M0 1109.78 H385"/>
 <path d="M0 1137.04 H385"/>
 <path d="M0 1172.74 H385"/>
 </g>
 <g stroke-width="2">
-<path d="M0 182.4 H382.88 L385 186.65"/>
-<path d="M0 203.91 H384.63 L385 204.65"/>
+<path d="M0 182.4 H383.38 L385 185.65"/>
+<path d="M0 203.91 H385"/>
 <path d="M0 231.17 H385"/>
 <path d="M0 266.87 H385"/>
 <path d="M0 435.08 H385"/>
@@ -368,35 +368,47 @@
 </g>
 </g>
 <g transform="translate(389 0)">
+<g font-size="4">
+</g>
+<g font-size="5">
+</g>
+<g font-size="6">
+</g>
+<g font-size="7">
+</g>
+<g font-size="8">
+</g>
+<g font-size="9">
+<text y="93.22">256/243</text>
+<text y="143.95">243/224</text>
+<text y="172.65">567/512</text>
+<text y="360.1">4480/3645</text>
+<text y="410.82">81/64 ditone</text>
+<text y="528.31">256/189</text>
+<text y="564.01">112/81</text>
+<text y="591.27">3072/2187</text>
+<text y="614.73">729/512</text>
+<text y="677.69">189/128</text>
+<text y="795.18">128/81 Pythagorean minor 6th</text>
+<text y="845.9">729/448</text>
+<text y="1033.09">1024/567</text>
+<text y="1062.05">448/243</text>
+<text y="1112.78">243/128 Pythagorean major 7th</text>
+<text y="1175.74">63/64</text>
+</g>
 <g font-size="12">
 <text y="31.26">64/63</text>
 <text y="66.96">28/27</text>
-<text y="94.22">256/243</text>
-<text y="144.95">243/224</text>
-<text y="173.65">567/512</text>
 <text y="298.13">32/27 Pythagorean minor 3rd</text>
-<text y="361.1">4480/3645</text>
-<text y="411.82">81/64 ditone</text>
 <text y="474.78">21/16</text>
-<text y="529.31">256/189</text>
-<text y="565.01">112/81</text>
-<text y="592.27">3072/2187</text>
-<text y="615.73">729/512</text>
 <text y="642.99">81/56</text>
-<text y="678.69">189/128</text>
 <text y="733.22">32/21</text>
-<text y="796.18">128/81 Pythagorean minor 6th</text>
-<text y="846.9">729/448</text>
 <text y="909.87">27/16 Pythagorean major 6th</text>
-<text y="1035.09">1024/567</text>
-<text y="1063.05">448/243</text>
-<text y="1113.78">243/128 Pythagorean major 7th</text>
 <text y="1141.04">27/14 septimal major 7th</text>
-<text y="1176.74">63/64</text>
 </g>
 <g font-size="15">
-<text y="191.65">10/9 minor 2nd</text>
-<text y="209.65">9/8 major 2nd</text>
+<text y="190.65">10/9 minor 2nd</text>
+<text y="208.91">9/8 major 2nd</text>
 <text y="440.08">9/7 septimal major 3rd</text>
 <text y="769.92">14/9</text>
 <text y="1001.09">16/9 Pythagorean small min. 7th</text>
@@ -450,7 +462,7 @@
 <path d="M315 0 V1200"/>
 <path d="M345 0 V1200"/>
 </g>
-<g fill="#404040">
+<g fill="#606060">
 <circle cy="1172.74" r="11.5"/>
 <circle cy="176.65" r="11.5"/>
 <circle cy="470.78" r="11.5"/>
@@ -468,7 +480,7 @@
 <circle cy="1109.78" r="11.5"/>
 </g>
 <g transform="translate(30 0)">
-<g fill="#404040">
+<g fill="#606060">
 <circle cy="470.78" r="11.5"/>
 <circle cy="674.69" r="11.5"/>
 <circle cy="968.83" r="11.5"/>
@@ -487,7 +499,7 @@
 </g>
 </g>
 <g transform="translate(60 0)">
-<g fill="#404040">
+<g fill="#606060">
 <circle cy="968.83" r="11.5"/>
 <circle cy="1172.74" r="11.5"/>
 <circle cy="266.87" r="11.5"/>
@@ -506,7 +518,7 @@
 </g>
 </g>
 <g transform="translate(90 0)">
-<g fill="#404040">
+<g fill="#606060">
 <circle cy="266.87" r="11.5"/>
 <circle cy="470.78" r="11.5"/>
 <circle cy="764.92" r="11.5"/>
@@ -525,7 +537,7 @@
 </g>
 </g>
 <g transform="translate(120 0)">
-<g fill="#404040">
+<g fill="#606060">
 <circle cy="764.92" r="11.5"/>
 <circle cy="968.83" r="11.5"/>
 <circle cy="62.96" r="11.5"/>
@@ -544,7 +556,7 @@
 </g>
 </g>
 <g transform="translate(150 0)">
-<g fill="#404040">
+<g fill="#606060">
 <circle cy="62.96" r="11.5"/>
 <circle cy="266.87" r="11.5"/>
 <circle cy="561.01" r="11.5"/>
@@ -563,7 +575,7 @@
 </g>
 </g>
 <g transform="translate(180 0)">
-<g fill="#404040">
+<g fill="#606060">
 <circle cy="561.01" r="11.5"/>
 <circle cy="764.92" r="11.5"/>
 <circle cy="1059.05" r="11.5"/>
@@ -582,7 +594,7 @@
 </g>
 </g>
 <g transform="translate(225 0)">
-<g fill="#404040">
+<g fill="#606060">
 <circle cy="203.91" r="11.5"/>
 <circle cy="407.82" r="11.5"/>
 <circle cy="701.96" r="11.5"/>
@@ -601,7 +613,7 @@
 </g>
 </g>
 <g transform="translate(255 0)">
-<g fill="#404040">
+<g fill="#606060">
 <circle cy="701.96" r="11.5"/>
 <circle cy="905.87" r="11.5"/>
 <circle cy="0" r="11.5"/>
@@ -620,7 +632,7 @@
 </g>
 </g>
 <g transform="translate(285 0)">
-<g fill="#404040">
+<g fill="#606060">
 <circle cy="0" r="11.5"/>
 <circle cy="1200" r="11.5"/>
 <circle cy="203.91" r="11.5"/>
@@ -639,7 +651,7 @@
 </g>
 </g>
 <g transform="translate(315 0)">
-<g fill="#404040">
+<g fill="#606060">
 <circle cy="498.04" r="11.5"/>
 <circle cy="701.96" r="11.5"/>
 <circle cy="996.09" r="11.5"/>
@@ -658,7 +670,7 @@
 </g>
 </g>
 <g transform="translate(345 0)">
-<g fill="#404040">
+<g fill="#606060">
 <circle cy="996.09" r="11.5"/>
 <circle cy="0" r="11.5"/>
 <circle cy="1200" r="11.5"/>
